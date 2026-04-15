@@ -4,12 +4,21 @@ import texts from '../data/texts'
 import { topics } from '../data/topics'
 import WordTooltip from '../components/WordTooltip'
 import useDictionary from '../hooks/useDictionary'
+import useProgress from '../hooks/useProgress'
 
 function Reader() {
   const { id } = useParams()
   const text = texts.find((t) => t.id === id)
   const { addWord, hasWord } = useDictionary()
-  const [noPercent, setNoPercent] = useState(50)
+  const { markAsRead, isRead } = useProgress()
+  const textIsRead = text ? isRead(id) : false
+  const savedPercent = localStorage.getItem('norsk-percent')
+  const [noPercent, setNoPercent] = useState(savedPercent ? Number(savedPercent) : 50)
+
+  function handlePercentChange(value) {
+    setNoPercent(value)
+    localStorage.setItem('norsk-percent', value)
+  }
 
   if (!text) {
     return (
@@ -49,7 +58,7 @@ function Reader() {
           max="100"
           step="10"
           value={noPercent}
-          onChange={(e) => setNoPercent(Number(e.target.value))}
+          onChange={(e) => handlePercentChange(Number(e.target.value))}
           className="percent-slider"
         />
         <span className="control-hint">
@@ -91,6 +100,16 @@ function Reader() {
             />
           )
         })}
+      </div>
+
+      <div className="reader-footer">
+        {textIsRead ? (
+          <span className="read-done">Прочитано</span>
+        ) : (
+          <button className="read-btn" onClick={() => markAsRead(id)}>
+            Отметить как прочитанное
+          </button>
+        )}
       </div>
     </div>
   )
