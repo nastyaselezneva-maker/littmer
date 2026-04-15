@@ -1,0 +1,88 @@
+import { useState } from 'react'
+import { useParams, Link } from 'react-router-dom'
+import texts from '../data/texts'
+import { topics } from '../data/topics'
+import WordTooltip from '../components/WordTooltip'
+import useDictionary from '../hooks/useDictionary'
+
+function Reader() {
+  const { id } = useParams()
+  const text = texts.find((t) => t.id === id)
+  const { addWord, hasWord } = useDictionary()
+  const [noPercent, setNoPercent] = useState(50)
+
+  if (!text) {
+    return (
+      <div>
+        <h1>Текст не найден</h1>
+        <Link to="/texts">Вернуться к списку</Link>
+      </div>
+    )
+  }
+
+  // Считаем сколько норвежских слов показывать
+  const noSegments = text.segments.filter((s) => s.type === "no")
+  const noCount = noSegments.length
+  const showCount = Math.round(noCount * noPercent / 100)
+
+  // Определяем какие именно слова показывать как норвежские
+  let noIndex = 0
+
+  return (
+    <div>
+      <Link to="/texts" className="back-link">Назад к текстам</Link>
+
+      <div className="reader-header">
+        <span className="text-level">{text.level}</span>
+        <span className="text-topic">{topics[text.topic]}</span>
+      </div>
+
+      <h1>{text.title}</h1>
+
+      <div className="reader-controls">
+        <label className="control-label">
+          Норвежских слов: <strong>{noPercent}%</strong> ({showCount} из {noCount})
+        </label>
+        <input
+          type="range"
+          min="0"
+          max="100"
+          step="10"
+          value={noPercent}
+          onChange={(e) => setNoPercent(Number(e.target.value))}
+          className="percent-slider"
+        />
+      </div>
+
+      <div className="reader-text">
+        {text.segments.map((segment, index) => {
+          if (segment.type !== "no") {
+            return <span key={index}>{segment.text}</span>
+          }
+
+          const currentNoIndex = noIndex
+          noIndex++
+
+          // Если слово за пределами лимита — показываем русский перевод
+          if (currentNoIndex >= showCount) {
+            return <span key={index}>{segment.translation}</span>
+          }
+
+          return (
+            <WordTooltip
+              key={index}
+              number={currentNoIndex + 1}
+              text={segment.text}
+              translation={segment.translation}
+              transcription={segment.transcription}
+              onAdd={addWord}
+              isSaved={hasWord(segment.text)}
+            />
+          )
+        })}
+      </div>
+    </div>
+  )
+}
+
+export default Reader
