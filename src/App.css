@@ -201,10 +201,23 @@
   white-space: nowrap;
 }
 
+.control-hint {
+  font-size: 0.8rem;
+  color: #9ca3af;
+  white-space: nowrap;
+  min-width: 120px;
+  text-align: right;
+}
+
 .percent-slider {
   flex: 1;
   accent-color: #1a56db;
   cursor: pointer;
+}
+
+.ru-as-no {
+  color: #6b7280;
+  font-style: italic;
 }
 
 .reader-text {

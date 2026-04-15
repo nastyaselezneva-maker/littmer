@@ -41,7 +41,7 @@ function Reader() {
 
       <div className="reader-controls">
         <label className="control-label">
-          Норвежских слов: <strong>{noPercent}%</strong> ({showCount} из {noCount})
+          Норвежский: <strong>{noPercent}%</strong>
         </label>
         <input
           type="range"
@@ -52,14 +52,25 @@ function Reader() {
           onChange={(e) => setNoPercent(Number(e.target.value))}
           className="percent-slider"
         />
+        <span className="control-hint">
+          {noPercent === 0 && "Полностью русский"}
+          {noPercent > 0 && noPercent < 100 && `${showCount} из ${noCount} слов`}
+          {noPercent === 100 && "Полностью норвежский"}
+        </span>
       </div>
 
       <div className="reader-text">
         {text.segments.map((segment, index) => {
+          // Русский сегмент
           if (segment.type !== "no") {
+            // При 100% показываем норвежский вариант фразы
+            if (noPercent === 100 && segment.no) {
+              return <span key={index} className="ru-as-no">{segment.no}</span>
+            }
             return <span key={index}>{segment.text}</span>
           }
 
+          // Норвежский сегмент
           const currentNoIndex = noIndex
           noIndex++
 
