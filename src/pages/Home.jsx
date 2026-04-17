@@ -21,7 +21,7 @@ function Home() {
         {categoryKeys.map((key) => {
           const count = texts.filter((t) => t.category === key).length
           return (
-            <Link to="/texts" key={key} className="home-topic-card">
+            <Link to={count > 0 ? `/texts?category=${key}` : "/texts"} key={key} className="home-topic-card">
               <span className="home-topic-icon">{categories[key].icon}</span>
               <span className="home-topic-title">{categories[key].label}</span>
               {count > 0 && <span className="home-topic-count">{count} текстов</span>}

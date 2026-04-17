@@ -412,9 +412,21 @@
   border-top-color: var(--primary-dark);
 }
 
+.tooltip-top {
+  display: flex;
+  align-items: baseline;
+  gap: 8px;
+}
+
 .tooltip-word {
   font-weight: 700;
   font-size: 1rem;
+}
+
+.tooltip-pos {
+  font-size: 0.7rem;
+  color: #9ca3af;
+  font-style: italic;
 }
 
 .tooltip-transcription {
@@ -497,9 +509,39 @@
   margin-top: 20px;
 }
 
-.dictionary-count {
-  color: var(--text-light);
+.dictionary-toolbar {
+  display: flex;
+  align-items: center;
+  gap: 16px;
   margin-bottom: 16px;
+}
+
+.dictionary-search {
+  flex: 1;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 20px;
+  background: var(--surface);
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  font-size: 0.9rem;
+  font-family: var(--font-body);
+  color: var(--text);
+  outline: none;
+  transition: box-shadow 0.2s;
+}
+
+.dictionary-search::placeholder {
+  color: var(--text-muted);
+}
+
+.dictionary-search:focus {
+  box-shadow: 0 0 0 2px var(--primary-bg), 0 1px 4px rgba(0, 0, 0, 0.06);
+}
+
+.dictionary-count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+  white-space: nowrap;
 }
 
 .dictionary-list {

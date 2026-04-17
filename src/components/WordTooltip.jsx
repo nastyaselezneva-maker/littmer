@@ -1,6 +1,15 @@
 import { useState, useRef, useEffect } from 'react'
 
-function WordTooltip({ number, text, translation, dict, transcription, onAdd, isSaved }) {
+const posLabels = {
+  noun: "сущ.",
+  verb: "гл.",
+  adj: "прил.",
+  adv: "нареч.",
+  num: "числ.",
+  phrase: "фраза",
+}
+
+function WordTooltip({ number, text, translation, dict, transcription, pos, onAdd, isSaved }) {
   const [isOpen, setIsOpen] = useState(false)
   const tooltipRef = useRef(null)
 
@@ -18,7 +27,7 @@ function WordTooltip({ number, text, translation, dict, transcription, onAdd, is
   }, [isOpen])
 
   function handleAdd() {
-    onAdd({ text, translation: dict || translation, transcription })
+    onAdd({ text, translation: dict || translation, transcription, pos })
   }
 
   return (
@@ -29,7 +38,10 @@ function WordTooltip({ number, text, translation, dict, transcription, onAdd, is
 
       {isOpen && (
         <span className="tooltip">
-          <span className="tooltip-word">{text}</span>
+          <span className="tooltip-top">
+            <span className="tooltip-word">{text}</span>
+            {pos && <span className="tooltip-pos">{posLabels[pos]}</span>}
+          </span>
           <span className="tooltip-transcription">[{transcription}]</span>
           <span className="tooltip-translation">{translation}</span>
           {dict && dict !== translation && (

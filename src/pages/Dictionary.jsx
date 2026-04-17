@@ -4,8 +4,17 @@ import useDictionary from '../hooks/useDictionary'
 function Dictionary() {
   const { words, removeWord } = useDictionary()
   const [mode, setMode] = useState('list') // 'list' или 'cards'
+  const [search, setSearch] = useState('')
   const [cardIndex, setCardIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
+
+  const query = search.toLowerCase().trim()
+  const filteredWords = query
+    ? words.filter((w) =>
+        w.text.toLowerCase().includes(query) ||
+        w.translation.toLowerCase().includes(query)
+      )
+    : words
 
   function nextCard() {
     setFlipped(false)
@@ -54,9 +63,20 @@ function Dictionary() {
         </p>
       ) : mode === 'list' ? (
         <>
-          <p className="dictionary-count">Слов: {words.length}</p>
+          <div className="dictionary-toolbar">
+            <input
+              type="text"
+              className="dictionary-search"
+              placeholder="Поиск по словарю..."
+              value={search}
+              onChange={(e) => setSearch(e.target.value)}
+            />
+            <span className="dictionary-count">
+              {query ? `${filteredWords.length} из ${words.length}` : `${words.length} слов`}
+            </span>
+          </div>
           <div className="dictionary-list">
-            {words.map((word) => (
+            {filteredWords.map((word) => (
               <div key={word.text} className="dictionary-card">
                 <div className="dictionary-word">
                   <span className="dictionary-no">{word.text}</span>

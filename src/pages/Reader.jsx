@@ -96,6 +96,7 @@ function Reader() {
               translation={segment.translation}
               dict={segment.dict}
               transcription={segment.transcription}
+              pos={segment.pos}
               onAdd={addWord}
               isSaved={hasWord(segment.text)}
             />

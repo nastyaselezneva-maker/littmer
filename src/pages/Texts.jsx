@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useSearchParams } from 'react-router-dom'
 import texts from '../data/texts'
 import { categories, levels, lengths, getTopicLabel, getTopicIcon } from '../data/topics'
 import useProgress from '../hooks/useProgress'
@@ -8,8 +8,12 @@ const categoryKeys = Object.keys(categories)
 const lengthKeys = Object.keys(lengths)
 
 function Texts() {
-  const [step, setStep] = useState(1)
-  const [activeCategory, setActiveCategory] = useState(null)
+  const [searchParams] = useSearchParams()
+  const urlCategory = searchParams.get('category')
+  const initialCategory = urlCategory && categories[urlCategory] ? urlCategory : null
+
+  const [step, setStep] = useState(initialCategory ? 2 : 1)
+  const [activeCategory, setActiveCategory] = useState(initialCategory)
   const [activeTopic, setActiveTopic] = useState(null)
   const [activeLevel, setActiveLevel] = useState(null)
   const [activeLength, setActiveLength] = useState(null)
