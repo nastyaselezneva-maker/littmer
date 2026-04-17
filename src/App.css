@@ -401,6 +401,12 @@
   margin-bottom: 4px;
 }
 
+.tooltip-dict {
+  color: #9ca3af;
+  font-size: 0.75rem;
+  font-style: italic;
+}
+
 .tooltip-btn {
   background: #1a56db;
   color: white;

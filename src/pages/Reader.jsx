@@ -94,6 +94,7 @@ function Reader() {
               number={currentNoIndex + 1}
               text={segment.text}
               translation={segment.translation}
+              dict={segment.dict}
               transcription={segment.transcription}
               onAdd={addWord}
               isSaved={hasWord(segment.text)}
