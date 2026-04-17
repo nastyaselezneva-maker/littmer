@@ -9,7 +9,7 @@ const posLabels = {
   phrase: "фраза",
 }
 
-function WordTooltip({ number, text, translation, dict, transcription, pos, onAdd, isSaved }) {
+function WordTooltip({ text, translation, dict, transcription, pos, onAdd, isSaved }) {
   const [isOpen, setIsOpen] = useState(false)
   const tooltipRef = useRef(null)
 
@@ -33,7 +33,7 @@ function WordTooltip({ number, text, translation, dict, transcription, pos, onAd
   return (
     <span className="no-word-wrapper" ref={tooltipRef}>
       <span className="no-word" onClick={() => setIsOpen(!isOpen)}>
-        <span className="no-word-number">{number}</span>{text}
+        {text}
       </span>
 
       {isOpen && (

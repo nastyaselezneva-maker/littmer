@@ -34,7 +34,17 @@ function Reader() {
   const noCount = noSegments.length
   const showCount = Math.round(noCount * noPercent / 100)
 
-  // Определяем какие именно слова показывать как норвежские
+  // Равномерно распределяем норвежские слова по тексту
+  // Создаём Set с индексами слов, которые показываем как норвежские
+  const visibleSet = new Set()
+  if (showCount > 0 && showCount < noCount) {
+    // Шаг между видимыми словами
+    const step = noCount / showCount
+    for (let i = 0; i < showCount; i++) {
+      visibleSet.add(Math.floor(i * step))
+    }
+  }
+
   let noIndex = 0
 
   return (
@@ -83,15 +93,16 @@ function Reader() {
           const currentNoIndex = noIndex
           noIndex++
 
-          // Если слово за пределами лимита — показываем русский перевод
-          if (currentNoIndex >= showCount) {
+          // Определяем: показать как норвежское или как русский перевод
+          const showAsNorwegian = showCount >= noCount || visibleSet.has(currentNoIndex)
+
+          if (!showAsNorwegian) {
             return <span key={index}>{segment.translation}</span>
           }
 
           return (
             <WordTooltip
               key={index}
-              number={currentNoIndex + 1}
               text={segment.text}
               translation={segment.translation}
               dict={segment.dict}

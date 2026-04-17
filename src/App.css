@@ -359,13 +359,6 @@
   cursor: pointer;
 }
 
-.no-word-number {
-  font-size: 0.6rem;
-  vertical-align: super;
-  margin-right: 1px;
-  opacity: 0.6;
-}
-
 .no-word:hover {
   background: var(--primary-bg);
   border-radius: 4px;
