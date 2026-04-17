@@ -4,7 +4,8 @@
  * id          — уникальный идентификатор
  * title       — название текста
  * level       — уровень сложности (A2, B1, B2)
- * topic       — тема (ключ из файла topics.js)
+ * category    — категория (driving, economy, science, work, education)
+ * topic       — подтема (ключ из topics.js)
  * length      — длина текста (short: 70-100, medium: 100-200, long: 200-350 слов)
  * description — краткое описание для каталога
  * segments    — массив сегментов текста:
@@ -13,12 +14,13 @@
  */
 
 const texts = [
-  // ===================== ПДД =====================
+  // ===================== Вождение: Знаки ДД =====================
   {
     id: "trafikkregler-1",
     title: "Основные правила дорожного движения",
     level: "A2",
-    topic: "traffic",
+    category: "driving",
+    topic: "traffic_signs",
     length: "short",
     description: "Базовые правила на дороге в Норвегии",
     segments: [
@@ -49,7 +51,8 @@ const texts = [
     id: "trafikkregler-2",
     title: "Знаки и перекрёстки",
     level: "B1",
-    topic: "traffic",
+    category: "driving",
+    topic: "traffic_signs",
     length: "medium",
     description: "Дорожные знаки и правила проезда перекрёстков",
     segments: [
@@ -88,7 +91,8 @@ const texts = [
     id: "trafikkregler-3",
     title: "Вождение зимой в Норвегии",
     level: "B2",
-    topic: "traffic",
+    category: "driving",
+    topic: "traffic_signs",
     length: "long",
     description: "Особенности вождения в зимних условиях",
     segments: [
@@ -134,11 +138,12 @@ const texts = [
     ],
   },
 
-  // ===================== Автомобиль =====================
+  // ===================== Вождение: Автомобиль =====================
   {
     id: "bil-1",
     title: "Части автомобиля",
     level: "A2",
+    category: "driving",
     topic: "car",
     length: "short",
     description: "Основные части автомобиля и их названия",
@@ -173,6 +178,7 @@ const texts = [
     id: "bil-2",
     title: "Обслуживание автомобиля",
     level: "B1",
+    category: "driving",
     topic: "car",
     length: "medium",
     description: "Техобслуживание и уход за машиной",
@@ -206,6 +212,7 @@ const texts = [
     id: "bil-3",
     title: "Электромобили в Норвегии",
     level: "B2",
+    category: "driving",
     topic: "car",
     length: "long",
     description: "Почему Норвегия — мировой лидер по электромобилям",
@@ -234,11 +241,12 @@ const texts = [
     ],
   },
 
-  // ===================== Мотоцикл =====================
+  // ===================== Вождение: Мотоцикл =====================
   {
     id: "mc-1",
     title: "Части мотоцикла",
     level: "A2",
+    category: "driving",
     topic: "motorcycle",
     length: "short",
     description: "Основные части мотоцикла и их функции",
@@ -269,6 +277,7 @@ const texts = [
     id: "mc-2",
     title: "Вождение мотоцикла в Норвегии",
     level: "B2",
+    category: "driving",
     topic: "motorcycle",
     length: "medium",
     description: "Правила и особенности вождения мотоцикла",
@@ -298,6 +307,7 @@ const texts = [
     id: "mc-3",
     title: "Мотоциклетный сезон",
     level: "B1",
+    category: "driving",
     topic: "motorcycle",
     length: "long",
     description: "Подготовка мотоцикла к сезону и лучшие маршруты",
@@ -334,11 +344,13 @@ const texts = [
   },
 
   // ===================== Образование =====================
+  // school, university, norwegian_course
   {
     id: "utdanning-1",
     title: "Школьная система",
     level: "A2",
-    topic: "education",
+    category: "education",
+    topic: "school",
     length: "short",
     description: "Как устроена школа в Норвегии",
     segments: [
@@ -365,7 +377,8 @@ const texts = [
     id: "utdanning-2",
     title: "Высшее образование",
     level: "B2",
-    topic: "education",
+    category: "education",
+    topic: "university",
     length: "medium",
     description: "Университеты и студенческая жизнь в Норвегии",
     segments: [
@@ -396,7 +409,8 @@ const texts = [
     id: "utdanning-3",
     title: "Норвежский для иностранцев",
     level: "B1",
-    topic: "education",
+    category: "education",
+    topic: "norwegian_course",
     length: "long",
     description: "Как иностранцы изучают норвежский язык",
     segments: [

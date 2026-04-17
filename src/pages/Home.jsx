@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom'
 import texts from '../data/texts'
-import { topics } from '../data/topics'
+import { categories } from '../data/topics'
+
+const categoryKeys = Object.keys(categories)
 
 function Home() {
-  const topicKeys = Object.keys(topics)
   const textCount = texts.length
 
   return (
@@ -23,8 +24,8 @@ function Home() {
           <span className="home-stat-label">текстов</span>
         </div>
         <div className="home-stat">
-          <span className="home-stat-number">{topicKeys.length}</span>
-          <span className="home-stat-label">темы</span>
+          <span className="home-stat-number">{categoryKeys.length}</span>
+          <span className="home-stat-label">категорий</span>
         </div>
         <div className="home-stat">
           <span className="home-stat-number">3</span>
@@ -32,13 +33,18 @@ function Home() {
         </div>
       </div>
 
-      <h2>Темы</h2>
+      <h2>Категории</h2>
       <div className="home-topics">
-        {topicKeys.map((key) => (
-          <Link to="/texts" key={key} className="home-topic-card">
-            {topics[key]}
-          </Link>
-        ))}
+        {categoryKeys.map((key) => {
+          const count = texts.filter((t) => t.category === key).length
+          return (
+            <Link to="/texts" key={key} className="home-topic-card">
+              <span className="home-topic-title">{categories[key].label}</span>
+              {count > 0 && <span className="home-topic-count">{count} текстов</span>}
+              {count === 0 && <span className="home-topic-count">Скоро</span>}
+            </Link>
+          )
+        })}
       </div>
     </div>
   )

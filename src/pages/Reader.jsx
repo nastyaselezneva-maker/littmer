@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import texts from '../data/texts'
-import { topics } from '../data/topics'
+import { getTopicLabel } from '../data/topics'
 import WordTooltip from '../components/WordTooltip'
 import useDictionary from '../hooks/useDictionary'
 import useProgress from '../hooks/useProgress'
@@ -42,8 +42,8 @@ function Reader() {
       <Link to="/texts" className="back-link">Назад к текстам</Link>
 
       <div className="reader-header">
-        <span className="text-level">{text.level}</span>
-        <span className="text-topic">{topics[text.topic]}</span>
+        <span className="text-level" data-level={text.level}>{text.level}</span>
+        <span className="text-topic">{getTopicLabel(text.topic)}</span>
       </div>
 
       <h1>{text.title}</h1>
