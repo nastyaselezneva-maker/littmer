@@ -1,3 +1,28 @@
+:root {
+  /* Шрифты */
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-heading: 'Merriweather', Georgia, serif;
+
+  /* Основная палитра */
+  --primary: #4361a6;        /* акцент: ссылки, ��орвежские слов��, кнопки */
+  --primary-dark: #2d3047;   /* тёмный: хедер, тултипы */
+  --primary-light: #5a7fd4;  /* светлый: hover-состояния */
+  --primary-bg: rgba(67, 97, 166, 0.08); /* фон пр�� наведении */
+
+  /* Фон и поверхност�� */
+  --bg: #faf7f2;             /* основной фон страницы */
+  --surface: #ffffff;        /* карточки, блоки */
+  --border: #e5e7eb;         /* рамки */
+
+  /* Текст */
+  --text: #2d3047;           /* основной текст — совпадает с primary-dark */
+  --text-light: #6b7280;     /* второстепенный текст */
+  --text-muted: #9ca3af;     /* приглушённый текст */
+
+  /* Состояния */
+  --success: #16a34a;        /* прочитано, в ��ловаре */
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -5,11 +30,12 @@
 }
 
 body {
-  font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
-  font-size: 18px;
+  font-family: var(--font-body);
+  font-size: 17px;
   line-height: 1.6;
-  color: #333;
-  background: #faf7f2;
+  color: var(--text);
+  background: var(--bg);
+  -webkit-font-smoothing: antialiased;
 }
 
 a {
@@ -18,11 +44,19 @@ a {
 }
 
 h1 {
-  font-size: 2rem;
+  font-family: var(--font-heading);
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 1.3;
   margin-bottom: 16px;
+  color: var(--primary-dark);
 }
 
 h2 {
-  font-size: 1.4rem;
+  font-family: var(--font-heading);
+  font-size: 1.3rem;
+  font-weight: 700;
+  line-height: 1.3;
   margin-bottom: 12px;
+  color: var(--primary-dark);
 }
