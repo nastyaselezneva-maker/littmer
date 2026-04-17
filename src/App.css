@@ -13,7 +13,7 @@
 }
 
 .nav {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
   display: flex;
   align-items: center;
@@ -49,7 +49,7 @@
 
 /* Main content */
 .main {
-  max-width: 800px;
+  max-width: 1100px;
   margin: 0 auto;
   padding: 32px 20px;
   width: 100%;
@@ -96,22 +96,22 @@
 /* Step grid */
 .step-grid {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
 }
 
 .step-card {
   background: var(--surface);
   border: none;
-  border-radius: 16px;
-  padding: 24px;
+  border-radius: 20px;
+  padding: 32px 24px;
   text-align: center;
   cursor: pointer;
   transition: all 0.2s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 8px;
+  gap: 10px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
 }
 
@@ -125,20 +125,20 @@
 .step-card[data-level="B2"] { border-left: 4px solid #15803d; }
 
 .step-card-icon {
-  font-size: 2.5rem;
+  font-size: 3.2rem;
   line-height: 1;
-  margin-bottom: 4px;
+  margin-bottom: 6px;
 }
 
 .step-card-title {
-  font-size: 1rem;
+  font-size: 1.1rem;
   font-weight: 600;
   color: var(--text);
   letter-spacing: -0.01em;
 }
 
 .step-card-info {
-  font-size: 0.8rem;
+  font-size: 0.85rem;
   color: var(--text-muted);
 }
 
@@ -162,15 +162,15 @@
 .texts-list {
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 14px;
 }
 
 .text-card {
   display: block;
   background: var(--surface);
   border: none;
-  border-radius: 16px;
-  padding: 16px 20px;
+  border-radius: 20px;
+  padding: 20px 24px;
   text-decoration: none;
   color: inherit;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
@@ -338,9 +338,9 @@
 .reader-text {
   background: var(--surface);
   border: none;
-  border-radius: 16px;
+  border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  padding: 28px;
+  padding: 36px;
   font-size: 1.05rem;
   line-height: 2.1;
 }
@@ -472,9 +472,9 @@
 .dictionary-card {
   background: var(--surface);
   border: none;
-  border-radius: 16px;
+  border-radius: 20px;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  padding: 12px 20px;
+  padding: 16px 24px;
   display: flex;
   align-items: center;
   gap: 16px;
@@ -564,23 +564,23 @@
 
 .home-topics {
   display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 12px;
-  margin-top: 12px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+  margin-top: 16px;
 }
 
 .home-topic-card {
   background: var(--surface);
   border: none;
-  border-radius: 16px;
-  padding: 24px 20px;
+  border-radius: 20px;
+  padding: 28px 20px;
   text-align: center;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   transition: all 0.2s;
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 6px;
+  gap: 8px;
 }
 
 .home-topic-card:hover {
@@ -589,7 +589,7 @@
 }
 
 .home-topic-icon {
-  font-size: 2.2rem;
+  font-size: 2.8rem;
   line-height: 1;
   margin-bottom: 4px;
 }
