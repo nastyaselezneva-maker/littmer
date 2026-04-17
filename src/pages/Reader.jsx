@@ -30,15 +30,15 @@ function Reader() {
   }
 
   // Считаем сколько норвежских слов показывать
+  // 0% = все на русском, 90% = все норвежские слова, 100% = весь текст на норвежском
   const noSegments = text.segments.filter((s) => s.type === "no")
   const noCount = noSegments.length
-  const showCount = Math.round(noCount * noPercent / 100)
+  const allWordsVisible = noPercent >= 90
+  const showCount = allWordsVisible ? noCount : Math.round(noCount * noPercent / 90)
 
   // Равномерно распределяем норвежские слова по тексту
-  // Создаём Set с индексами слов, которые показываем как норвежские
   const visibleSet = new Set()
   if (showCount > 0 && showCount < noCount) {
-    // Шаг между видимыми словами
     const step = noCount / showCount
     for (let i = 0; i < showCount; i++) {
       visibleSet.add(Math.floor(i * step))
@@ -73,7 +73,8 @@ function Reader() {
         />
         <span className="control-hint">
           {noPercent === 0 && "Полностью русский"}
-          {noPercent > 0 && noPercent < 100 && `${showCount} из ${noCount} слов`}
+          {noPercent > 0 && noPercent < 90 && `${showCount} из ${noCount} слов`}
+          {noPercent >= 90 && noPercent < 100 && `Все ${noCount} слов`}
           {noPercent === 100 && "Полностью норвежский"}
         </span>
       </div>
