@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { createContext, useContext, useState, useEffect } from 'react'
 
 const STORAGE_KEY = 'norsk-dictionary'
 
@@ -11,16 +11,16 @@ function saveWords(words) {
   localStorage.setItem(STORAGE_KEY, JSON.stringify(words))
 }
 
-export default function useDictionary() {
+const DictionaryContext = createContext(null)
+
+export function DictionaryProvider({ children }) {
   const [words, setWords] = useState(loadWords)
 
-  // Сохраняем в localStorage при каждом изменении
   useEffect(() => {
     saveWords(words)
   }, [words])
 
   function addWord(word) {
-    // Не добавляем дубликаты
     if (words.some((w) => w.text === word.text)) return false
     setWords([...words, word])
     return true
@@ -34,5 +34,15 @@ export default function useDictionary() {
     return words.some((w) => w.text === text)
   }
 
-  return { words, addWord, removeWord, hasWord }
+  const value = { words, addWord, removeWord, hasWord }
+
+  return (
+    <DictionaryContext.Provider value={value}>
+      {children}
+    </DictionaryContext.Provider>
+  )
+}
+
+export default function useDictionary() {
+  return useContext(DictionaryContext)
 }

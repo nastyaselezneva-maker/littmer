@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "Bash(node add-pos.cjs)"
+      "Bash(node add-pos.cjs)",
+      "Bash(node -e ' *)"
     ]
   }
 }

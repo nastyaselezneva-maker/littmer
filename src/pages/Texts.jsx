@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import texts from '../data/texts'
-import { categories, levels, lengths, getTopicLabel, getTopicIcon } from '../data/topics'
+import { categories, levels, lengths, levelDescriptions, getTopicLabel, getTopicIcon } from '../data/topics'
 import useProgress from '../hooks/useProgress'
 
 const categoryKeys = Object.keys(categories)
@@ -207,6 +207,20 @@ function Texts() {
       )}
 
       {/* Шаг 5: Список текстов */}
+      {step === 5 && activeLevel && levelDescriptions[activeLevel] && (
+        <div className="level-info" data-level={activeLevel}>
+          <div className="level-info-header">
+            <span className="text-level" data-level={activeLevel}>{activeLevel}</span>
+            <span className="level-info-title">{levelDescriptions[activeLevel].title}</span>
+          </div>
+          <p className="level-info-summary">{levelDescriptions[activeLevel].summary}</p>
+          <ul className="level-info-features">
+            {levelDescriptions[activeLevel].features.map((f) => (
+              <li key={f}>{f}</li>
+            ))}
+          </ul>
+        </div>
+      )}
       {step === 5 && (
         <div className="texts-list">
           {filteredTexts.length === 0 ? (
