@@ -191,7 +191,21 @@ function Texts() {
         </div>
       )}
 
-      {/* Шаг 4: Выбор длины */}
+      {/* Шаг 4: Описание уровня + выбор длины */}
+      {step === 4 && activeLevel && levelDescriptions[activeLevel] && (
+        <div className="level-info" data-level={activeLevel}>
+          <div className="level-info-header">
+            <span className="text-level" data-level={activeLevel}>{activeLevel}</span>
+            <span className="level-info-title">{levelDescriptions[activeLevel].title}</span>
+          </div>
+          <p className="level-info-summary">{levelDescriptions[activeLevel].summary}</p>
+          <ul className="level-info-features">
+            {levelDescriptions[activeLevel].features.map((f) => (
+              <li key={f}>{f}</li>
+            ))}
+          </ul>
+        </div>
+      )}
       {step === 4 && (
         <div className="step-grid">
           {availableLengths.map((key) => {
@@ -207,20 +221,6 @@ function Texts() {
       )}
 
       {/* Шаг 5: Список текстов */}
-      {step === 5 && activeLevel && levelDescriptions[activeLevel] && (
-        <div className="level-info" data-level={activeLevel}>
-          <div className="level-info-header">
-            <span className="text-level" data-level={activeLevel}>{activeLevel}</span>
-            <span className="level-info-title">{levelDescriptions[activeLevel].title}</span>
-          </div>
-          <p className="level-info-summary">{levelDescriptions[activeLevel].summary}</p>
-          <ul className="level-info-features">
-            {levelDescriptions[activeLevel].features.map((f) => (
-              <li key={f}>{f}</li>
-            ))}
-          </ul>
-        </div>
-      )}
       {step === 5 && (
         <div className="texts-list">
           {filteredTexts.length === 0 ? (

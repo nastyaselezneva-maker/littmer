@@ -1,6 +1,9 @@
 import { NavLink, Outlet } from 'react-router-dom'
+import useTwemoji from '../hooks/useTwemoji'
 
 function Layout() {
+  useTwemoji()
+
   return (
     <div className="app">
       <header className="header">
