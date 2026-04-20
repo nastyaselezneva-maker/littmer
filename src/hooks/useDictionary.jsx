@@ -30,11 +30,15 @@ export function DictionaryProvider({ children }) {
     setWords(words.filter((w) => w.text !== text))
   }
 
+  function clearAll() {
+    setWords([])
+  }
+
   function hasWord(text) {
     return words.some((w) => w.text === text)
   }
 
-  const value = { words, addWord, removeWord, hasWord }
+  const value = { words, addWord, removeWord, clearAll, hasWord }
 
   return (
     <DictionaryContext.Provider value={value}>

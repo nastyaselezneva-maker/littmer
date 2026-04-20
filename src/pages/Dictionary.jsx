@@ -2,11 +2,22 @@ import { useState } from 'react'
 import useDictionary from '../hooks/useDictionary'
 
 function Dictionary() {
-  const { words, removeWord } = useDictionary()
+  const { words, removeWord, clearAll } = useDictionary()
   const [mode, setMode] = useState('list') // 'list' или 'cards'
   const [search, setSearch] = useState('')
   const [cardIndex, setCardIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)
+  const [confirmClear, setConfirmClear] = useState(false)
+
+  function handleClearClick() {
+    if (confirmClear) {
+      clearAll()
+      setConfirmClear(false)
+    } else {
+      setConfirmClear(true)
+      setTimeout(() => setConfirmClear(false), 3000)
+    }
+  }
 
   const query = search.toLowerCase().trim()
   const filteredWords = query
@@ -74,6 +85,12 @@ function Dictionary() {
             <span className="dictionary-count">
               {query ? `${filteredWords.length} из ${words.length}` : `${words.length} слов`}
             </span>
+            <button
+              className={`dictionary-clear ${confirmClear ? 'dictionary-clear-confirm' : ''}`}
+              onClick={handleClearClick}
+            >
+              {confirmClear ? 'Точно?' : 'Очистить словарь'}
+            </button>
           </div>
           <div className="dictionary-list">
             {filteredWords.map((word) => (

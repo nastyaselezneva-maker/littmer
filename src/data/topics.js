@@ -21,6 +21,19 @@ export const categories = {
       banks: { label: "Банки Норвегии", icon: "\u{1F3E6}" },
       mortgage: { label: "Ипотека в Норвегии", icon: "\u{1F3E0}" },
       budget: { label: "Домашняя бухгалтерия", icon: "\u{1F4CA}" },
+      insurance: { label: "Страхование", icon: "\u{1F6E1}\u{FE0F}" },
+      oil_fund: { label: "Нефтяной фонд", icon: "\u{1F6E2}\u{FE0F}" },
+    },
+  },
+  society: {
+    label: "Общество",
+    icon: "\u{1F3DB}\u{FE0F}",
+    topics: {
+      bureaucracy: { label: "Бюрократия", icon: "\u{1F4CB}" },
+      digital_services: { label: "Цифровые сервисы", icon: "\u{1F4F1}" },
+      allemannsretten: { label: "Allemannsretten", icon: "\u{1F332}" },
+      janteloven: { label: "Janteloven", icon: "\u{1F4DC}" },
+      judicial: { label: "Судебная система", icon: "\u{1F9D1}\u{200D}\u{2696}\u{FE0F}" },
     },
   },
   science: {
