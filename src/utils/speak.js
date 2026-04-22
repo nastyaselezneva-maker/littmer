@@ -22,7 +22,7 @@ function findNorwegianVoice() {
   return cachedVoice
 }
 
-export function speak(text) {
+export function speak(text, onEnd) {
   if (!('speechSynthesis' in window)) {
     console.warn('SpeechSynthesis не поддерживается в этом браузере')
     return false
@@ -40,8 +40,18 @@ export function speak(text) {
   utterance.lang = 'nb-NO'
   utterance.rate = 0.9 // чуть медленнее обычного для учебных целей
 
+  if (onEnd) {
+    utterance.onend = onEnd
+    utterance.onerror = onEnd
+  }
+
   window.speechSynthesis.speak(utterance)
   return true
+}
+
+export function stopSpeaking() {
+  if (!('speechSynthesis' in window)) return
+  window.speechSynthesis.cancel()
 }
 
 // Инициализация: подгружаем голоса заранее (в некоторых браузерах это асинхронно)

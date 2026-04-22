@@ -6,6 +6,7 @@ import WordTooltip from '../components/WordTooltip'
 import DictionarySidebar from '../components/DictionarySidebar'
 import useDictionary from '../hooks/useDictionary'
 import useProgress from '../hooks/useProgress'
+import { speak, stopSpeaking } from '../utils/speak'
 
 function Reader() {
   const { id } = useParams()
@@ -18,6 +19,7 @@ function Reader() {
   const [noPercent, setNoPercent] = useState(savedPercent ? Number(savedPercent) : 50)
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const sidebarVisible = hasWords && sidebarOpen
+  const [isSpeaking, setIsSpeaking] = useState(false)
 
   // Смещаем весь сайт влево, когда словарь открыт
   useEffect(() => {
@@ -28,6 +30,30 @@ function Reader() {
     }
     return () => document.body.classList.remove('has-sidebar')
   }, [sidebarVisible])
+
+  // Останавливаем озвучку при уходе со страницы
+  useEffect(() => {
+    return () => stopSpeaking()
+  }, [])
+
+  // Собираем полный норвежский текст из сегментов
+  function getFullNorwegianText() {
+    if (!text) return ''
+    return text.segments
+      .map((s) => (s.type === 'no' ? s.text : s.no || ''))
+      .join('')
+  }
+
+  function handleSpeakText() {
+    if (isSpeaking) {
+      stopSpeaking()
+      setIsSpeaking(false)
+    } else {
+      const fullText = getFullNorwegianText()
+      speak(fullText, () => setIsSpeaking(false))
+      setIsSpeaking(true)
+    }
+  }
 
   function handlePercentChange(value) {
     setNoPercent(value)
@@ -100,6 +126,13 @@ function Reader() {
           {noPercent >= 90 && noPercent < 100 && `Все ${noCount} слов`}
           {noPercent === 100 && "Полностью норвежский"}
         </span>
+        <button
+          className={`speak-text-btn ${isSpeaking ? 'speak-text-btn-active' : ''}`}
+          onClick={handleSpeakText}
+          title={isSpeaking ? 'Остановить озвучку' : 'Озвучить весь текст'}
+        >
+          {isSpeaking ? '⏹ Стоп' : '🔊 Озвучить весь текст'}
+        </button>
       </div>
 
       <div className="reader-text">

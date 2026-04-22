@@ -5,7 +5,6 @@ import { categories, levels, lengths, levelDescriptions, getTopicLabel, iconPath
 import useProgress from '../hooks/useProgress'
 
 const categoryKeys = Object.keys(categories)
-const lengthKeys = Object.keys(lengths)
 
 function Texts() {
   const [searchParams] = useSearchParams()
@@ -16,40 +15,30 @@ function Texts() {
   const [activeCategory, setActiveCategory] = useState(initialCategory)
   const [activeTopic, setActiveTopic] = useState(null)
   const [activeLevel, setActiveLevel] = useState(null)
-  const [activeLength, setActiveLength] = useState(null)
   const { isRead, readIds } = useProgress()
 
   function selectCategory(key) {
     setActiveCategory(key)
     setActiveTopic(null)
     setActiveLevel(null)
-    setActiveLength(null)
     setStep(2)
   }
 
   function selectTopic(key) {
     setActiveTopic(key)
     setActiveLevel(null)
-    setActiveLength(null)
     setStep(3)
   }
 
   function selectLevel(level) {
     setActiveLevel(level)
-    setActiveLength(null)
     setStep(4)
   }
 
-  function selectLength(length) {
-    setActiveLength(length)
-    setStep(5)
-  }
-
   function goToStep(n) {
-    if (n <= 1) { setActiveCategory(null); setActiveTopic(null); setActiveLevel(null); setActiveLength(null) }
-    if (n <= 2) { setActiveTopic(null); setActiveLevel(null); setActiveLength(null) }
-    if (n <= 3) { setActiveLevel(null); setActiveLength(null) }
-    if (n <= 4) { setActiveLength(null) }
+    if (n <= 1) { setActiveCategory(null); setActiveTopic(null); setActiveLevel(null) }
+    if (n <= 2) { setActiveTopic(null); setActiveLevel(null) }
+    if (n <= 3) { setActiveLevel(null) }
     setStep(n)
   }
 
@@ -70,16 +59,9 @@ function Texts() {
   const availableLevels = [...new Set(textsForTopic.map((t) => t.level))]
     .sort((a, b) => levels.indexOf(a) - levels.indexOf(b))
 
-  const textsForLevel = activeLevel
+  const filteredTexts = activeLevel
     ? textsForTopic.filter((t) => t.level === activeLevel)
     : textsForTopic
-
-  const availableLengths = [...new Set(textsForLevel.map((t) => t.length))]
-    .sort((a, b) => lengthKeys.indexOf(a) - lengthKeys.indexOf(b))
-
-  const filteredTexts = activeLength
-    ? textsForLevel.filter((t) => t.length === activeLength)
-    : textsForLevel
 
   return (
     <div>
@@ -108,15 +90,7 @@ function Texts() {
           {activeLevel && (
             <>
               <span className="breadcrumb-sep">/</span>
-              <button className={`breadcrumb ${step === 4 ? 'breadcrumb-current' : ''}`} onClick={() => goToStep(4)}>
-                {activeLevel}
-              </button>
-            </>
-          )}
-          {activeLength && (
-            <>
-              <span className="breadcrumb-sep">/</span>
-              <span className="breadcrumb breadcrumb-current">{lengths[activeLength]}</span>
+              <span className="breadcrumb breadcrumb-current">{activeLevel}</span>
             </>
           )}
         </div>
@@ -162,7 +136,6 @@ function Texts() {
               </button>
             )
           })}
-          {/* Подтемы без текстов — показываем как "Скоро" */}
           {activeCategory && Object.keys(categories[activeCategory].topics)
             .filter((key) => !availableTopics.includes(key))
             .map((key) => (
@@ -191,7 +164,7 @@ function Texts() {
         </div>
       )}
 
-      {/* Шаг 4: Описание уровня + выбор длины */}
+      {/* Шаг 4: Описание уровня + список текстов */}
       {step === 4 && activeLevel && levelDescriptions[activeLevel] && (
         <div className="level-info" data-level={activeLevel}>
           <div className="level-info-header">
@@ -207,21 +180,6 @@ function Texts() {
         </div>
       )}
       {step === 4 && (
-        <div className="step-grid">
-          {availableLengths.map((key) => {
-            const count = textsForLevel.filter((t) => t.length === key).length
-            return (
-              <button key={key} className="step-card" onClick={() => selectLength(key)}>
-                <span className="step-card-title">{lengths[key]}</span>
-                <span className="step-card-info">{count} текстов</span>
-              </button>
-            )
-          })}
-        </div>
-      )}
-
-      {/* Шаг 5: Список текстов */}
-      {step === 5 && (
         <div className="texts-list">
           {filteredTexts.length === 0 ? (
             <p className="texts-empty">Нет текстов</p>
@@ -230,10 +188,12 @@ function Texts() {
               <Link to={`/texts/${text.id}`} key={text.id} className={`text-card ${isRead(text.id) ? 'text-card-read' : ''}`}>
                 <div className="text-card-header">
                   <span className="text-level" data-level={text.level}>{text.level}</span>
-                  <span className="text-length">{lengths[text.length]}</span>
                   {isRead(text.id) && <span className="text-read-badge">Прочитано</span>}
                 </div>
-                <h2 className="text-title">{text.title}</h2>
+                <h2 className="text-title">
+                  {text.title}
+                  <span className="text-title-length">· {lengths[text.length]}</span>
+                </h2>
                 <p className="text-description">{text.description}</p>
               </Link>
             ))

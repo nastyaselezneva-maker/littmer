@@ -473,6 +473,13 @@
   font-size: 1.1rem;
 }
 
+.text-title-length {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  margin-left: 6px;
+}
+
 .text-description {
   color: var(--text-light);
   font-size: 0.9rem;
@@ -690,6 +697,35 @@ body.has-sidebar .app {
   flex: 1;
   accent-color: var(--primary);
   cursor: pointer;
+}
+
+.speak-text-btn {
+  background: var(--primary);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  white-space: nowrap;
+  transition: background 0.15s, transform 0.1s;
+}
+
+.speak-text-btn:hover {
+  background: var(--primary-dark, #1e3a8a);
+}
+
+.speak-text-btn:active {
+  transform: scale(0.97);
+}
+
+.speak-text-btn-active {
+  background: #dc2626;
+}
+
+.speak-text-btn-active:hover {
+  background: #b91c1c;
 }
 
 /* Reader footer */
