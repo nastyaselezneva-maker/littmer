@@ -2,17 +2,15 @@ import { useState, useEffect } from 'react'
 import useAuth from './useAuth'
 
 function storageKey(username) {
-  return `norsk-progress:${username}`
+  return `norsk-progress:${username || 'guest'}`
 }
 
 function loadProgress(username) {
-  if (!username) return []
   const saved = localStorage.getItem(storageKey(username))
   return saved ? JSON.parse(saved) : []
 }
 
 function saveProgress(username, ids) {
-  if (!username) return
   localStorage.setItem(storageKey(username), JSON.stringify(ids))
 }
 
@@ -25,9 +23,7 @@ export default function useProgress() {
   }, [currentUser])
 
   useEffect(() => {
-    if (currentUser) {
-      saveProgress(currentUser, readIds)
-    }
+    saveProgress(currentUser, readIds)
   }, [readIds, currentUser])
 
   function markAsRead(id) {

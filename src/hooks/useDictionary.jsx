@@ -2,17 +2,15 @@ import { createContext, useContext, useState, useEffect } from 'react'
 import useAuth from './useAuth'
 
 function storageKey(username) {
-  return `norsk-dictionary:${username}`
+  return `norsk-dictionary:${username || 'guest'}`
 }
 
 function loadWords(username) {
-  if (!username) return []
   const saved = localStorage.getItem(storageKey(username))
   return saved ? JSON.parse(saved) : []
 }
 
 function saveWords(username, words) {
-  if (!username) return
   localStorage.setItem(storageKey(username), JSON.stringify(words))
 }
 
@@ -29,9 +27,7 @@ export function DictionaryProvider({ children }) {
 
   // При изменении сохраняем в localStorage
   useEffect(() => {
-    if (currentUser) {
-      saveWords(currentUser, words)
-    }
+    saveWords(currentUser, words)
   }, [words, currentUser])
 
   function addWord(word) {

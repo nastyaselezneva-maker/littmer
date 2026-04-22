@@ -2,64 +2,61 @@
  * Двухуровневая структура: категория → подтемы.
  * category — ключ категории
  * topic — ключ подтемы (используется в текстах)
+ *
+ * Ключ категории/подтемы также используется как имя файла картинки:
+ * public/icons/{ключ}.png
  */
 
 export const categories = {
   driving: {
     label: "Вождение в Норвегии",
-    icon: "\u{1F697}",
     topics: {
-      traffic_signs: { label: "Знаки дорожного движения", icon: "\u{1F6A6}" },
-      car: { label: "Устройство автомобиля", icon: "\u{1F699}" },
-      motorcycle: { label: "Устройство мотоцикла", icon: "\u{1F3CD}\u{FE0F}" },
+      traffic_signs: { label: "Знаки дорожного движения" },
+      car: { label: "Устройство автомобиля" },
+      motorcycle: { label: "Устройство мотоцикла" },
     },
   },
   economy: {
     label: "Экономика",
-    icon: "\u{1F4B0}",
     topics: {
-      banks: { label: "Банки Норвегии", icon: "\u{1F3E6}" },
-      mortgage: { label: "Ипотека в Норвегии", icon: "\u{1F3E0}" },
-      budget: { label: "Домашняя бухгалтерия", icon: "\u{1F4CA}" },
-      insurance: { label: "Страхование", icon: "\u{1F6E1}\u{FE0F}" },
-      oil_fund: { label: "Нефтяной фонд", icon: "\u{1F6E2}\u{FE0F}" },
+      banks: { label: "Банки Норвегии" },
+      mortgage: { label: "Ипотека в Норвегии" },
+      budget: { label: "Домашняя бухгалтерия" },
+      insurance: { label: "Страхование" },
+      oil_fund: { label: "Нефтяной фонд" },
     },
   },
   society: {
     label: "Общество",
-    icon: "\u{1F3DB}\u{FE0F}",
     topics: {
-      bureaucracy: { label: "Бюрократия", icon: "\u{1F4CB}" },
-      digital_services: { label: "Цифровые сервисы", icon: "\u{1F4F1}" },
-      allemannsretten: { label: "Allemannsretten", icon: "\u{1F332}" },
-      janteloven: { label: "Janteloven", icon: "\u{1F4DC}" },
-      judicial: { label: "Судебная система", icon: "\u{1F9D1}\u{200D}\u{2696}\u{FE0F}" },
+      bureaucracy: { label: "Бюрократия" },
+      digital_services: { label: "Цифровые сервисы" },
+      allemannsretten: { label: "Allemannsretten" },
+      janteloven: { label: "Janteloven" },
+      judicial: { label: "Судебная система" },
     },
   },
   science: {
     label: "Наука",
-    icon: "\u{1F52C}",
     topics: {
-      discoveries: { label: "Открытия", icon: "\u{1F52D}" },
-      technology: { label: "Современные технологии", icon: "\u{1F4BB}" },
+      discoveries: { label: "Открытия" },
+      technology: { label: "Современные технологии" },
     },
   },
   work: {
     label: "Работа",
-    icon: "\u{1F4BC}",
     topics: {
-      job_search: { label: "Поиск работы", icon: "\u{1F50D}" },
-      interview: { label: "Собеседование", icon: "\u{1F91D}" },
-      rights: { label: "Права работника", icon: "\u{2696}\u{FE0F}" },
+      job_search: { label: "Поиск работы" },
+      interview: { label: "Собеседование" },
+      rights: { label: "Права работника" },
     },
   },
   education: {
     label: "Образование",
-    icon: "\u{1F4DA}",
     topics: {
-      school: { label: "Школа", icon: "\u{1F3EB}" },
-      university: { label: "Университет", icon: "\u{1F393}" },
-      norwegian_course: { label: "Норвежский для иностранцев", icon: "\u{1F1F3}\u{1F1F4}" },
+      school: { label: "Школа" },
+      university: { label: "Университет" },
+      norwegian_course: { label: "Норвежский для иностранцев" },
     },
   },
 }
@@ -105,7 +102,11 @@ export const lengths = {
   long: "Длинный",
 }
 
-// Вспомогательная функция: получить название подтемы по ключу
+// Путь к картинке категории или подтемы по её ключу
+export function iconPath(key) {
+  return `/icons/${key}.png`
+}
+
 export function getTopicLabel(topicKey) {
   for (const cat of Object.values(categories)) {
     if (cat.topics[topicKey]) return cat.topics[topicKey].label
@@ -113,14 +114,6 @@ export function getTopicLabel(topicKey) {
   return topicKey
 }
 
-export function getTopicIcon(topicKey) {
-  for (const cat of Object.values(categories)) {
-    if (cat.topics[topicKey]) return cat.topics[topicKey].icon
-  }
-  return ""
-}
-
-// Вспомогательная функция: получить ключ категории по ключу подтемы
 export function getCategoryKey(topicKey) {
   for (const [catKey, cat] of Object.entries(categories)) {
     if (cat.topics[topicKey]) return catKey

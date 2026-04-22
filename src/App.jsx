@@ -10,13 +10,7 @@ import { DictionaryProvider } from './hooks/useDictionary'
 import useAuth from './hooks/useAuth'
 import './App.css'
 
-// Защищённый роут — перенаправляет на /login, если не авторизован
-function ProtectedRoute({ children }) {
-  const { isAuthenticated } = useAuth()
-  return isAuthenticated ? children : <Navigate to="/login" replace />
-}
-
-// Публичный роут — если уже авторизован, отправляет на главную
+// Если уже авторизован — не пускаем на /login
 function PublicRoute({ children }) {
   const { isAuthenticated } = useAuth()
   return isAuthenticated ? <Navigate to="/" replace /> : children
@@ -33,13 +27,7 @@ function AppRoutes() {
           </PublicRoute>
         }
       />
-      <Route
-        element={
-          <ProtectedRoute>
-            <Layout />
-          </ProtectedRoute>
-        }
-      >
+      <Route element={<Layout />}>
         <Route path="/" element={<Home />} />
         <Route path="/texts" element={<Texts />} />
         <Route path="/texts/:id" element={<Reader />} />

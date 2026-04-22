@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom'
 import texts from '../data/texts'
-import { categories } from '../data/topics'
+import { categories, iconPath } from '../data/topics'
 
 const categoryKeys = Object.keys(categories)
 
@@ -22,7 +22,7 @@ function Home() {
           const count = texts.filter((t) => t.category === key).length
           return (
             <Link to={count > 0 ? `/texts?category=${key}` : "/texts"} key={key} className="home-topic-card">
-              <span className="home-topic-icon">{categories[key].icon}</span>
+              <img src={iconPath(key)} alt="" className="home-topic-icon" />
               <span className="home-topic-title">{categories[key].label}</span>
               {count > 0 && <span className="home-topic-count">{count} текстов</span>}
               {count === 0 && <span className="home-topic-count">Скоро</span>}

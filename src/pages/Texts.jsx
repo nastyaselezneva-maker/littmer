@@ -1,7 +1,7 @@
 import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import texts from '../data/texts'
-import { categories, levels, lengths, levelDescriptions, getTopicLabel, getTopicIcon } from '../data/topics'
+import { categories, levels, lengths, levelDescriptions, getTopicLabel, iconPath } from '../data/topics'
 import useProgress from '../hooks/useProgress'
 
 const categoryKeys = Object.keys(categories)
@@ -135,7 +135,7 @@ function Texts() {
                 className={`step-card ${!hasTexts ? 'step-card-empty' : ''}`}
                 onClick={() => hasTexts && selectCategory(key)}
               >
-                <span className="step-card-icon">{categories[key].icon}</span>
+                <img src={iconPath(key)} alt="" className="step-card-icon" />
                 <span className="step-card-title">{categories[key].label}</span>
                 <span className="step-card-info">
                   {hasTexts
@@ -156,7 +156,7 @@ function Texts() {
             const count = textsForCategory.filter((t) => t.topic === key).length
             return (
               <button key={key} className="step-card" onClick={() => selectTopic(key)}>
-                <span className="step-card-icon">{getTopicIcon(key)}</span>
+                <img src={iconPath(key)} alt="" className="step-card-icon" />
                 <span className="step-card-title">{getTopicLabel(key)}</span>
                 <span className="step-card-info">{count} текстов</span>
               </button>
@@ -167,7 +167,7 @@ function Texts() {
             .filter((key) => !availableTopics.includes(key))
             .map((key) => (
               <button key={key} className="step-card step-card-empty">
-                <span className="step-card-icon">{categories[activeCategory].topics[key].icon}</span>
+                <img src={iconPath(key)} alt="" className="step-card-icon" />
                 <span className="step-card-title">{categories[activeCategory].topics[key].label}</span>
                 <span className="step-card-info">Скоро</span>
               </button>

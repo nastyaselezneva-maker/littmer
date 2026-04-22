@@ -4,7 +4,7 @@ import useAuth from '../hooks/useAuth'
 
 function Layout() {
   useTwemoji()
-  const { currentUser, logout } = useAuth()
+  const { currentUser, logout, isAuthenticated } = useAuth()
 
   return (
     <div className="app">
@@ -14,12 +14,16 @@ function Layout() {
           <div className="nav-links">
             <NavLink to="/texts">Тексты</NavLink>
             <NavLink to="/dictionary">Словарь</NavLink>
-          </div>
-          <div className="nav-user">
-            <span className="nav-username">{currentUser}</span>
-            <button className="nav-logout" onClick={logout} title="Выйти">
-              Выход
-            </button>
+            {isAuthenticated ? (
+              <div className="nav-user-inline">
+                <span className="nav-username">{currentUser}</span>
+                <button className="nav-logout" onClick={logout} title="Выйти">
+                  Выход
+                </button>
+              </div>
+            ) : (
+              <NavLink to="/login" className="nav-login-link">Войти</NavLink>
+            )}
           </div>
         </nav>
       </header>

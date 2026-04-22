@@ -47,11 +47,27 @@
   color: white;
 }
 
-.nav-user {
-  margin-left: auto;
+.nav-login-link {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  transition: background 0.2s;
+}
+
+.nav-login-link:hover,
+.nav-login-link.active {
+  background: rgba(255, 255, 255, 0.25);
+  color: white;
+}
+
+.nav-user-inline {
   display: flex;
   align-items: center;
-  gap: 12px;
+  gap: 10px;
+  padding-left: 8px;
+  border-left: 1px solid rgba(255, 255, 255, 0.2);
 }
 
 .nav-username {
@@ -64,9 +80,9 @@
   background: rgba(255, 255, 255, 0.1);
   border: none;
   color: white;
-  padding: 6px 14px;
-  border-radius: 20px;
-  font-size: 0.85rem;
+  padding: 4px 12px;
+  border-radius: 16px;
+  font-size: 0.8rem;
   cursor: pointer;
   transition: background 0.2s;
 }
@@ -259,17 +275,18 @@
   background: var(--surface);
   border: none;
   border-radius: 20px;
-  padding: 24px;
+  padding: 0;
   text-align: center;
   cursor: pointer;
   transition: all 0.2s;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 10px;
+  align-items: stretch;
+  gap: 0;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   aspect-ratio: 1 / 1;
+  overflow: hidden;
+  position: relative;
 }
 
 .step-card:hover {
@@ -282,27 +299,34 @@
 .step-card[data-level="B2"] { border-left: 4px solid #4f46e5; }
 
 .step-card-icon {
-  font-size: 3.2rem;
-  line-height: 1;
-  margin-bottom: 6px;
-  display: block;
-}
-
-.step-card-icon img.emoji {
-  height: 3.2rem;
-  width: 3.2rem;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .step-card-title {
-  font-size: 1.1rem;
+  position: relative;
+  z-index: 2;
+  margin-top: auto;
+  font-size: 1.05rem;
   font-weight: 600;
-  color: var(--text);
+  color: white;
   letter-spacing: -0.01em;
+  padding: 14px 16px 6px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 70%, transparent 100%);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
 .step-card-info {
-  font-size: 0.85rem;
-  color: var(--text-muted);
+  position: relative;
+  z-index: 2;
+  font-size: 0.8rem;
+  color: rgba(255,255,255,0.9);
+  padding: 0 16px 14px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 .step-card-empty {
@@ -1098,15 +1122,16 @@ body.has-sidebar .app {
   background: var(--surface);
   border: none;
   border-radius: 20px;
-  padding: 24px;
+  padding: 0;
   text-align: center;
   box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
   transition: all 0.2s;
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 8px;
+  align-items: stretch;
+  gap: 0;
+  overflow: hidden;
+  position: relative;
   aspect-ratio: 1 / 1;
 }
 
@@ -1116,25 +1141,32 @@ body.has-sidebar .app {
 }
 
 .home-topic-icon {
-  font-size: 2.8rem;
-  line-height: 1;
-  margin-bottom: 4px;
-  display: block;
-}
-
-.home-topic-icon img.emoji {
-  height: 2.8rem;
-  width: 2.8rem;
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
 .home-topic-title {
+  position: relative;
+  z-index: 2;
+  margin-top: auto;
   font-weight: 600;
-  color: var(--text);
+  color: white;
+  padding: 14px 16px 4px;
+  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 70%, transparent 100%);
+  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
 }
 
 .home-topic-count {
+  position: relative;
+  z-index: 2;
   font-size: 0.8rem;
-  color: var(--text-muted);
+  color: rgba(255,255,255,0.9);
+  padding: 0 16px 14px;
+  background: rgba(0,0,0,0.7);
+  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
 }
 
 /* Flashcards */
