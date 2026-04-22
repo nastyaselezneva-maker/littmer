@@ -1,24 +1,38 @@
 import { createContext, useContext, useState, useEffect } from 'react'
+import useAuth from './useAuth'
 
-const STORAGE_KEY = 'norsk-dictionary'
+function storageKey(username) {
+  return `norsk-dictionary:${username}`
+}
 
-function loadWords() {
-  const saved = localStorage.getItem(STORAGE_KEY)
+function loadWords(username) {
+  if (!username) return []
+  const saved = localStorage.getItem(storageKey(username))
   return saved ? JSON.parse(saved) : []
 }
 
-function saveWords(words) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(words))
+function saveWords(username, words) {
+  if (!username) return
+  localStorage.setItem(storageKey(username), JSON.stringify(words))
 }
 
 const DictionaryContext = createContext(null)
 
 export function DictionaryProvider({ children }) {
-  const [words, setWords] = useState(loadWords)
+  const { currentUser } = useAuth()
+  const [words, setWords] = useState(() => loadWords(currentUser))
 
+  // При смене пользователя перезагружаем словарь
   useEffect(() => {
-    saveWords(words)
-  }, [words])
+    setWords(loadWords(currentUser))
+  }, [currentUser])
+
+  // При изменении сохраняем в localStorage
+  useEffect(() => {
+    if (currentUser) {
+      saveWords(currentUser, words)
+    }
+  }, [words, currentUser])
 
   function addWord(word) {
     if (words.some((w) => w.text === word.text)) return false

@@ -1,22 +1,34 @@
 import { useState, useEffect } from 'react'
+import useAuth from './useAuth'
 
-const STORAGE_KEY = 'norsk-progress'
+function storageKey(username) {
+  return `norsk-progress:${username}`
+}
 
-function loadProgress() {
-  const saved = localStorage.getItem(STORAGE_KEY)
+function loadProgress(username) {
+  if (!username) return []
+  const saved = localStorage.getItem(storageKey(username))
   return saved ? JSON.parse(saved) : []
 }
 
-function saveProgress(ids) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(ids))
+function saveProgress(username, ids) {
+  if (!username) return
+  localStorage.setItem(storageKey(username), JSON.stringify(ids))
 }
 
 export default function useProgress() {
-  const [readIds, setReadIds] = useState(loadProgress)
+  const { currentUser } = useAuth()
+  const [readIds, setReadIds] = useState(() => loadProgress(currentUser))
 
   useEffect(() => {
-    saveProgress(readIds)
-  }, [readIds])
+    setReadIds(loadProgress(currentUser))
+  }, [currentUser])
+
+  useEffect(() => {
+    if (currentUser) {
+      saveProgress(currentUser, readIds)
+    }
+  }, [readIds, currentUser])
 
   function markAsRead(id) {
     if (!readIds.includes(id)) {

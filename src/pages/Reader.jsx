@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import texts from '../data/texts'
 import { getTopicLabel } from '../data/topics'
@@ -18,6 +18,16 @@ function Reader() {
   const [noPercent, setNoPercent] = useState(savedPercent ? Number(savedPercent) : 50)
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const sidebarVisible = hasWords && sidebarOpen
+
+  // Смещаем весь сайт влево, когда словарь открыт
+  useEffect(() => {
+    if (sidebarVisible) {
+      document.body.classList.add('has-sidebar')
+    } else {
+      document.body.classList.remove('has-sidebar')
+    }
+    return () => document.body.classList.remove('has-sidebar')
+  }, [sidebarVisible])
 
   function handlePercentChange(value) {
     setNoPercent(value)
