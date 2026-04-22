@@ -310,23 +310,23 @@
   position: relative;
   z-index: 2;
   margin-top: auto;
-  font-size: 1.05rem;
-  font-weight: 600;
+  font-size: 1.4rem;
+  font-weight: 700;
   color: white;
   letter-spacing: -0.01em;
-  padding: 14px 16px 6px;
-  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 70%, transparent 100%);
-  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  padding: 16px 18px 8px;
+  background: linear-gradient(to top, rgba(30, 58, 138, 0.88) 0%, rgba(30, 58, 138, 0.55) 70%, transparent 100%);
+  text-shadow: 0 1px 3px rgba(30, 58, 138, 0.7);
 }
 
 .step-card-info {
   position: relative;
   z-index: 2;
-  font-size: 0.8rem;
+  font-size: 1rem;
   color: rgba(255,255,255,0.9);
-  padding: 0 16px 14px;
-  background: linear-gradient(to top, rgba(0,0,0,0.7), rgba(0,0,0,0.7));
-  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  padding: 0 18px 16px;
+  background: rgba(30, 58, 138, 0.88);
+  text-shadow: 0 1px 2px rgba(30, 58, 138, 0.7);
 }
 
 .step-card-empty {
@@ -853,8 +853,79 @@ body.has-sidebar .app {
 
 .tooltip-top {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   gap: 8px;
+}
+
+.tooltip-speak {
+  background: rgba(255, 255, 255, 0.15);
+  border: none;
+  color: white;
+  cursor: pointer;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.85rem;
+  line-height: 1;
+  transition: background 0.15s;
+}
+
+.tooltip-speak:hover {
+  background: rgba(255, 255, 255, 0.3);
+}
+
+.dict-sidebar-speak {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 2px 6px;
+  border-radius: 50%;
+  font-size: 0.9rem;
+  line-height: 1;
+  transition: background 0.15s;
+  flex-shrink: 0;
+  opacity: 0.7;
+}
+
+.dict-sidebar-speak:hover {
+  background: var(--primary-bg);
+  opacity: 1;
+}
+
+.dictionary-speak {
+  background: var(--primary-bg);
+  border: none;
+  cursor: pointer;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  font-size: 1rem;
+  transition: all 0.2s;
+  flex-shrink: 0;
+}
+
+.dictionary-speak:hover {
+  background: var(--primary);
+  transform: scale(1.1);
+}
+
+.flashcard-speak {
+  position: absolute;
+  top: 16px;
+  right: 16px;
+  background: var(--primary-bg);
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 1.1rem;
+  transition: all 0.2s;
+  z-index: 5;
+}
+
+.flashcard-speak:hover {
+  background: var(--primary);
+  transform: scale(1.1);
 }
 
 .tooltip-word {
@@ -1073,17 +1144,17 @@ body.has-sidebar .app {
 }
 
 .home-hero h1 {
-  font-size: 2.8rem;
+  font-size: 3.6rem;
   color: var(--primary-dark);
-  margin-bottom: 12px;
+  margin-bottom: 16px;
   letter-spacing: -0.03em;
 }
 
 .home-subtitle {
   color: var(--text-light);
-  max-width: 500px;
+  max-width: 680px;
   margin: 0 auto 24px;
-  font-size: 1.05rem;
+  font-size: 1.25rem;
   line-height: 1.7;
 }
 
@@ -1152,21 +1223,22 @@ body.has-sidebar .app {
   position: relative;
   z-index: 2;
   margin-top: auto;
-  font-weight: 600;
+  font-size: 1.3rem;
+  font-weight: 700;
   color: white;
-  padding: 14px 16px 4px;
-  background: linear-gradient(to top, rgba(0,0,0,0.7) 0%, rgba(0,0,0,0.4) 70%, transparent 100%);
-  text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  padding: 16px 18px 6px;
+  background: linear-gradient(to top, rgba(30, 58, 138, 0.88) 0%, rgba(30, 58, 138, 0.55) 70%, transparent 100%);
+  text-shadow: 0 1px 3px rgba(30, 58, 138, 0.7);
 }
 
 .home-topic-count {
   position: relative;
   z-index: 2;
-  font-size: 0.8rem;
+  font-size: 0.95rem;
   color: rgba(255,255,255,0.9);
-  padding: 0 16px 14px;
-  background: rgba(0,0,0,0.7);
-  text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+  padding: 0 18px 16px;
+  background: rgba(30, 58, 138, 0.88);
+  text-shadow: 0 1px 2px rgba(30, 58, 138, 0.7);
 }
 
 /* Flashcards */

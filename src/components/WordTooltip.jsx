@@ -1,4 +1,5 @@
 import { useState, useRef, useEffect } from 'react'
+import { speak } from '../utils/speak'
 
 const posLabels = {
   noun: "сущ.",
@@ -40,6 +41,14 @@ function WordTooltip({ text, translation, dict, transcription, pos, onAdd, isSav
         <span className="tooltip">
           <span className="tooltip-top">
             <span className="tooltip-word">{text}</span>
+            <button
+              className="tooltip-speak"
+              onClick={(e) => { e.stopPropagation(); speak(text) }}
+              title="Произнести"
+              aria-label="Произнести"
+            >
+              🔊
+            </button>
             {pos && <span className="tooltip-pos">{posLabels[pos]}</span>}
           </span>
           <span className="tooltip-transcription">[{transcription}]</span>

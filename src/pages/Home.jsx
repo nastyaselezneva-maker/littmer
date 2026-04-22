@@ -13,10 +13,8 @@ function Home() {
           Учи норвежский через чтение. Тексты на русском языке с норвежскими словами —
           нажимай на слова, чтобы увидеть перевод и сохранить в личный словарь.
         </p>
-        <Link to="/texts" className="home-btn">Начать читать</Link>
       </div>
 
-      <h2>Категории</h2>
       <div className="home-topics">
         {categoryKeys.map((key) => {
           const count = texts.filter((t) => t.category === key).length
