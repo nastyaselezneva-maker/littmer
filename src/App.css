@@ -677,6 +677,22 @@ body.has-sidebar .app {
   display: flex;
   align-items: center;
   gap: 16px;
+  flex-wrap: wrap;
+}
+
+.voice-select {
+  padding: 7px 10px;
+  border-radius: 8px;
+  border: 1px solid var(--border, #e5e7eb);
+  background: #fff;
+  font-size: 0.8rem;
+  color: var(--text, #111827);
+  cursor: pointer;
+  max-width: 240px;
+}
+
+.voice-select:hover {
+  border-color: var(--primary);
 }
 
 .control-label {

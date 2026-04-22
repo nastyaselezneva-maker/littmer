@@ -6,7 +6,7 @@ import WordTooltip from '../components/WordTooltip'
 import DictionarySidebar from '../components/DictionarySidebar'
 import useDictionary from '../hooks/useDictionary'
 import useProgress from '../hooks/useProgress'
-import { speak, stopSpeaking } from '../utils/speak'
+import { speak, stopSpeaking, getNorwegianVoices, getSelectedVoiceName, setSelectedVoice, SHOW_AUDIO } from '../utils/speak'
 
 function Reader() {
   const { id } = useParams()
@@ -20,6 +20,8 @@ function Reader() {
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const sidebarVisible = hasWords && sidebarOpen
   const [isSpeaking, setIsSpeaking] = useState(false)
+  const [voices, setVoices] = useState(getNorwegianVoices())
+  const [selectedVoice, setSelectedVoiceState] = useState(getSelectedVoiceName())
 
   // Смещаем весь сайт влево, когда словарь открыт
   useEffect(() => {
@@ -35,6 +37,22 @@ function Reader() {
   useEffect(() => {
     return () => stopSpeaking()
   }, [])
+
+  // Голоса в некоторых браузерах загружаются асинхронно
+  useEffect(() => {
+    if (!('speechSynthesis' in window)) return
+    function loadVoices() {
+      setVoices(getNorwegianVoices())
+    }
+    loadVoices()
+    window.speechSynthesis.addEventListener('voiceschanged', loadVoices)
+    return () => window.speechSynthesis.removeEventListener('voiceschanged', loadVoices)
+  }, [])
+
+  function handleVoiceChange(name) {
+    setSelectedVoiceState(name)
+    setSelectedVoice(name)
+  }
 
   // Собираем полный норвежский текст из сегментов
   function getFullNorwegianText() {
@@ -126,13 +144,32 @@ function Reader() {
           {noPercent >= 90 && noPercent < 100 && `Все ${noCount} слов`}
           {noPercent === 100 && "Полностью норвежский"}
         </span>
-        <button
-          className={`speak-text-btn ${isSpeaking ? 'speak-text-btn-active' : ''}`}
-          onClick={handleSpeakText}
-          title={isSpeaking ? 'Остановить озвучку' : 'Озвучить весь текст'}
-        >
-          {isSpeaking ? '⏹ Стоп' : '🔊 Озвучить весь текст'}
-        </button>
+        {SHOW_AUDIO && (
+          <>
+            <button
+              className={`speak-text-btn ${isSpeaking ? 'speak-text-btn-active' : ''}`}
+              onClick={handleSpeakText}
+              title={isSpeaking ? 'Остановить озвучку' : 'Озвучить весь текст'}
+            >
+              {isSpeaking ? '⏹ Стоп' : '🔊 Озвучить весь текст'}
+            </button>
+            {voices.length > 1 && (
+              <select
+                className="voice-select"
+                value={selectedVoice}
+                onChange={(e) => handleVoiceChange(e.target.value)}
+                title="Голос озвучки"
+              >
+                <option value="">Авто</option>
+                {voices.map((v) => (
+                  <option key={v.name} value={v.name}>
+                    {v.name} ({v.lang})
+                  </option>
+                ))}
+              </select>
+            )}
+          </>
+        )}
       </div>
 
       <div className="reader-text">

@@ -1,5 +1,5 @@
 import useDictionary from '../hooks/useDictionary'
-import { speak } from '../utils/speak'
+import { speak, SHOW_AUDIO } from '../utils/speak'
 
 function DictionarySidebar({ isOpen, onClose }) {
   const { words, removeWord } = useDictionary()
@@ -26,13 +26,15 @@ function DictionarySidebar({ isOpen, onClose }) {
               <span className="dict-sidebar-no">{word.text}</span>
               <span className="dict-sidebar-translation">{word.translation}</span>
             </div>
-            <button
-              className="dict-sidebar-speak"
-              onClick={() => speak(word.text)}
-              title="Произнести"
-            >
-              🔊
-            </button>
+            {SHOW_AUDIO && (
+              <button
+                className="dict-sidebar-speak"
+                onClick={() => speak(word.text)}
+                title="Произнести"
+              >
+                🔊
+              </button>
+            )}
             <button
               className="dict-sidebar-remove"
               onClick={() => removeWord(word.text)}

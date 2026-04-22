@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import useDictionary from '../hooks/useDictionary'
-import { speak } from '../utils/speak'
+import { speak, SHOW_AUDIO } from '../utils/speak'
 
 function Dictionary() {
   const { words, removeWord, clearAll } = useDictionary()
@@ -96,13 +96,15 @@ function Dictionary() {
           <div className="dictionary-list">
             {filteredWords.map((word) => (
               <div key={word.text} className="dictionary-card">
-                <button
-                  className="dictionary-speak"
-                  onClick={() => speak(word.text)}
-                  title="Произнести"
-                >
-                  🔊
-                </button>
+                {SHOW_AUDIO && (
+                  <button
+                    className="dictionary-speak"
+                    onClick={() => speak(word.text)}
+                    title="Произнести"
+                  >
+                    🔊
+                  </button>
+                )}
                 <div className="dictionary-word">
                   <span className="dictionary-no">{word.text}</span>
                   <span className="dictionary-transcription">[{word.transcription}]</span>
@@ -127,24 +129,28 @@ function Dictionary() {
             onClick={() => setFlipped(!flipped)}
           >
             <div className="flashcard-front">
-              <button
-                className="flashcard-speak"
-                onClick={(e) => { e.stopPropagation(); speak(currentWord.text) }}
-                title="Произнести"
-              >
-                🔊
-              </button>
+              {SHOW_AUDIO && (
+                <button
+                  className="flashcard-speak"
+                  onClick={(e) => { e.stopPropagation(); speak(currentWord.text) }}
+                  title="Произнести"
+                >
+                  🔊
+                </button>
+              )}
               <span className="flashcard-word">{currentWord.text}</span>
               <span className="flashcard-hint">Нажми, чтобы увидеть перевод</span>
             </div>
             <div className="flashcard-back">
-              <button
-                className="flashcard-speak"
-                onClick={(e) => { e.stopPropagation(); speak(currentWord.text) }}
-                title="Произнести"
-              >
-                🔊
-              </button>
+              {SHOW_AUDIO && (
+                <button
+                  className="flashcard-speak"
+                  onClick={(e) => { e.stopPropagation(); speak(currentWord.text) }}
+                  title="Произнести"
+                >
+                  🔊
+                </button>
+              )}
               <span className="flashcard-word">{currentWord.text}</span>
               <span className="flashcard-transcription">[{currentWord.transcription}]</span>
               <span className="flashcard-translation">{currentWord.translation}</span>
