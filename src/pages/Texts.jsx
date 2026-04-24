@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
-import texts from '../data/texts'
+import catalog from '../data/catalog'
 import { categories, levels, lengths, levelDescriptions, getTopicLabel, iconPath } from '../data/topics'
 import useProgress from '../hooks/useProgress'
 
@@ -44,7 +44,7 @@ function Texts() {
 
   // Фильтрация по шагам
   const textsForCategory = activeCategory
-    ? texts.filter((t) => t.category === activeCategory)
+    ? catalog.filter((t) => t.category === activeCategory)
     : []
 
   const textsForTopic = activeTopic
@@ -65,7 +65,7 @@ function Texts() {
 
   return (
     <div>
-      <h1>Тексты <span className="read-counter">{readIds.length} из {texts.length} прочитано</span></h1>
+      <h1>Тексты <span className="read-counter">{readIds.length} из {catalog.length} прочитано</span></h1>
 
       {/* Хлебные крошки */}
       {step > 1 && (
@@ -100,8 +100,8 @@ function Texts() {
       {step === 1 && (
         <div className="step-grid">
           {categoryKeys.map((key) => {
-            const count = texts.filter((t) => t.category === key).length
-            const readCount = texts.filter((t) => t.category === key && isRead(t.id)).length
+            const count = catalog.filter((t) => t.category === key).length
+            const readCount = catalog.filter((t) => t.category === key && isRead(t.id)).length
             const hasTexts = count > 0
             return (
               <button

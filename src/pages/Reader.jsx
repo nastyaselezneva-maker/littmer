@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import { useParams, Link } from 'react-router-dom'
-import texts from '../data/texts'
+import catalog from '../data/catalog'
 import { getTopicLabel } from '../data/topics'
 import WordTooltip from '../components/WordTooltip'
 import DictionarySidebar from '../components/DictionarySidebar'
@@ -10,7 +10,8 @@ import { speak, stopSpeaking, getNorwegianVoices, getSelectedVoiceName, setSelec
 
 function Reader() {
   const { id } = useParams()
-  const text = texts.find((t) => t.id === id)
+  const [text, setText] = useState(null)
+  const [loading, setLoading] = useState(true)
   const { addWord, hasWord, words } = useDictionary()
   const hasWords = words.length > 0
   const { markAsRead, isRead } = useProgress()
@@ -32,6 +33,25 @@ function Reader() {
     }
     return () => document.body.classList.remove('has-sidebar')
   }, [sidebarVisible])
+
+  // Загружаем текст по id
+  useEffect(() => {
+    let cancelled = false
+    setLoading(true)
+    setText(null)
+    fetch(`/content/${id}.json`)
+      .then((r) => (r.ok ? r.json() : null))
+      .then((data) => {
+        if (!cancelled) {
+          setText(data)
+          setLoading(false)
+        }
+      })
+      .catch(() => {
+        if (!cancelled) setLoading(false)
+      })
+    return () => { cancelled = true }
+  }, [id])
 
   // Останавливаем озвучку при уходе со страницы
   useEffect(() => {
@@ -78,6 +98,14 @@ function Reader() {
     localStorage.setItem('norsk-percent', value)
   }
 
+  if (loading) {
+    return (
+      <div className="reader-loading">
+        <p>Загружаю текст…</p>
+      </div>
+    )
+  }
+
   if (!text) {
     return (
       <div>
@@ -88,7 +116,7 @@ function Reader() {
   }
 
   // Ищем соседние тексты в той же подтеме
-  const textsInTopic = texts.filter((t) => t.topic === text.topic)
+  const textsInTopic = catalog.filter((t) => t.topic === text.topic)
   const currentIdx = textsInTopic.findIndex((t) => t.id === id)
   const prevText = currentIdx > 0 ? textsInTopic[currentIdx - 1] : null
   const nextText = currentIdx >= 0 && currentIdx < textsInTopic.length - 1

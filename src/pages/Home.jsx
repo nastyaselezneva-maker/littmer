@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import texts from '../data/texts'
+import catalog from '../data/catalog'
 import { categories, iconPath } from '../data/topics'
 
 const categoryKeys = Object.keys(categories)
@@ -17,7 +17,7 @@ function Home() {
 
       <div className="step-grid">
         {categoryKeys.map((key) => {
-          const count = texts.filter((t) => t.category === key).length
+          const count = catalog.filter((t) => t.category === key).length
           const hasTexts = count > 0
           return (
             <Link

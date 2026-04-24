@@ -1326,6 +1326,12 @@ body.has-sidebar .app {
   box-shadow: 0 2px 6px rgba(67, 97, 166, 0.3);
 }
 
+.reader-loading {
+  text-align: center;
+  padding: 60px 20px;
+  color: var(--text-light);
+}
+
 /* Flashcards */
 .flashcard-area {
   display: flex;
