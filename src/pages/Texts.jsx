@@ -129,8 +129,7 @@ function Texts() {
           {availableTopics.map((key) => {
             const count = textsForCategory.filter((t) => t.topic === key).length
             return (
-              <button key={key} className="step-card" onClick={() => selectTopic(key)}>
-                <img src={iconPath(key)} alt="" className="step-card-icon" />
+              <button key={key} className="step-card step-card-text" onClick={() => selectTopic(key)}>
                 <span className="step-card-title">{getTopicLabel(key)}</span>
                 <span className="step-card-info">{count} текстов</span>
               </button>
@@ -139,8 +138,7 @@ function Texts() {
           {activeCategory && Object.keys(categories[activeCategory].topics)
             .filter((key) => !availableTopics.includes(key))
             .map((key) => (
-              <button key={key} className="step-card step-card-empty">
-                <img src={iconPath(key)} alt="" className="step-card-icon" />
+              <button key={key} className="step-card step-card-text step-card-empty">
                 <span className="step-card-title">{categories[activeCategory].topics[key].label}</span>
                 <span className="step-card-info">Скоро</span>
               </button>
@@ -151,13 +149,13 @@ function Texts() {
 
       {/* Шаг 3: Выбор уровня */}
       {step === 3 && (
-        <div className="step-grid">
+        <div className="level-list">
           {availableLevels.map((level) => {
             const count = textsForTopic.filter((t) => t.level === level).length
             return (
-              <button key={level} className="step-card" data-level={level} onClick={() => selectLevel(level)}>
-                <span className="step-card-title">{level}</span>
-                <span className="step-card-info">{count} текстов</span>
+              <button key={level} className="level-btn" data-level={level} onClick={() => selectLevel(level)}>
+                <span className="level-btn-label">{level}</span>
+                <span className="level-btn-info">{count} текстов</span>
               </button>
             )
           })}

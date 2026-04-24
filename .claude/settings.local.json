@@ -3,7 +3,8 @@
     "allow": [
       "Bash(node add-pos.cjs)",
       "Bash(node -e ' *)",
-      "Bash(npm install *)"
+      "Bash(npm install *)",
+      "Bash(node --check c:/_JOB_/APP/norsk-app/src/data/texts.js)"
     ]
   }
 }
