@@ -10,53 +10,59 @@
 export const categories = {
   driving: {
     label: "Вождение в Норвегии",
+    labelNo: "Kjøring i Norge",
     topics: {
-      traffic_signs: { label: "Знаки дорожного движения" },
-      car: { label: "Устройство автомобиля" },
-      motorcycle: { label: "Устройство мотоцикла" },
+      traffic_signs: { label: "Знаки дорожного движения", labelNo: "Trafikkskilt" },
+      car: { label: "Устройство автомобиля", labelNo: "Bilens oppbygning" },
+      motorcycle: { label: "Устройство мотоцикла", labelNo: "Motorsykkelens oppbygning" },
     },
   },
   economy: {
     label: "Экономика",
+    labelNo: "Økonomi",
     topics: {
-      banks: { label: "Банки Норвегии" },
-      mortgage: { label: "Ипотека в Норвегии" },
-      budget: { label: "Домашняя бухгалтерия" },
-      insurance: { label: "Страхование" },
-      oil_fund: { label: "Нефтяной фонд" },
+      banks: { label: "Банки Норвегии", labelNo: "Norske banker" },
+      mortgage: { label: "Ипотека в Норвегии", labelNo: "Boliglån i Norge" },
+      budget: { label: "Домашняя бухгалтерия", labelNo: "Husholdningsøkonomi" },
+      insurance: { label: "Страхование", labelNo: "Forsikring" },
+      oil_fund: { label: "Нефтяной фонд", labelNo: "Oljefondet" },
     },
   },
   society: {
     label: "Общество",
+    labelNo: "Samfunn",
     topics: {
-      bureaucracy: { label: "Бюрократия" },
-      digital_services: { label: "Цифровые сервисы" },
-      allemannsretten: { label: "Allemannsretten" },
-      janteloven: { label: "Janteloven" },
-      judicial: { label: "Судебная система" },
+      bureaucracy: { label: "Бюрократия", labelNo: "Byråkrati" },
+      digital_services: { label: "Цифровые сервисы", labelNo: "Digitale tjenester" },
+      allemannsretten: { label: "Allemannsretten", labelNo: "Allemannsretten" },
+      janteloven: { label: "Janteloven", labelNo: "Janteloven" },
+      judicial: { label: "Судебная система", labelNo: "Rettssystem" },
     },
   },
   science: {
     label: "Наука",
+    labelNo: "Vitenskap",
     topics: {
-      discoveries: { label: "Открытия" },
-      technology: { label: "Современные технологии" },
+      discoveries: { label: "Открытия", labelNo: "Oppdagelser" },
+      technology: { label: "Современные технологии", labelNo: "Moderne teknologi" },
     },
   },
   work: {
     label: "Работа",
+    labelNo: "Arbeid",
     topics: {
-      job_search: { label: "Поиск работы" },
-      interview: { label: "Собеседование" },
-      rights: { label: "Права работника" },
+      job_search: { label: "Поиск работы", labelNo: "Jobbsøk" },
+      interview: { label: "Собеседование", labelNo: "Jobbintervju" },
+      rights: { label: "Права работника", labelNo: "Arbeidstakerrettigheter" },
     },
   },
   education: {
     label: "Образование",
+    labelNo: "Utdanning",
     topics: {
-      school: { label: "Школа" },
-      university: { label: "Университет" },
-      norwegian_course: { label: "Норвежский для иностранцев" },
+      school: { label: "Школа", labelNo: "Skole" },
+      university: { label: "Университет", labelNo: "Universitet" },
+      norwegian_course: { label: "Норвежский для иностранцев", labelNo: "Norsk for utlendinger" },
     },
   },
 }
@@ -112,6 +118,13 @@ export function getTopicLabel(topicKey) {
     if (cat.topics[topicKey]) return cat.topics[topicKey].label
   }
   return topicKey
+}
+
+export function getTopicLabelNo(topicKey) {
+  for (const cat of Object.values(categories)) {
+    if (cat.topics[topicKey]) return cat.topics[topicKey].labelNo
+  }
+  return null
 }
 
 export function getCategoryKey(topicKey) {

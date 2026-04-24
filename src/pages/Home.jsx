@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import catalog from '../data/catalog'
 import { categories, iconPath } from '../data/topics'
+import { plural, texts as textsForms } from '../utils/plural'
 
 const categoryKeys = Object.keys(categories)
 
@@ -26,9 +27,12 @@ function Home() {
               className={`step-card ${!hasTexts ? 'step-card-empty' : ''}`}
             >
               <img src={iconPath(key)} alt="" className="step-card-icon" />
-              <span className="step-card-title">{categories[key].label}</span>
+              <span className="step-card-title">
+                {categories[key].label}
+                <span className="step-card-subtitle">{categories[key].labelNo}</span>
+              </span>
               <span className="step-card-info">
-                {hasTexts ? `${count} текстов` : 'Скоро'}
+                {hasTexts ? `${count} ${plural(count, textsForms)}` : 'Скоро'}
               </span>
             </Link>
           )

@@ -1,7 +1,8 @@
 import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import catalog from '../data/catalog'
-import { categories, levels, lengths, levelDescriptions, getTopicLabel, iconPath } from '../data/topics'
+import { categories, levels, lengths, levelDescriptions, getTopicLabel, getTopicLabelNo, iconPath } from '../data/topics'
+import { plural, texts as textsForms } from '../utils/plural'
 import useProgress from '../hooks/useProgress'
 
 const categoryKeys = Object.keys(categories)
@@ -110,10 +111,13 @@ function Texts() {
                 onClick={() => hasTexts && selectCategory(key)}
               >
                 <img src={iconPath(key)} alt="" className="step-card-icon" />
-                <span className="step-card-title">{categories[key].label}</span>
+                <span className="step-card-title">
+                  {categories[key].label}
+                  <span className="step-card-subtitle">{categories[key].labelNo}</span>
+                </span>
                 <span className="step-card-info">
                   {hasTexts
-                    ? `${count} текстов${readCount > 0 ? ` · ${readCount} прочитано` : ''}`
+                    ? `${count} ${plural(count, textsForms)}${readCount > 0 ? ` · ${readCount} прочитано` : ''}`
                     : 'Скоро'
                   }
                 </span>
@@ -130,8 +134,11 @@ function Texts() {
             const count = textsForCategory.filter((t) => t.topic === key).length
             return (
               <button key={key} className="step-card step-card-text" onClick={() => selectTopic(key)}>
-                <span className="step-card-title">{getTopicLabel(key)}</span>
-                <span className="step-card-info">{count} текстов</span>
+                <span className="step-card-title">
+                  {getTopicLabel(key)}
+                  <span className="step-card-subtitle">{getTopicLabelNo(key)}</span>
+                </span>
+                <span className="step-card-info">{count} {plural(count, textsForms)}</span>
               </button>
             )
           })}
@@ -139,7 +146,10 @@ function Texts() {
             .filter((key) => !availableTopics.includes(key))
             .map((key) => (
               <button key={key} className="step-card step-card-text step-card-empty">
-                <span className="step-card-title">{categories[activeCategory].topics[key].label}</span>
+                <span className="step-card-title">
+                  {categories[activeCategory].topics[key].label}
+                  <span className="step-card-subtitle">{categories[activeCategory].topics[key].labelNo}</span>
+                </span>
                 <span className="step-card-info">Скоро</span>
               </button>
             ))

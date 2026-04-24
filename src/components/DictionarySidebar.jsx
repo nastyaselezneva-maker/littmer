@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 import useDictionary from '../hooks/useDictionary'
 import { speak, SHOW_AUDIO } from '../utils/speak'
 
@@ -45,6 +46,9 @@ function DictionarySidebar({ isOpen, onClose }) {
           </div>
         ))}
       </div>
+      <Link to="/dictionary?mode=cards" className="dict-sidebar-study">
+        Учить
+      </Link>
     </aside>
   )
 }

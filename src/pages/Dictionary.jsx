@@ -2,6 +2,7 @@ import { useState } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import useDictionary from '../hooks/useDictionary'
 import { speak, SHOW_AUDIO } from '../utils/speak'
+import { plural, words as wordsForms } from '../utils/plural'
 
 function Dictionary() {
   const { words, removeWord, clearAll } = useDictionary()
@@ -66,7 +67,7 @@ function Dictionary() {
               className={`mode-btn ${mode === 'cards' ? 'active' : ''}`}
               onClick={() => setMode('cards')}
             >
-              Карточки
+              Учить
             </button>
           </div>
         )}
@@ -87,7 +88,7 @@ function Dictionary() {
               onChange={(e) => setSearch(e.target.value)}
             />
             <span className="dictionary-count">
-              {query ? `${filteredWords.length} из ${words.length}` : `${words.length} слов`}
+              {query ? `${filteredWords.length} из ${words.length}` : `${words.length} ${plural(words.length, wordsForms)}`}
             </span>
             <button
               className={`dictionary-clear ${confirmClear ? 'dictionary-clear-confirm' : ''}`}
