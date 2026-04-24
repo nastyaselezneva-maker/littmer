@@ -1364,6 +1364,20 @@ body.has-sidebar .app {
   color: var(--text-light);
 }
 
+.text-title-no {
+  margin: 2px 0 6px;
+  font-size: 0.95rem;
+  font-style: italic;
+  color: var(--text-light);
+}
+
+.reader-title-no {
+  margin: -8px 0 16px;
+  font-size: 1.15rem;
+  font-style: italic;
+  color: var(--text-light);
+}
+
 /* Flashcards */
 .flashcard-area {
   display: flex;

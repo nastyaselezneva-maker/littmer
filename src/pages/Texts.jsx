@@ -202,6 +202,7 @@ function Texts() {
                   {text.title}
                   <span className="text-title-length">· {lengths[text.length]}</span>
                 </h2>
+                {text.titleNo && <p className="text-title-no">{text.titleNo}</p>}
                 <p className="text-description">{text.description}</p>
               </Link>
             ))

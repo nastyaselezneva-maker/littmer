@@ -8,15 +8,6 @@
  */
 
 export const categories = {
-  driving: {
-    label: "Вождение в Норвегии",
-    labelNo: "Kjøring i Norge",
-    topics: {
-      traffic_signs: { label: "Знаки дорожного движения", labelNo: "Trafikkskilt" },
-      car: { label: "Устройство автомобиля", labelNo: "Bilens oppbygning" },
-      motorcycle: { label: "Устройство мотоцикла", labelNo: "Motorsykkelens oppbygning" },
-    },
-  },
   economy: {
     label: "Экономика",
     labelNo: "Økonomi",
@@ -63,6 +54,35 @@ export const categories = {
       school: { label: "Школа", labelNo: "Skole" },
       university: { label: "Университет", labelNo: "Universitet" },
       norwegian_course: { label: "Норвежский для иностранцев", labelNo: "Norsk for utlendinger" },
+    },
+  },
+  culture: {
+    label: "Культура и искусство",
+    labelNo: "Kultur og kunst",
+    topics: {
+      literature: { label: "Литература", labelNo: "Litteratur" },
+      art: { label: "Изобразительное искусство", labelNo: "Billedkunst" },
+      music: { label: "Музыка", labelNo: "Musikk" },
+      cinema: { label: "Кино", labelNo: "Film" },
+    },
+  },
+  health: {
+    label: "Медицина и здоровье",
+    labelNo: "Helse og medisin",
+    topics: {
+      fastlege: { label: "Терапевт и поликлиника", labelNo: "Fastlege og legesenter" },
+      hospital: { label: "Больница и скорая", labelNo: "Sykehus og akutthjelp" },
+      pharmacy: { label: "Аптека и лекарства", labelNo: "Apotek og medisiner" },
+      mental_health: { label: "Психическое здоровье", labelNo: "Psykisk helse" },
+    },
+  },
+  driving: {
+    label: "Вождение в Норвегии",
+    labelNo: "Kjøring i Norge",
+    topics: {
+      traffic_signs: { label: "Знаки дорожного движения", labelNo: "Trafikkskilt" },
+      car: { label: "Устройство автомобиля", labelNo: "Bilens oppbygning" },
+      motorcycle: { label: "Устройство мотоцикла", labelNo: "Motorsykkelens oppbygning" },
     },
   },
 }

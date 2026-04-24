@@ -152,6 +152,7 @@ function Reader() {
       </div>
 
       <h1>{text.title}</h1>
+      {text.titleNo && <p className="reader-title-no">{text.titleNo}</p>}
 
       <div className="reader-controls">
         <label className="control-label">
