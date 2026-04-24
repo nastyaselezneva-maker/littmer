@@ -1,10 +1,13 @@
 import { useState } from 'react'
+import { useSearchParams } from 'react-router-dom'
 import useDictionary from '../hooks/useDictionary'
 import { speak, SHOW_AUDIO } from '../utils/speak'
 
 function Dictionary() {
   const { words, removeWord, clearAll } = useDictionary()
-  const [mode, setMode] = useState('list') // 'list' или 'cards'
+  const [searchParams] = useSearchParams()
+  const initialMode = searchParams.get('mode') === 'cards' ? 'cards' : 'list'
+  const [mode, setMode] = useState(initialMode)
   const [search, setSearch] = useState('')
   const [cardIndex, setCardIndex] = useState(0)
   const [flipped, setFlipped] = useState(false)

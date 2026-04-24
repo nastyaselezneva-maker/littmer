@@ -8,7 +8,7 @@ function Home() {
   return (
     <div className="home">
       <div className="home-hero">
-        <h1>NorskApp</h1>
+        <h1>LittMer</h1>
         <p className="home-subtitle">
           Учи норвежский через чтение. Тексты на русском языке с норвежскими словами —
           нажимай на слова, чтобы увидеть перевод и сохранить в личный словарь.

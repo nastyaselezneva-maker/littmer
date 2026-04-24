@@ -10,7 +10,7 @@ function Layout() {
     <div className="app">
       <header className="header">
         <nav className="nav">
-          <NavLink to="/" className="logo">NorskApp</NavLink>
+          <NavLink to="/" className="logo">LittMer</NavLink>
           <div className="nav-links">
             <NavLink to="/texts">Тексты</NavLink>
             <NavLink to="/dictionary">Словарь</NavLink>
