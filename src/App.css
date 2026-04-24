@@ -1326,65 +1326,6 @@ body.has-sidebar .app {
   box-shadow: 0 2px 6px rgba(67, 97, 166, 0.3);
 }
 
-.home-topics {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 16px;
-  margin-top: 16px;
-}
-
-.home-topic-card {
-  background: var(--surface);
-  border: none;
-  border-radius: 20px;
-  padding: 0;
-  text-align: center;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
-  transition: all 0.2s;
-  display: flex;
-  flex-direction: column;
-  align-items: stretch;
-  gap: 0;
-  overflow: hidden;
-  position: relative;
-  aspect-ratio: 1 / 1;
-}
-
-.home-topic-card:hover {
-  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
-  transform: translateY(-2px);
-}
-
-.home-topic-icon {
-  position: absolute;
-  inset: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-.home-topic-title {
-  position: relative;
-  z-index: 2;
-  margin-top: auto;
-  font-size: 1.3rem;
-  font-weight: 700;
-  color: white;
-  padding: 16px 18px 6px;
-  background: linear-gradient(to top, rgba(30, 58, 138, 0.88) 0%, rgba(30, 58, 138, 0.55) 70%, transparent 100%);
-  text-shadow: 0 1px 3px rgba(30, 58, 138, 0.7);
-}
-
-.home-topic-count {
-  position: relative;
-  z-index: 2;
-  font-size: 0.95rem;
-  color: rgba(255,255,255,0.9);
-  padding: 0 18px 16px;
-  background: rgba(30, 58, 138, 0.88);
-  text-shadow: 0 1px 2px rgba(30, 58, 138, 0.7);
-}
-
 /* Flashcards */
 .flashcard-area {
   display: flex;
@@ -1495,4 +1436,224 @@ body.has-sidebar .app {
 .flashcard-btn-next:hover {
   background: var(--primary-light);
   color: white;
+}
+
+/* ============ Адаптив: планшет ============ */
+@media (max-width: 900px) {
+  .main {
+    padding: 24px 16px;
+  }
+
+  .step-grid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+  }
+
+  .reader-footer {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .reader-footer .prev-btn,
+  .reader-footer .next-btn {
+    text-align: center;
+  }
+
+  .dict-sidebar {
+    width: 280px;
+  }
+
+  body.has-sidebar .app {
+    width: calc(100vw - 280px);
+  }
+
+  .login-card {
+    padding: 32px 24px;
+  }
+}
+
+/* ============ Адаптив: мобильный ============ */
+@media (max-width: 600px) {
+  .header {
+    padding: 0 12px;
+  }
+
+  .nav {
+    padding: 12px 0;
+    gap: 10px;
+    flex-wrap: wrap;
+  }
+
+  .nav-brand {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    gap: 6px;
+    font-size: 0.9rem;
+  }
+
+  .main {
+    padding: 20px 12px;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  .read-counter {
+    display: block;
+    font-size: 0.85rem;
+    margin-top: 4px;
+  }
+
+  /* Сетка категорий/подтем: 2 в ряд */
+  .step-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+  }
+
+  .step-card-title {
+    font-size: 1.05rem;
+    padding: 12px 10px 6px;
+  }
+
+  .step-card-info {
+    font-size: 0.85rem;
+    padding: 0 10px 12px;
+  }
+
+  .step-card-text {
+    padding: 14px;
+  }
+
+  .step-card-text .step-card-title {
+    font-size: 1.05rem;
+  }
+
+  .step-card-text .step-card-info {
+    font-size: 0.8rem;
+  }
+
+  /* Хлебные крошки — мельче и с переносом */
+  .breadcrumbs {
+    flex-wrap: wrap;
+    font-size: 0.85rem;
+  }
+
+  /* Уровни */
+  .level-btn {
+    padding: 12px 16px;
+  }
+
+  .level-btn-label {
+    font-size: 1.1rem;
+  }
+
+  /* Карточки текстов */
+  .text-card {
+    padding: 14px 16px;
+  }
+
+  .text-title {
+    font-size: 1.05rem;
+  }
+
+  /* Читалка */
+  .reader-controls {
+    padding: 10px 14px;
+    gap: 10px;
+  }
+
+  .percent-slider {
+    flex: 1 1 100%;
+    order: 3;
+  }
+
+  .control-hint {
+    min-width: 0;
+    text-align: left;
+  }
+
+  .reader-text {
+    font-size: 1rem;
+    line-height: 1.7;
+  }
+
+  .reader-header {
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  /* Словарь: полноэкранный оверлей */
+  .dict-sidebar {
+    width: 100vw;
+    z-index: 50;
+  }
+
+  body.has-sidebar .app {
+    width: 100vw;
+  }
+
+  .dict-open-btn {
+    bottom: 16px;
+    right: 16px;
+    padding: 10px 16px;
+    font-size: 0.9rem;
+  }
+
+  /* Словарь (страница): карточки в столбик */
+  .dictionary-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+
+  .dictionary-toolbar {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .dictionary-search {
+    flex: 1 1 100%;
+  }
+
+  .dictionary-list {
+    grid-template-columns: 1fr;
+  }
+
+  .flashcard {
+    min-height: 220px;
+    font-size: 1.4rem;
+  }
+
+  .flashcard-word {
+    font-size: 1.6rem;
+  }
+
+  /* Login */
+  .login-card {
+    padding: 24px 18px;
+    border-radius: 16px;
+  }
+
+  .login-title {
+    font-size: 1.3rem;
+  }
+
+  /* Уровень-инфо блок */
+  .level-info {
+    padding: 16px;
+  }
+}
+
+/* ============ Очень узкие экраны ============ */
+@media (max-width: 380px) {
+  .step-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nav-links {
+    font-size: 0.85rem;
+  }
 }

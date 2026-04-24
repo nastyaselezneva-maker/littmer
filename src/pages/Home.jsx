@@ -15,15 +15,21 @@ function Home() {
         </p>
       </div>
 
-      <div className="home-topics">
+      <div className="step-grid">
         {categoryKeys.map((key) => {
           const count = texts.filter((t) => t.category === key).length
+          const hasTexts = count > 0
           return (
-            <Link to={count > 0 ? `/texts?category=${key}` : "/texts"} key={key} className="home-topic-card">
-              <img src={iconPath(key)} alt="" className="home-topic-icon" />
-              <span className="home-topic-title">{categories[key].label}</span>
-              {count > 0 && <span className="home-topic-count">{count} текстов</span>}
-              {count === 0 && <span className="home-topic-count">Скоро</span>}
+            <Link
+              to={hasTexts ? `/texts?category=${key}` : "/texts"}
+              key={key}
+              className={`step-card ${!hasTexts ? 'step-card-empty' : ''}`}
+            >
+              <img src={iconPath(key)} alt="" className="step-card-icon" />
+              <span className="step-card-title">{categories[key].label}</span>
+              <span className="step-card-info">
+                {hasTexts ? `${count} текстов` : 'Скоро'}
+              </span>
             </Link>
           )
         })}
