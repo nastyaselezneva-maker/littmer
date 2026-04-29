@@ -102,8 +102,7 @@ function Reader() {
   const hasWords = words.length > 0
   const { markAsRead, isRead } = useProgress()
   const textIsRead = text ? isRead(id) : false
-  const savedPercent = localStorage.getItem('norsk-percent')
-  const [noPercent, setNoPercent] = useState(savedPercent ? Number(savedPercent) : 50)
+  const [noPercent, setNoPercent] = useState(50)
   const [sidebarOpen, setSidebarOpen] = useState(true)
   const sidebarVisible = hasWords && sidebarOpen
   const [isSpeaking, setIsSpeaking] = useState(false)
@@ -202,7 +201,6 @@ function Reader() {
 
   function handlePercentChange(value) {
     setNoPercent(value)
-    localStorage.setItem('norsk-percent', value)
   }
 
   if (loading) {
@@ -244,9 +242,7 @@ function Reader() {
     visibleSet.add(idx)
     accumulated += segmentNoWords[idx]
   }
-  const noSegments = text.segments.filter((s) => s.type === "no")
-  const noCount = noSegments.length
-  const visibleNoSegmentsCount = text.segments.filter((s, i) => s.type === 'no' && visibleSet.has(i)).length
+  const visibleNoWords = accumulated
 
   return (
     <div className={`reader-layout ${sidebarVisible ? 'reader-layout-with-sidebar' : ''}`}>
@@ -276,7 +272,7 @@ function Reader() {
         />
         <span className="control-hint">
           {noPercent === 0 && "Полностью русский"}
-          {noPercent > 0 && noPercent < 100 && `${visibleNoSegmentsCount} из ${noCount} слов`}
+          {noPercent > 0 && noPercent < 100 && `${visibleNoWords} из ${totalNoWords} слов`}
           {noPercent === 100 && "Полностью норвежский"}
         </span>
         {SHOW_AUDIO && (

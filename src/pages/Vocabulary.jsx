@@ -12,6 +12,10 @@ const POS_LABELS = {
   adj: 'Прилагательное',
   adv: 'Наречие',
   num: 'Числительное',
+  pronoun: 'Местоимение',
+  prep: 'Предлог',
+  conj: 'Союз',
+  interj: 'Междометие',
   phrase: 'Устойчивое выражение',
 }
 
@@ -248,6 +252,7 @@ function Vocabulary() {
           <tr>
             <th>Слово</th>
             <th>Перевод</th>
+            {posFilter === 'all' && <th>Часть речи</th>}
             <th>Форма</th>
             <th>Раз</th>
             <th>Уровни</th>
@@ -267,6 +272,7 @@ function Vocabulary() {
                     {isCognate(w.word) && <span className="vocab-cognate" title="Похоже на русский">≈</span>}
                   </td>
                   <td className="vocab-translation">{w.translation}</td>
+                  {posFilter === 'all' && <td className="vocab-pos">{POS_LABELS[w.pos] || ''}</td>}
                   <td className="vocab-form">{getForm(w.word, w.pos)}</td>
                   <td className="vocab-count-cell">{w.count}</td>
                   <td>
@@ -290,7 +296,7 @@ function Vocabulary() {
                 </tr>
                 {isOpen && (
                   <tr className="vocab-row-expanded">
-                    <td colSpan="7">
+                    <td colSpan={posFilter === 'all' ? 8 : 7}>
                       <div className="vocab-expanded">
                         <div className="vocab-forms">
                           <strong>Формы в текстах:</strong>{' '}

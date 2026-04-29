@@ -977,6 +977,7 @@ body.has-sidebar .app {
 .no-word {
   color: var(--primary);
   font-weight: 600;
+  font-style: normal;
   border-bottom: 1px dashed var(--primary);
   cursor: pointer;
 }
