@@ -16,6 +16,7 @@ function Layout() {
           <NavLink to="/" className="logo">LittMer</NavLink>
           <div className="nav-links">
             <NavLink to="/texts">Тексты</NavLink>
+            <NavLink to="/vocabulary">Лексика</NavLink>
             <Link to="/dictionary" className={isDictList ? 'active' : ''}>Словарь</Link>
             <Link to="/dictionary?mode=cards" className={isCardsMode ? 'active' : ''}>Учить</Link>
             {isAuthenticated ? (
