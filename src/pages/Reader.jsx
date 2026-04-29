@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useMemo } from 'react'
 import { useParams, Link } from 'react-router-dom'
 import catalog from '../data/catalog'
 import { getTopicLabel } from '../data/topics'
@@ -8,10 +8,96 @@ import useDictionary from '../hooks/useDictionary'
 import useProgress from '../hooks/useProgress'
 import { speak, stopSpeaking, getNorwegianVoices, getSelectedVoiceName, setSelectedVoice, SHOW_AUDIO } from '../utils/speak'
 
+// Хэшируем id текста, чтобы получить детерминированное зерно
+function hashId(s) {
+  let h = 0
+  for (let i = 0; i < s.length; i++) {
+    h = ((h << 5) - h) + s.charCodeAt(i)
+    h |= 0
+  }
+  return h
+}
+
+// Mulberry32 — простой PRNG, возвращает функцию rand()
+function makeRand(seed) {
+  let s = seed >>> 0
+  return function () {
+    s = (s + 0x6D2B79F5) >>> 0
+    let t = Math.imul(s ^ (s >>> 15), 1 | s)
+    t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t
+    return ((t ^ (t >>> 14)) >>> 0) / 4294967296
+  }
+}
+
+// Возвращает массив индексов [0..n-1], перемешанный детерминированно
+function seededShuffle(n, seed) {
+  const arr = Array.from({ length: n }, (_, i) => i)
+  const rand = makeRand(seed)
+  for (let i = n - 1; i > 0; i--) {
+    const j = Math.floor(rand() * (i + 1))
+    ;[arr[i], arr[j]] = [arr[j], arr[i]]
+  }
+  return arr
+}
+
+// Разбиваем строку на токены (норвежские слова) + разделители (пунктуация, пробелы),
+// возвращаем массив React-элементов: WordTooltip для слов с найденным переводом,
+// иначе обычный span.
+function tokenizeWithTooltips(text, lookup, addWord, hasWord) {
+  if (!text) return null
+  const parts = []
+  const wordRegex = /[a-zæøåäöA-ZÆØÅÄÖ]+(?:-[a-zæøåäöA-ZÆØÅÄÖ]+)*/g
+  let lastIndex = 0
+  let match
+  let k = 0
+  while ((match = wordRegex.exec(text)) !== null) {
+    if (match.index > lastIndex) {
+      parts.push({ type: 'sep', text: text.slice(lastIndex, match.index), k: k++ })
+    }
+    parts.push({ type: 'word', text: match[0], k: k++ })
+    lastIndex = match.index + match[0].length
+  }
+  if (lastIndex < text.length) {
+    parts.push({ type: 'sep', text: text.slice(lastIndex), k: k++ })
+  }
+
+  return parts.map((p) => {
+    if (p.type === 'sep') return <span key={p.k}>{p.text}</span>
+    const entry = lookup[p.text.toLowerCase()]
+    if (!entry) return <span key={p.k}>{p.text}</span>
+    return (
+      <WordTooltip
+        key={p.k}
+        text={p.text}
+        translation={entry.tr}
+        dict={entry.dict}
+        transcription={entry.ts}
+        pos={entry.pos}
+        onAdd={addWord}
+        isSaved={hasWord(p.text)}
+      />
+    )
+  })
+}
+
+// Кеш lookup.json — грузим один раз
+let lookupCache = null
+let lookupPromise = null
+function loadLookup() {
+  if (lookupCache) return Promise.resolve(lookupCache)
+  if (lookupPromise) return lookupPromise
+  lookupPromise = fetch('/lookup.json')
+    .then((r) => (r.ok ? r.json() : {}))
+    .then((d) => { lookupCache = d; return d })
+    .catch(() => ({}))
+  return lookupPromise
+}
+
 function Reader() {
   const { id } = useParams()
   const [text, setText] = useState(null)
   const [loading, setLoading] = useState(true)
+  const [lookup, setLookup] = useState(lookupCache || {})
   const { addWord, hasWord, words } = useDictionary()
   const hasWords = words.length > 0
   const { markAsRead, isRead } = useProgress()
@@ -58,6 +144,11 @@ function Reader() {
     return () => stopSpeaking()
   }, [])
 
+  // Подгружаем словарь подсказок (lookup.json) для тултипов в связках
+  useEffect(() => {
+    loadLookup().then(setLookup)
+  }, [])
+
   // Голоса в некоторых браузерах загружаются асинхронно
   useEffect(() => {
     if (!('speechSynthesis' in window)) return
@@ -73,6 +164,22 @@ function Reader() {
     setSelectedVoiceState(name)
     setSelectedVoice(name)
   }
+
+  // Стабильный случайный порядок ВСЕХ сегментов — двигая ползунок выше,
+  // мы только добавляем сегменты в норвежский режим, не меняем уже видимые.
+  const shuffleOrder = useMemo(() => {
+    if (!text) return []
+    return seededShuffle(text.segments.length, hashId(text.id))
+  }, [text])
+
+  // Подсчитываем количество слов в норвежском варианте каждого сегмента.
+  const segmentNoWords = useMemo(() => {
+    if (!text) return []
+    return text.segments.map((seg) => {
+      const noText = seg.type === 'no' ? (seg.text || '') : (seg.no || '')
+      return noText.trim().split(/\s+/).filter(Boolean).length
+    })
+  }, [text])
 
   // Собираем полный норвежский текст из сегментов
   function getFullNorwegianText() {
@@ -123,23 +230,23 @@ function Reader() {
     ? textsInTopic[currentIdx + 1]
     : null
 
-  // Считаем сколько норвежских слов показывать
-  // 0% = все на русском, 90% = все норвежские слова, 100% = весь текст на норвежском
+  // Линейная шкала по всем словам текста.
+  // 0% — всё на русском, 100% — весь текст по-норвежски.
+  // X% — примерно X% от всех норвежских слов уже показано.
+  const totalNoWords = segmentNoWords.reduce((a, b) => a + b, 0)
+  const targetNoWords = Math.round((totalNoWords * noPercent) / 100)
+
+  // Идём по перемешанному порядку, накапливая слова, пока не достигнем цели.
+  const visibleSet = new Set()
+  let accumulated = 0
+  for (const idx of shuffleOrder) {
+    if (accumulated >= targetNoWords) break
+    visibleSet.add(idx)
+    accumulated += segmentNoWords[idx]
+  }
   const noSegments = text.segments.filter((s) => s.type === "no")
   const noCount = noSegments.length
-  const allWordsVisible = noPercent >= 90
-  const showCount = allWordsVisible ? noCount : Math.round(noCount * noPercent / 90)
-
-  // Равномерно распределяем норвежские слова по тексту
-  const visibleSet = new Set()
-  if (showCount > 0 && showCount < noCount) {
-    const step = noCount / showCount
-    for (let i = 0; i < showCount; i++) {
-      visibleSet.add(Math.floor(i * step))
-    }
-  }
-
-  let noIndex = 0
+  const visibleNoSegmentsCount = text.segments.filter((s, i) => s.type === 'no' && visibleSet.has(i)).length
 
   return (
     <div className={`reader-layout ${sidebarVisible ? 'reader-layout-with-sidebar' : ''}`}>
@@ -169,8 +276,7 @@ function Reader() {
         />
         <span className="control-hint">
           {noPercent === 0 && "Полностью русский"}
-          {noPercent > 0 && noPercent < 90 && `${showCount} из ${noCount} слов`}
-          {noPercent >= 90 && noPercent < 100 && `Все ${noCount} слов`}
+          {noPercent > 0 && noPercent < 100 && `${visibleNoSegmentsCount} из ${noCount} слов`}
           {noPercent === 100 && "Полностью норвежский"}
         </span>
         {SHOW_AUDIO && (
@@ -203,22 +309,22 @@ function Reader() {
 
       <div className="reader-text">
         {text.segments.map((segment, index) => {
+          const showAsNorwegian = visibleSet.has(index)
+
           // Русский сегмент
           if (segment.type !== "no") {
-            // При 100% показываем норвежский вариант фразы
-            if (noPercent === 100 && segment.no) {
-              return <span key={index} className="ru-as-no">{segment.no}</span>
+            if (showAsNorwegian && segment.no) {
+              // Токенизируем — слова со словарной записью получают тултип, остальные — текстом
+              return (
+                <span key={index} className="ru-as-no">
+                  {tokenizeWithTooltips(segment.no, lookup, addWord, hasWord)}
+                </span>
+              )
             }
             return <span key={index}>{segment.text}</span>
           }
 
           // Норвежский сегмент
-          const currentNoIndex = noIndex
-          noIndex++
-
-          // Определяем: показать как норвежское или как русский перевод
-          const showAsNorwegian = showCount >= noCount || visibleSet.has(currentNoIndex)
-
           if (!showAsNorwegian) {
             return <span key={index}>{segment.translation}</span>
           }
