@@ -4,6 +4,7 @@ import Home from './pages/Home'
 import Texts from './pages/Texts'
 import Reader from './pages/Reader'
 import Dictionary from './pages/Dictionary'
+import Admin from './pages/Admin'
 import Login from './pages/Login'
 import { AuthProvider } from './hooks/useAuth'
 import { DictionaryProvider } from './hooks/useDictionary'
@@ -32,6 +33,7 @@ function AppRoutes() {
         <Route path="/texts" element={<Texts />} />
         <Route path="/texts/:id" element={<Reader />} />
         <Route path="/dictionary" element={<Dictionary />} />
+        <Route path="/admin" element={<Admin />} />
       </Route>
     </Routes>
   )
