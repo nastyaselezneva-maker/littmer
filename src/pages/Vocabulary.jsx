@@ -19,6 +19,19 @@ const POS_LABELS = {
   phrase: 'Устойчивое выражение',
 }
 
+const POS_LABELS_NO = {
+  noun: 'substantiv',
+  verb: 'verb',
+  adj: 'adjektiv',
+  adv: 'adverb',
+  num: 'tallord',
+  pronoun: 'pronomen',
+  prep: 'preposisjon',
+  conj: 'konjunksjon',
+  interj: 'interjeksjon',
+  phrase: 'fast uttrykk',
+}
+
 // Простая эвристика «когнат» — слова, которые узнаются русскоговорящему.
 // Латинские буквы есть только норвежские, но многие интернационализмы созвучны.
 const COGNATE_HINTS = [
@@ -272,7 +285,7 @@ function Vocabulary() {
                     {isCognate(w.word) && <span className="vocab-cognate" title="Похоже на русский">≈</span>}
                   </td>
                   <td className="vocab-translation">{w.translation}</td>
-                  {posFilter === 'all' && <td className="vocab-pos">{POS_LABELS[w.pos] || ''}</td>}
+                  {posFilter === 'all' && <td className="vocab-pos">{POS_LABELS_NO[w.pos] || ''}</td>}
                   <td className="vocab-form">{getForm(w.word, w.pos)}</td>
                   <td className="vocab-count-cell">{w.count}</td>
                   <td>
