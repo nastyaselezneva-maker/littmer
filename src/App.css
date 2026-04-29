@@ -1999,18 +1999,27 @@ body.has-sidebar .app {
   }
 
   .nav {
-    padding: 12px 0;
-    gap: 10px;
-    flex-wrap: wrap;
+    flex-direction: column;
+    gap: 8px;
+    height: auto;
+    padding: 10px 0;
   }
 
-  .nav-brand {
+  .logo {
     font-size: 1.1rem;
   }
 
   .nav-links {
-    gap: 6px;
-    font-size: 0.9rem;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px 14px;
+    font-size: 0.95rem;
+  }
+
+  .nav-user-inline {
+    border-left: none;
+    padding-left: 0;
   }
 
   .main {
