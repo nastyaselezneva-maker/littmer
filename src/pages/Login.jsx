@@ -61,7 +61,7 @@ function Login() {
 
   const subtitles = {
     login: 'Войди, чтобы продолжить свой словарь',
-    register: 'Создай аккаунт — словарь и прогресс будут синхронизироваться между устройствами',
+    register: 'Создай аккаунт за пару кликов',
     reset: 'Введи email — пришлём ссылку для сброса',
   }
 
@@ -70,6 +70,15 @@ function Login() {
       <div className="login-card">
         <h1 className="login-title">{titles[mode]}</h1>
         <p className="login-subtitle">{subtitles[mode]}</p>
+
+        {mode === 'register' && (
+          <ul className="login-benefits">
+            <li><strong>Словарь между устройствами</strong> — собранные слова доступны на телефоне, ноутбуке, планшете.</li>
+            <li><strong>Прогресс не теряется</strong> — даже если очистишь кэш или сменишь браузер.</li>
+            <li><strong>Карточки «Учить»</strong> — твои слова превращаются во флешкарты для повторения.</li>
+            <li><strong>Восстановление пароля</strong> — забыл? пришлём ссылку на email.</li>
+          </ul>
+        )}
 
         <form onSubmit={handleSubmit} className="login-form">
           <label className="login-field">

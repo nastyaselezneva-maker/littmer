@@ -124,6 +124,29 @@
   font-size: 0.95rem;
 }
 
+.login-benefits {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.login-benefits li {
+  background: var(--bg);
+  padding: 10px 14px;
+  border-radius: 10px;
+  border-left: 3px solid var(--primary);
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--text);
+}
+
+.login-benefits strong {
+  color: var(--primary-dark);
+}
+
 .login-form {
   display: flex;
   flex-direction: column;
