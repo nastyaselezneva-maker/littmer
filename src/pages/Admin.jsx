@@ -1,6 +1,8 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
+import { Link } from 'react-router-dom'
 import catalog from '../data/catalog'
 import { categories, getTopicLabel } from '../data/topics'
+import { supabase } from '../lib/supabase'
 
 const levels = ['A2', 'B1', 'B2']
 
@@ -11,10 +13,40 @@ function countBy(items, key) {
   }, {})
 }
 
+// Карта id текста → метаданные (для отображения названий)
+const catalogById = Object.fromEntries(catalog.map((t) => [t.id, t]))
+
 function Admin() {
   const [deepStats, setDeepStats] = useState(null)
   const [loading, setLoading] = useState(false)
   const [progress, setProgress] = useState(0)
+
+  const [globalStats, setGlobalStats] = useState(null)
+  const [popularTexts, setPopularTexts] = useState([])
+  const [topWords, setTopWords] = useState([])
+  const [signupsPerDay, setSignupsPerDay] = useState([])
+  const [globalLoading, setGlobalLoading] = useState(true)
+
+  // Загружаем глобальную статистику из Supabase при монтировании
+  useEffect(() => {
+    let cancelled = false
+    async function load() {
+      const [statsRes, popRes, wordsRes, signupsRes] = await Promise.all([
+        supabase.rpc('get_global_stats'),
+        supabase.rpc('get_popular_texts', { lim: 20 }),
+        supabase.rpc('get_top_words', { lim: 30 }),
+        supabase.rpc('get_signups_per_day'),
+      ])
+      if (cancelled) return
+      if (!statsRes.error && statsRes.data) setGlobalStats(statsRes.data[0])
+      if (!popRes.error) setPopularTexts(popRes.data || [])
+      if (!wordsRes.error) setTopWords(wordsRes.data || [])
+      if (!signupsRes.error) setSignupsPerDay(signupsRes.data || [])
+      setGlobalLoading(false)
+    }
+    load()
+    return () => { cancelled = true }
+  }, [])
 
   // === Базовые метрики (мгновенно из каталога) ===
   const total = catalog.length
@@ -105,10 +137,106 @@ function Admin() {
   return (
     <div className="admin">
       <h1>Админская панель</h1>
-      <p className="admin-subtitle">Статистика по контенту приложения</p>
+      <p className="admin-subtitle">Контент и активность пользователей</p>
 
       <section className="admin-section">
-        <h2>Всего текстов: {total}</h2>
+        <h2>Глобальная статистика</h2>
+        {globalLoading && <p>Загружаю данные…</p>}
+        {!globalLoading && globalStats && (
+          <>
+            <div className="admin-grid">
+              <div className="admin-card">
+                <span className="admin-card-num">{globalStats.total_users}</span>
+                <span className="admin-card-label">пользователей</span>
+              </div>
+              <div className="admin-card">
+                <span className="admin-card-num">{globalStats.total_words}</span>
+                <span className="admin-card-label">слов в словарях</span>
+              </div>
+              <div className="admin-card">
+                <span className="admin-card-num">{globalStats.total_reads}</span>
+                <span className="admin-card-label">прочтений текстов</span>
+              </div>
+            </div>
+
+            {signupsPerDay.length > 0 && (
+              <>
+                <h3>Регистрации (последние 30 дней)</h3>
+                <div className="admin-bars">
+                  {signupsPerDay.map((d) => {
+                    const max = Math.max(...signupsPerDay.map((s) => s.signups), 1)
+                    const height = (d.signups / max) * 100
+                    return (
+                      <div key={d.day} className="admin-bar" title={`${d.day}: ${d.signups}`}>
+                        <div className="admin-bar-fill" style={{ height: `${height}%` }} />
+                        <span className="admin-bar-num">{d.signups}</span>
+                      </div>
+                    )
+                  })}
+                </div>
+              </>
+            )}
+
+            {popularTexts.length > 0 && (
+              <>
+                <h3>Самые читаемые тексты</h3>
+                <table className="admin-table">
+                  <thead>
+                    <tr>
+                      <th>Текст</th>
+                      <th>Уровень</th>
+                      <th>Прочтений</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    {popularTexts.map((t) => {
+                      const meta = catalogById[t.text_id]
+                      return (
+                        <tr key={t.text_id}>
+                          <td>
+                            {meta ? (
+                              <Link to={`/texts/${t.text_id}`}>{meta.title}</Link>
+                            ) : (
+                              <span>{t.text_id}</span>
+                            )}
+                          </td>
+                          <td>
+                            {meta && <span data-level={meta.level} className="admin-level-pill">{meta.level}</span>}
+                          </td>
+                          <td><strong>{t.reads}</strong></td>
+                        </tr>
+                      )
+                    })}
+                  </tbody>
+                </table>
+              </>
+            )}
+
+            {topWords.length > 0 && (
+              <>
+                <h3>Самые популярные слова в словарях</h3>
+                <ol className="admin-idiom-list">
+                  {topWords.map((w) => (
+                    <li key={w.word}>
+                      <span className="admin-idiom-text">{w.word}</span>
+                      <span style={{ color: 'var(--text-light)', fontSize: '0.85rem' }}>{w.translation}</span>
+                      <span className="admin-idiom-count">×{w.saves}</span>
+                    </li>
+                  ))}
+                </ol>
+              </>
+            )}
+          </>
+        )}
+        {!globalLoading && !globalStats && (
+          <p style={{ color: 'var(--text-light)' }}>
+            Не удалось загрузить — возможно, SQL-функции ещё не созданы в Supabase.
+          </p>
+        )}
+      </section>
+
+      <section className="admin-section">
+        <h2>Контент: всего текстов — {total}</h2>
       </section>
 
       <section className="admin-section">

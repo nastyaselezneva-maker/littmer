@@ -1813,6 +1813,40 @@ body.has-sidebar .app {
 .admin-btn:hover { background: var(--primary-dark, #1e3a8a); }
 .admin-btn:active { transform: scale(0.98); }
 
+.admin-bars {
+  display: grid;
+  grid-template-columns: repeat(30, 1fr);
+  gap: 2px;
+  height: 120px;
+  margin: 12px 0 24px;
+  align-items: end;
+}
+
+.admin-bar {
+  position: relative;
+  background: var(--bg);
+  border-radius: 3px 3px 0 0;
+  height: 100%;
+  display: flex;
+  align-items: flex-end;
+}
+
+.admin-bar-fill {
+  width: 100%;
+  background: linear-gradient(180deg, var(--primary) 0%, var(--primary-dark, #1e3a8a) 100%);
+  border-radius: 3px 3px 0 0;
+  min-height: 2px;
+}
+
+.admin-bar-num {
+  position: absolute;
+  top: -16px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 0.7rem;
+  color: var(--text-light);
+}
+
 .admin-idiom-list {
   list-style: none;
   padding: 0;
