@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "node scripts/build-vocabulary.mjs && vite build",
+    "build": "node scripts/rebuild-catalog.mjs && node scripts/build-vocabulary.mjs && vite build",
     "lint": "eslint .",
     "preview": "vite preview"
   },
