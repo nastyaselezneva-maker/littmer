@@ -1,86 +1,95 @@
 import { createContext, useContext, useState, useEffect } from 'react'
-
-const USERS_KEY = 'norsk-users'
-const CURRENT_USER_KEY = 'norsk-current-user'
-
-// Хеширование пароля через Web Crypto API (SHA-256).
-// Не идеально безопасно, но лучше чем хранить открытый пароль.
-async function hashPassword(password) {
-  const encoder = new TextEncoder()
-  const data = encoder.encode(password + 'norsk-salt-2026')
-  const hash = await crypto.subtle.digest('SHA-256', data)
-  return Array.from(new Uint8Array(hash))
-    .map((b) => b.toString(16).padStart(2, '0'))
-    .join('')
-}
-
-function loadUsers() {
-  const saved = localStorage.getItem(USERS_KEY)
-  return saved ? JSON.parse(saved) : {}
-}
-
-function saveUsers(users) {
-  localStorage.setItem(USERS_KEY, JSON.stringify(users))
-}
+import { supabase } from '../lib/supabase'
 
 const AuthContext = createContext(null)
 
 export function AuthProvider({ children }) {
-  const [currentUser, setCurrentUser] = useState(() => {
-    return localStorage.getItem(CURRENT_USER_KEY)
-  })
+  const [session, setSession] = useState(null)
+  const [loading, setLoading] = useState(true)
 
   useEffect(() => {
-    if (currentUser) {
-      localStorage.setItem(CURRENT_USER_KEY, currentUser)
-    } else {
-      localStorage.removeItem(CURRENT_USER_KEY)
-    }
-  }, [currentUser])
+    // При первой загрузке достаём сохранённую сессию
+    supabase.auth.getSession().then(({ data }) => {
+      setSession(data.session)
+      setLoading(false)
+    })
 
-  async function register(username, password) {
-    const users = loadUsers()
-    if (users[username]) {
-      return { ok: false, error: 'Пользователь с таким именем уже существует' }
+    // Подписываемся на изменения авторизации (login, logout, refresh)
+    const { data: { subscription } } = supabase.auth.onAuthStateChange((_event, newSession) => {
+      setSession(newSession)
+    })
+
+    return () => subscription.unsubscribe()
+  }, [])
+
+  const currentUser = session?.user?.email || null
+  const userId = session?.user?.id || null
+  const isAuthenticated = !!session
+
+  async function register(email, password) {
+    if (!email.includes('@')) {
+      return { ok: false, error: 'Введите корректный email' }
     }
-    if (username.length < 3) {
-      return { ok: false, error: 'Имя должно быть не менее 3 символов' }
+    if (password.length < 6) {
+      return { ok: false, error: 'Пароль должен быть не менее 6 символов' }
     }
-    if (password.length < 4) {
-      return { ok: false, error: 'Пароль должен быть не менее 4 символов' }
+    const { data, error } = await supabase.auth.signUp({ email, password })
+    if (error) {
+      return { ok: false, error: translateAuthError(error.message) }
     }
-    const passwordHash = await hashPassword(password)
-    users[username] = { passwordHash, createdAt: new Date().toISOString() }
-    saveUsers(users)
-    setCurrentUser(username)
+    // Если email-подтверждение включено, session = null до клика по ссылке
+    if (!data.session) {
+      return { ok: true, needsEmailConfirmation: true }
+    }
     return { ok: true }
   }
 
-  async function login(username, password) {
-    const users = loadUsers()
-    const user = users[username]
-    if (!user) {
-      return { ok: false, error: 'Пользователь не найден' }
+  async function login(email, password) {
+    const { error } = await supabase.auth.signInWithPassword({ email, password })
+    if (error) {
+      return { ok: false, error: translateAuthError(error.message) }
     }
-    const passwordHash = await hashPassword(password)
-    if (user.passwordHash !== passwordHash) {
-      return { ok: false, error: 'Неверный пароль' }
-    }
-    setCurrentUser(username)
     return { ok: true }
   }
 
-  function logout() {
-    setCurrentUser(null)
+  async function logout() {
+    await supabase.auth.signOut()
   }
 
-  const value = { currentUser, register, login, logout, isAuthenticated: !!currentUser }
+  async function resetPassword(email) {
+    const { error } = await supabase.auth.resetPasswordForEmail(email, {
+      redirectTo: `${window.location.origin}/login`,
+    })
+    if (error) return { ok: false, error: translateAuthError(error.message) }
+    return { ok: true }
+  }
+
+  const value = {
+    currentUser,
+    userId,
+    register,
+    login,
+    logout,
+    resetPassword,
+    isAuthenticated,
+    loading,
+  }
 
   return (
     <AuthContext.Provider value={value}>
       {children}
     </AuthContext.Provider>
   )
+}
+
+function translateAuthError(msg) {
+  const m = msg.toLowerCase()
+  if (m.includes('invalid login') || m.includes('invalid credentials')) return 'Неверный email или пароль'
+  if (m.includes('already registered') || m.includes('already been')) return 'Пользователь с таким email уже существует'
+  if (m.includes('email not confirmed')) return 'Email не подтверждён. Проверь почту.'
+  if (m.includes('weak password')) return 'Слишком простой пароль'
+  if (m.includes('rate limit')) return 'Слишком много попыток. Подожди немного.'
+  return msg
 }
 
 export default function useAuth() {

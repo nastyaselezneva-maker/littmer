@@ -1,39 +1,82 @@
 import { useState, useEffect } from 'react'
 import useAuth from './useAuth'
+import { supabase } from '../lib/supabase'
 
-function storageKey(username) {
-  return `norsk-progress:${username || 'guest'}`
-}
-
-function loadProgress(username) {
-  const saved = localStorage.getItem(storageKey(username))
-  return saved ? JSON.parse(saved) : []
-}
-
-function saveProgress(username, ids) {
-  localStorage.setItem(storageKey(username), JSON.stringify(ids))
-}
+const GUEST_KEY = 'norsk-progress:guest'
 
 export default function useProgress() {
-  const { currentUser } = useAuth()
-  const [readIds, setReadIds] = useState(() => loadProgress(currentUser))
+  const { userId } = useAuth()
+  const [readIds, setReadIds] = useState([])
 
   useEffect(() => {
-    setReadIds(loadProgress(currentUser))
-  }, [currentUser])
+    if (userId) {
+      let cancelled = false
+      supabase
+        .from('progress')
+        .select('text_id')
+        .eq('user_id', userId)
+        .then(async ({ data, error }) => {
+          if (cancelled) return
+          if (error) {
+            console.error('Failed to load progress:', error)
+            setReadIds([])
+            return
+          }
+          const cloudIds = (data || []).map((d) => d.text_id)
+
+          // Миграция гостя, если облако пустое
+          if (cloudIds.length === 0) {
+            const localGuest = localStorage.getItem(GUEST_KEY)
+            if (localGuest) {
+              try {
+                const localIds = JSON.parse(localGuest)
+                if (Array.isArray(localIds) && localIds.length > 0) {
+                  const rows = localIds.map((id) => ({ user_id: userId, text_id: id }))
+                  await supabase.from('progress').insert(rows)
+                  if (!cancelled) setReadIds(localIds)
+                  return
+                }
+              } catch (e) {
+                console.warn('Progress migration failed', e)
+              }
+            }
+          }
+
+          setReadIds(cloudIds)
+        })
+      return () => { cancelled = true }
+    } else {
+      const saved = localStorage.getItem(GUEST_KEY)
+      setReadIds(saved ? JSON.parse(saved) : [])
+    }
+  }, [userId])
 
   useEffect(() => {
-    saveProgress(currentUser, readIds)
-  }, [readIds, currentUser])
+    if (!userId) {
+      localStorage.setItem(GUEST_KEY, JSON.stringify(readIds))
+    }
+  }, [readIds, userId])
 
-  function markAsRead(id) {
-    if (!readIds.includes(id)) {
-      setReadIds([...readIds, id])
+  async function markAsRead(id) {
+    if (readIds.includes(id)) return
+    setReadIds([...readIds, id])
+    if (userId) {
+      const { error } = await supabase.from('progress').insert({ user_id: userId, text_id: id })
+      if (error && !error.message.includes('duplicate')) {
+        console.error('Failed to mark as read:', error)
+      }
     }
   }
 
-  function unmarkAsRead(id) {
+  async function unmarkAsRead(id) {
     setReadIds(readIds.filter((r) => r !== id))
+    if (userId) {
+      const { error } = await supabase.from('progress')
+        .delete()
+        .eq('user_id', userId)
+        .eq('text_id', id)
+      if (error) console.error('Failed to unmark:', error)
+    }
   }
 
   function isRead(id) {

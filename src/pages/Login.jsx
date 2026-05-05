@@ -4,103 +4,145 @@ import useAuth from '../hooks/useAuth'
 
 function Login() {
   const navigate = useNavigate()
-  const { login, register } = useAuth()
-  const [mode, setMode] = useState('login') // 'login' или 'register'
-  const [username, setUsername] = useState('')
+  const { login, register, resetPassword } = useAuth()
+  const [mode, setMode] = useState('login') // 'login' | 'register' | 'reset'
+  const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
   const [error, setError] = useState('')
+  const [info, setInfo] = useState('')
   const [loading, setLoading] = useState(false)
 
   async function handleSubmit(e) {
     e.preventDefault()
     setError('')
+    setInfo('')
     setLoading(true)
 
-    const action = mode === 'login' ? login : register
-    const result = await action(username.trim(), password)
+    let result
+    if (mode === 'login') {
+      result = await login(email.trim(), password)
+    } else if (mode === 'register') {
+      result = await register(email.trim(), password)
+    } else if (mode === 'reset') {
+      result = await resetPassword(email.trim())
+    }
 
     setLoading(false)
 
-    if (result.ok) {
-      navigate('/')
-    } else {
+    if (!result.ok) {
       setError(result.error)
+      return
     }
+
+    if (mode === 'register' && result.needsEmailConfirmation) {
+      setInfo('Мы отправили письмо на твой email. Перейди по ссылке, чтобы подтвердить аккаунт.')
+      return
+    }
+
+    if (mode === 'reset') {
+      setInfo('Если такой email зарегистрирован, на него придёт ссылка для сброса пароля.')
+      return
+    }
+
+    navigate('/')
+  }
+
+  function switchMode(newMode) {
+    setMode(newMode)
+    setError('')
+    setInfo('')
+  }
+
+  const titles = {
+    login: 'Вход',
+    register: 'Регистрация',
+    reset: 'Сброс пароля',
+  }
+
+  const subtitles = {
+    login: 'Войди, чтобы продолжить свой словарь',
+    register: 'Создай аккаунт — словарь и прогресс будут синхронизироваться между устройствами',
+    reset: 'Введи email — пришлём ссылку для сброса',
   }
 
   return (
     <div className="login-page">
       <div className="login-card">
-        <h1 className="login-title">
-          {mode === 'login' ? 'Вход' : 'Регистрация'}
-        </h1>
-        <p className="login-subtitle">
-          {mode === 'login'
-            ? 'Войдите, чтобы продолжить свой словарь'
-            : 'Создайте аккаунт для своего словаря'}
-        </p>
+        <h1 className="login-title">{titles[mode]}</h1>
+        <p className="login-subtitle">{subtitles[mode]}</p>
 
         <form onSubmit={handleSubmit} className="login-form">
           <label className="login-field">
-            <span className="login-label">Имя пользователя</span>
+            <span className="login-label">Email</span>
             <input
-              type="text"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
+              type="email"
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               className="login-input"
-              placeholder="например, anna"
+              placeholder="anna@example.com"
               required
               autoFocus
             />
           </label>
 
-          <label className="login-field">
-            <span className="login-label">Пароль</span>
-            <input
-              type="password"
-              value={password}
-              onChange={(e) => setPassword(e.target.value)}
-              className="login-input"
-              placeholder="минимум 4 символа"
-              required
-            />
-          </label>
+          {mode !== 'reset' && (
+            <label className="login-field">
+              <span className="login-label">Пароль</span>
+              <input
+                type="password"
+                value={password}
+                onChange={(e) => setPassword(e.target.value)}
+                className="login-input"
+                placeholder="минимум 6 символов"
+                required
+                minLength={6}
+              />
+            </label>
+          )}
 
           {error && <div className="login-error">{error}</div>}
+          {info && <div className="login-info">{info}</div>}
 
           <button type="submit" className="login-btn" disabled={loading}>
-            {loading ? 'Подождите...' : mode === 'login' ? 'Войти' : 'Зарегистрироваться'}
+            {loading
+              ? 'Подождите...'
+              : mode === 'login' ? 'Войти'
+              : mode === 'register' ? 'Зарегистрироваться'
+              : 'Прислать ссылку'}
           </button>
         </form>
 
         <div className="login-switch">
-          {mode === 'login' ? (
+          {mode === 'login' && (
             <>
               Нет аккаунта?{' '}
-              <button
-                type="button"
-                className="login-switch-btn"
-                onClick={() => { setMode('register'); setError('') }}
-              >
+              <button type="button" className="login-switch-btn" onClick={() => switchMode('register')}>
                 Зарегистрироваться
               </button>
+              <br />
+              Забыл пароль?{' '}
+              <button type="button" className="login-switch-btn" onClick={() => switchMode('reset')}>
+                Восстановить
+              </button>
             </>
-          ) : (
+          )}
+          {mode === 'register' && (
             <>
               Уже есть аккаунт?{' '}
-              <button
-                type="button"
-                className="login-switch-btn"
-                onClick={() => { setMode('login'); setError('') }}
-              >
+              <button type="button" className="login-switch-btn" onClick={() => switchMode('login')}>
                 Войти
               </button>
             </>
           )}
+          {mode === 'reset' && (
+            <button type="button" className="login-switch-btn" onClick={() => switchMode('login')}>
+              ← Назад ко входу
+            </button>
+          )}
         </div>
 
         <p className="login-hint">
-          Это локальная авторизация — все данные хранятся на этом устройстве.
+          Можно пользоваться приложением и без регистрации — данные будут храниться только в этом браузере.
         </p>
       </div>
     </div>
