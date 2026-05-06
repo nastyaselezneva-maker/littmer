@@ -31723,5 +31723,11 @@
     "transcription": "видэрэфёрт",
     "pos": "verb",
     "dict": "продолжать"
+  },
+  "rett": {
+    "translation": "прямо / право / блюдо",
+    "transcription": "рэтт",
+    "pos": "adv",
+    "dict": "прямо"
   }
 }
