@@ -365,11 +365,30 @@ function Vocabulary() {
                   <td>
                     <span className="vocab-word">{w.word}</span>
                     {isCognate(w.word) && <span className="vocab-cognate" title="Похоже на русский">≈</span>}
-                    {w.isGrouped && <span className="vocab-group-badge" title="Несколько форм глагола">{w.groupedForms.length} форм</span>}
+                    {w.isGrouped && (
+                      <span className="vocab-group-other">
+                        ({w.groupedForms.filter((g) => g.word !== w.word).map((g) => g.word).join(', ')})
+                      </span>
+                    )}
                   </td>
                   <td className="vocab-translation">{w.translation}</td>
                   {posFilter === 'all' && <td className="vocab-pos">{POS_LABELS_NO[w.pos] || ''}</td>}
-                  <td className="vocab-form">{w.isGrouped ? 'все времена' : getForm(w.word, w.pos)}</td>
+                  <td className="vocab-form">
+                    {w.isGrouped ? (
+                      <>
+                        infinitiv
+                        {(() => {
+                          const others = [...new Set(
+                            w.groupedForms
+                              .filter((g) => g.word !== w.word)
+                              .map((g) => getVerbForm(g.word))
+                              .filter(Boolean)
+                          )]
+                          return others.length > 0 ? ` (${others.join(', ')})` : ''
+                        })()}
+                      </>
+                    ) : getForm(w.word, w.pos)}
+                  </td>
                   <td className="vocab-count-cell">{w.count}</td>
                   <td>
                     {LEVELS.map((l) => (

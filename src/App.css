@@ -1571,6 +1571,13 @@ body.has-sidebar .app {
   vertical-align: middle;
 }
 
+.vocab-group-other {
+  margin-left: 6px;
+  color: var(--text-light);
+  font-size: 0.85rem;
+  font-weight: 400;
+}
+
 .vocab-grouped-forms ul {
   list-style: none;
   padding: 0;
