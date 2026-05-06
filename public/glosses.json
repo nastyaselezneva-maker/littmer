@@ -31641,5 +31641,87 @@
     "translation": "однохитовик",
     "transcription": "энтреффвондэр",
     "pos": "noun"
+  },
+  "avhenge": {
+    "translation": "зависит",
+    "transcription": "авхэнгэ",
+    "pos": "verb",
+    "dict": "зависеть"
+  },
+  "bidra": {
+    "translation": "способствовать",
+    "transcription": "бидра",
+    "pos": "verb"
+  },
+  "bygningene": {
+    "translation": "здания",
+    "transcription": "бюгнингэнэ",
+    "pos": "noun",
+    "dict": "здание"
+  },
+  "domstolenes": {
+    "translation": "судов",
+    "transcription": "думстолэнэс",
+    "pos": "noun",
+    "dict": "суд"
+  },
+  "effektiv": {
+    "translation": "эффективный",
+    "transcription": "эффэктив",
+    "pos": "adj"
+  },
+  "fordele": {
+    "translation": "распределять",
+    "transcription": "фордэлэ",
+    "pos": "verb"
+  },
+  "justeringer": {
+    "translation": "корректировки",
+    "transcription": "юстэрингэр",
+    "pos": "noun",
+    "dict": "корректировка"
+  },
+  "krevde": {
+    "translation": "требовала",
+    "transcription": "крэвдэ",
+    "pos": "verb",
+    "dict": "требовать"
+  },
+  "organisering": {
+    "translation": "организация",
+    "transcription": "органисэринг",
+    "pos": "noun"
+  },
+  "regjeringsskiftet": {
+    "translation": "смена правительства",
+    "transcription": "рэйерингс-шифтэ",
+    "pos": "noun"
+  },
+  "ressursutnyttelse": {
+    "translation": "использование ресурсов",
+    "transcription": "рэссюршютнюттэльсэ",
+    "pos": "noun"
+  },
+  "reversere": {
+    "translation": "обратить",
+    "transcription": "рэвэрсэрэ",
+    "pos": "verb"
+  },
+  "sakstype": {
+    "translation": "тип дела",
+    "transcription": "сакстюпэ",
+    "pos": "noun"
+  },
+  "uttrykte": {
+    "translation": "выразили",
+    "transcription": "юттрюктэ",
+    "pos": "verb",
+    "dict": "выражать"
+  },
+  "videreført": {
+    "translation": "продолжены",
+    "transcription": "видэрэфёрт",
+    "pos": "verb",
+    "dict": "продолжать"
   }
 }
