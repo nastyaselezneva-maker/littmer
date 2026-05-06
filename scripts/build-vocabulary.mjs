@@ -72,7 +72,8 @@ const STOP_WORDS = new Set(Object.keys(STOP_WORD_TRANSLATIONS))
 function tokenize(text) {
   if (!text) return []
   const out = []
-  const wordRegex = /[a-zæøåäöA-ZÆØÅÄÖ]+(?:-[a-zæøåäöA-ZÆØÅÄÖ]+)*/g
+  // Включаем диакритику: é, è, à, ó и т.д. (часто в заимствованиях)
+  const wordRegex = /[a-zæøåäöéèàóA-ZÆØÅÄÖÉÈÀÓ]+(?:-[a-zæøåäöéèàóA-ZÆØÅÄÖÉÈÀÓ]+)*/g
   let m
   while ((m = wordRegex.exec(text)) !== null) {
     const raw = m[0]

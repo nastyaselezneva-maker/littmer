@@ -27130,5 +27130,4516 @@
     "transcription": "Ёйеблик",
     "pos": "сущ.",
     "dict": "øyeblikk"
+  },
+  "advarer": {
+    "translation": "предупреждает",
+    "transcription": "адварэр",
+    "pos": "verb",
+    "dict": "предупреждать"
+  },
+  "akse": {
+    "translation": "ось",
+    "transcription": "аксэ",
+    "pos": "noun"
+  },
+  "aksjekapitalen": {
+    "translation": "акционерный капитал",
+    "transcription": "акшекапиталэн",
+    "pos": "noun",
+    "dict": "акционерный капитал"
+  },
+  "aktivitet": {
+    "translation": "активность",
+    "transcription": "активитэт",
+    "pos": "noun"
+  },
+  "alderen": {
+    "translation": "возраст",
+    "transcription": "алдэрэн",
+    "pos": "noun",
+    "dict": "возраст"
+  },
+  "aldre": {
+    "translation": "стареть",
+    "transcription": "алдрэ",
+    "pos": "verb"
+  },
+  "alkohol": {
+    "translation": "алкоголь",
+    "transcription": "алкохол",
+    "pos": "noun"
+  },
+  "alternativene": {
+    "translation": "альтернативы",
+    "transcription": "алтэрнативэнэ",
+    "pos": "noun",
+    "dict": "альтернатива"
+  },
+  "amming": {
+    "translation": "грудное вскармливание",
+    "transcription": "амминг",
+    "pos": "noun"
+  },
+  "annonser": {
+    "translation": "объявления",
+    "transcription": "аннонсэр",
+    "pos": "noun",
+    "dict": "объявление"
+  },
+  "arbeidsdagen": {
+    "translation": "рабочий день",
+    "transcription": "арбайдсдагэн",
+    "pos": "noun",
+    "dict": "рабочий день"
+  },
+  "arbeidsformer": {
+    "translation": "формы работы",
+    "transcription": "арбайдсформэр",
+    "pos": "noun",
+    "dict": "форма работы"
+  },
+  "arbeidsgiverforeningen": {
+    "translation": "союз работодателей",
+    "transcription": "арбайдсйиверфорэнингэн",
+    "pos": "noun",
+    "dict": "союз работодателей"
+  },
+  "arbeidsgiverne": {
+    "translation": "работодатели",
+    "transcription": "арбайдсйивэрнэ",
+    "pos": "noun",
+    "dict": "работодатель"
+  },
+  "arbeidskulturen": {
+    "translation": "рабочая культура",
+    "transcription": "арбайдскултурэн",
+    "pos": "noun",
+    "dict": "рабочая культура"
+  },
+  "arbeidslivsrelasjoner": {
+    "translation": "трудовые отношения",
+    "transcription": "арбайдсливсрэласьонэр",
+    "pos": "noun"
+  },
+  "arbeidstakerne": {
+    "translation": "работники",
+    "transcription": "арбайдстакэрнэ",
+    "pos": "noun",
+    "dict": "работник"
+  },
+  "arktiske": {
+    "translation": "арктические",
+    "transcription": "арктискэ",
+    "pos": "adj",
+    "dict": "арктический"
+  },
+  "auraen": {
+    "translation": "аура",
+    "transcription": "ауран",
+    "pos": "noun",
+    "dict": "аура"
+  },
+  "avdelinger": {
+    "translation": "отделы",
+    "transcription": "авдэлингэр",
+    "pos": "noun",
+    "dict": "отдел"
+  },
+  "avisene": {
+    "translation": "газеты",
+    "transcription": "ависэнэ",
+    "pos": "noun",
+    "dict": "газета"
+  },
+  "babyen": {
+    "translation": "ребёнок",
+    "transcription": "бэйбиэн",
+    "pos": "noun",
+    "dict": "ребёнок"
+  },
+  "babyens": {
+    "translation": "ребёнка",
+    "transcription": "бэйбиэнс",
+    "pos": "noun",
+    "dict": "ребёнка"
+  },
+  "badekar": {
+    "translation": "ванна",
+    "transcription": "бадэкар",
+    "pos": "noun"
+  },
+  "barn-undersøkelsen": {
+    "translation": "детское обследование",
+    "transcription": "барн-ундэрсёкэлсэн",
+    "pos": "noun"
+  },
+  "barnas": {
+    "translation": "детей",
+    "transcription": "барнас",
+    "pos": "noun",
+    "dict": "детей"
+  },
+  "barnehagestart": {
+    "translation": "начало детского сада",
+    "transcription": "барнэхагэстарт",
+    "pos": "noun"
+  },
+  "barnevogn": {
+    "translation": "коляска",
+    "transcription": "барнэвонн",
+    "pos": "noun"
+  },
+  "basiskurs": {
+    "translation": "базовый курс",
+    "transcription": "басискурс",
+    "pos": "noun"
+  },
+  "batteri": {
+    "translation": "батарея",
+    "transcription": "баттэри",
+    "pos": "noun"
+  },
+  "beaivv": {
+    "translation": "день (саамск.)",
+    "transcription": "беайвв",
+    "pos": "noun"
+  },
+  "bedrift": {
+    "translation": "предприятие",
+    "transcription": "бэдрифт",
+    "pos": "noun"
+  },
+  "bekymrer": {
+    "translation": "беспокоит",
+    "transcription": "бэкюмрэр",
+    "pos": "verb",
+    "dict": "беспокоить"
+  },
+  "bekymringer": {
+    "translation": "беспокойства",
+    "transcription": "бэкюмрингэр",
+    "pos": "noun",
+    "dict": "беспокойство"
+  },
+  "belastning": {
+    "translation": "нагрузка",
+    "transcription": "бэластнинг",
+    "pos": "noun"
+  },
+  "beskatningen": {
+    "translation": "налогообложение",
+    "transcription": "бэскатнингэн",
+    "pos": "noun",
+    "dict": "налогообложение"
+  },
+  "beskjedenhet": {
+    "translation": "скромность",
+    "transcription": "бэшэдэнхэт",
+    "pos": "noun"
+  },
+  "bestemmes": {
+    "translation": "определяется",
+    "transcription": "бэстэммэс",
+    "pos": "verb",
+    "dict": "определяться"
+  },
+  "besøket": {
+    "translation": "визит",
+    "transcription": "бэсёкэт",
+    "pos": "noun",
+    "dict": "визит"
+  },
+  "betjener": {
+    "translation": "обслуживает",
+    "transcription": "бэтьенэр",
+    "pos": "verb",
+    "dict": "обслуживать"
+  },
+  "billettprisene": {
+    "translation": "цены на билеты",
+    "transcription": "биллэттприсэнэ",
+    "pos": "noun",
+    "dict": "цена на билет"
+  },
+  "bilnummeret": {
+    "translation": "номер машины",
+    "transcription": "билнуммэрэт",
+    "pos": "noun",
+    "dict": "номер машины"
+  },
+  "bjørnstjerne": {
+    "translation": "Бьёрнстьерне (имя)",
+    "transcription": "бьёрнстьернэ",
+    "pos": "noun"
+  },
+  "blodtype": {
+    "translation": "группа крови",
+    "transcription": "блудтюпэ",
+    "pos": "noun"
+  },
+  "bokstavelig": {
+    "translation": "буквально",
+    "transcription": "букставэли",
+    "pos": "adv"
+  },
+  "bord": {
+    "translation": "стол",
+    "transcription": "бур",
+    "pos": "noun"
+  },
+  "borgerlige": {
+    "translation": "буржуазные",
+    "transcription": "боргэрлигэ",
+    "pos": "adj",
+    "dict": "буржуазный"
+  },
+  "brakte": {
+    "translation": "принёс",
+    "transcription": "брактэ",
+    "pos": "verb",
+    "dict": "приносить"
+  },
+  "brannutgang": {
+    "translation": "пожарный выход",
+    "transcription": "браннутганг",
+    "pos": "noun"
+  },
+  "brede": {
+    "translation": "широкие",
+    "transcription": "брэдэ",
+    "pos": "adj",
+    "dict": "широкий"
+  },
+  "brystkreft": {
+    "translation": "рак груди",
+    "transcription": "брюсткрэфт",
+    "pos": "noun"
+  },
+  "brød": {
+    "translation": "хлеб",
+    "transcription": "брё",
+    "pos": "noun"
+  },
+  "brødskiver": {
+    "translation": "ломти хлеба",
+    "transcription": "брёскивэр",
+    "pos": "noun",
+    "dict": "ломоть хлеба"
+  },
+  "brøytebil": {
+    "translation": "снегоуборочная машина",
+    "transcription": "брёйтэбил",
+    "pos": "noun"
+  },
+  "bunad": {
+    "translation": "норвежский народный костюм",
+    "transcription": "бунад",
+    "pos": "noun"
+  },
+  "butikkeiere": {
+    "translation": "владельцы магазинов",
+    "transcription": "бутиккэйэрэ",
+    "pos": "noun",
+    "dict": "владелец магазина"
+  },
+  "bydeler": {
+    "translation": "районы города",
+    "transcription": "бюдэлэр",
+    "pos": "noun",
+    "dict": "район города"
+  },
+  "byenes": {
+    "translation": "городов",
+    "transcription": "бюэнэс",
+    "pos": "noun",
+    "dict": "городов"
+  },
+  "bygning": {
+    "translation": "здание",
+    "transcription": "бюгнинг",
+    "pos": "noun"
+  },
+  "dagspris": {
+    "translation": "цена дня",
+    "transcription": "дагсприс",
+    "pos": "noun"
+  },
+  "datoen": {
+    "translation": "дата",
+    "transcription": "датуэн",
+    "pos": "noun",
+    "dict": "дата"
+  },
+  "datteren": {
+    "translation": "дочь",
+    "transcription": "даттэрэн",
+    "pos": "noun",
+    "dict": "дочь"
+  },
+  "debatter": {
+    "translation": "дебаты",
+    "transcription": "дэбаттэр",
+    "pos": "noun"
+  },
+  "dekningsgrad": {
+    "translation": "степень охвата",
+    "transcription": "дэкнингсград",
+    "pos": "noun"
+  },
+  "deltakelsen": {
+    "translation": "участие",
+    "transcription": "дэлтакэлсэн",
+    "pos": "noun",
+    "dict": "участие"
+  },
+  "dersom": {
+    "translation": "если",
+    "transcription": "дэрсом",
+    "pos": "conj"
+  },
+  "design": {
+    "translation": "дизайн",
+    "transcription": "дисайн",
+    "pos": "noun"
+  },
+  "dialog": {
+    "translation": "диалог",
+    "transcription": "диалог",
+    "pos": "noun"
+  },
+  "difteri": {
+    "translation": "дифтерия",
+    "transcription": "дифтэри",
+    "pos": "noun"
+  },
+  "diktert": {
+    "translation": "продиктованный",
+    "transcription": "диктэрт",
+    "pos": "verb",
+    "dict": "диктовать"
+  },
+  "diskusjon": {
+    "translation": "дискуссия",
+    "transcription": "дискусьон",
+    "pos": "noun"
+  },
+  "dra": {
+    "translation": "ехать",
+    "transcription": "дра",
+    "pos": "verb"
+  },
+  "dramatikken": {
+    "translation": "драматургия",
+    "transcription": "драматиккэн",
+    "pos": "noun",
+    "dict": "драматургия"
+  },
+  "drikker": {
+    "translation": "пьёт",
+    "transcription": "дриккэр",
+    "pos": "verb",
+    "dict": "пить"
+  },
+  "dukket": {
+    "translation": "появился",
+    "transcription": "дуккэт",
+    "pos": "verb",
+    "dict": "появляться"
+  },
+  "dyrest": {
+    "translation": "самый дорогой",
+    "transcription": "дюрэст",
+    "pos": "adj"
+  },
+  "dødsulykker": {
+    "translation": "смертельные несчастные случаи",
+    "transcription": "дёдсулюккэр",
+    "pos": "noun",
+    "dict": "смертельный несчастный случай"
+  },
+  "døra": {
+    "translation": "дверь",
+    "transcription": "дёра",
+    "pos": "noun",
+    "dict": "дверь"
+  },
+  "eksakte": {
+    "translation": "точные",
+    "transcription": "эксактэ",
+    "pos": "adj",
+    "dict": "точный"
+  },
+  "ekspertise": {
+    "translation": "экспертиза",
+    "transcription": "экспэртисэ",
+    "pos": "noun"
+  },
+  "eksportbransjene": {
+    "translation": "экспортные отрасли",
+    "transcription": "экспортбраншенэ",
+    "pos": "noun",
+    "dict": "экспортная отрасль"
+  },
+  "eksportørene": {
+    "translation": "экспортёры",
+    "transcription": "экспортёрэнэ",
+    "pos": "noun",
+    "dict": "экспортёр"
+  },
+  "elbilboomen": {
+    "translation": "бум электромобилей",
+    "transcription": "элбилбумэн",
+    "pos": "noun",
+    "dict": "бум электромобилей"
+  },
+  "elektriker": {
+    "translation": "электрик",
+    "transcription": "электрикэр",
+    "pos": "noun"
+  },
+  "elsker": {
+    "translation": "любит",
+    "transcription": "элскэр",
+    "pos": "verb",
+    "dict": "любить"
+  },
+  "emma": {
+    "translation": "Эмма (имя)",
+    "transcription": "эмма",
+    "pos": "noun"
+  },
+  "ender": {
+    "translation": "заканчивается",
+    "transcription": "эндэр",
+    "pos": "verb",
+    "dict": "заканчиваться"
+  },
+  "ensomhet": {
+    "translation": "одиночество",
+    "transcription": "энсомхэт",
+    "pos": "noun"
+  },
+  "enten": {
+    "translation": "либо",
+    "transcription": "энтэн",
+    "pos": "conj"
+  },
+  "epidemiologisk": {
+    "translation": "эпидемиологический",
+    "transcription": "эпидэмиолоиск",
+    "pos": "adj"
+  },
+  "erfaren": {
+    "translation": "опытный",
+    "transcription": "эрфарэн",
+    "pos": "adj"
+  },
+  "etterpå": {
+    "translation": "потом",
+    "transcription": "эттэрпо",
+    "pos": "adv"
+  },
+  "evnen": {
+    "translation": "способность",
+    "transcription": "эвнэн",
+    "pos": "noun",
+    "dict": "способность"
+  },
+  "fabrikk": {
+    "translation": "фабрика",
+    "transcription": "фабрикк",
+    "pos": "noun"
+  },
+  "fagfelt": {
+    "translation": "область знаний",
+    "transcription": "фагфэлт",
+    "pos": "noun"
+  },
+  "fakturaene": {
+    "translation": "счета-фактуры",
+    "transcription": "фактураэнэ",
+    "pos": "noun",
+    "dict": "счёт-фактура"
+  },
+  "familiene": {
+    "translation": "семьи",
+    "transcription": "фамилиэнэ",
+    "pos": "noun",
+    "dict": "семья"
+  },
+  "farskultur": {
+    "translation": "отцовская культура",
+    "transcription": "фарскултур",
+    "pos": "noun"
+  },
+  "fastlegebesøk": {
+    "translation": "визит к семейному врачу",
+    "transcription": "фастлэгэбэсёк",
+    "pos": "noun"
+  },
+  "fattige": {
+    "translation": "бедные",
+    "transcription": "фаттигэ",
+    "pos": "adj",
+    "dict": "бедный"
+  },
+  "feiringen": {
+    "translation": "празднование",
+    "transcription": "фэйрингэн",
+    "pos": "noun",
+    "dict": "празднование"
+  },
+  "femnivåskala": {
+    "translation": "пятиуровневая шкала",
+    "transcription": "фэмнивоскала",
+    "pos": "noun"
+  },
+  "femte": {
+    "translation": "пятый",
+    "transcription": "фэмтэ",
+    "pos": "num"
+  },
+  "femtifemåringer": {
+    "translation": "пятидесятипятилетние",
+    "transcription": "фэмтифэморингэр",
+    "pos": "noun",
+    "dict": "пятидесятипятилетний"
+  },
+  "ferdig": {
+    "translation": "готовый",
+    "transcription": "фэрди",
+    "pos": "adj"
+  },
+  "ferier": {
+    "translation": "каникулы",
+    "transcription": "фэриэр",
+    "pos": "noun",
+    "dict": "каникулы"
+  },
+  "festival": {
+    "translation": "фестиваль",
+    "transcription": "фэстивал",
+    "pos": "noun"
+  },
+  "festivaløkonomien": {
+    "translation": "экономика фестиваля",
+    "transcription": "фэстивалёкономиэн",
+    "pos": "noun",
+    "dict": "экономика фестиваля"
+  },
+  "festningshaug": {
+    "translation": "крепостной холм",
+    "transcription": "фэстнингсхауг",
+    "pos": "noun"
+  },
+  "firma": {
+    "translation": "фирма",
+    "transcription": "фирма",
+    "pos": "noun"
+  },
+  "fisk": {
+    "translation": "рыба",
+    "transcription": "фиск",
+    "pos": "noun"
+  },
+  "fjernarbeid": {
+    "translation": "удалённая работа",
+    "transcription": "фьернарбайд",
+    "pos": "noun"
+  },
+  "fjerner": {
+    "translation": "удаляет",
+    "transcription": "фьернэр",
+    "pos": "verb",
+    "dict": "удалять"
+  },
+  "fjordveier": {
+    "translation": "фьордовые дороги",
+    "transcription": "фьордвэйэр",
+    "pos": "noun",
+    "dict": "фьордовая дорога"
+  },
+  "floskel": {
+    "translation": "пустая фраза",
+    "transcription": "флоскэл",
+    "pos": "noun"
+  },
+  "foajeen": {
+    "translation": "фойе",
+    "transcription": "фоайеэн",
+    "pos": "noun",
+    "dict": "фойе"
+  },
+  "folkebibliotekene": {
+    "translation": "публичные библиотеки",
+    "transcription": "фолкэбиблиотэкэнэ",
+    "pos": "noun",
+    "dict": "публичная библиотека"
+  },
+  "folkehelsa": {
+    "translation": "общественное здоровье",
+    "transcription": "фолкэхэлса",
+    "pos": "noun",
+    "dict": "общественное здоровье"
+  },
+  "folkehelse": {
+    "translation": "общественное здоровье",
+    "transcription": "фолкэхэлсэ",
+    "pos": "noun"
+  },
+  "folkehelsespørsmål": {
+    "translation": "вопросы общественного здоровья",
+    "transcription": "фолкэхэлсэспёрсмол",
+    "pos": "noun"
+  },
+  "folkemusikkfestivaler": {
+    "translation": "фестивали народной музыки",
+    "transcription": "фолкэмусиккфэстивалэр",
+    "pos": "noun",
+    "dict": "фестиваль народной музыки"
+  },
+  "forbi": {
+    "translation": "мимо",
+    "transcription": "форби",
+    "pos": "prep"
+  },
+  "forebyggingskulturen": {
+    "translation": "культура профилактики",
+    "transcription": "форэбюггингскултурэн",
+    "pos": "noun",
+    "dict": "культура профилактики"
+  },
+  "forekomsten": {
+    "translation": "распространённость",
+    "transcription": "форэкомстэн",
+    "pos": "noun",
+    "dict": "распространённость"
+  },
+  "forene": {
+    "translation": "объединять",
+    "transcription": "форэнэ",
+    "pos": "verb"
+  },
+  "forestillingsformen": {
+    "translation": "форма представления",
+    "transcription": "форэстиллингсформэн",
+    "pos": "noun",
+    "dict": "форма представления"
+  },
+  "forholdsvis": {
+    "translation": "относительно",
+    "transcription": "форхолдсвис",
+    "pos": "adv"
+  },
+  "forkortelsen": {
+    "translation": "сокращение",
+    "transcription": "форкортэлсэн",
+    "pos": "noun",
+    "dict": "сокращение"
+  },
+  "formene": {
+    "translation": "формы",
+    "transcription": "формэнэ",
+    "pos": "noun",
+    "dict": "форма"
+  },
+  "fornøyd": {
+    "translation": "довольный",
+    "transcription": "форнёйд",
+    "pos": "adj"
+  },
+  "forseelse": {
+    "translation": "проступок",
+    "transcription": "форсээлсэ",
+    "pos": "noun"
+  },
+  "forsvare": {
+    "translation": "защищать",
+    "transcription": "форсварэ",
+    "pos": "verb"
+  },
+  "fortauet": {
+    "translation": "тротуар",
+    "transcription": "фортауэт",
+    "pos": "noun",
+    "dict": "тротуар"
+  },
+  "forutser": {
+    "translation": "предсказывает",
+    "transcription": "форутсэр",
+    "pos": "verb",
+    "dict": "предсказывать"
+  },
+  "forårsake": {
+    "translation": "вызывать",
+    "transcription": "форорсакэ",
+    "pos": "verb"
+  },
+  "fotografi": {
+    "translation": "фотография",
+    "transcription": "фотографи",
+    "pos": "noun"
+  },
+  "fremme": {
+    "translation": "продвигать",
+    "transcription": "фрэммэ",
+    "pos": "verb"
+  },
+  "fremste": {
+    "translation": "передовые",
+    "transcription": "фрэмстэ",
+    "pos": "adj",
+    "dict": "передовой"
+  },
+  "frilans": {
+    "translation": "фриланс",
+    "transcription": "фриланс",
+    "pos": "noun"
+  },
+  "frokost": {
+    "translation": "завтрак",
+    "transcription": "фрукост",
+    "pos": "noun"
+  },
+  "frontruta": {
+    "translation": "лобовое стекло",
+    "transcription": "фронтрута",
+    "pos": "noun",
+    "dict": "лобовое стекло"
+  },
+  "frykter": {
+    "translation": "боится",
+    "transcription": "фрюктэр",
+    "pos": "verb",
+    "dict": "бояться"
+  },
+  "fryser": {
+    "translation": "мёрзнет",
+    "transcription": "фрюсэр",
+    "pos": "verb",
+    "dict": "мёрзнуть"
+  },
+  "fullføre": {
+    "translation": "завершить",
+    "transcription": "фуллфёрэ",
+    "pos": "verb"
+  },
+  "fylles": {
+    "translation": "наполняется",
+    "transcription": "фюллэс",
+    "pos": "verb",
+    "dict": "наполняться"
+  },
+  "fødselsraten": {
+    "translation": "уровень рождаемости",
+    "transcription": "фёдсэлсратэн",
+    "pos": "noun",
+    "dict": "уровень рождаемости"
+  },
+  "fødselsregister": {
+    "translation": "реестр рождений",
+    "transcription": "фёдсэлсрэгистэр",
+    "pos": "noun"
+  },
+  "fødselssystemet": {
+    "translation": "система родов",
+    "transcription": "фёдсэлссюстэмэт",
+    "pos": "noun",
+    "dict": "система родов"
+  },
+  "fødslene": {
+    "translation": "роды",
+    "transcription": "фёдслэнэ",
+    "pos": "noun",
+    "dict": "роды"
+  },
+  "fødsler": {
+    "translation": "роды",
+    "transcription": "фёдслэр",
+    "pos": "noun"
+  },
+  "førti": {
+    "translation": "сорок",
+    "transcription": "фёрти",
+    "pos": "num"
+  },
+  "gatene": {
+    "translation": "улицы",
+    "transcription": "гатэнэ",
+    "pos": "noun",
+    "dict": "улица"
+  },
+  "gater": {
+    "translation": "улицы",
+    "transcription": "гатэр",
+    "pos": "noun",
+    "dict": "улица"
+  },
+  "gebyret": {
+    "translation": "сбор",
+    "transcription": "гэбюрэт",
+    "pos": "noun",
+    "dict": "сбор"
+  },
+  "gleder": {
+    "translation": "радует",
+    "transcription": "глэдэр",
+    "pos": "verb",
+    "dict": "радовать"
+  },
+  "glukosetest": {
+    "translation": "тест на глюкозу",
+    "transcription": "глукосэтэст",
+    "pos": "noun"
+  },
+  "grammatikk": {
+    "translation": "грамматика",
+    "transcription": "грамматикк",
+    "pos": "noun"
+  },
+  "graviditeten": {
+    "translation": "беременность",
+    "transcription": "гравидитэтэн",
+    "pos": "noun",
+    "dict": "беременность"
+  },
+  "grisgrendte": {
+    "translation": "малонаселённые",
+    "transcription": "грисгрэндтэ",
+    "pos": "adj",
+    "dict": "малонаселённый"
+  },
+  "grovt": {
+    "translation": "грубо",
+    "transcription": "грофт",
+    "pos": "adv"
+  },
+  "grunnpensjon": {
+    "translation": "базовая пенсия",
+    "transcription": "груннпэнсьон",
+    "pos": "noun"
+  },
+  "grøt": {
+    "translation": "каша",
+    "transcription": "грёт",
+    "pos": "noun"
+  },
+  "gul": {
+    "translation": "жёлтый",
+    "transcription": "гул",
+    "pos": "adj"
+  },
+  "gutt": {
+    "translation": "мальчик",
+    "transcription": "гутт",
+    "pos": "noun"
+  },
+  "gutter": {
+    "translation": "мальчики",
+    "transcription": "гуттэр",
+    "pos": "noun",
+    "dict": "мальчик"
+  },
+  "halvdel": {
+    "translation": "половина",
+    "transcription": "халвдэл",
+    "pos": "noun"
+  },
+  "handikapplass": {
+    "translation": "место для инвалидов",
+    "transcription": "хандикаппласс",
+    "pos": "noun"
+  },
+  "harde": {
+    "translation": "жёсткие",
+    "transcription": "хардэ",
+    "pos": "adj",
+    "dict": "жёсткий"
+  },
+  "havnet": {
+    "translation": "оказался",
+    "transcription": "хавнэт",
+    "pos": "verb",
+    "dict": "оказаться"
+  },
+  "helgen": {
+    "translation": "выходные",
+    "transcription": "хэлгэн",
+    "pos": "noun",
+    "dict": "выходные"
+  },
+  "helsetjeneste": {
+    "translation": "медицинская служба",
+    "transcription": "хэлсэтьенэстэ",
+    "pos": "noun"
+  },
+  "henter": {
+    "translation": "забирает",
+    "transcription": "хэнтэр",
+    "pos": "verb",
+    "dict": "забирать"
+  },
+  "himmel": {
+    "translation": "небо",
+    "transcription": "химмэл",
+    "pos": "noun"
+  },
+  "hindre": {
+    "translation": "препятствовать",
+    "transcription": "хиндрэ",
+    "pos": "verb"
+  },
+  "hjemmekoselig": {
+    "translation": "по-домашнему уютный",
+    "transcription": "йеммэкосэли",
+    "pos": "adj"
+  },
+  "hoved": {
+    "translation": "главный",
+    "transcription": "ховэд",
+    "pos": "adj"
+  },
+  "hovedforhandlingene": {
+    "translation": "главные переговоры",
+    "transcription": "ховэдфорхандлингэнэ",
+    "pos": "noun",
+    "dict": "главные переговоры"
+  },
+  "hovedoppgjør": {
+    "translation": "главный расчёт",
+    "transcription": "ховэдоппйёр",
+    "pos": "noun"
+  },
+  "hovedprinsippet": {
+    "translation": "главный принцип",
+    "transcription": "ховэдпринсиппэт",
+    "pos": "noun",
+    "dict": "главный принцип"
+  },
+  "hovedsammenslutninger": {
+    "translation": "главные объединения",
+    "transcription": "ховэдсаммэнслутнингэр",
+    "pos": "noun",
+    "dict": "главное объединение"
+  },
+  "hull": {
+    "translation": "дыра",
+    "transcription": "хулл",
+    "pos": "noun"
+  },
+  "hverdagens": {
+    "translation": "будней",
+    "transcription": "вэрдагэнс",
+    "pos": "noun",
+    "dict": "будни"
+  },
+  "høytidene": {
+    "translation": "праздники",
+    "transcription": "хёйтидэнэ",
+    "pos": "noun",
+    "dict": "праздник"
+  },
+  "idiom": {
+    "translation": "идиома",
+    "transcription": "идиом",
+    "pos": "noun"
+  },
+  "ikke-medisinske": {
+    "translation": "немедицинские",
+    "transcription": "иккэ-мэдисинскэ",
+    "pos": "adj",
+    "dict": "немедицинский"
+  },
+  "industridesign": {
+    "translation": "промышленный дизайн",
+    "transcription": "индустридисайн",
+    "pos": "noun"
+  },
+  "infeksjoner": {
+    "translation": "инфекции",
+    "transcription": "инфэксьонэр",
+    "pos": "noun",
+    "dict": "инфекция"
+  },
+  "innkallelser": {
+    "translation": "вызовы",
+    "transcription": "иннкаллэлсэр",
+    "pos": "noun",
+    "dict": "вызов"
+  },
+  "innleggelse": {
+    "translation": "госпитализация",
+    "transcription": "иннлэггэлсэ",
+    "pos": "noun"
+  },
+  "innlemmelse": {
+    "translation": "включение",
+    "transcription": "иннлэммэлсэ",
+    "pos": "noun"
+  },
+  "innvandrerkvinner": {
+    "translation": "женщины-иммигрантки",
+    "transcription": "иннвандрэрквиннэр",
+    "pos": "noun",
+    "dict": "женщина-иммигрантка"
+  },
+  "institusjon": {
+    "translation": "учреждение",
+    "transcription": "институсьон",
+    "pos": "noun"
+  },
+  "intense": {
+    "translation": "интенсивные",
+    "transcription": "интэнсэ",
+    "pos": "adj",
+    "dict": "интенсивный"
+  },
+  "interessert": {
+    "translation": "заинтересованный",
+    "transcription": "интэрэссэрт",
+    "pos": "adj"
+  },
+  "intim": {
+    "translation": "интимный",
+    "transcription": "интим",
+    "pos": "adj"
+  },
+  "invitasjon": {
+    "translation": "приглашение",
+    "transcription": "инвитасьон",
+    "pos": "noun"
+  },
+  "isskrape": {
+    "translation": "скребок для льда",
+    "transcription": "исскрапэ",
+    "pos": "noun"
+  },
+  "jaget": {
+    "translation": "гнал",
+    "transcription": "ягэт",
+    "pos": "verb",
+    "dict": "гнать"
+  },
+  "jern": {
+    "translation": "железо",
+    "transcription": "ьерн",
+    "pos": "noun"
+  },
+  "jevnlige": {
+    "translation": "регулярные",
+    "transcription": "евнлигэ",
+    "pos": "adj",
+    "dict": "регулярный"
+  },
+  "jobbet": {
+    "translation": "работал",
+    "transcription": "йоббэт",
+    "pos": "verb",
+    "dict": "работать"
+  },
+  "jordmora": {
+    "translation": "акушерка",
+    "transcription": "юрмура",
+    "pos": "noun",
+    "dict": "акушерка"
+  },
+  "kaf": {
+    "translation": "кафе (сокр.)",
+    "transcription": "каф",
+    "pos": "noun"
+  },
+  "kald": {
+    "translation": "холодный",
+    "transcription": "калд",
+    "pos": "adj"
+  },
+  "karrierene": {
+    "translation": "карьеры",
+    "transcription": "карриэрэнэ",
+    "pos": "noun",
+    "dict": "карьера"
+  },
+  "kjølesystemet": {
+    "translation": "система охлаждения",
+    "transcription": "хёлэсюстэмэт",
+    "pos": "noun",
+    "dict": "система охлаждения"
+  },
+  "klagen": {
+    "translation": "жалоба",
+    "transcription": "клагэн",
+    "pos": "noun",
+    "dict": "жалоба"
+  },
+  "klassikk": {
+    "translation": "классика",
+    "transcription": "классикк",
+    "pos": "noun"
+  },
+  "kler": {
+    "translation": "одевает",
+    "transcription": "клэр",
+    "pos": "verb",
+    "dict": "одевать"
+  },
+  "klimasonene": {
+    "translation": "климатические зоны",
+    "transcription": "климасонэнэ",
+    "pos": "noun",
+    "dict": "климатическая зона"
+  },
+  "klokka": {
+    "translation": "часы",
+    "transcription": "клокка",
+    "pos": "noun",
+    "dict": "часы"
+  },
+  "koble": {
+    "translation": "соединять",
+    "transcription": "коблэ",
+    "pos": "verb"
+  },
+  "kobles": {
+    "translation": "соединяется",
+    "transcription": "коблэс",
+    "pos": "verb",
+    "dict": "соединяться"
+  },
+  "kollega": {
+    "translation": "коллега",
+    "transcription": "колега",
+    "pos": "noun"
+  },
+  "kollegaene": {
+    "translation": "коллеги (опр.)",
+    "transcription": "колегаэнэ",
+    "pos": "noun"
+  },
+  "kolonnen": {
+    "translation": "колонна (опр.)",
+    "transcription": "колоннэн",
+    "pos": "noun"
+  },
+  "kommunale": {
+    "translation": "муниципальные",
+    "transcription": "коммуналэ",
+    "pos": "adj"
+  },
+  "kongefamilien": {
+    "translation": "королевская семья (опр.)",
+    "transcription": "конгэфамильен",
+    "pos": "noun"
+  },
+  "konkurranseevne": {
+    "translation": "конкурентоспособность",
+    "transcription": "конкурансээвнэ",
+    "pos": "noun"
+  },
+  "konsensus": {
+    "translation": "консенсус",
+    "transcription": "консэнсус",
+    "pos": "noun"
+  },
+  "konsulentvirksomhet": {
+    "translation": "консалтинговая деятельность",
+    "transcription": "консулэнтвирксомхэт",
+    "pos": "noun"
+  },
+  "kontingenten": {
+    "translation": "взнос (опр.)",
+    "transcription": "контингэнтэн",
+    "pos": "noun"
+  },
+  "kontinuerlig": {
+    "translation": "непрерывный",
+    "transcription": "континуэрли",
+    "pos": "adj"
+  },
+  "koordinerer": {
+    "translation": "координирует",
+    "transcription": "коордынэрэр",
+    "pos": "verb"
+  },
+  "koordineres": {
+    "translation": "координируется",
+    "transcription": "коордынэрэс",
+    "pos": "verb"
+  },
+  "koronapandemien": {
+    "translation": "пандемия коронавируса (опр.)",
+    "transcription": "коронапандэмиэн",
+    "pos": "noun"
+  },
+  "koronavaksine": {
+    "translation": "коронавирусная вакцина",
+    "transcription": "коронаваксинэ",
+    "pos": "noun"
+  },
+  "kreative": {
+    "translation": "креативные",
+    "transcription": "креативэ",
+    "pos": "adj"
+  },
+  "kroppens": {
+    "translation": "тела (род.п.)",
+    "transcription": "кроппэнс",
+    "pos": "noun"
+  },
+  "kunnskaper": {
+    "translation": "знания",
+    "transcription": "куннскапэр",
+    "pos": "noun"
+  },
+  "kusma": {
+    "translation": "свинка (паротит)",
+    "transcription": "кусма",
+    "pos": "noun"
+  },
+  "kvelds": {
+    "translation": "вечера (род.п.)",
+    "transcription": "квэльдс",
+    "pos": "noun"
+  },
+  "kvittering": {
+    "translation": "квитанция",
+    "transcription": "квиттэринг",
+    "pos": "noun"
+  },
+  "laboratorium": {
+    "translation": "лаборатория",
+    "transcription": "лабораториум",
+    "pos": "noun"
+  },
+  "ladepunkt": {
+    "translation": "точка зарядки",
+    "transcription": "ладэпункт",
+    "pos": "noun"
+  },
+  "langsom": {
+    "translation": "медленный",
+    "transcription": "лангсом",
+    "pos": "adj"
+  },
+  "langtidsparkering": {
+    "translation": "долгосрочная парковка",
+    "transcription": "лангтидспаркеринг",
+    "pos": "noun"
+  },
+  "lansert": {
+    "translation": "запущен",
+    "transcription": "лансэрт",
+    "pos": "verb"
+  },
+  "lavpunkt": {
+    "translation": "низшая точка",
+    "transcription": "лавпункт",
+    "pos": "noun"
+  },
+  "ledelsesnivåer": {
+    "translation": "уровни руководства",
+    "transcription": "лэдэльсэснивоэр",
+    "pos": "noun"
+  },
+  "legeerklæringer": {
+    "translation": "медицинские справки",
+    "transcription": "лэгээркленингэр",
+    "pos": "noun"
+  },
+  "legeforening": {
+    "translation": "ассоциация врачей",
+    "transcription": "лэгэфорэнинг",
+    "pos": "noun"
+  },
+  "legemiddel": {
+    "translation": "лекарство",
+    "transcription": "лэгэмиддэль",
+    "pos": "noun"
+  },
+  "legemiddelassistert": {
+    "translation": "медикаментозно-ассистированный",
+    "transcription": "лэгэмиддэльассистэрт",
+    "pos": "adj"
+  },
+  "legemiddelindustrien": {
+    "translation": "фармацевтическая промышленность (опр.)",
+    "transcription": "лэгэмиддэлиндустриэн",
+    "pos": "noun"
+  },
+  "legemiddelpriser": {
+    "translation": "цены на лекарства",
+    "transcription": "лэгэмиддэльприсэр",
+    "pos": "noun"
+  },
+  "legemiddelproduksjon": {
+    "translation": "производство лекарств",
+    "transcription": "лэгэмиддэльпродуксьон",
+    "pos": "noun"
+  },
+  "legemiddeltilgjengelighet": {
+    "translation": "доступность лекарств",
+    "transcription": "лэгэмиддэльтильенгэлигхэт",
+    "pos": "noun"
+  },
+  "legemidlets": {
+    "translation": "лекарства (род.п.)",
+    "transcription": "лэгэмидлэтс",
+    "pos": "noun"
+  },
+  "legene": {
+    "translation": "врачи (опр.)",
+    "transcription": "лэгэнэ",
+    "pos": "noun"
+  },
+  "legger": {
+    "translation": "кладёт",
+    "transcription": "лэггэр",
+    "pos": "verb"
+  },
+  "legitime": {
+    "translation": "законные",
+    "transcription": "лэгитимэ",
+    "pos": "adj"
+  },
+  "leker": {
+    "translation": "играет; игрушки",
+    "transcription": "лэкэр",
+    "pos": "verb"
+  },
+  "lengre": {
+    "translation": "дольше; длиннее",
+    "transcription": "лэнгрэ",
+    "pos": "adj"
+  },
+  "lengst": {
+    "translation": "дольше всего",
+    "transcription": "лэнгст",
+    "pos": "adv"
+  },
+  "lesbiske": {
+    "translation": "лесбиянки",
+    "transcription": "лэсбискэ",
+    "pos": "adj"
+  },
+  "lese": {
+    "translation": "читать",
+    "transcription": "лэсэ",
+    "pos": "verb"
+  },
+  "leseferdighetene": {
+    "translation": "навыки чтения (опр.)",
+    "transcription": "лэсэфэрдигхэтэнэ",
+    "pos": "noun"
+  },
+  "leser": {
+    "translation": "читает",
+    "transcription": "лэсэр",
+    "pos": "verb"
+  },
+  "leses": {
+    "translation": "читается",
+    "transcription": "лэсэс",
+    "pos": "verb"
+  },
+  "lesing": {
+    "translation": "чтение",
+    "transcription": "лэсинг",
+    "pos": "noun"
+  },
+  "lesning": {
+    "translation": "чтение",
+    "transcription": "лэснинг",
+    "pos": "noun"
+  },
+  "lest": {
+    "translation": "прочитан",
+    "transcription": "лэст",
+    "pos": "verb"
+  },
+  "leste": {
+    "translation": "читал",
+    "transcription": "лэстэ",
+    "pos": "verb"
+  },
+  "leter": {
+    "translation": "ищет",
+    "transcription": "лэтэр",
+    "pos": "verb"
+  },
+  "letter": {
+    "translation": "облегчает; взлетает",
+    "transcription": "лэттэр",
+    "pos": "verb"
+  },
+  "leve": {
+    "translation": "жить",
+    "transcription": "лэвэ",
+    "pos": "verb"
+  },
+  "levealderen": {
+    "translation": "продолжительность жизни (опр.)",
+    "transcription": "лэвэальдэрэн",
+    "pos": "noun"
+  },
+  "levedyktige": {
+    "translation": "жизнеспособные",
+    "transcription": "лэвэдюктигэ",
+    "pos": "adj"
+  },
+  "levende": {
+    "translation": "живой",
+    "transcription": "лэвэндэ",
+    "pos": "adj"
+  },
+  "leveransekjedene": {
+    "translation": "цепочки поставок (опр.)",
+    "transcription": "лэвэрансэхедэнэ",
+    "pos": "noun"
+  },
+  "leveren": {
+    "translation": "печень (опр.)",
+    "transcription": "лэвэрэн",
+    "pos": "noun"
+  },
+  "leverer": {
+    "translation": "поставляет",
+    "transcription": "лэвэрэр",
+    "pos": "verb"
+  },
+  "leveres": {
+    "translation": "поставляется",
+    "transcription": "лэвэрэс",
+    "pos": "verb"
+  },
+  "leveringstjenester": {
+    "translation": "службы доставки",
+    "transcription": "лэвэрингстьенэстэр",
+    "pos": "noun"
+  },
+  "levetiden": {
+    "translation": "срок службы (опр.)",
+    "transcription": "лэвэтидэн",
+    "pos": "noun"
+  },
+  "lidelse": {
+    "translation": "страдание; расстройство",
+    "transcription": "лидэльсэ",
+    "pos": "noun"
+  },
+  "lidelser": {
+    "translation": "страдания; расстройства",
+    "transcription": "лидэльсэр",
+    "pos": "noun"
+  },
+  "lider": {
+    "translation": "страдает",
+    "transcription": "лидэр",
+    "pos": "verb"
+  },
+  "liggende": {
+    "translation": "лежащий",
+    "transcription": "лиггэндэ",
+    "pos": "adj"
+  },
+  "lignende": {
+    "translation": "похожий",
+    "transcription": "лигнэндэ",
+    "pos": "adj"
+  },
+  "lik": {
+    "translation": "равный",
+    "transcription": "лик",
+    "pos": "adj"
+  },
+  "likestilling": {
+    "translation": "равноправие",
+    "transcription": "ликэстиллинг",
+    "pos": "noun"
+  },
+  "likestillingspolitikk": {
+    "translation": "политика равноправия",
+    "transcription": "ликэстиллингспулитикк",
+    "pos": "noun"
+  },
+  "likestilt": {
+    "translation": "равноправный",
+    "transcription": "ликэстильт",
+    "pos": "adj"
+  },
+  "likestilte": {
+    "translation": "равноправные",
+    "transcription": "ликэстильтэ",
+    "pos": "adj"
+  },
+  "likeverdig": {
+    "translation": "равноценный",
+    "transcription": "ликэвэрди",
+    "pos": "adj"
+  },
+  "likeverdige": {
+    "translation": "равноценные",
+    "transcription": "ликэвэрдигэ",
+    "pos": "adj"
+  },
+  "likhet": {
+    "translation": "равенство; сходство",
+    "transcription": "ликхэт",
+    "pos": "noun"
+  },
+  "likhetsfilosofien": {
+    "translation": "философия равенства (опр.)",
+    "transcription": "ликхэтсфилософиэн",
+    "pos": "noun"
+  },
+  "likt": {
+    "translation": "одинаково",
+    "transcription": "ликт",
+    "pos": "adv"
+  },
+  "lille": {
+    "translation": "маленький",
+    "transcription": "лиллэ",
+    "pos": "adj"
+  },
+  "lim": {
+    "translation": "клей",
+    "transcription": "лим",
+    "pos": "noun"
+  },
+  "lineære": {
+    "translation": "линейные",
+    "transcription": "линеэрэ",
+    "pos": "adj"
+  },
+  "linjen": {
+    "translation": "линия (опр.)",
+    "transcription": "линьен",
+    "pos": "noun"
+  },
+  "linse": {
+    "translation": "линза; чечевица",
+    "transcription": "линсэ",
+    "pos": "noun"
+  },
+  "lista": {
+    "translation": "список (опр.)",
+    "transcription": "листа",
+    "pos": "noun"
+  },
+  "liste": {
+    "translation": "список",
+    "transcription": "листэ",
+    "pos": "noun"
+  },
+  "listen": {
+    "translation": "список (опр.)",
+    "transcription": "листэн",
+    "pos": "noun"
+  },
+  "litteraturen": {
+    "translation": "литература (опр.)",
+    "transcription": "литтэратурэн",
+    "pos": "noun"
+  },
+  "litteraturkritikere": {
+    "translation": "литературные критики",
+    "transcription": "литтэратуркритикэрэ",
+    "pos": "noun"
+  },
+  "litterær": {
+    "translation": "литературный",
+    "transcription": "литтэрэр",
+    "pos": "adj"
+  },
+  "litterært": {
+    "translation": "литературное",
+    "transcription": "литтэрэрт",
+    "pos": "adj"
+  },
+  "livmorhalskreft": {
+    "translation": "рак шейки матки",
+    "transcription": "ливморхальскрэфт",
+    "pos": "noun"
+  },
+  "livsfarlig": {
+    "translation": "смертельно опасный",
+    "transcription": "ливсфарли",
+    "pos": "adj"
+  },
+  "livslang": {
+    "translation": "пожизненный",
+    "transcription": "ливсланг",
+    "pos": "adj"
+  },
+  "livsstil": {
+    "translation": "образ жизни",
+    "transcription": "ливсстиль",
+    "pos": "noun"
+  },
+  "livssyklus": {
+    "translation": "жизненный цикл",
+    "transcription": "ливссюклус",
+    "pos": "noun"
+  },
+  "livstruende": {
+    "translation": "угрожающий жизни",
+    "transcription": "ливструэндэ",
+    "pos": "adj"
+  },
+  "livsvarig": {
+    "translation": "пожизненный",
+    "transcription": "ливсвари",
+    "pos": "adj"
+  },
+  "lobbe": {
+    "translation": "лоббировать",
+    "transcription": "лоббэ",
+    "pos": "verb"
+  },
+  "lockouter": {
+    "translation": "локауты",
+    "transcription": "локкаутэр",
+    "pos": "noun"
+  },
+  "logger": {
+    "translation": "регистрирует",
+    "transcription": "логгэр",
+    "pos": "verb"
+  },
+  "logikk": {
+    "translation": "логика",
+    "transcription": "логикк",
+    "pos": "noun"
+  },
+  "logikken": {
+    "translation": "логика (опр.)",
+    "transcription": "логиккэн",
+    "pos": "noun"
+  },
+  "lojalitet": {
+    "translation": "лояльность",
+    "transcription": "лоялитэт",
+    "pos": "noun"
+  },
+  "lommelykt": {
+    "translation": "фонарик",
+    "transcription": "ломмэлюкт",
+    "pos": "noun"
+  },
+  "luft": {
+    "translation": "воздух",
+    "transcription": "луфт",
+    "pos": "noun"
+  },
+  "luftkvaliteten": {
+    "translation": "качество воздуха (опр.)",
+    "transcription": "луфтквалитэтэн",
+    "pos": "noun"
+  },
+  "lurt": {
+    "translation": "хитрый; обманут",
+    "transcription": "лурт",
+    "pos": "adj"
+  },
+  "lykkelig": {
+    "translation": "счастливый",
+    "transcription": "люккэли",
+    "pos": "adj"
+  },
+  "lynkarriere": {
+    "translation": "стремительная карьера",
+    "transcription": "люнкарриэрэ",
+    "pos": "noun"
+  },
+  "lystgass": {
+    "translation": "веселящий газ",
+    "transcription": "люстгасс",
+    "pos": "noun"
+  },
+  "lytter": {
+    "translation": "слушает",
+    "transcription": "люттэр",
+    "pos": "verb"
+  },
+  "lønna": {
+    "translation": "зарплата (опр.)",
+    "transcription": "лённа",
+    "pos": "noun"
+  },
+  "lønner": {
+    "translation": "оплачивает; зарплаты",
+    "transcription": "лённэр",
+    "pos": "verb"
+  },
+  "lønnsforskjellen": {
+    "translation": "разница в зарплате (опр.)",
+    "transcription": "лённсфоршеллен",
+    "pos": "noun"
+  },
+  "løse": {
+    "translation": "решать",
+    "transcription": "лёсэ",
+    "pos": "verb"
+  },
+  "mai": {
+    "translation": "май",
+    "transcription": "май",
+    "pos": "noun"
+  },
+  "mamma": {
+    "translation": "мама",
+    "transcription": "мамма",
+    "pos": "noun"
+  },
+  "manager": {
+    "translation": "менеджер",
+    "transcription": "манагер",
+    "pos": "noun"
+  },
+  "massasje": {
+    "translation": "массаж",
+    "transcription": "массасьэ",
+    "pos": "noun"
+  },
+  "masseundersøkelser": {
+    "translation": "массовые обследования",
+    "transcription": "массэундэрсёкэльсэр",
+    "pos": "noun"
+  },
+  "maten": {
+    "translation": "еда (опр.)",
+    "transcription": "матэн",
+    "pos": "noun"
+  },
+  "medfødte": {
+    "translation": "врождённые",
+    "transcription": "мэдфёдтэ",
+    "pos": "adj"
+  },
+  "mekanismen": {
+    "translation": "механизм (опр.)",
+    "transcription": "мэканисмэн",
+    "pos": "noun"
+  },
+  "meldingene": {
+    "translation": "сообщения (опр.)",
+    "transcription": "мэльдингэнэ",
+    "pos": "noun"
+  },
+  "meslinger": {
+    "translation": "корь",
+    "transcription": "мэслингэр",
+    "pos": "noun"
+  },
+  "midtsommer": {
+    "translation": "середина лета",
+    "transcription": "миттсоммэр",
+    "pos": "noun"
+  },
+  "miksen": {
+    "translation": "микс (опр.)",
+    "transcription": "миксэн",
+    "pos": "noun"
+  },
+  "militærparader": {
+    "translation": "военные парады",
+    "transcription": "милитэрпарадэр",
+    "pos": "noun"
+  },
+  "miljøbevisste": {
+    "translation": "экологически сознательные",
+    "transcription": "мильёбэвисстэ",
+    "pos": "adj"
+  },
+  "miljøorganisasjoner": {
+    "translation": "экологические организации",
+    "transcription": "мильёорганисасьонэр",
+    "pos": "noun"
+  },
+  "minstelønner": {
+    "translation": "минимальные зарплаты",
+    "transcription": "минстэлённэр",
+    "pos": "noun"
+  },
+  "minus": {
+    "translation": "минус",
+    "transcription": "минус",
+    "pos": "noun"
+  },
+  "mor": {
+    "translation": "мать",
+    "transcription": "мур",
+    "pos": "noun"
+  },
+  "motstanderne": {
+    "translation": "противники (опр.)",
+    "transcription": "мотстандэрнэ",
+    "pos": "noun"
+  },
+  "måten": {
+    "translation": "способ (опр.)",
+    "transcription": "мотэн",
+    "pos": "noun"
+  },
+  "mødre": {
+    "translation": "матери",
+    "transcription": "мёдрэ",
+    "pos": "noun"
+  },
+  "mønster": {
+    "translation": "узор; образец",
+    "transcription": "мёнстэр",
+    "pos": "noun"
+  },
+  "mørkt": {
+    "translation": "тёмное",
+    "transcription": "мёркт",
+    "pos": "adj"
+  },
+  "møtes": {
+    "translation": "встречаться",
+    "transcription": "мётэс",
+    "pos": "verb"
+  },
+  "nasjonaldagen": {
+    "translation": "национальный день (опр.)",
+    "transcription": "насьоналдагэн",
+    "pos": "noun"
+  },
+  "nasjonaldrakt": {
+    "translation": "национальный костюм",
+    "transcription": "насьоналдракт",
+    "pos": "noun"
+  },
+  "nationaltheatret": {
+    "translation": "Национальный театр",
+    "transcription": "насьональтэатрэт",
+    "pos": "noun"
+  },
+  "nerver": {
+    "translation": "нервы",
+    "transcription": "нэрвэр",
+    "pos": "noun"
+  },
+  "nettet": {
+    "translation": "сеть (опр.)",
+    "transcription": "нэттэт",
+    "pos": "noun"
+  },
+  "nordiske": {
+    "translation": "северные; скандинавские",
+    "transcription": "нордискэ",
+    "pos": "adj"
+  },
+  "nordlige": {
+    "translation": "северные",
+    "transcription": "нордлигэ",
+    "pos": "adj"
+  },
+  "nyhet": {
+    "translation": "новость",
+    "transcription": "нюхэт",
+    "pos": "noun"
+  },
+  "nytten": {
+    "translation": "польза (опр.)",
+    "transcription": "нюттэн",
+    "pos": "noun"
+  },
+  "næringsdrivende": {
+    "translation": "предприниматель",
+    "transcription": "нэрингсдривэндэ",
+    "pos": "noun"
+  },
+  "nøkkelspørsmålet": {
+    "translation": "ключевой вопрос (опр.)",
+    "transcription": "нёккэльспёрсмолэт",
+    "pos": "noun"
+  },
+  "ofre": {
+    "translation": "жертвовать; жертвы",
+    "transcription": "офрэ",
+    "pos": "verb"
+  },
+  "omorganisering": {
+    "translation": "реорганизация",
+    "transcription": "оморганисэринг",
+    "pos": "noun"
+  },
+  "omskoleringsprogrammer": {
+    "translation": "программы переквалификации",
+    "transcription": "омсколэрингспрограммэр",
+    "pos": "noun"
+  },
+  "omsorgskvalitet": {
+    "translation": "качество ухода",
+    "transcription": "омсоргскалитэт",
+    "pos": "noun"
+  },
+  "operatør": {
+    "translation": "оператор",
+    "transcription": "опэратёр",
+    "pos": "noun"
+  },
+  "oppblåste": {
+    "translation": "надутые; завышенные",
+    "transcription": "оппблостэ",
+    "pos": "adj"
+  },
+  "opplevelse": {
+    "translation": "переживание; опыт",
+    "transcription": "опплэвэльсэ",
+    "pos": "noun"
+  },
+  "oppnevne": {
+    "translation": "назначать",
+    "transcription": "оппнэвнэ",
+    "pos": "verb"
+  },
+  "oppover": {
+    "translation": "вверх",
+    "transcription": "оппувэр",
+    "pos": "adv"
+  },
+  "ordet": {
+    "translation": "слово (опр.)",
+    "transcription": "ордэт",
+    "pos": "noun"
+  },
+  "overgangene": {
+    "translation": "переходы (опр.)",
+    "transcription": "овэргангэнэ",
+    "pos": "noun"
+  },
+  "overganger": {
+    "translation": "переходы",
+    "transcription": "овэргангэр",
+    "pos": "noun"
+  },
+  "overholdes": {
+    "translation": "соблюдается",
+    "transcription": "овэрхольдэс",
+    "pos": "verb"
+  },
+  "overlever": {
+    "translation": "выживает",
+    "transcription": "овэрлэвэр",
+    "pos": "verb"
+  },
+  "overskredet": {
+    "translation": "превышен",
+    "transcription": "овэршкрэдэт",
+    "pos": "verb"
+  },
+  "overtredelser": {
+    "translation": "нарушения",
+    "transcription": "овэртрэдэльсэр",
+    "pos": "noun"
+  },
+  "overvåking": {
+    "translation": "наблюдение; надзор",
+    "transcription": "овэрвокинг",
+    "pos": "noun"
+  },
+  "papiret": {
+    "translation": "бумага (опр.)",
+    "transcription": "папирэт",
+    "pos": "noun"
+  },
+  "pappa": {
+    "translation": "папа",
+    "transcription": "паппа",
+    "pos": "noun"
+  },
+  "pappaer": {
+    "translation": "папы",
+    "transcription": "паппаэр",
+    "pos": "noun"
+  },
+  "parkeringen": {
+    "translation": "парковка (опр.)",
+    "transcription": "паркерингэн",
+    "pos": "noun"
+  },
+  "parkeringer": {
+    "translation": "парковки",
+    "transcription": "паркерингэр",
+    "pos": "noun"
+  },
+  "parkeringsavgiften": {
+    "translation": "плата за парковку (опр.)",
+    "transcription": "паркерингсавгифтэн",
+    "pos": "noun"
+  },
+  "parkeringsplassen": {
+    "translation": "парковочное место (опр.)",
+    "transcription": "паркерингсплассэн",
+    "pos": "noun"
+  },
+  "parkeringssted": {
+    "translation": "место парковки",
+    "transcription": "паркерингсстэд",
+    "pos": "noun"
+  },
+  "pensjonister": {
+    "translation": "пенсионеры",
+    "transcription": "пэнсьонистэр",
+    "pos": "noun"
+  },
+  "permisjonen": {
+    "translation": "отпуск (опр.)",
+    "transcription": "пэрмисьонэн",
+    "pos": "noun"
+  },
+  "piggene": {
+    "translation": "шипы (опр.)",
+    "transcription": "пиггэнэ",
+    "pos": "noun"
+  },
+  "plasser": {
+    "translation": "места",
+    "transcription": "плассэр",
+    "pos": "noun"
+  },
+  "plateselskap": {
+    "translation": "звукозаписывающая компания",
+    "transcription": "платэсэльскап",
+    "pos": "noun"
+  },
+  "plattformøkonomi": {
+    "translation": "платформенная экономика",
+    "transcription": "платтформёкономи",
+    "pos": "noun"
+  },
+  "pluralisme": {
+    "translation": "плюрализм",
+    "transcription": "плюрализмэ",
+    "pos": "noun"
+  },
+  "plutselige": {
+    "translation": "внезапные",
+    "transcription": "плютсэлигэ",
+    "pos": "adj"
+  },
+  "pneumokokkvaksine": {
+    "translation": "пневмококковая вакцина",
+    "transcription": "пнэвмококквоксинэ",
+    "pos": "noun"
+  },
+  "polio": {
+    "translation": "полиомиелит",
+    "transcription": "полио",
+    "pos": "noun"
+  },
+  "premierer": {
+    "translation": "премьеры",
+    "transcription": "прэмьерэр",
+    "pos": "noun"
+  },
+  "profilen": {
+    "translation": "профиль (опр.)",
+    "transcription": "профилэн",
+    "pos": "noun"
+  },
+  "profitt": {
+    "translation": "прибыль",
+    "transcription": "профитт",
+    "pos": "noun"
+  },
+  "programmene": {
+    "translation": "программы (опр.)",
+    "transcription": "программэнэ",
+    "pos": "noun"
+  },
+  "provinsiell": {
+    "translation": "провинциальный",
+    "transcription": "провинсиэлл",
+    "pos": "adj"
+  },
+  "pusser": {
+    "translation": "чистит",
+    "transcription": "пуссэр",
+    "pos": "verb"
+  },
+  "radikal": {
+    "translation": "радикальный",
+    "transcription": "радикаль",
+    "pos": "adj"
+  },
+  "reddet": {
+    "translation": "спас",
+    "transcription": "рэддэт",
+    "pos": "verb"
+  },
+  "registre": {
+    "translation": "регистры; реестры",
+    "transcription": "рэгистрэ",
+    "pos": "noun"
+  },
+  "registrerer": {
+    "translation": "регистрирует",
+    "transcription": "рэгистрэрэр",
+    "pos": "verb"
+  },
+  "registreringen": {
+    "translation": "регистрация (опр.)",
+    "transcription": "рэгистрэрингэн",
+    "pos": "noun"
+  },
+  "regjering": {
+    "translation": "правительство",
+    "transcription": "рэйеринг",
+    "pos": "noun"
+  },
+  "regulert": {
+    "translation": "регулируемый",
+    "transcription": "рэгулэрт",
+    "pos": "adj"
+  },
+  "reklameforbud": {
+    "translation": "запрет рекламы",
+    "transcription": "рэкламэфорбуд",
+    "pos": "noun"
+  },
+  "rense": {
+    "translation": "очищать",
+    "transcription": "рэнсэ",
+    "pos": "verb"
+  },
+  "repertoar": {
+    "translation": "репертуар",
+    "transcription": "рэпертоар",
+    "pos": "noun"
+  },
+  "revolusjon": {
+    "translation": "революция",
+    "transcription": "рэволусьон",
+    "pos": "noun"
+  },
+  "risikovurderinger": {
+    "translation": "оценки рисков",
+    "transcription": "рисикувурдэрингэр",
+    "pos": "noun"
+  },
+  "rockefestival": {
+    "translation": "рок-фестиваль",
+    "transcription": "роккэфэстиваль",
+    "pos": "noun"
+  },
+  "romantiske": {
+    "translation": "романтические",
+    "transcription": "романтискэ",
+    "pos": "adj"
+  },
+  "roskilde": {
+    "translation": "Роскилле",
+    "transcription": "роскильдэ",
+    "pos": "noun"
+  },
+  "rute": {
+    "translation": "маршрут",
+    "transcription": "рутэ",
+    "pos": "noun"
+  },
+  "rydder": {
+    "translation": "убирает",
+    "transcription": "рюддэр",
+    "pos": "verb"
+  },
+  "rådgir": {
+    "translation": "консультирует",
+    "transcription": "родьир",
+    "pos": "verb"
+  },
+  "rød": {
+    "translation": "красный",
+    "transcription": "рёд",
+    "pos": "adj"
+  },
+  "røde": {
+    "translation": "красные",
+    "transcription": "рёдэ",
+    "pos": "adj"
+  },
+  "røkelaks": {
+    "translation": "копчёный лосось",
+    "transcription": "рёкелакс",
+    "pos": "noun"
+  },
+  "røtter": {
+    "translation": "корни",
+    "transcription": "рёттэр",
+    "pos": "noun"
+  },
+  "røyker": {
+    "translation": "курит",
+    "transcription": "рёйкер",
+    "pos": "verb"
+  },
+  "sammenslutning": {
+    "translation": "объединение, союз",
+    "transcription": "саммэнслютнинг",
+    "pos": "noun"
+  },
+  "samspill": {
+    "translation": "взаимодействие",
+    "transcription": "самспилль",
+    "pos": "noun"
+  },
+  "samtidige": {
+    "translation": "одновременные, современные",
+    "transcription": "самтидигэ",
+    "pos": "adj"
+  },
+  "samtidsdramatikere": {
+    "translation": "современные драматурги",
+    "transcription": "самтидсдраматикэрэ",
+    "pos": "noun"
+  },
+  "sankthans": {
+    "translation": "Иванов день",
+    "transcription": "санктханс",
+    "pos": "noun"
+  },
+  "sant": {
+    "translation": "правда, истинно",
+    "transcription": "сант",
+    "pos": "adj"
+  },
+  "scenarier": {
+    "translation": "сценарии",
+    "transcription": "сенариер",
+    "pos": "noun"
+  },
+  "scene": {
+    "translation": "сцена",
+    "transcription": "сенэ",
+    "pos": "noun"
+  },
+  "scenedøren": {
+    "translation": "служебный вход (сцены)",
+    "transcription": "сенэдёрэн",
+    "pos": "noun"
+  },
+  "scener": {
+    "translation": "сцены",
+    "transcription": "сенэр",
+    "pos": "noun"
+  },
+  "schizofreni": {
+    "translation": "шизофрения",
+    "transcription": "скитсофрени",
+    "pos": "noun"
+  },
+  "seerne": {
+    "translation": "зрители",
+    "transcription": "сээрнэ",
+    "pos": "noun"
+  },
+  "seertall": {
+    "translation": "число зрителей, рейтинг",
+    "transcription": "сээрталль",
+    "pos": "noun"
+  },
+  "segment": {
+    "translation": "сегмент",
+    "transcription": "сегмент",
+    "pos": "noun"
+  },
+  "segmentet": {
+    "translation": "сегмент (определённый)",
+    "transcription": "сегментэт",
+    "pos": "noun"
+  },
+  "seksjon": {
+    "translation": "секция, отдел",
+    "transcription": "сексьон",
+    "pos": "noun"
+  },
+  "seksti": {
+    "translation": "шестьдесят",
+    "transcription": "сексти",
+    "pos": "num"
+  },
+  "seksuell": {
+    "translation": "сексуальный",
+    "transcription": "сексюэлль",
+    "pos": "adj"
+  },
+  "seksuelle": {
+    "translation": "сексуальные",
+    "transcription": "сексюэллэ",
+    "pos": "adj"
+  },
+  "selg": {
+    "translation": "продай",
+    "transcription": "сельг",
+    "pos": "verb"
+  },
+  "selskap": {
+    "translation": "компания, общество",
+    "transcription": "сельскап",
+    "pos": "noun"
+  },
+  "selskapsskatt": {
+    "translation": "корпоративный налог",
+    "transcription": "сельскапсскатт",
+    "pos": "noun"
+  },
+  "selvbiografisk": {
+    "translation": "автобиографический",
+    "transcription": "сельвбиографиск",
+    "pos": "adj"
+  },
+  "selvfølelse": {
+    "translation": "самооценка",
+    "transcription": "сельвфёлельсэ",
+    "pos": "noun"
+  },
+  "selvhjelp": {
+    "translation": "самопомощь",
+    "transcription": "сельвьельп",
+    "pos": "noun"
+  },
+  "selvmordsrisiko": {
+    "translation": "риск суицида",
+    "transcription": "сельвмордсрисико",
+    "pos": "noun"
+  },
+  "selvstendig": {
+    "translation": "самостоятельный",
+    "transcription": "сельвстендиг",
+    "pos": "adj"
+  },
+  "selvstendige": {
+    "translation": "самостоятельные",
+    "transcription": "сельвстендигэ",
+    "pos": "adj"
+  },
+  "selvstendighet": {
+    "translation": "самостоятельность",
+    "transcription": "сельвстендигхет",
+    "pos": "noun"
+  },
+  "semesteret": {
+    "translation": "семестр (определённый)",
+    "transcription": "семэстэрэт",
+    "pos": "noun"
+  },
+  "seminarer": {
+    "translation": "семинары",
+    "transcription": "семинарэр",
+    "pos": "noun"
+  },
+  "sengen": {
+    "translation": "кровать (определённая)",
+    "transcription": "сенгэн",
+    "pos": "noun"
+  },
+  "seniorspesialist": {
+    "translation": "старший специалист",
+    "transcription": "сениорспесиалист",
+    "pos": "noun"
+  },
+  "sensorer": {
+    "translation": "экзаменаторы, сенсоры",
+    "transcription": "сенсорэр",
+    "pos": "noun"
+  },
+  "sent": {
+    "translation": "поздно",
+    "transcription": "сэнт",
+    "pos": "adv"
+  },
+  "senter": {
+    "translation": "центр",
+    "transcription": "сэнтэр",
+    "pos": "noun"
+  },
+  "sentralbank": {
+    "translation": "центральный банк",
+    "transcription": "сентральбанк",
+    "pos": "noun"
+  },
+  "sentralisert": {
+    "translation": "централизованный",
+    "transcription": "сентрализерт",
+    "pos": "adj"
+  },
+  "sentre": {
+    "translation": "центры",
+    "transcription": "сэнтрэ",
+    "pos": "noun"
+  },
+  "sentrene": {
+    "translation": "центры (определённые)",
+    "transcription": "сэнтрэнэ",
+    "pos": "noun"
+  },
+  "separat": {
+    "translation": "отдельный, отдельно",
+    "transcription": "сепарат",
+    "pos": "adj"
+  },
+  "serie": {
+    "translation": "сериал, серия",
+    "transcription": "сериэ",
+    "pos": "noun"
+  },
+  "serieproduserte": {
+    "translation": "серийно произведённые",
+    "transcription": "сериэпродюсэртэ",
+    "pos": "adj"
+  },
+  "seriprouksjon": {
+    "translation": "серийное производство",
+    "transcription": "сериэпродюксьон",
+    "pos": "noun"
+  },
+  "serotonin": {
+    "translation": "серотонин",
+    "transcription": "серотонин",
+    "pos": "noun"
+  },
+  "sertifiseringen": {
+    "translation": "сертификация (определённая)",
+    "transcription": "сертифисерингэн",
+    "pos": "noun"
+  },
+  "servicehistorikk": {
+    "translation": "история обслуживания",
+    "transcription": "сервисхисторикк",
+    "pos": "noun"
+  },
+  "sesongaspekt": {
+    "translation": "сезонный аспект",
+    "transcription": "сесонгаспэкт",
+    "pos": "noun"
+  },
+  "sesongavhengig": {
+    "translation": "сезонозависимый",
+    "transcription": "сесонгавхэнгиг",
+    "pos": "adj"
+  },
+  "sesongene": {
+    "translation": "сезоны (определённые)",
+    "transcription": "сесонгэнэ",
+    "pos": "noun"
+  },
+  "sesonger": {
+    "translation": "сезоны",
+    "transcription": "сесонгэр",
+    "pos": "noun"
+  },
+  "sesongvaksiner": {
+    "translation": "сезонные вакцины",
+    "transcription": "сесонгваксинэр",
+    "pos": "noun"
+  },
+  "setninger": {
+    "translation": "предложения",
+    "transcription": "сэтнингэр",
+    "pos": "noun"
+  },
+  "sex": {
+    "translation": "секс",
+    "transcription": "сэкс",
+    "pos": "noun"
+  },
+  "sidene": {
+    "translation": "страницы (определённые)",
+    "transcription": "сидэнэ",
+    "pos": "noun"
+  },
+  "sikkerhetskampanjer": {
+    "translation": "кампании по безопасности",
+    "transcription": "сиккерхетскампаньер",
+    "pos": "noun"
+  },
+  "sikkerhetsstandardene": {
+    "translation": "стандарты безопасности (определённые)",
+    "transcription": "сиккерхетсстандардэнэ",
+    "pos": "noun"
+  },
+  "sikkerhetsstandarder": {
+    "translation": "стандарты безопасности",
+    "transcription": "сиккерхетсстандардэр",
+    "pos": "noun"
+  },
+  "sikret": {
+    "translation": "обеспечил, защищённый",
+    "transcription": "сикрэт",
+    "pos": "verb"
+  },
+  "sikt": {
+    "translation": "видимость, перспектива",
+    "transcription": "сикт",
+    "pos": "noun"
+  },
+  "sist": {
+    "translation": "в последний раз, последний",
+    "transcription": "сист",
+    "pos": "adv"
+  },
+  "sivil": {
+    "translation": "гражданский",
+    "transcription": "сивиль",
+    "pos": "adj"
+  },
+  "sivile": {
+    "translation": "гражданские",
+    "transcription": "сивилэ",
+    "pos": "adj"
+  },
+  "sjalusi": {
+    "translation": "ревность",
+    "transcription": "шалюси",
+    "pos": "noun"
+  },
+  "sjampanje": {
+    "translation": "шампанское",
+    "transcription": "шампаньэ",
+    "pos": "noun"
+  },
+  "sjanger": {
+    "translation": "жанр",
+    "transcription": "шангэр",
+    "pos": "noun"
+  },
+  "sjangeren": {
+    "translation": "жанр (определённый)",
+    "transcription": "шангэрэн",
+    "pos": "noun"
+  },
+  "sjanse": {
+    "translation": "шанс",
+    "transcription": "шансэ",
+    "pos": "noun"
+  },
+  "sjansene": {
+    "translation": "шансы (определённые)",
+    "transcription": "шансэнэ",
+    "pos": "noun"
+  },
+  "sjanser": {
+    "translation": "шансы",
+    "transcription": "шансэр",
+    "pos": "noun"
+  },
+  "sjefen": {
+    "translation": "начальник (определённый)",
+    "transcription": "шефэн",
+    "pos": "noun"
+  },
+  "sjeik": {
+    "translation": "шейх",
+    "transcription": "шэйк",
+    "pos": "noun"
+  },
+  "sjekkes": {
+    "translation": "проверяется",
+    "transcription": "шеккэс",
+    "pos": "verb"
+  },
+  "sjelens": {
+    "translation": "души (родительный)",
+    "transcription": "шелэнс",
+    "pos": "noun"
+  },
+  "sjenerøse": {
+    "translation": "щедрые",
+    "transcription": "шенэрёсэ",
+    "pos": "adj"
+  },
+  "sjenerøst": {
+    "translation": "щедро",
+    "transcription": "шенэрёст",
+    "pos": "adv"
+  },
+  "sjokk": {
+    "translation": "шок",
+    "transcription": "шокк",
+    "pos": "noun"
+  },
+  "sjokolade": {
+    "translation": "шоколад",
+    "transcription": "шоколадэ",
+    "pos": "noun"
+  },
+  "sju": {
+    "translation": "семь",
+    "transcription": "шю",
+    "pos": "num"
+  },
+  "sjåfør": {
+    "translation": "водитель",
+    "transcription": "шофёр",
+    "pos": "noun"
+  },
+  "sjåførene": {
+    "translation": "водители (определённые)",
+    "transcription": "шофёрэнэ",
+    "pos": "noun"
+  },
+  "sjåførens": {
+    "translation": "водителя (родительный)",
+    "transcription": "шофёрэнс",
+    "pos": "noun"
+  },
+  "sjøen": {
+    "translation": "море (определённое)",
+    "transcription": "шёэн",
+    "pos": "noun"
+  },
+  "skadde": {
+    "translation": "пострадавшие, ранили",
+    "transcription": "скаддэ",
+    "pos": "verb"
+  },
+  "skade": {
+    "translation": "повреждение, травма",
+    "transcription": "скадэ",
+    "pos": "noun"
+  },
+  "skadefri": {
+    "translation": "без травм",
+    "transcription": "скадэфри",
+    "pos": "adj"
+  },
+  "skadelig": {
+    "translation": "вредный",
+    "transcription": "скадэлиг",
+    "pos": "adj"
+  },
+  "skaden": {
+    "translation": "травма (определённая)",
+    "transcription": "скадэн",
+    "pos": "noun"
+  },
+  "skadene": {
+    "translation": "травмы (определённые)",
+    "transcription": "скадэнэ",
+    "pos": "noun"
+  },
+  "skadet": {
+    "translation": "повреждённый, травмированный",
+    "transcription": "скадэт",
+    "pos": "adj"
+  },
+  "skaff": {
+    "translation": "достань, раздобудь",
+    "transcription": "скафф",
+    "pos": "verb"
+  },
+  "skaffe": {
+    "translation": "доставать, добывать",
+    "transcription": "скаффэ",
+    "pos": "verb"
+  },
+  "skala": {
+    "translation": "шкала",
+    "transcription": "скала",
+    "pos": "noun"
+  },
+  "skammer": {
+    "translation": "стыдится",
+    "transcription": "скаммэр",
+    "pos": "verb"
+  },
+  "skandale": {
+    "translation": "скандал",
+    "transcription": "скандалэ",
+    "pos": "noun"
+  },
+  "skandinavisk": {
+    "translation": "скандинавский",
+    "transcription": "скандинависк",
+    "pos": "adj"
+  },
+  "skarp": {
+    "translation": "острый",
+    "transcription": "скарп",
+    "pos": "adj"
+  },
+  "skattefordeler": {
+    "translation": "налоговые льготы",
+    "transcription": "скаттэфордэлэр",
+    "pos": "noun"
+  },
+  "skattefradrag": {
+    "translation": "налоговый вычет",
+    "transcription": "скаттэфрадраг",
+    "pos": "noun"
+  },
+  "skatten": {
+    "translation": "налог (определённый)",
+    "transcription": "скаттэн",
+    "pos": "noun"
+  },
+  "skatteplanlegging": {
+    "translation": "налоговое планирование",
+    "transcription": "скаттэпланлэггинг",
+    "pos": "noun"
+  },
+  "skatter": {
+    "translation": "налоги",
+    "transcription": "скаттэр",
+    "pos": "noun"
+  },
+  "skifter": {
+    "translation": "меняет, сменяет",
+    "transcription": "шифтэр",
+    "pos": "verb"
+  },
+  "skikkelig": {
+    "translation": "приличный, как следует",
+    "transcription": "шиккэлиг",
+    "pos": "adj"
+  },
+  "skikkelse": {
+    "translation": "фигура, персонаж",
+    "transcription": "шиккэльсэ",
+    "pos": "noun"
+  },
+  "skillelinjer": {
+    "translation": "разделительные линии",
+    "transcription": "шиллэлиньер",
+    "pos": "noun"
+  },
+  "skillet": {
+    "translation": "разделение (определённое)",
+    "transcription": "шиллэт",
+    "pos": "noun"
+  },
+  "skilsmisse": {
+    "translation": "развод",
+    "transcription": "шильсмиссэ",
+    "pos": "noun"
+  },
+  "skinnjakker": {
+    "translation": "кожаные куртки",
+    "transcription": "шиннякэр",
+    "pos": "noun"
+  },
+  "skjelving": {
+    "translation": "дрожь",
+    "transcription": "шельвинг",
+    "pos": "noun"
+  },
+  "skjema": {
+    "translation": "форма, бланк",
+    "transcription": "шема",
+    "pos": "noun"
+  },
+  "skjemaer": {
+    "translation": "формы, бланки",
+    "transcription": "шемаэр",
+    "pos": "noun"
+  },
+  "skjerm": {
+    "translation": "экран",
+    "transcription": "шерм",
+    "pos": "noun"
+  },
+  "skjermen": {
+    "translation": "экран (определённый)",
+    "transcription": "шермэн",
+    "pos": "noun"
+  },
+  "skjule": {
+    "translation": "скрывать",
+    "transcription": "шюлэ",
+    "pos": "verb"
+  },
+  "skjules": {
+    "translation": "скрывается",
+    "transcription": "шюлэс",
+    "pos": "verb"
+  },
+  "skjør": {
+    "translation": "хрупкий",
+    "transcription": "шёр",
+    "pos": "adj"
+  },
+  "sko": {
+    "translation": "обувь, туфли",
+    "transcription": "ско",
+    "pos": "noun"
+  },
+  "skogbrannsoner": {
+    "translation": "зоны лесных пожаров",
+    "transcription": "скогбраннсонэр",
+    "pos": "noun"
+  },
+  "skolearbeid": {
+    "translation": "школьная работа",
+    "transcription": "сколеарбэйд",
+    "pos": "noun"
+  },
+  "skoleelever": {
+    "translation": "школьники",
+    "transcription": "сколеэлэвэр",
+    "pos": "noun"
+  },
+  "skoleforberedelse": {
+    "translation": "подготовка к школе",
+    "transcription": "сколефорбэрэдэльсэ",
+    "pos": "noun"
+  },
+  "skolegården": {
+    "translation": "школьный двор (определённый)",
+    "transcription": "сколегордэн",
+    "pos": "noun"
+  },
+  "skolemiljøet": {
+    "translation": "школьная среда (определённая)",
+    "transcription": "сколемильёэт",
+    "pos": "noun"
+  },
+  "skolene": {
+    "translation": "школы (определённые)",
+    "transcription": "сколенэ",
+    "pos": "noun"
+  },
+  "skoletannlege": {
+    "translation": "школьный стоматолог",
+    "transcription": "сколетаннлэгэ",
+    "pos": "noun"
+  },
+  "skredvarselet": {
+    "translation": "предупреждение о лавине (определённое)",
+    "transcription": "скредварсэлэт",
+    "pos": "noun"
+  },
+  "skrekkfilm": {
+    "translation": "фильм ужасов",
+    "transcription": "скреккфильм",
+    "pos": "noun"
+  },
+  "skrekkfilmen": {
+    "translation": "фильм ужасов (определённый)",
+    "transcription": "скреккфильмэн",
+    "pos": "noun"
+  },
+  "skrift": {
+    "translation": "письменность, шрифт",
+    "transcription": "скрифт",
+    "pos": "noun"
+  },
+  "skriftlig": {
+    "translation": "письменный, письменно",
+    "transcription": "скрифтлиг",
+    "pos": "adj"
+  },
+  "skriftlige": {
+    "translation": "письменные",
+    "transcription": "скрифтлигэ",
+    "pos": "adj"
+  },
+  "skritt": {
+    "translation": "шаг",
+    "transcription": "скритт",
+    "pos": "noun"
+  },
+  "skrives": {
+    "translation": "пишется",
+    "transcription": "скривэс",
+    "pos": "verb"
+  },
+  "skryte": {
+    "translation": "хвастаться",
+    "transcription": "скрютэ",
+    "pos": "verb"
+  },
+  "skryter": {
+    "translation": "хвастается",
+    "transcription": "скрютэр",
+    "pos": "verb"
+  },
+  "skuespillene": {
+    "translation": "пьесы (определённые)",
+    "transcription": "скюэспиллэнэ",
+    "pos": "noun"
+  },
+  "skuespillet": {
+    "translation": "пьеса (определённая)",
+    "transcription": "скюэспиллэт",
+    "pos": "noun"
+  },
+  "skuldre": {
+    "translation": "плечи",
+    "transcription": "скюльдрэ",
+    "pos": "noun"
+  },
+  "skulptur": {
+    "translation": "скульптура",
+    "transcription": "скюльптюр",
+    "pos": "noun"
+  },
+  "skulpturer": {
+    "translation": "скульптуры",
+    "transcription": "скюльптюрэр",
+    "pos": "noun"
+  },
+  "skurd": {
+    "translation": "резьба",
+    "transcription": "скюрд",
+    "pos": "noun"
+  },
+  "skyld": {
+    "translation": "вина",
+    "transcription": "шюльд",
+    "pos": "noun"
+  },
+  "skyldes": {
+    "translation": "обусловлено, является следствием",
+    "transcription": "шюльдэс",
+    "pos": "verb"
+  },
+  "skyldfølelse": {
+    "translation": "чувство вины",
+    "transcription": "шюльдфёлельсэ",
+    "pos": "noun"
+  },
+  "skyldig": {
+    "translation": "виновный",
+    "transcription": "шюльдиг",
+    "pos": "adj"
+  },
+  "slags": {
+    "translation": "вид, рода",
+    "transcription": "слагс",
+    "pos": "noun"
+  },
+  "slasherserie": {
+    "translation": "слэшер-сериал",
+    "transcription": "слашерсериэ",
+    "pos": "noun"
+  },
+  "slet": {
+    "translation": "трудился, мучился",
+    "transcription": "слэт",
+    "pos": "verb"
+  },
+  "slett": {
+    "translation": "удали, вовсе",
+    "transcription": "слэтт",
+    "pos": "verb"
+  },
+  "slipper": {
+    "translation": "отпускает, избегает",
+    "transcription": "слиппэр",
+    "pos": "verb"
+  },
+  "sliter": {
+    "translation": "мучается, испытывает трудности",
+    "transcription": "слитэр",
+    "pos": "verb"
+  },
+  "slitt": {
+    "translation": "изношенный, потёртый",
+    "transcription": "слитт",
+    "pos": "adj"
+  },
+  "slottsfjell": {
+    "translation": "Слоттсфьель (название горы)",
+    "transcription": "слоттсфьелль",
+    "pos": "noun"
+  },
+  "sluppet": {
+    "translation": "выпущенный, отпустил",
+    "transcription": "слюппэт",
+    "pos": "verb"
+  },
+  "slutte": {
+    "translation": "прекращать, заканчивать",
+    "transcription": "слюттэ",
+    "pos": "verb"
+  },
+  "sluttet": {
+    "translation": "закончил, прекратил",
+    "transcription": "слюттэт",
+    "pos": "verb"
+  },
+  "slå": {
+    "translation": "бить, ударять",
+    "transcription": "сло",
+    "pos": "verb"
+  },
+  "slår": {
+    "translation": "бьёт, ударяет",
+    "transcription": "слор",
+    "pos": "verb"
+  },
+  "slått": {
+    "translation": "побеждён, побит",
+    "transcription": "слотт",
+    "pos": "verb"
+  },
+  "smale": {
+    "translation": "узкие",
+    "transcription": "смалэ",
+    "pos": "adj"
+  },
+  "smalt": {
+    "translation": "узко",
+    "transcription": "смальт",
+    "pos": "adj"
+  },
+  "smerte": {
+    "translation": "боль",
+    "transcription": "смэртэ",
+    "pos": "noun"
+  },
+  "smertelindring": {
+    "translation": "обезболивание",
+    "transcription": "смэртэлиндринг",
+    "pos": "noun"
+  },
+  "smerter": {
+    "translation": "боли",
+    "transcription": "смэртэр",
+    "pos": "noun"
+  },
+  "smil": {
+    "translation": "улыбка",
+    "transcription": "смиль",
+    "pos": "noun"
+  },
+  "smittsomme": {
+    "translation": "заразные",
+    "transcription": "смиттсоммэ",
+    "pos": "adj"
+  },
+  "smykker": {
+    "translation": "украшения",
+    "transcription": "смюккэр",
+    "pos": "noun"
+  },
+  "snarere": {
+    "translation": "скорее",
+    "transcription": "снарэрэ",
+    "pos": "adv"
+  },
+  "snille": {
+    "translation": "добрые",
+    "transcription": "сниллэ",
+    "pos": "adj"
+  },
+  "snitt": {
+    "translation": "среднее, разрез",
+    "transcription": "снитт",
+    "pos": "noun"
+  },
+  "snudde": {
+    "translation": "повернул, развернул",
+    "transcription": "снюддэ",
+    "pos": "verb"
+  },
+  "snøen": {
+    "translation": "снег (определённый)",
+    "transcription": "снёэн",
+    "pos": "noun"
+  },
+  "snøskred": {
+    "translation": "снежная лавина",
+    "transcription": "снёскрэд",
+    "pos": "noun"
+  },
+  "snøstorm": {
+    "translation": "метель, снежная буря",
+    "transcription": "снёсторм",
+    "pos": "noun"
+  },
+  "sol": {
+    "translation": "солнце",
+    "transcription": "соль",
+    "pos": "noun"
+  },
+  "solgt": {
+    "translation": "проданный",
+    "transcription": "сольгт",
+    "pos": "verb"
+  },
+  "solkraftverk": {
+    "translation": "солнечная электростанция",
+    "transcription": "солькрафтверк",
+    "pos": "noun"
+  },
+  "sommer-spylervæske": {
+    "translation": "летняя жидкость для омывателя",
+    "transcription": "соммэр-спюлервэскэ",
+    "pos": "noun"
+  },
+  "sommerarrangementer": {
+    "translation": "летние мероприятия",
+    "transcription": "соммэраррангэмэнтэр",
+    "pos": "noun"
+  },
+  "sommerukene": {
+    "translation": "летние недели (определённые)",
+    "transcription": "соммэрюкэнэ",
+    "pos": "noun"
+  },
+  "sonenummer": {
+    "translation": "номер зоны",
+    "transcription": "сонэнюммэр",
+    "pos": "noun"
+  },
+  "sosialdemokratene": {
+    "translation": "социал-демократы (определённые)",
+    "transcription": "сосиальдэмократэнэ",
+    "pos": "noun"
+  },
+  "sosialdemokratiske": {
+    "translation": "социал-демократические",
+    "transcription": "сосиальдэмократискэ",
+    "pos": "adj"
+  },
+  "sosialhjelp": {
+    "translation": "социальная помощь",
+    "transcription": "сосиальельп",
+    "pos": "noun"
+  },
+  "sosialsystemet": {
+    "translation": "социальная система (определённая)",
+    "transcription": "сосиальсюстэмэт",
+    "pos": "noun"
+  },
+  "sosialt": {
+    "translation": "социально",
+    "transcription": "сосиальт",
+    "pos": "adv"
+  },
+  "sosiologen": {
+    "translation": "социолог (определённый)",
+    "transcription": "сосиологэн",
+    "pos": "noun"
+  },
+  "sosionom": {
+    "translation": "социальный работник",
+    "transcription": "сосионом",
+    "pos": "noun"
+  },
+  "sover": {
+    "translation": "спит",
+    "transcription": "соовэр",
+    "pos": "verb"
+  },
+  "spade": {
+    "translation": "лопата",
+    "transcription": "спадэ",
+    "pos": "noun"
+  },
+  "sparke": {
+    "translation": "пинать, увольнять",
+    "transcription": "спаркэ",
+    "pos": "verb"
+  },
+  "spedbarnsdødeligheten": {
+    "translation": "детская смертность (определённая)",
+    "transcription": "спэдбарнсдёдэлигхетэн",
+    "pos": "noun"
+  },
+  "speil": {
+    "translation": "зеркало",
+    "transcription": "спэйль",
+    "pos": "noun"
+  },
+  "spesialiserer": {
+    "translation": "специализирует",
+    "transcription": "спесиалисэрэр",
+    "pos": "verb"
+  },
+  "spesialisert": {
+    "translation": "специализированный",
+    "transcription": "спесиалисэрт",
+    "pos": "adj"
+  },
+  "spesialisthjelp": {
+    "translation": "помощь специалиста",
+    "transcription": "спесиалистельп",
+    "pos": "noun"
+  },
+  "spesialpedagog": {
+    "translation": "специальный педагог",
+    "transcription": "спесиальпэдагог",
+    "pos": "noun"
+  },
+  "spesielle": {
+    "translation": "особые, специальные",
+    "transcription": "спесиэллэ",
+    "pos": "adj"
+  },
+  "spesifikke": {
+    "translation": "специфические, конкретные",
+    "transcription": "спесификкэ",
+    "pos": "adj"
+  },
+  "spilles": {
+    "translation": "играется",
+    "transcription": "спиллэс",
+    "pos": "verb"
+  },
+  "spillet": {
+    "translation": "игра (определённая)",
+    "transcription": "спиллэт",
+    "pos": "noun"
+  },
+  "spilt": {
+    "translation": "сыгранный",
+    "transcription": "спильт",
+    "pos": "verb"
+  },
+  "spiseforstyrrelser": {
+    "translation": "расстройства пищевого поведения",
+    "transcription": "списэфорстюррэльсэр",
+    "pos": "noun"
+  },
+  "spiser": {
+    "translation": "ест",
+    "transcription": "списэр",
+    "pos": "verb"
+  },
+  "spisskompetanse": {
+    "translation": "узкая специализация, экспертиза",
+    "transcription": "списскомпэтансэ",
+    "pos": "noun"
+  },
+  "splittet": {
+    "translation": "расколотый, разделённый",
+    "transcription": "сплиттэт",
+    "pos": "adj"
+  },
+  "spredt": {
+    "translation": "распространённый, разбросанный",
+    "transcription": "спрэдт",
+    "pos": "adj"
+  },
+  "springar": {
+    "translation": "спрингар (норвежский народный танец)",
+    "transcription": "спрингар",
+    "pos": "noun"
+  },
+  "språkbruken": {
+    "translation": "использование языка",
+    "transcription": "спрокбрукен",
+    "pos": "noun",
+    "dict": "språkbruk"
+  },
+  "språkferdigheter": {
+    "translation": "языковые навыки",
+    "transcription": "спрокферьдиэтер",
+    "pos": "noun",
+    "dict": "språkferdighet"
+  },
+  "språknivå": {
+    "translation": "уровень языка",
+    "transcription": "спрокниво",
+    "pos": "noun"
+  },
+  "språkpolitikk": {
+    "translation": "языковая политика",
+    "transcription": "спрокполитикк",
+    "pos": "noun"
+  },
+  "språkpolitikken": {
+    "translation": "языковая политика (опр.)",
+    "transcription": "спрокполитиккен",
+    "pos": "noun",
+    "dict": "språkpolitikk"
+  },
+  "spør": {
+    "translation": "спрашивает / спрашивай",
+    "transcription": "спёр",
+    "pos": "verb",
+    "dict": "spørre"
+  },
+  "spørsmålene": {
+    "translation": "вопросы (опр.)",
+    "transcription": "спёрсмолене",
+    "pos": "noun",
+    "dict": "spørsmål"
+  },
+  "stabil": {
+    "translation": "стабильный",
+    "transcription": "стабиль",
+    "pos": "adj"
+  },
+  "stabilt": {
+    "translation": "стабильно",
+    "transcription": "стабильт",
+    "pos": "adv",
+    "dict": "stabil"
+  },
+  "stadige": {
+    "translation": "постоянные",
+    "transcription": "стадиэ",
+    "pos": "adj",
+    "dict": "stadig"
+  },
+  "standarden": {
+    "translation": "стандарт (опр.)",
+    "transcription": "стандарден",
+    "pos": "noun",
+    "dict": "standard"
+  },
+  "standarder": {
+    "translation": "стандарты",
+    "transcription": "стандардер",
+    "pos": "noun",
+    "dict": "standard"
+  },
+  "stander": {
+    "translation": "стенды / стойки",
+    "transcription": "стандер",
+    "pos": "noun",
+    "dict": "stand"
+  },
+  "stanse": {
+    "translation": "останавливать(ся)",
+    "transcription": "стансэ",
+    "pos": "verb"
+  },
+  "stanses": {
+    "translation": "останавливается (пасс.)",
+    "transcription": "стансес",
+    "pos": "verb",
+    "dict": "stanse"
+  },
+  "start": {
+    "translation": "старт / начало",
+    "transcription": "старт",
+    "pos": "noun"
+  },
+  "starte": {
+    "translation": "начинать",
+    "transcription": "стартэ",
+    "pos": "verb"
+  },
+  "startkapitalen": {
+    "translation": "стартовый капитал (опр.)",
+    "transcription": "старткапиталэн",
+    "pos": "noun",
+    "dict": "startkapital"
+  },
+  "stasjonen": {
+    "translation": "станция (опр.)",
+    "transcription": "стасьюнен",
+    "pos": "noun",
+    "dict": "stasjon"
+  },
+  "stasjonene": {
+    "translation": "станции (опр.)",
+    "transcription": "стасьюнене",
+    "pos": "noun",
+    "dict": "stasjon"
+  },
+  "stasjoner": {
+    "translation": "станции",
+    "transcription": "стасьюнер",
+    "pos": "noun",
+    "dict": "stasjon"
+  },
+  "statistikk": {
+    "translation": "статистика",
+    "transcription": "статистикк",
+    "pos": "noun"
+  },
+  "statistiske": {
+    "translation": "статистические",
+    "transcription": "статистискэ",
+    "pos": "adj",
+    "dict": "statistisk"
+  },
+  "statsbudsjettet": {
+    "translation": "государственный бюджет (опр.)",
+    "transcription": "статсбюдшеттэ",
+    "pos": "noun",
+    "dict": "statsbudsjett"
+  },
+  "statsbudsjettets": {
+    "translation": "государственного бюджета",
+    "transcription": "статсбюдшеттетс",
+    "pos": "noun",
+    "dict": "statsbudsjett"
+  },
+  "statsministre": {
+    "translation": "премьер-министры",
+    "transcription": "статсминистре",
+    "pos": "noun",
+    "dict": "statsminister"
+  },
+  "statsråd": {
+    "translation": "министр / государственный совет",
+    "transcription": "статсрод",
+    "pos": "noun"
+  },
+  "statsråder": {
+    "translation": "министры",
+    "transcription": "статсродер",
+    "pos": "noun",
+    "dict": "statsråd"
+  },
+  "statuer": {
+    "translation": "статуи",
+    "transcription": "статуэр",
+    "pos": "noun",
+    "dict": "statue"
+  },
+  "statusen": {
+    "translation": "статус (опр.)",
+    "transcription": "статусен",
+    "pos": "noun",
+    "dict": "status"
+  },
+  "stavkirke": {
+    "translation": "ставкирка (деревянная церковь)",
+    "transcription": "ставчиркэ",
+    "pos": "noun"
+  },
+  "stavkirker": {
+    "translation": "ставкирки",
+    "transcription": "ставчиркер",
+    "pos": "noun",
+    "dict": "stavkirke"
+  },
+  "steg": {
+    "translation": "шаг / шагнул",
+    "transcription": "стег",
+    "pos": "noun"
+  },
+  "steller": {
+    "translation": "ухаживает / занимается",
+    "transcription": "стеллер",
+    "pos": "verb",
+    "dict": "stelle"
+  },
+  "stemmeløs": {
+    "translation": "безголосый",
+    "transcription": "стеммелёс",
+    "pos": "adj"
+  },
+  "stemmer": {
+    "translation": "голоса / совпадает",
+    "transcription": "стеммер",
+    "pos": "noun",
+    "dict": "stemme"
+  },
+  "stemningen": {
+    "translation": "настроение (опр.)",
+    "transcription": "стемнингэн",
+    "pos": "noun",
+    "dict": "stemning"
+  },
+  "stemningslidelser": {
+    "translation": "аффективные расстройства",
+    "transcription": "стемнингслидельсер",
+    "pos": "noun",
+    "dict": "stemningslidelse"
+  },
+  "stengetid": {
+    "translation": "время закрытия",
+    "transcription": "стенгетид",
+    "pos": "noun"
+  },
+  "stereotypier": {
+    "translation": "стереотипы",
+    "transcription": "стереотюпиэр",
+    "pos": "noun",
+    "dict": "stereotypi"
+  },
+  "sterkere": {
+    "translation": "сильнее",
+    "transcription": "стеркерэ",
+    "pos": "adj",
+    "dict": "sterk"
+  },
+  "sterkeste": {
+    "translation": "самые сильные",
+    "transcription": "стеркестэ",
+    "pos": "adj",
+    "dict": "sterk"
+  },
+  "sterkt": {
+    "translation": "сильно",
+    "transcription": "стеркт",
+    "pos": "adv",
+    "dict": "sterk"
+  },
+  "stige": {
+    "translation": "подниматься / лестница",
+    "transcription": "стигэ",
+    "pos": "verb"
+  },
+  "stigma": {
+    "translation": "стигма",
+    "transcription": "стигма",
+    "pos": "noun"
+  },
+  "stigmatisering": {
+    "translation": "стигматизация",
+    "transcription": "стигматисеринг",
+    "pos": "noun"
+  },
+  "stil": {
+    "translation": "стиль / сочинение",
+    "transcription": "стиль",
+    "pos": "noun"
+  },
+  "stilen": {
+    "translation": "стиль (опр.)",
+    "transcription": "стилен",
+    "pos": "noun",
+    "dict": "stil"
+  },
+  "stiler": {
+    "translation": "стили / сочинения",
+    "transcription": "стилер",
+    "pos": "noun",
+    "dict": "stil"
+  },
+  "still": {
+    "translation": "тихий / поставь",
+    "transcription": "стиль",
+    "pos": "adj"
+  },
+  "stillegående": {
+    "translation": "тихоходный / спокойный",
+    "transcription": "стиллэгоэнэ",
+    "pos": "adj"
+  },
+  "stillere": {
+    "translation": "тише",
+    "transcription": "стиллерэ",
+    "pos": "adj",
+    "dict": "stille"
+  },
+  "stilles": {
+    "translation": "ставится / задаётся",
+    "transcription": "стиллес",
+    "pos": "verb",
+    "dict": "stille"
+  },
+  "stillferdig": {
+    "translation": "тихий / спокойный",
+    "transcription": "стилльферьди",
+    "pos": "adj"
+  },
+  "stillingene": {
+    "translation": "должности (опр.)",
+    "transcription": "стиллингенэ",
+    "pos": "noun",
+    "dict": "stilling"
+  },
+  "stilt": {
+    "translation": "поставлен / задан",
+    "transcription": "стильт",
+    "pos": "verb",
+    "dict": "stille"
+  },
+  "stimulerer": {
+    "translation": "стимулирует",
+    "transcription": "стимулерер",
+    "pos": "verb",
+    "dict": "stimulere"
+  },
+  "stipendet": {
+    "translation": "стипендия (опр.)",
+    "transcription": "стипендэ",
+    "pos": "noun",
+    "dict": "stipend"
+  },
+  "stive": {
+    "translation": "жёсткие / негнущиеся",
+    "transcription": "стивэ",
+    "pos": "adj",
+    "dict": "stiv"
+  },
+  "stivkrampe": {
+    "translation": "столбняк",
+    "transcription": "стивкрампэ",
+    "pos": "noun"
+  },
+  "stjal": {
+    "translation": "украл",
+    "transcription": "шталь",
+    "pos": "verb",
+    "dict": "stjele"
+  },
+  "stjerner": {
+    "translation": "звёзды",
+    "transcription": "шернер",
+    "pos": "noun",
+    "dict": "stjerne"
+  },
+  "stjerneskuespillere": {
+    "translation": "звёздные актёры",
+    "transcription": "шернескуэспиллере",
+    "pos": "noun",
+    "dict": "stjerneskuespiller"
+  },
+  "stoffer": {
+    "translation": "вещества / ткани",
+    "transcription": "стоффер",
+    "pos": "noun",
+    "dict": "stoff"
+  },
+  "stol": {
+    "translation": "стул",
+    "transcription": "столь",
+    "pos": "noun"
+  },
+  "stoler": {
+    "translation": "стулья / доверяет",
+    "transcription": "столер",
+    "pos": "noun"
+  },
+  "stolthet": {
+    "translation": "гордость",
+    "transcription": "стольтхет",
+    "pos": "noun"
+  },
+  "stoltheten": {
+    "translation": "гордость (опр.)",
+    "transcription": "стольтхетэн",
+    "pos": "noun",
+    "dict": "stolthet"
+  },
+  "stopp": {
+    "translation": "стоп / остановка",
+    "transcription": "стопп",
+    "pos": "noun"
+  },
+  "stoppes": {
+    "translation": "останавливается (пасс.)",
+    "transcription": "стоппес",
+    "pos": "verb",
+    "dict": "stoppe"
+  },
+  "storbyen": {
+    "translation": "большой город (опр.)",
+    "transcription": "сторбюэн",
+    "pos": "noun",
+    "dict": "storby"
+  },
+  "stories": {
+    "translation": "истории (англ.)",
+    "transcription": "стори́с",
+    "pos": "noun"
+  },
+  "storm": {
+    "translation": "буря / шторм",
+    "transcription": "сторм",
+    "pos": "noun"
+  },
+  "stortingsrepresentanter": {
+    "translation": "депутаты стортинга",
+    "transcription": "стортингсрепресентантер",
+    "pos": "noun",
+    "dict": "stortingsrepresentant"
+  },
+  "straffe": {
+    "translation": "наказывать",
+    "transcription": "страффэ",
+    "pos": "verb"
+  },
+  "straks": {
+    "translation": "сразу / немедленно",
+    "transcription": "стракс",
+    "pos": "adv"
+  },
+  "strand": {
+    "translation": "пляж / берег",
+    "transcription": "странд",
+    "pos": "noun"
+  },
+  "strategi": {
+    "translation": "стратегия",
+    "transcription": "стратеги",
+    "pos": "noun"
+  },
+  "strategidokument": {
+    "translation": "стратегический документ",
+    "transcription": "стратегидокумент",
+    "pos": "noun"
+  },
+  "strategier": {
+    "translation": "стратегии",
+    "transcription": "стратегиэр",
+    "pos": "noun",
+    "dict": "strategi"
+  },
+  "strekk": {
+    "translation": "растяжка / отрезок",
+    "transcription": "стрекк",
+    "pos": "noun"
+  },
+  "strekker": {
+    "translation": "тянется / простирается",
+    "transcription": "стреккер",
+    "pos": "verb",
+    "dict": "strekke"
+  },
+  "strekning": {
+    "translation": "отрезок / расстояние",
+    "transcription": "стрекнинг",
+    "pos": "noun"
+  },
+  "streng": {
+    "translation": "строгий",
+    "transcription": "стренг",
+    "pos": "adj"
+  },
+  "strenge": {
+    "translation": "строгие",
+    "transcription": "стрэнгэ",
+    "pos": "adj",
+    "dict": "streng"
+  },
+  "strengene": {
+    "translation": "струны (опр.)",
+    "transcription": "стрэнгенэ",
+    "pos": "noun",
+    "dict": "streng"
+  },
+  "strengt": {
+    "translation": "строго",
+    "transcription": "стренгт",
+    "pos": "adv",
+    "dict": "streng"
+  },
+  "strid": {
+    "translation": "спор / конфликт",
+    "transcription": "стрид",
+    "pos": "noun"
+  },
+  "struktur": {
+    "translation": "структура",
+    "transcription": "структур",
+    "pos": "noun"
+  },
+  "strukturell": {
+    "translation": "структурный",
+    "transcription": "структурелль",
+    "pos": "adj"
+  },
+  "strukturen": {
+    "translation": "структура (опр.)",
+    "transcription": "структурен",
+    "pos": "noun",
+    "dict": "struktur"
+  },
+  "strukturerte": {
+    "translation": "структурированные",
+    "transcription": "структурертэ",
+    "pos": "adj",
+    "dict": "strukturert"
+  },
+  "strøk": {
+    "translation": "район / гладил",
+    "transcription": "стрёк",
+    "pos": "noun"
+  },
+  "strømmen": {
+    "translation": "ток / поток (опр.)",
+    "transcription": "стрёммен",
+    "pos": "noun",
+    "dict": "strøm"
+  },
+  "studentforeninger": {
+    "translation": "студенческие объединения",
+    "transcription": "студентфорэнингер",
+    "pos": "noun",
+    "dict": "studentforening"
+  },
+  "studentsosiale": {
+    "translation": "студенческо-социальные",
+    "transcription": "студентсосиалэ",
+    "pos": "adj"
+  },
+  "studerer": {
+    "translation": "учится / изучает",
+    "transcription": "студерер",
+    "pos": "verb",
+    "dict": "studere"
+  },
+  "studiene": {
+    "translation": "учёба / исследования (опр.)",
+    "transcription": "студиэнэ",
+    "pos": "noun",
+    "dict": "studium"
+  },
+  "studiepermisjon": {
+    "translation": "учебный отпуск",
+    "transcription": "студиэпермисьюн",
+    "pos": "noun"
+  },
+  "stykkene": {
+    "translation": "штуки / куски (опр.)",
+    "transcription": "стюккенэ",
+    "pos": "noun",
+    "dict": "stykke"
+  },
+  "stykket": {
+    "translation": "штука / пьеса (опр.)",
+    "transcription": "стюккэ",
+    "pos": "noun",
+    "dict": "stykke"
+  },
+  "styrken": {
+    "translation": "сила (опр.)",
+    "transcription": "стюркен",
+    "pos": "noun",
+    "dict": "styrke"
+  },
+  "sv": {
+    "translation": "СВ (Социалистическая левая партия)",
+    "transcription": "эс-вэ",
+    "pos": "abbr"
+  },
+  "svevestøv": {
+    "translation": "взвешенная пыль / мелкая пыль",
+    "transcription": "свевестёв",
+    "pos": "noun"
+  },
+  "sykehjem": {
+    "translation": "дом престарелых",
+    "transcription": "сюкехьем",
+    "pos": "noun"
+  },
+  "synke": {
+    "translation": "тонуть / опускаться",
+    "transcription": "сюнкэ",
+    "pos": "verb"
+  },
+  "synlig": {
+    "translation": "видимый",
+    "transcription": "сюнли",
+    "pos": "adj"
+  },
+  "sytten": {
+    "translation": "семнадцать",
+    "transcription": "сёттен",
+    "pos": "num"
+  },
+  "søndager": {
+    "translation": "воскресенья",
+    "transcription": "сённдагер",
+    "pos": "noun",
+    "dict": "søndag"
+  },
+  "sør": {
+    "translation": "юг",
+    "transcription": "сёр",
+    "pos": "noun"
+  },
+  "tallrike": {
+    "translation": "многочисленные",
+    "transcription": "талльрикэ",
+    "pos": "adj",
+    "dict": "tallrik"
+  },
+  "talt": {
+    "translation": "сказанный / посчитанный",
+    "transcription": "тальт",
+    "pos": "verb",
+    "dict": "tale/telle"
+  },
+  "tanken": {
+    "translation": "мысль / бак (опр.)",
+    "transcription": "танкен",
+    "pos": "noun",
+    "dict": "tanke"
+  },
+  "tannhelse": {
+    "translation": "здоровье зубов",
+    "transcription": "таннхельсэ",
+    "pos": "noun"
+  },
+  "tannkjøttet": {
+    "translation": "десна (опр.)",
+    "transcription": "таннщёттэ",
+    "pos": "noun",
+    "dict": "tannkjøtt"
+  },
+  "tannlege": {
+    "translation": "стоматолог",
+    "transcription": "таннлегэ",
+    "pos": "noun"
+  },
+  "taper": {
+    "translation": "теряет / проигрывает",
+    "transcription": "тапер",
+    "pos": "verb",
+    "dict": "tape"
+  },
+  "tariffavtale": {
+    "translation": "тарифное соглашение",
+    "transcription": "тариффавтале",
+    "pos": "noun"
+  },
+  "tarmkreftprogrammet": {
+    "translation": "программа по раку кишечника (опр.)",
+    "transcription": "тармкрефтпрограммэ",
+    "pos": "noun",
+    "dict": "tarmkreftprogram"
+  },
+  "taster": {
+    "translation": "клавиши / нажимает",
+    "transcription": "тастер",
+    "pos": "noun",
+    "dict": "tast"
+  },
+  "teamleder": {
+    "translation": "руководитель команды",
+    "transcription": "тимледер",
+    "pos": "noun"
+  },
+  "teaterets": {
+    "translation": "театра",
+    "transcription": "театеретс",
+    "pos": "noun",
+    "dict": "teater"
+  },
+  "teaternivået": {
+    "translation": "театральный уровень (опр.)",
+    "transcription": "театерниво́э",
+    "pos": "noun",
+    "dict": "teaternivå"
+  },
+  "temperaturen": {
+    "translation": "температура (опр.)",
+    "transcription": "температурен",
+    "pos": "noun",
+    "dict": "temperatur"
+  },
+  "tenner": {
+    "translation": "зубы / зажигает",
+    "transcription": "теннер",
+    "pos": "noun",
+    "dict": "tann"
+  },
+  "teppe": {
+    "translation": "ковёр / одеяло",
+    "transcription": "теппэ",
+    "pos": "noun"
+  },
+  "termos": {
+    "translation": "термос",
+    "transcription": "термос",
+    "pos": "noun"
+  },
+  "tilbakelegge": {
+    "translation": "преодолеть / пройти (расстояние)",
+    "transcription": "тильбакэлеггэ",
+    "pos": "verb"
+  },
+  "tilbakevist": {
+    "translation": "опровергнут",
+    "transcription": "тильбакэвист",
+    "pos": "verb",
+    "dict": "tilbakevise"
+  },
+  "tilfredsstillende": {
+    "translation": "удовлетворительный",
+    "transcription": "тильфредстилленнэ",
+    "pos": "adj"
+  },
+  "tilgangen": {
+    "translation": "доступ (опр.)",
+    "transcription": "тильгангэн",
+    "pos": "noun",
+    "dict": "tilgang"
+  },
+  "tilkalt": {
+    "translation": "вызванный",
+    "transcription": "тилькальт",
+    "pos": "verb",
+    "dict": "tilkalle"
+  },
+  "tilleggsforsikring": {
+    "translation": "дополнительная страховка",
+    "transcription": "тиллеггсфорсикринг",
+    "pos": "noun"
+  },
+  "tilskudd": {
+    "translation": "субсидия / дотация",
+    "transcription": "тильскюдд",
+    "pos": "noun"
+  },
+  "tingene": {
+    "translation": "вещи (опр.)",
+    "transcription": "тингенэ",
+    "pos": "noun",
+    "dict": "ting"
+  },
+  "tips": {
+    "translation": "совет / подсказка",
+    "transcription": "типс",
+    "pos": "noun"
+  },
+  "titusen": {
+    "translation": "десять тысяч",
+    "transcription": "титусен",
+    "pos": "num"
+  },
+  "tobakksavgifter": {
+    "translation": "налоги на табак",
+    "transcription": "тобакксавгифтер",
+    "pos": "noun",
+    "dict": "tobakksavgift"
+  },
+  "toget": {
+    "translation": "поезд (опр.)",
+    "transcription": "тогэ",
+    "pos": "noun",
+    "dict": "tog"
+  },
+  "tom": {
+    "translation": "пустой",
+    "transcription": "томм",
+    "pos": "adj"
+  },
+  "tradisjonene": {
+    "translation": "традиции (опр.)",
+    "transcription": "традисьюнене",
+    "pos": "noun",
+    "dict": "tradisjon"
+  },
+  "trafikkulykker": {
+    "translation": "ДТП",
+    "transcription": "трафиккулюккер",
+    "pos": "noun",
+    "dict": "trafikkulykke"
+  },
+  "treningsstudio": {
+    "translation": "тренажёрный зал",
+    "transcription": "тренингсстудио",
+    "pos": "noun"
+  },
+  "trinnvis": {
+    "translation": "поэтапно / постепенно",
+    "transcription": "триннвис",
+    "pos": "adv"
+  },
+  "tryggeste": {
+    "translation": "самые безопасные",
+    "transcription": "трюггестэ",
+    "pos": "adj",
+    "dict": "trygg"
+  },
+  "tungt": {
+    "translation": "тяжело",
+    "transcription": "тунгт",
+    "pos": "adv",
+    "dict": "tung"
+  },
+  "tåler": {
+    "translation": "терпит / выдерживает",
+    "transcription": "толер",
+    "pos": "verb",
+    "dict": "tåle"
+  },
+  "ubeleilige": {
+    "translation": "неудобные",
+    "transcription": "убелэйлигэ",
+    "pos": "adj",
+    "dict": "ubeleilig"
+  },
+  "ujevn": {
+    "translation": "неровный",
+    "transcription": "уевн",
+    "pos": "adj"
+  },
+  "uka": {
+    "translation": "неделя (опр., ж.р.)",
+    "transcription": "ука",
+    "pos": "noun",
+    "dict": "uke"
+  },
+  "ukene": {
+    "translation": "недели (опр.)",
+    "transcription": "укенэ",
+    "pos": "noun",
+    "dict": "uke"
+  },
+  "ukentlig": {
+    "translation": "еженедельно / еженедельный",
+    "transcription": "укэнтли",
+    "pos": "adj"
+  },
+  "ulempe": {
+    "translation": "недостаток / неудобство",
+    "transcription": "улемпэ",
+    "pos": "noun"
+  },
+  "ulempene": {
+    "translation": "недостатки (опр.)",
+    "transcription": "улемпене",
+    "pos": "noun",
+    "dict": "ulempe"
+  },
+  "ulikhet": {
+    "translation": "неравенство / различие",
+    "transcription": "уликхет",
+    "pos": "noun"
+  },
+  "ulikt": {
+    "translation": "по-разному",
+    "transcription": "уликт",
+    "pos": "adv",
+    "dict": "ulik"
+  },
+  "ultralydundersøkelser": {
+    "translation": "ультразвуковые исследования",
+    "transcription": "ультралюдундерсёкельсер",
+    "pos": "noun",
+    "dict": "ultralydundersøkelse"
+  },
+  "ulykkesstatistikken": {
+    "translation": "статистика несчастных случаев (опр.)",
+    "transcription": "улюккесстатистиккен",
+    "pos": "noun",
+    "dict": "ulykkesstatistikk"
+  },
+  "understreker": {
+    "translation": "подчёркивает",
+    "transcription": "уннерстрекер",
+    "pos": "verb",
+    "dict": "understreke"
+  },
+  "undertegnet": {
+    "translation": "подписал / подписанный",
+    "transcription": "уннертегнэ",
+    "pos": "verb",
+    "dict": "undertegne"
+  },
+  "unike": {
+    "translation": "уникальные",
+    "transcription": "уникэ",
+    "pos": "adj",
+    "dict": "unik"
+  },
+  "unngå": {
+    "translation": "избегать",
+    "transcription": "унго",
+    "pos": "verb"
+  },
+  "uoppmerksomme": {
+    "translation": "невнимательные",
+    "transcription": "уоппмерксоммэ",
+    "pos": "adj",
+    "dict": "uoppmerksom"
+  },
+  "urban": {
+    "translation": "городской",
+    "transcription": "урбан",
+    "pos": "adj"
+  },
+  "urbane": {
+    "translation": "городские",
+    "transcription": "урбанэ",
+    "pos": "adj",
+    "dict": "urban"
+  },
+  "urin": {
+    "translation": "моча",
+    "transcription": "урин",
+    "pos": "noun"
+  },
+  "utbygde": {
+    "translation": "застроенные / развитые",
+    "transcription": "утбюгдэ",
+    "pos": "adj",
+    "dict": "utbygd"
+  },
+  "utbytte": {
+    "translation": "прибыль / польза",
+    "transcription": "утбюттэ",
+    "pos": "noun"
+  },
+  "utdaterte": {
+    "translation": "устаревшие",
+    "transcription": "утдатертэ",
+    "pos": "adj",
+    "dict": "utdatert"
+  },
+  "utelates": {
+    "translation": "опускается / исключается",
+    "transcription": "утелатес",
+    "pos": "verb",
+    "dict": "utelate"
+  },
+  "utfordringen": {
+    "translation": "вызов / трудность (опр.)",
+    "transcription": "утфордрингэн",
+    "pos": "noun",
+    "dict": "utfordring"
+  },
+  "utsetter": {
+    "translation": "откладывает / подвергает",
+    "transcription": "утсеттер",
+    "pos": "verb",
+    "dict": "utsette"
+  },
+  "utvidet": {
+    "translation": "расширенный",
+    "transcription": "утвидэ",
+    "pos": "verb",
+    "dict": "utvide"
+  },
+  "vaksinasjonsprogrammene": {
+    "translation": "программы вакцинации (опр.)",
+    "transcription": "ваксинасьюнспрограмменэ",
+    "pos": "noun",
+    "dict": "vaksinasjonsprogram"
+  },
+  "vaksinasjonsprogrammer": {
+    "translation": "программы вакцинации",
+    "transcription": "ваксинасьюнспрограммер",
+    "pos": "noun",
+    "dict": "vaksinasjonsprogram"
+  },
+  "vaksinering": {
+    "translation": "вакцинация",
+    "transcription": "ваксинеринг",
+    "pos": "noun"
+  },
+  "vaksineringen": {
+    "translation": "вакцинация (опр.)",
+    "transcription": "ваксинерингэн",
+    "pos": "noun",
+    "dict": "vaksinering"
+  },
+  "vaner": {
+    "translation": "привычки",
+    "transcription": "ванер",
+    "pos": "noun",
+    "dict": "vane"
+  },
+  "varigheten": {
+    "translation": "продолжительность (опр.)",
+    "transcription": "варигхетэн",
+    "pos": "noun",
+    "dict": "varighet"
+  },
+  "varmt": {
+    "translation": "тепло",
+    "transcription": "вармт",
+    "pos": "adv",
+    "dict": "varm"
+  },
+  "vegvesens": {
+    "translation": "дорожного управления",
+    "transcription": "вегвесенс",
+    "pos": "noun",
+    "dict": "vegvesen"
+  },
+  "veikart": {
+    "translation": "дорожная карта",
+    "transcription": "вэйкарт",
+    "pos": "noun"
+  },
+  "velferdsstat": {
+    "translation": "социальное государство",
+    "transcription": "вельфердсстат",
+    "pos": "noun"
+  },
+  "vellykkede": {
+    "translation": "успешные",
+    "transcription": "веллюккэдэ",
+    "pos": "adj",
+    "dict": "vellykket"
+  },
+  "velprøvde": {
+    "translation": "проверенные / испытанные",
+    "transcription": "вельпрёвдэ",
+    "pos": "adj",
+    "dict": "velprøvd"
+  },
+  "velstående": {
+    "translation": "состоятельный / обеспеченный",
+    "transcription": "вельстоэнэ",
+    "pos": "adj"
+  },
+  "verdige": {
+    "translation": "достойные",
+    "transcription": "верьдиэ",
+    "pos": "adj",
+    "dict": "verdig"
+  },
+  "verdsettes": {
+    "translation": "ценится",
+    "transcription": "верьдсеттес",
+    "pos": "verb",
+    "dict": "verdsette"
+  },
+  "vertikale": {
+    "translation": "вертикальные",
+    "transcription": "вертикалэ",
+    "pos": "adj",
+    "dict": "vertikal"
+  },
+  "vikingbakgrunnen": {
+    "translation": "викингское происхождение (опр.)",
+    "transcription": "викингбакгруннен",
+    "pos": "noun",
+    "dict": "vikingbakgrunn"
+  },
+  "vilkåret": {
+    "translation": "условие (опр.)",
+    "transcription": "вилькорэ",
+    "pos": "noun",
+    "dict": "vilkår"
+  },
+  "vindenergi": {
+    "translation": "энергия ветра",
+    "transcription": "виннэнерги",
+    "pos": "noun"
+  },
+  "vinduene": {
+    "translation": "окна (опр.)",
+    "transcription": "виндуэнэ",
+    "pos": "noun",
+    "dict": "vindu"
+  },
+  "vinne": {
+    "translation": "выигрывать / побеждать",
+    "transcription": "виннэ",
+    "pos": "verb"
+  },
+  "vinter-spylervæske": {
+    "translation": "зимняя омывающая жидкость",
+    "transcription": "винтер-спюлерве́скэ",
+    "pos": "noun"
+  },
+  "vinterfestival": {
+    "translation": "зимний фестиваль",
+    "transcription": "винтерфестиваль",
+    "pos": "noun"
+  },
+  "vinterkvelder": {
+    "translation": "зимние вечера",
+    "transcription": "винтерквеллер",
+    "pos": "noun",
+    "dict": "vinterkveld"
+  },
+  "vinterpakke": {
+    "translation": "зимний пакет",
+    "transcription": "винтерпаккэ",
+    "pos": "noun"
+  },
+  "vintervegen": {
+    "translation": "зимняя дорога (опр.)",
+    "transcription": "винтервегэн",
+    "pos": "noun",
+    "dict": "vinterveg"
+  },
+  "vogner": {
+    "translation": "вагоны / повозки",
+    "transcription": "вогнер",
+    "pos": "noun",
+    "dict": "vogn"
+  },
+  "voldgift": {
+    "translation": "арбитраж / третейский суд",
+    "transcription": "вольдьифт",
+    "pos": "noun"
+  },
+  "vordende": {
+    "translation": "будущий / ожидающий",
+    "transcription": "вордэннэ",
+    "pos": "adj"
+  },
+  "værharde": {
+    "translation": "суровые погодные",
+    "transcription": "вэрхардэ",
+    "pos": "adj",
+    "dict": "værhard"
+  },
+  "væsker": {
+    "translation": "жидкости",
+    "transcription": "вескер",
+    "pos": "noun",
+    "dict": "væske"
+  },
+  "ys": {
+    "translation": "ис (вид сыра)",
+    "transcription": "ис",
+    "pos": "noun"
+  },
+  "ytelsene": {
+    "translation": "выплаты / услуги (опр.)",
+    "transcription": "ютельсенэ",
+    "pos": "noun",
+    "dict": "ytelse"
+  },
+  "åringer": {
+    "translation": "летние (о возрасте)",
+    "transcription": "оринэр",
+    "pos": "noun",
+    "dict": "åring"
+  },
+  "æren": {
+    "translation": "честь (опр.)",
+    "transcription": "эрэн",
+    "pos": "noun",
+    "dict": "ære"
+  },
+  "økologisk": {
+    "translation": "экологический",
+    "transcription": "ёкологиск",
+    "pos": "adj"
+  },
+  "øyeblikket": {
+    "translation": "момент / мгновение (опр.)",
+    "transcription": "ёйебликкэ",
+    "pos": "noun",
+    "dict": "øyeblikk"
+  },
+  "øyekast": {
+    "translation": "взгляд",
+    "transcription": "ёйекаст",
+    "pos": "noun"
+  },
+  "nderen": {
+    "translation": "жителем",
+    "transcription": "ндэрэн",
+    "pos": ""
+  },
+  "nne": {
+    "translation": "кому-то",
+    "transcription": "ннэ",
+    "pos": ""
+  },
+  "ntreffwonder": {
+    "translation": "однохитовик",
+    "transcription": "нтрэффвондер",
+    "pos": "noun"
+  },
+  "diaré": {
+    "translation": "диарея",
+    "transcription": "диарэ",
+    "pos": "noun"
+  },
+  "kafé": {
+    "translation": "кафе",
+    "transcription": "кафэ",
+    "pos": "noun"
+  },
+  "pionér": {
+    "translation": "первопроходец",
+    "transcription": "пионэр",
+    "pos": "noun"
+  },
+  "én": {
+    "translation": "один",
+    "transcription": "эн",
+    "pos": "num"
+  },
+  "éntreffwonder": {
+    "translation": "однохитовик",
+    "transcription": "энтреффвондэр",
+    "pos": "noun"
   }
 }
