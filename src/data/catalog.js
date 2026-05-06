@@ -270,6 +270,36 @@ const catalog = [
     "description": "Роль банков в норвежской экономике и уроки кризисов"
   },
   {
+    "id": "barnehage-1",
+    "title": "Я отвожу ребёнка в barnehage",
+    "titleNo": "Jeg leverer barnet i barnehagen",
+    "level": "A2",
+    "category": "education",
+    "topic": "kindergarten",
+    "length": "short",
+    "description": "Один день в норвежском детском саду"
+  },
+  {
+    "id": "barnehage-2",
+    "title": "Норвежская barnehage — особенности",
+    "titleNo": "Den norske barnehagen — særtrekk",
+    "level": "B1",
+    "category": "education",
+    "topic": "kindergarten",
+    "length": "medium",
+    "description": "Как устроены детские сады в Норвегии"
+  },
+  {
+    "id": "barnehage-3",
+    "title": "Дискуссия о качестве barnehage",
+    "titleNo": "Debatten om kvaliteten i barnehagen",
+    "level": "B2",
+    "category": "education",
+    "topic": "kindergarten",
+    "length": "long",
+    "description": "Споры о норвежской системе детских садов"
+  },
+  {
     "id": "bil-1",
     "title": "Части автомобиля",
     "titleNo": "Bildeler",
@@ -630,6 +660,36 @@ const catalog = [
     "description": "Анализ эффективности и проблем государственной системы"
   },
   {
+    "id": "career-1",
+    "title": "Я хочу расти на работе",
+    "titleNo": "Jeg vil vokse i jobben",
+    "level": "A2",
+    "category": "work",
+    "topic": "career",
+    "length": "short",
+    "description": "Простой рассказ о карьерном росте"
+  },
+  {
+    "id": "career-2",
+    "title": "Развитие карьеры в норвежской компании",
+    "titleNo": "Karriereutvikling i norsk bedrift",
+    "level": "B1",
+    "category": "work",
+    "topic": "career",
+    "length": "medium",
+    "description": "Как происходит карьерный рост в норвежской компании"
+  },
+  {
+    "id": "career-3",
+    "title": "Карьерные стратегии — горизонталь и вертикаль",
+    "titleNo": "Karrierestrategier — horisontalt og vertikalt",
+    "level": "B2",
+    "category": "work",
+    "topic": "career",
+    "length": "long",
+    "description": "Стратегии карьерного развития в условиях плоской иерархии"
+  },
+  {
     "id": "cinema-1",
     "title": "Норвежские фильмы и актёры",
     "titleNo": "Norske filmer og skuespillere",
@@ -718,6 +778,36 @@ const catalog = [
     "topic": "cinema",
     "length": "long",
     "description": "Мортен Тильдум, Роар Утхауг и норвежский талант на большой международной сцене"
+  },
+  {
+    "id": "dentistry-1",
+    "title": "Я иду к зубному",
+    "titleNo": "Jeg går til tannlegen",
+    "level": "A2",
+    "category": "health",
+    "topic": "dentistry",
+    "length": "short",
+    "description": "Простой визит к стоматологу: первые слова и фразы"
+  },
+  {
+    "id": "dentistry-2",
+    "title": "Стоматология в Норвегии: цены и клиники",
+    "titleNo": "Tannhelse i Norge: priser og klinikker",
+    "level": "B1",
+    "category": "health",
+    "topic": "dentistry",
+    "length": "medium",
+    "description": "Как устроена стоматологическая помощь для взрослых и детей"
+  },
+  {
+    "id": "dentistry-3",
+    "title": "Tannhelsetjenesten и дискуссия о реформе",
+    "titleNo": "Tannhelsetjenesten og reformdebatten",
+    "level": "B2",
+    "category": "health",
+    "topic": "dentistry",
+    "length": "long",
+    "description": "Государственная система зубной помощи, исключения и политические дебаты"
   },
   {
     "id": "digital-1",
@@ -988,6 +1078,36 @@ const catalog = [
     "topic": "fastlege",
     "length": "long",
     "description": "Возможности и риски цифровой медицины в Норвегии"
+  },
+  {
+    "id": "festival-1",
+    "title": "Праздники в Норвегии",
+    "titleNo": "Høytider i Norge",
+    "level": "A2",
+    "category": "culture",
+    "topic": "festivals",
+    "length": "short",
+    "description": "Главные норвежские праздники простыми словами"
+  },
+  {
+    "id": "festival-2",
+    "title": "17 мая — главный национальный праздник",
+    "titleNo": "17. mai — den store nasjonaldagen",
+    "level": "B1",
+    "category": "culture",
+    "topic": "festivals",
+    "length": "medium",
+    "description": "Конституция, детский парад, бюнад и традиционная еда"
+  },
+  {
+    "id": "festival-3",
+    "title": "Музыкальные фестивали Норвегии",
+    "titleNo": "Norske musikkfestivaler",
+    "level": "B2",
+    "category": "culture",
+    "topic": "festivals",
+    "length": "long",
+    "description": "Экосистема, экономика и культурное влияние летних фестивалей"
   },
   {
     "id": "hospital-1",
@@ -1980,6 +2100,36 @@ const catalog = [
     "description": "Что ждёт фонд, когда нефть закончится"
   },
   {
+    "id": "parking-1",
+    "title": "Я паркую машину",
+    "titleNo": "Jeg parkerer bilen",
+    "level": "A2",
+    "category": "driving",
+    "topic": "parking",
+    "length": "short",
+    "description": "Базовая лексика про парковку в городе"
+  },
+  {
+    "id": "parking-2",
+    "title": "Платная парковка и приложения",
+    "titleNo": "Avgiftsparkering og parkeringsapper",
+    "level": "B1",
+    "category": "driving",
+    "topic": "parking",
+    "length": "medium",
+    "description": "Как работают зоны, приложения и парковка для жителей"
+  },
+  {
+    "id": "parking-3",
+    "title": "Парковочные штрафы и обжалование",
+    "titleNo": "Parkeringsgebyr og klage",
+    "level": "B2",
+    "category": "driving",
+    "topic": "parking",
+    "length": "long",
+    "description": "Различия между gebyr и bot, как обжаловать, частные и муниципальные парковки"
+  },
+  {
     "id": "pharmacy-1",
     "title": "В аптеке",
     "titleNo": "På apoteket",
@@ -2070,6 +2220,66 @@ const catalog = [
     "description": "Дефицит лекарств и их импорт в Норвегии"
   },
   {
+    "id": "pregnancy-1",
+    "title": "Я жду ребёнка",
+    "titleNo": "Jeg venter barn",
+    "level": "A2",
+    "category": "health",
+    "topic": "pregnancy",
+    "length": "short",
+    "description": "Первые шаги во время беременности в Норвегии"
+  },
+  {
+    "id": "pregnancy-2",
+    "title": "Наблюдение во время беременности",
+    "titleNo": "Svangerskapskontroll i Norge",
+    "level": "B1",
+    "category": "health",
+    "topic": "pregnancy",
+    "length": "medium",
+    "description": "Как устроено медицинское сопровождение беременности"
+  },
+  {
+    "id": "pregnancy-3",
+    "title": "Норвежская система родовспоможения",
+    "titleNo": "Det norske fødselssystemet",
+    "level": "B2",
+    "category": "health",
+    "topic": "pregnancy",
+    "length": "long",
+    "description": "Роды, родительский отпуск и гендерная политика в Норвегии"
+  },
+  {
+    "id": "prevention-1",
+    "title": "Я веду здоровый образ жизни",
+    "titleNo": "Jeg lever sunt",
+    "level": "A2",
+    "category": "health",
+    "topic": "prevention",
+    "length": "short",
+    "description": "Простые привычки для здоровья по-норвежски"
+  },
+  {
+    "id": "prevention-2",
+    "title": "Профилактическая медицина в Норвегии",
+    "titleNo": "Forebyggende helse i Norge",
+    "level": "B1",
+    "category": "health",
+    "topic": "prevention",
+    "length": "medium",
+    "description": "Вакцинация, скрининг и профилактические осмотры"
+  },
+  {
+    "id": "prevention-3",
+    "title": "Folkehelseinstituttet и стратегия здоровья",
+    "titleNo": "Folkehelseinstituttet og folkehelsestrategien",
+    "level": "B2",
+    "category": "health",
+    "topic": "prevention",
+    "length": "long",
+    "description": "Национальная стратегия общественного здоровья и роль FHI"
+  },
+  {
     "id": "rights-1",
     "title": "Мой отпуск",
     "titleNo": "Ferien min",
@@ -2158,6 +2368,66 @@ const catalog = [
     "topic": "rights",
     "length": "long",
     "description": "Защита тех, кто сообщает о нарушениях в Норвегии"
+  },
+  {
+    "id": "selvstendig-1",
+    "title": "Я работаю на себя",
+    "titleNo": "Jeg jobber for meg selv",
+    "level": "A2",
+    "category": "work",
+    "topic": "self_employed",
+    "length": "short",
+    "description": "Простой рассказ о работе на себя в Норвегии"
+  },
+  {
+    "id": "selvstendig-2",
+    "title": "Открыть ИП в Норвегии",
+    "titleNo": "Å starte enkeltpersonforetak",
+    "level": "B1",
+    "category": "work",
+    "topic": "self_employed",
+    "length": "medium",
+    "description": "Как зарегистрировать своё дело в Норвегии"
+  },
+  {
+    "id": "selvstendig-3",
+    "title": "Самозанятость или AS — что выбрать",
+    "titleNo": "Selvstendig næring eller aksjeselskap",
+    "level": "B2",
+    "category": "work",
+    "topic": "self_employed",
+    "length": "long",
+    "description": "Сравнение ИП и AS: налоги, пенсия, страховка, развитие фриланс-сегмента"
+  },
+  {
+    "id": "teater-1",
+    "title": "Я иду в театр",
+    "titleNo": "Jeg går i teateret",
+    "level": "A2",
+    "category": "culture",
+    "topic": "theater",
+    "length": "short",
+    "description": "Простые слова о походе в норвежский театр"
+  },
+  {
+    "id": "teater-2",
+    "title": "Норвежские театры",
+    "titleNo": "Norske teatre",
+    "level": "B1",
+    "category": "culture",
+    "topic": "theater",
+    "length": "medium",
+    "description": "Главные театры Норвегии и как купить билет"
+  },
+  {
+    "id": "teater-3",
+    "title": "История норвежского театра — от Ibsen до сегодня",
+    "titleNo": "Norsk teaterhistorie — fra Ibsen til i dag",
+    "level": "B2",
+    "category": "culture",
+    "topic": "theater",
+    "length": "long",
+    "description": "Революция в драматургии, государственная поддержка и современная сцена"
   },
   {
     "id": "tech-1",
@@ -2340,6 +2610,36 @@ const catalog = [
     "description": "Как Statens vegvesen меняет ограничения скорости в Норвегии"
   },
   {
+    "id": "union-1",
+    "title": "Я в профсоюзе",
+    "titleNo": "Jeg er i fagforening",
+    "level": "A2",
+    "category": "work",
+    "topic": "unions",
+    "length": "short",
+    "description": "Простой рассказ о членстве в профсоюзе"
+  },
+  {
+    "id": "union-2",
+    "title": "Главные профсоюзы Норвегии",
+    "titleNo": "De største fagforeningene i Norge",
+    "level": "B1",
+    "category": "work",
+    "topic": "unions",
+    "length": "medium",
+    "description": "Обзор крупнейших профсоюзов Норвегии и как выбрать"
+  },
+  {
+    "id": "union-3",
+    "title": "Hovedavtalen и трёхсторонняя модель",
+    "titleNo": "Hovedavtalen og trepartsmodellen",
+    "level": "B2",
+    "category": "work",
+    "topic": "unions",
+    "length": "long",
+    "description": "История и устройство норвежской модели сотрудничества"
+  },
+  {
     "id": "utdanning-1",
     "title": "Школьная система",
     "titleNo": "Skolesystemet",
@@ -2428,6 +2728,66 @@ const catalog = [
     "topic": "norwegian_course",
     "length": "long",
     "description": "Языковые экзамены и требования для гражданства"
+  },
+  {
+    "id": "voksen-1",
+    "title": "Я учусь в свободное время",
+    "titleNo": "Jeg lærer på fritiden",
+    "level": "A2",
+    "category": "education",
+    "topic": "continuing_ed",
+    "length": "short",
+    "description": "Курсы и вечерняя школа для взрослых"
+  },
+  {
+    "id": "voksen-2",
+    "title": "Voksenopplæring — образование для взрослых",
+    "titleNo": "Voksenopplæring i Norge",
+    "level": "B1",
+    "category": "education",
+    "topic": "continuing_ed",
+    "length": "medium",
+    "description": "Как взрослые продолжают учиться в Норвегии"
+  },
+  {
+    "id": "voksen-3",
+    "title": "Концепция livslang læring",
+    "titleNo": "Livslang læring som idé",
+    "level": "B2",
+    "category": "education",
+    "topic": "continuing_ed",
+    "length": "long",
+    "description": "Обучение через всю жизнь и государственная политика"
+  },
+  {
+    "id": "winter-1",
+    "title": "Зимой я езжу осторожно",
+    "titleNo": "Om vinteren kjører jeg forsiktig",
+    "level": "A2",
+    "category": "driving",
+    "topic": "winter_driving",
+    "length": "short",
+    "description": "Простая лексика про зимнее вождение"
+  },
+  {
+    "id": "winter-2",
+    "title": "Подготовка машины к зиме",
+    "titleNo": "Å gjøre bilen klar til vinteren",
+    "level": "B1",
+    "category": "driving",
+    "topic": "winter_driving",
+    "length": "medium",
+    "description": "Шипованные и нешипованные шины, антифриз, аккумулятор и зимний набор"
+  },
+  {
+    "id": "winter-3",
+    "title": "Зимние дороги в Норвегии — особенности",
+    "titleNo": "Norske vinterveier — særtrekk og utfordringer",
+    "level": "B2",
+    "category": "driving",
+    "topic": "winter_driving",
+    "length": "long",
+    "description": "Горные перевалы, колонное движение, лавинная опасность и статистика ДТП"
   }
 ]
 

@@ -45,6 +45,9 @@ export const categories = {
       job_search: { label: "Поиск работы", labelNo: "Jobbsøk" },
       interview: { label: "Собеседование", labelNo: "Jobbintervju" },
       rights: { label: "Права работника", labelNo: "Arbeidstakerrettigheter" },
+      self_employed: { label: "Самозанятость и ИП", labelNo: "Selvstendig næringsdrivende" },
+      career: { label: "Карьерный рост", labelNo: "Karriere og utvikling" },
+      unions: { label: "Профсоюзы", labelNo: "Fagforeninger" },
     },
   },
   education: {
@@ -54,6 +57,8 @@ export const categories = {
       school: { label: "Школа", labelNo: "Skole" },
       university: { label: "Университет", labelNo: "Universitet" },
       norwegian_course: { label: "Норвежский для иностранцев", labelNo: "Norsk for utlendinger" },
+      kindergarten: { label: "Детский сад", labelNo: "Barnehage" },
+      continuing_ed: { label: "Дополнительное образование", labelNo: "Voksenopplæring" },
     },
   },
   culture: {
@@ -64,6 +69,8 @@ export const categories = {
       art: { label: "Изобразительное искусство", labelNo: "Billedkunst" },
       music: { label: "Музыка", labelNo: "Musikk" },
       cinema: { label: "Кино", labelNo: "Film" },
+      theater: { label: "Театр", labelNo: "Teater" },
+      festivals: { label: "Фестивали и праздники", labelNo: "Festivaler og høytider" },
     },
   },
   health: {
@@ -74,6 +81,9 @@ export const categories = {
       hospital: { label: "Больница и скорая", labelNo: "Sykehus og akutthjelp" },
       pharmacy: { label: "Аптека и лекарства", labelNo: "Apotek og medisiner" },
       mental_health: { label: "Психическое здоровье", labelNo: "Psykisk helse" },
+      dentistry: { label: "Стоматология", labelNo: "Tannlege og tannhelse" },
+      pregnancy: { label: "Беременность и роды", labelNo: "Graviditet og fødsel" },
+      prevention: { label: "Профилактика и здоровый образ жизни", labelNo: "Forebygging og livsstil" },
     },
   },
   driving: {
@@ -83,6 +93,8 @@ export const categories = {
       traffic_signs: { label: "Знаки дорожного движения", labelNo: "Trafikkskilt" },
       car: { label: "Устройство автомобиля", labelNo: "Bilens oppbygning" },
       motorcycle: { label: "Устройство мотоцикла", labelNo: "Motorsykkelens oppbygning" },
+      parking: { label: "Парковка и штрафы", labelNo: "Parkering og bøter" },
+      winter_driving: { label: "Зимнее вождение", labelNo: "Vinterkjøring" },
     },
   },
 }
