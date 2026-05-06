@@ -1,0 +1,51 @@
+{
+  "filesChecked": 279,
+  "totalViolations": 5,
+  "byFile": [
+    {
+      "file": "insurance-4.json",
+      "violations": [
+        {
+          "lang": "ru",
+          "context": "низм и горные лыжи требуют доп. покрытия. Перед поездкой полезно прочитать услов",
+          "position": 667,
+          "firstLetter": "п"
+        }
+      ]
+    },
+    {
+      "file": "interview-3.json",
+      "violations": [
+        {
+          "lang": "ru",
+          "context": "казать ''у меня есть опыт в ... я готов учиться''. Не в последнюю очередь высоко",
+          "position": 550,
+          "firstLetter": "я"
+        },
+        {
+          "lang": "no",
+          "context": "å si ''jeg har erfaring med ... jeg er villig til å lære''. Ikke minst settes de",
+          "position": 582,
+          "firstLetter": "j"
+        }
+      ]
+    },
+    {
+      "file": "tech-9.json",
+      "violations": [
+        {
+          "lang": "ru",
+          "context": "сторий успеха. Компания Kahoot! стала одной из самых популярных образовательных ",
+          "position": 194,
+          "firstLetter": "с"
+        },
+        {
+          "lang": "no",
+          "context": "esshistorier. Selskapet Kahoot! har blitt en av de mest populære læringsplattfor",
+          "position": 180,
+          "firstLetter": "h"
+        }
+      ]
+    }
+  ]
+}
