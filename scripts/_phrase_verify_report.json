@@ -2,224 +2,8 @@
   "filesChecked": 279,
   "missingPhrases": [
     {
-      "file": "allemannsretten-5.json",
-      "phrase": "for det første",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "allemannsretten-5.json",
-      "phrase": "for det tredje",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "allemannsretten-5.json",
-      "phrase": "for det andre",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "allemannsretten-6.json",
-      "phrase": "rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "allemannsretten-9.json",
-      "phrase": "har rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "art-2.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "art-6.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "art-8.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "budget-2.json",
-      "phrase": "for det tredje",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "budget-2.json",
-      "phrase": "for det andre",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "career-3.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "cinema-7.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "digital-9.json",
-      "phrase": "for det første",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "digital-9.json",
-      "phrase": "for det tredje",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "digital-9.json",
-      "phrase": "for det andre",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "discoveries-5.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-2.json",
-      "phrase": "mangel på",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-3.json",
-      "phrase": "for det første",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-3.json",
-      "phrase": "for det andre",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-3.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-7.json",
-      "phrase": "for det første",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-7.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-8.json",
-      "phrase": "rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "festival-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 2,
-      "tagged": 0
-    },
-    {
-      "file": "hospital-6.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "hospital-9.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "insurance-7.json",
-      "phrase": "har rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "insurance-9.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
       "file": "interview-5.json",
       "phrase": "selv om",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "interview-9.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "janteloven-5.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "janteloven-6.json",
-      "phrase": "på nett",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "janteloven-7.json",
-      "phrase": "har rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "janteloven-8.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "jobsearch-3.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "jobsearch-9.json",
-      "phrase": "ikke bare",
       "occurrences": 1,
       "tagged": 0
     },
@@ -230,248 +14,8 @@
       "tagged": 0
     },
     {
-      "file": "judicial-8.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "literature-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "literature-6.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "literature-7.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "literature-8.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "mc-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "mental-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "mental-3.json",
-      "phrase": "mangel på",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "mental-5.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "mental-9.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "music-2.json",
-      "phrase": "for det andre",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "music-8.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "music-9.json",
-      "phrase": "sliter med",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "oilfund-5.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "oilfund-9.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "parking-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "pharmacy-2.json",
-      "phrase": "for det andre",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "pharmacy-3.json",
-      "phrase": "mangel på",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "pharmacy-8.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "pharmacy-9.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "pregnancy-3.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "rights-1.json",
-      "phrase": "rett til",
-      "occurrences": 2,
-      "tagged": 0
-    },
-    {
-      "file": "rights-2.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "rights-4.json",
-      "phrase": "har rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "rights-4.json",
-      "phrase": "regnes som",
-      "occurrences": 2,
-      "tagged": 0
-    },
-    {
-      "file": "rights-4.json",
-      "phrase": "rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "rights-5.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "rights-5.json",
-      "phrase": "rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "rights-7.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "rights-9.json",
-      "phrase": "rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "teater-3.json",
-      "phrase": "på den måten",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "teater-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
       "file": "trafikkregler-1.json",
       "phrase": "selv om",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "trafikkregler-4.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "trafikkregler-5.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "trafikkregler-8.json",
-      "phrase": "mangel på",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "utdanning-4.json",
-      "phrase": "regnes som",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "utdanning-9.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "voksen-3.json",
-      "phrase": "har rett til",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "voksen-3.json",
-      "phrase": "ikke bare",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "winter-3.json",
-      "phrase": "advarer om",
       "occurrences": 1,
       "tagged": 0
     }
@@ -528,28 +72,28 @@
     },
     {
       "file": "allemannsretten-5.json",
-      "segIndex": 19,
+      "segIndex": 25,
       "text": "to netter",
       "translation": "двух ночей",
       "transcription": "ту нэттер"
     },
     {
       "file": "allemannsretten-5.json",
-      "segIndex": 31,
+      "segIndex": 37,
       "text": "15. april",
       "translation": "15 апреля",
       "transcription": "фэмтэнде април"
     },
     {
       "file": "allemannsretten-5.json",
-      "segIndex": 33,
+      "segIndex": 39,
       "text": "15. september",
       "translation": "15 сентября",
       "transcription": "фэмтэнде сэптэмбер"
     },
     {
       "file": "allemannsretten-5.json",
-      "segIndex": 39,
+      "segIndex": 45,
       "text": "rydde all søppel",
       "translation": "убрать весь мусор",
       "transcription": "рюдде алль сёппель"
@@ -689,14 +233,14 @@
     },
     {
       "file": "allemannsretten-9.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "positiv effekt",
       "translation": "положительный эффект",
       "transcription": "позитив эффэкт"
     },
     {
       "file": "allemannsretten-9.json",
-      "segIndex": 30,
+      "segIndex": 32,
       "text": "bærekraftig utvikling",
       "translation": "устойчивым развитием",
       "transcription": "бэрекрафтиг ютвиклинг"
@@ -773,7 +317,7 @@
     },
     {
       "file": "art-2.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "norsk selvbilde",
       "translation": "норвежский образ себя",
       "transcription": "норск сэльвбильдэ"
@@ -906,14 +450,14 @@
     },
     {
       "file": "art-6.json",
-      "segIndex": 11,
+      "segIndex": 13,
       "text": "heftig debatt",
       "translation": "жаркие дебаты",
       "transcription": "хэфтиг дэбатт"
     },
     {
       "file": "art-6.json",
-      "segIndex": 13,
+      "segIndex": 15,
       "text": "sette ting på spissen",
       "translation": "заострять вещи",
       "transcription": "сэттэ тинг по списсэн"
@@ -1004,42 +548,42 @@
     },
     {
       "file": "art-8.json",
-      "segIndex": 12,
+      "segIndex": 14,
       "text": "settes det av",
       "translation": "выделяется",
       "transcription": "сэттэс дэ ав"
     },
     {
       "file": "art-8.json",
-      "segIndex": 16,
+      "segIndex": 18,
       "text": "velger ut kunstnere",
       "translation": "выбирают художников",
       "transcription": "вельгер ют кюнстнэрэ"
     },
     {
       "file": "art-8.json",
-      "segIndex": 20,
+      "segIndex": 22,
       "text": "rett til kunstopplevelser",
       "translation": "право на художественные впечатления",
       "transcription": "рэтт тиль кюнстопплэвэльсэр"
     },
     {
       "file": "art-8.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "de samme få kunstnerne",
       "translation": "одни и те же немногие художники",
       "transcription": "дэ саммэ фо кюнстнэрнэ"
     },
     {
       "file": "art-8.json",
-      "segIndex": 26,
+      "segIndex": 28,
       "text": "har gitt kunst en sentral plass",
       "translation": "придал искусству центральное место",
       "transcription": "хар йитт кюнст эн сэнтраль пласс"
     },
     {
       "file": "art-8.json",
-      "segIndex": 36,
+      "segIndex": 38,
       "text": "se opp til",
       "translation": "уважать",
       "transcription": "сэ опп тиль"
@@ -1662,28 +1206,28 @@
     },
     {
       "file": "budget-2.json",
-      "segIndex": 17,
+      "segIndex": 21,
       "text": "lag mat hjemme",
       "translation": "готовьте дома",
       "transcription": "лаг мат йэммэ"
     },
     {
       "file": "budget-2.json",
-      "segIndex": 23,
+      "segIndex": 27,
       "text": "Bytte av leverandør",
       "translation": "смена поставщика",
       "transcription": "бюттэ ав левэрандёр"
     },
     {
       "file": "budget-2.json",
-      "segIndex": 25,
+      "segIndex": 29,
       "text": "spare tusener",
       "translation": "сэкономить тысячи",
       "transcription": "спарэ тюсэнэр"
     },
     {
       "file": "budget-2.json",
-      "segIndex": 31,
+      "segIndex": 35,
       "text": "sette av",
       "translation": "откладывать",
       "transcription": "сэттэ ав"
@@ -2075,14 +1619,14 @@
     },
     {
       "file": "career-3.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "executive education",
       "translation": "executive education",
       "transcription": "экзекютив эдюкэйшн"
     },
     {
       "file": "career-3.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "livslang læring",
       "translation": "непрерывное обучение",
       "transcription": "ливсланг лэринг"
@@ -2313,14 +1857,14 @@
     },
     {
       "file": "cinema-7.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "er heftig",
       "translation": "горячие",
       "transcription": "эр хэфтиг"
     },
     {
       "file": "cinema-7.json",
-      "segIndex": 28,
+      "segIndex": 30,
       "text": "ensretting og forutsigbarhet",
       "translation": "единообразие и предсказуемость",
       "transcription": "энсрэттинг о форютсигбархэт"
@@ -2726,21 +2270,21 @@
     },
     {
       "file": "digital-9.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "sårbare grupper",
       "translation": "уязвимые группы",
       "transcription": "сорбарэ грюппэр"
     },
     {
       "file": "digital-9.json",
-      "segIndex": 25,
+      "segIndex": 31,
       "text": "kritisk infrastruktur",
       "translation": "критической инфраструктурой",
       "transcription": "критиск инфраструктюр"
     },
     {
       "file": "digital-9.json",
-      "segIndex": 29,
+      "segIndex": 35,
       "text": "digital suverenitet",
       "translation": "цифровом суверенитете",
       "transcription": "дигиталь сювэрэнитэт"
@@ -2789,35 +2333,35 @@
     },
     {
       "file": "discoveries-5.json",
-      "segIndex": 1,
+      "segIndex": 3,
       "text": "største matematikere",
       "translation": "величайших математиков",
       "transcription": "стёрстэ матэматикэрэ"
     },
     {
       "file": "discoveries-5.json",
-      "segIndex": 3,
+      "segIndex": 5,
       "text": "fattig familie",
       "translation": "бедной семье",
       "transcription": "фаттиг фамилиэ"
     },
     {
       "file": "discoveries-5.json",
-      "segIndex": 9,
+      "segIndex": 11,
       "text": "19 år",
       "translation": "19 лет",
       "transcription": "нитэн ор"
     },
     {
       "file": "discoveries-5.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "levde i fattigdom",
       "translation": "жил в бедности",
       "transcription": "лэвдэ и фаттигдум"
     },
     {
       "file": "discoveries-5.json",
-      "segIndex": 25,
+      "segIndex": 27,
       "text": "matematikkens Nobelpris",
       "translation": "Нобелевская премия по математике",
       "transcription": "матэматиккэнс нубэльприс"
@@ -2985,35 +2529,35 @@
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 2,
+      "segIndex": 4,
       "text": "en fast personlig lege",
       "translation": "постоянный личный врач",
       "transcription": "эн фаст пэршонлиг лэгэ"
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 8,
+      "segIndex": 10,
       "text": "sto uten",
       "translation": "остались без",
       "transcription": "сту ютэн"
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 12,
+      "segIndex": 16,
       "text": "administrativt tyngre",
       "translation": "административно тяжелее",
       "transcription": "администратиффт тюнгре"
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 14,
+      "segIndex": 20,
       "text": "selvstendig næringsdrivende",
       "translation": "индивидуальный предприниматель",
       "transcription": "сэльвстэндиг нэрингсдривэнне"
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 24,
+      "segIndex": 30,
       "text": "digital helsehjelp",
       "translation": "цифровая медицинская помощь",
       "transcription": "дигиталь хэльсэйельп"
@@ -3111,35 +2655,35 @@
     },
     {
       "file": "fastlege-7.json",
-      "segIndex": 20,
+      "segIndex": 22,
       "text": "driver eget firma",
       "translation": "ведёт собственную фирму",
       "transcription": "дривэр эгэт фирма"
     },
     {
       "file": "fastlege-7.json",
-      "segIndex": 26,
+      "segIndex": 28,
       "text": "tiltakene strekker ikke til",
       "translation": "мер недостаточно",
       "transcription": "тильтакэнэ стрэккер икке тиль"
     },
     {
       "file": "fastlege-8.json",
-      "segIndex": 7,
+      "segIndex": 9,
       "text": "selvstendig næringsdrivende",
       "translation": "индивидуальный предприниматель",
       "transcription": "сэльвстэндиг нэрингсдривэнне"
     },
     {
       "file": "fastlege-8.json",
-      "segIndex": 23,
+      "segIndex": 25,
       "text": "slo fast",
       "translation": "констатировала",
       "transcription": "слу фаст"
     },
     {
       "file": "fastlege-8.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "team-baserte løsninger",
       "translation": "командные решения",
       "transcription": "тимбасэртэ лёснингэр"
@@ -3223,70 +2767,70 @@
     },
     {
       "file": "festival-3.json",
-      "segIndex": 13,
+      "segIndex": 15,
       "text": "har fått sitt gjennombrudd",
       "translation": "совершили прорыв",
       "transcription": "хар фотт ситт йэннэмбрутт"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 17,
+      "segIndex": 19,
       "text": "av stor betydning",
       "translation": "имеет большое значение",
       "transcription": "ав стур бэтюднинг"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 23,
+      "segIndex": 25,
       "text": "spiller en sentral rolle",
       "translation": "играет центральную роль",
       "transcription": "спилле эн сэнтраль ролле"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 25,
+      "segIndex": 27,
       "text": "et tveegget sverd",
       "translation": "палка о двух концах",
       "transcription": "эт твээгэт свэрд"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "sliter økonomisk",
       "translation": "финансово борются",
       "transcription": "слитэр экономиск"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 33,
+      "segIndex": 35,
       "text": "Når det kommer til stykket",
       "translation": "в конечном счёте",
       "transcription": "нор дэ коммер тиль стюккэ"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 37,
+      "segIndex": 39,
       "text": "kan ikke overdrives",
       "translation": "невозможно переоценить",
       "transcription": "кан икке увэрдривэс"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 39,
+      "segIndex": 41,
       "text": "er noe levende",
       "translation": "что-то живое",
       "transcription": "эр нуэ левэнэ"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 41,
+      "segIndex": 43,
       "text": "en helt egen verdi",
       "translation": "совершенно особую ценность",
       "transcription": "эн хэльт эйэн вэрди"
     },
     {
       "file": "festival-3.json",
-      "segIndex": 43,
+      "segIndex": 47,
       "text": "setter sitt preg på",
       "translation": "оставляет свой след на",
       "transcription": "сэттэр ситт прэг по"
@@ -3398,7 +2942,7 @@
     },
     {
       "file": "hospital-6.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "frustrasjon og motløshet",
       "translation": "разочарование и подавленность",
       "transcription": "фрюстрасьюн о мутлёсхэт"
@@ -3524,21 +3068,21 @@
     },
     {
       "file": "insurance-7.json",
-      "segIndex": 4,
+      "segIndex": 6,
       "text": "melde fra",
       "translation": "сообщить",
       "transcription": "мэллэ фра"
     },
     {
       "file": "insurance-7.json",
-      "segIndex": 30,
+      "segIndex": 32,
       "text": "avslå kravet",
       "translation": "отказать в требовании",
       "transcription": "авсло кравэ"
     },
     {
       "file": "insurance-7.json",
-      "segIndex": 32,
+      "segIndex": 34,
       "text": "grov uaktsomhet",
       "translation": "грубую неосторожность",
       "transcription": "грув юактсомхэт"
@@ -3860,42 +3404,42 @@
     },
     {
       "file": "janteloven-5.json",
-      "segIndex": 11,
+      "segIndex": 13,
       "text": "''Jeg er den beste''",
       "translation": "«Я лучший»",
       "transcription": "яй эр дэн бэстэ"
     },
     {
       "file": "janteloven-5.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "''Jeg har litt erfaring''",
       "translation": "«У меня немного опыта»",
       "transcription": "яй хар литт эрфаринг"
     },
     {
       "file": "janteloven-5.json",
-      "segIndex": 19,
+      "segIndex": 21,
       "text": "oppfører seg",
       "translation": "ведут себя",
       "transcription": "опфёрэр сэй"
     },
     {
       "file": "janteloven-5.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "drikker kaffe",
       "translation": "пьёт кофе",
       "transcription": "дриккер каффэ"
     },
     {
       "file": "janteloven-5.json",
-      "segIndex": 25,
+      "segIndex": 27,
       "text": "spiller en rolle",
       "translation": "играет роль",
       "transcription": "спиллер эн роллэ"
     },
     {
       "file": "janteloven-5.json",
-      "segIndex": 29,
+      "segIndex": 31,
       "text": "oppfattes som",
       "translation": "воспринимается как",
       "transcription": "опфаттэс сом"
@@ -3937,7 +3481,7 @@
     },
     {
       "file": "janteloven-6.json",
-      "segIndex": 33,
+      "segIndex": 35,
       "text": "lever side om side",
       "translation": "живут бок о бок",
       "transcription": "лэвэр сидэ ом сидэ"
@@ -3951,49 +3495,49 @@
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "formulerte ti bud",
       "translation": "сформулировал десять заповедей",
       "transcription": "формюлертэ ти буд"
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 17,
+      "segIndex": 19,
       "text": "''Du skal ikke''",
       "translation": "«Ты не должен»",
       "transcription": "дю скаль икке"
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 19,
+      "segIndex": 21,
       "text": "formet ham",
       "translation": "сформировала его",
       "transcription": "формет хам"
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "slo an",
       "translation": "прижился",
       "transcription": "слу ан"
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "å bli kjent",
       "translation": "стать известным",
       "transcription": "о бли шент"
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 35,
+      "segIndex": 37,
       "text": "legger merke til",
       "translation": "замечают",
       "transcription": "лэггер мэркэ тиль"
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 37,
+      "segIndex": 39,
       "text": "veksler mellom",
       "translation": "чередует",
       "transcription": "вэкслер мэллом"
@@ -4112,21 +3656,21 @@
     },
     {
       "file": "jobsearch-3.json",
-      "segIndex": 14,
+      "segIndex": 16,
       "text": "ikke",
       "translation": "не",
       "transcription": "икке"
     },
     {
       "file": "jobsearch-3.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "grønn økonomi",
       "translation": "зелёной экономике",
       "transcription": "грённ экунуми"
     },
     {
       "file": "jobsearch-3.json",
-      "segIndex": 28,
+      "segIndex": 30,
       "text": "grønt skifte",
       "translation": "зелёного перехода",
       "transcription": "грёнт шифтэ"
@@ -4770,7 +4314,7 @@
     },
     {
       "file": "literature-3.json",
-      "segIndex": 19,
+      "segIndex": 21,
       "text": "Litterær offentlighet",
       "translation": "Литературная общественность",
       "transcription": "литэрэр офтентлихэт"
@@ -4861,28 +4405,28 @@
     },
     {
       "file": "literature-6.json",
-      "segIndex": 9,
+      "segIndex": 11,
       "text": "Norges nasjonaldikt",
       "translation": "национальным стихотворением Норвегии",
       "transcription": "норгес нащунальдикт"
     },
     {
       "file": "literature-6.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "«Vi skal feire dem med en pinligstille fest»",
       "translation": "«Мы будем праздновать их мучительно тихим праздником»",
       "transcription": "ви скаль фейре дэм мэд эн пинлигстилле фэст"
     },
     {
       "file": "literature-6.json",
-      "segIndex": 19,
+      "segIndex": 21,
       "text": "asfalt og elektrisitet",
       "translation": "асфальте и электричестве",
       "transcription": "асфальт о электриситэт"
     },
     {
       "file": "literature-6.json",
-      "segIndex": 23,
+      "segIndex": 25,
       "text": "selges fortsatt godt",
       "translation": "всё ещё хорошо продаются",
       "transcription": "сэльес фортсатт гудт"
@@ -4938,49 +4482,49 @@
     },
     {
       "file": "literature-8.json",
-      "segIndex": 10,
+      "segIndex": 12,
       "text": "indre psykologiske kamp",
       "translation": "внутреннюю психологическую борьбу",
       "transcription": "индре псюколугиске камп"
     },
     {
       "file": "literature-8.json",
-      "segIndex": 12,
+      "segIndex": 14,
       "text": "den moderne bevissthetsromanen",
       "translation": "современного романа сознания",
       "transcription": "дэн мудэрнэ бэвиссхэтсруманэн"
     },
     {
       "file": "literature-8.json",
-      "segIndex": 18,
+      "segIndex": 20,
       "text": "lærte ham å skrive",
       "translation": "научил его писать",
       "transcription": "лэртэ хам о скривэ"
     },
     {
       "file": "literature-8.json",
-      "segIndex": 22,
+      "segIndex": 24,
       "text": "en hyllest til",
       "translation": "восхваление",
       "transcription": "эн хюллэст тиль"
     },
     {
       "file": "literature-8.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "slapp fengsel",
       "translation": "избежал тюрьмы",
       "transcription": "слапп фэнгсэль"
     },
     {
       "file": "literature-8.json",
-      "segIndex": 28,
+      "segIndex": 30,
       "text": "med blandede følelser",
       "translation": "со смешанными чувствами",
       "transcription": "мэд блан-нэдэ фёлэльсэр"
     },
     {
       "file": "literature-8.json",
-      "segIndex": 32,
+      "segIndex": 34,
       "text": "belyse begge sider",
       "translation": "осветить обе стороны",
       "transcription": "бэлюсэ бэгге сидэр"
@@ -5120,7 +4664,7 @@
     },
     {
       "file": "mc-3.json",
-      "segIndex": 36,
+      "segIndex": 38,
       "text": "uforglemmelig opplevelse",
       "translation": "незабываемое впечатление",
       "transcription": "уфоргльеммэлиг опплэвэлсе"
@@ -5386,21 +4930,21 @@
     },
     {
       "file": "music-2.json",
-      "segIndex": 11,
+      "segIndex": 13,
       "text": "det mest særegne",
       "translation": "самый особенный",
       "transcription": "дэ мэст сэрэгнэ"
     },
     {
       "file": "music-2.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "en eksportvare",
       "translation": "экспортный продукт",
       "transcription": "эн экспортварэ"
     },
     {
       "file": "music-2.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "internasjonale navn",
       "translation": "международными именами",
       "transcription": "интэрнащунале навн"
@@ -5624,42 +5168,42 @@
     },
     {
       "file": "music-8.json",
-      "segIndex": 12,
+      "segIndex": 14,
       "text": "tok sitt eget liv",
       "translation": "покончил с собой",
       "transcription": "тук ситт эйэт лив"
     },
     {
       "file": "music-8.json",
-      "segIndex": 18,
+      "segIndex": 20,
       "text": "Han ble dømt til",
       "translation": "Он был приговорён к",
       "transcription": "хан бле дёмт тиль"
     },
     {
       "file": "music-8.json",
-      "segIndex": 20,
+      "segIndex": 22,
       "text": "verdensberømt og fryktet",
       "translation": "всемирно известным и пугающим",
       "transcription": "вэрденсбэрёмт о фрюктэт"
     },
     {
       "file": "music-8.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "normale lovlydige musikere",
       "translation": "нормальные законопослушные музыканты",
       "transcription": "нурмалэ ловлюдигэ мюсикэрэ"
     },
     {
       "file": "music-8.json",
-      "segIndex": 26,
+      "segIndex": 28,
       "text": "forskningstema på universiteter",
       "translation": "темой исследований в университетах",
       "transcription": "форскингстэма по юнивэрситетэр"
     },
     {
       "file": "music-8.json",
-      "segIndex": 30,
+      "segIndex": 32,
       "text": "nettopp på grunn av",
       "translation": "именно из-за",
       "transcription": "нэттопп по грюнн ав"
@@ -5785,7 +5329,7 @@
     },
     {
       "file": "oilfund-5.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "ansvarlig investering",
       "translation": "ответственного инвестирования",
       "transcription": "ансварлиг инвэстэринг"
@@ -5855,14 +5399,14 @@
     },
     {
       "file": "oilfund-9.json",
-      "segIndex": 13,
+      "segIndex": 15,
       "text": "Det andre",
       "translation": "Второй",
       "transcription": "дэ аннрэ"
     },
     {
       "file": "oilfund-9.json",
-      "segIndex": 23,
+      "segIndex": 25,
       "text": "strandede aktiva",
       "translation": "замороженные активы",
       "transcription": "страннэдэ активэр"
@@ -6156,7 +5700,7 @@
     },
     {
       "file": "pregnancy-3.json",
-      "segIndex": 7,
+      "segIndex": 9,
       "text": "jordmorstyrte fødselsmodellen",
       "translation": "модель родов под управлением акушерки",
       "transcription": "юрмурстюртэ фёдсэльсмодэллэн"
@@ -6219,7 +5763,7 @@
     },
     {
       "file": "rights-2.json",
-      "segIndex": 23,
+      "segIndex": 25,
       "text": "betale inn",
       "translation": "платить взносы",
       "transcription": "бэтале инн"
@@ -6247,7 +5791,7 @@
     },
     {
       "file": "rights-4.json",
-      "segIndex": 23,
+      "segIndex": 29,
       "text": "sykmelding fra lege",
       "translation": "больничный от врача",
       "transcription": "сюкмельдинг фра легэ"
@@ -6268,28 +5812,28 @@
     },
     {
       "file": "rights-7.json",
-      "segIndex": 5,
+      "segIndex": 7,
       "text": "Lov om arbeidsmiljø",
       "translation": "Закон о рабочей среде",
       "transcription": "лов ом арбэйдсмильё"
     },
     {
       "file": "rights-7.json",
-      "segIndex": 7,
+      "segIndex": 9,
       "text": "saklig grunn",
       "translation": "вескую причину",
       "transcription": "саклиг грюнн"
     },
     {
       "file": "rights-7.json",
-      "segIndex": 33,
+      "segIndex": 35,
       "text": "rett til søksmål",
       "translation": "право на иск",
       "transcription": "рэтт тиль сёкшмол"
     },
     {
       "file": "rights-7.json",
-      "segIndex": 35,
+      "segIndex": 37,
       "text": "stå i stillingen",
       "translation": "сохранить должность",
       "transcription": "сто и стиллингэн"
@@ -6303,21 +5847,21 @@
     },
     {
       "file": "rights-9.json",
-      "segIndex": 7,
+      "segIndex": 9,
       "text": "kritikkverdige forhold",
       "translation": "предосудительных обстоятельствах",
       "transcription": "критиквэрдигэ форхольд"
     },
     {
       "file": "rights-9.json",
-      "segIndex": 19,
+      "segIndex": 21,
       "text": "forsvarlig grunnlag",
       "translation": "обоснованное основание",
       "transcription": "форсварлиг грюннлаг"
     },
     {
       "file": "rights-9.json",
-      "segIndex": 37,
+      "segIndex": 39,
       "text": "varslingsrutiner",
       "translation": "процедуры информирования",
       "transcription": "варслингсрютинэр"
@@ -6457,14 +6001,14 @@
     },
     {
       "file": "teater-3.json",
-      "segIndex": 25,
+      "segIndex": 29,
       "text": "i full blomst",
       "translation": "в полном расцвете",
       "transcription": "и фюлль блумст"
     },
     {
       "file": "teater-3.json",
-      "segIndex": 27,
+      "segIndex": 31,
       "text": "setter sitt preg på",
       "translation": "оставляют свой след на",
       "transcription": "сэттэр ситт прэг по"
@@ -6772,14 +6316,14 @@
     },
     {
       "file": "trafikkregler-8.json",
-      "segIndex": 23,
+      "segIndex": 25,
       "text": "spare verdifull tid",
       "translation": "экономить ценное время",
       "transcription": "спарэ вэрдифюль тид"
     },
     {
       "file": "trafikkregler-8.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "fase ut",
       "translation": "сворачивать",
       "transcription": "фасэ ут"
@@ -6926,14 +6470,14 @@
     },
     {
       "file": "utdanning-4.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "det finnes ikke dårlig vær",
       "translation": "плохой погоды не бывает",
       "transcription": "дэ финнэс иккэ дорли вэр"
     },
     {
       "file": "utdanning-4.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "sunn og balansert",
       "translation": "здоровым и сбалансированным",
       "transcription": "сюнн о баласэрт"
@@ -6989,14 +6533,14 @@
     },
     {
       "file": "utdanning-9.json",
-      "segIndex": 13,
+      "segIndex": 15,
       "text": "prøve i samfunnskunnskap",
       "translation": "экзамен по обществоведению",
       "transcription": "прёвэ и самфюннскюннскап"
     },
     {
       "file": "utdanning-9.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "strammet inn",
       "translation": "ужесточены",
       "transcription": "страммэт инн"
@@ -7164,42 +6708,42 @@
     },
     {
       "file": "winter-3.json",
-      "segIndex": 22,
+      "segIndex": 24,
       "text": "setter pris på",
       "translation": "ценят",
       "transcription": "сэттэ прис по"
     },
     {
       "file": "winter-3.json",
-      "segIndex": 26,
+      "segIndex": 28,
       "text": "Det er likevel verdt å merke seg",
       "translation": "всё же стоит отметить",
       "transcription": "дэ эр ликэвэль вэрт о мэркэ сэй"
     },
     {
       "file": "winter-3.json",
-      "segIndex": 28,
+      "segIndex": 30,
       "text": "underkjølt regn",
       "translation": "переохлаждённый дождь",
       "transcription": "уннершёлт рэйн"
     },
     {
       "file": "winter-3.json",
-      "segIndex": 30,
+      "segIndex": 32,
       "text": "havner i grøfta",
       "translation": "оказываются в кювете",
       "transcription": "хавнэр и грёфта"
     },
     {
       "file": "winter-3.json",
-      "segIndex": 32,
+      "segIndex": 34,
       "text": "glattkjøringsbaner",
       "translation": "трассах для тренировки на льду",
       "transcription": "глатшёрингсбанер"
     },
     {
       "file": "winter-3.json",
-      "segIndex": 36,
+      "segIndex": 38,
       "text": "har lite å frykte",
       "translation": "имеет мало чего бояться",
       "transcription": "хар литэ о фрюктэ"
@@ -7256,7 +6800,7 @@
     },
     {
       "file": "art-8.json",
-      "segIndex": 26,
+      "segIndex": 28,
       "text": "har gitt kunst en sentral plass",
       "translation": "придал искусству центральное место",
       "wordCount": 6,
@@ -7264,7 +6808,7 @@
     },
     {
       "file": "art-8.json",
-      "segIndex": 32,
+      "segIndex": 34,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7416,7 +6960,7 @@
     },
     {
       "file": "cinema-7.json",
-      "segIndex": 32,
+      "segIndex": 34,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7480,7 +7024,7 @@
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 28,
+      "segIndex": 34,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7504,7 +7048,7 @@
     },
     {
       "file": "fastlege-7.json",
-      "segIndex": 30,
+      "segIndex": 32,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7512,7 +7056,7 @@
     },
     {
       "file": "fastlege-8.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7536,7 +7080,7 @@
     },
     {
       "file": "festival-3.json",
-      "segIndex": 33,
+      "segIndex": 35,
       "text": "Når det kommer til stykket",
       "translation": "в конечном счёте",
       "wordCount": 5,
@@ -7608,7 +7152,7 @@
     },
     {
       "file": "hospital-9.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "Det er verdt å nevne",
       "translation": "стоит отметить",
       "wordCount": 5,
@@ -7616,7 +7160,7 @@
     },
     {
       "file": "hospital-9.json",
-      "segIndex": 34,
+      "segIndex": 36,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7632,7 +7176,7 @@
     },
     {
       "file": "insurance-7.json",
-      "segIndex": 36,
+      "segIndex": 38,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7664,7 +7208,7 @@
     },
     {
       "file": "janteloven-5.json",
-      "segIndex": 35,
+      "segIndex": 37,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7680,7 +7224,7 @@
     },
     {
       "file": "janteloven-7.json",
-      "segIndex": 39,
+      "segIndex": 41,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7720,7 +7264,7 @@
     },
     {
       "file": "judicial-8.json",
-      "segIndex": 39,
+      "segIndex": 41,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7752,7 +7296,7 @@
     },
     {
       "file": "literature-6.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "«Vi skal feire dem med en pinligstille fest»",
       "translation": "«Мы будем праздновать их мучительно тихим праздником»",
       "wordCount": 8,
@@ -7792,7 +7336,7 @@
     },
     {
       "file": "literature-8.json",
-      "segIndex": 30,
+      "segIndex": 32,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7808,7 +7352,7 @@
     },
     {
       "file": "mental-3.json",
-      "segIndex": 22,
+      "segIndex": 24,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7824,7 +7368,7 @@
     },
     {
       "file": "mental-5.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "Det er verdt å nevne",
       "translation": "стоит отметить",
       "wordCount": 5,
@@ -7880,7 +7424,7 @@
     },
     {
       "file": "mental-9.json",
-      "segIndex": 42,
+      "segIndex": 44,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7936,7 +7480,7 @@
     },
     {
       "file": "music-8.json",
-      "segIndex": 28,
+      "segIndex": 30,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7952,7 +7496,7 @@
     },
     {
       "file": "music-9.json",
-      "segIndex": 28,
+      "segIndex": 30,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -7976,7 +7520,7 @@
     },
     {
       "file": "oilfund-9.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -8048,7 +7592,7 @@
     },
     {
       "file": "pharmacy-8.json",
-      "segIndex": 43,
+      "segIndex": 45,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -8080,7 +7624,7 @@
     },
     {
       "file": "teater-3.json",
-      "segIndex": 31,
+      "segIndex": 35,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -8096,7 +7640,7 @@
     },
     {
       "file": "utdanning-4.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "det finnes ikke dårlig vær",
       "translation": "плохой погоды не бывает",
       "wordCount": 5,
@@ -8112,7 +7656,7 @@
     },
     {
       "file": "utdanning-9.json",
-      "segIndex": 33,
+      "segIndex": 35,
       "text": "Når alt kommer til alt",
       "translation": "в конце концов",
       "wordCount": 5,
@@ -8128,7 +7672,7 @@
     },
     {
       "file": "winter-3.json",
-      "segIndex": 26,
+      "segIndex": 28,
       "text": "Det er likevel verdt å merke seg",
       "translation": "всё же стоит отметить",
       "wordCount": 7,
