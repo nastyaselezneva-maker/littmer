@@ -104,6 +104,81 @@ function getForm(word, pos) {
   return ''
 }
 
+// Выбираем «лемму» — форму, которая выглядит как инфинитив, иначе самая короткая
+function chooseLemma(group) {
+  const infinitive = group.find((g) => {
+    const w = g.word.toLowerCase()
+    return w.endsWith('e') && !w.endsWith('er') && !w.endsWith('et')
+      && !w.endsWith('ene') && !w.endsWith('ede') && !w.endsWith('ende')
+  })
+  if (infinitive) return infinitive.word
+  return [...group].sort((a, b) => a.word.length - b.word.length)[0].word
+}
+
+// Объединяет глагольные формы (одно `dict`) в одну запись.
+// Существительные и прочие части речи остаются как есть.
+function groupVerbForms(words) {
+  const groups = new Map() // dict → [entries]
+  const out = []
+
+  for (const w of words) {
+    if (w.pos === 'verb' && w.dict) {
+      const key = w.dict
+      if (!groups.has(key)) groups.set(key, [])
+      groups.get(key).push(w)
+    } else {
+      out.push(w)
+    }
+  }
+
+  for (const [dict, group] of groups) {
+    if (group.length === 1) {
+      out.push(group[0])
+      continue
+    }
+
+    // Сливаем группу в одну запись
+    const lemma = chooseLemma(group)
+    const lemmaEntry = group.find((g) => g.word === lemma) || group[0]
+    const totalCount = group.reduce((s, g) => s + g.count, 0)
+    const allForms = [...new Set(group.flatMap((g) => g.forms))]
+    const levels = { A2: 0, B1: 0, B2: 0 }
+    const categories = {}
+    const textsMap = new Map()
+
+    for (const g of group) {
+      for (const lvl of ['A2', 'B1', 'B2']) levels[lvl] += g.levels[lvl] || 0
+      for (const [c, n] of Object.entries(g.categories)) {
+        categories[c] = (categories[c] || 0) + n
+      }
+      for (const t of g.texts) {
+        if (!textsMap.has(t.id)) textsMap.set(t.id, t)
+      }
+    }
+
+    out.push({
+      ...lemmaEntry,
+      word: lemma,
+      translation: dict,
+      transcription: lemmaEntry.transcription,
+      pos: 'verb',
+      forms: allForms,
+      count: totalCount,
+      levels,
+      categories,
+      texts: Array.from(textsMap.values()),
+      isGrouped: true,
+      groupedForms: group.map((g) => ({
+        word: g.word,
+        translation: g.translation,
+        count: g.count,
+      })),
+    })
+  }
+
+  return out
+}
+
 function Vocabulary() {
   const [data, setData] = useState(null)
   const [loading, setLoading] = useState(true)
@@ -143,10 +218,16 @@ function Vocabulary() {
     return word.forms.some((f) => savedSet.has(f.toLowerCase()))
   }
 
+  // Объединяем глагольные формы (snakker/snakket/snakke → snakke с суммарным счётчиком)
+  const groupedWords = useMemo(() => {
+    if (!data) return []
+    return groupVerbForms(data.words)
+  }, [data])
+
   const filtered = useMemo(() => {
     if (!data) return []
     const q = search.toLowerCase().trim()
-    return data.words.filter((w) => {
+    return groupedWords.filter((w) => {
       if (savedOnly && !isSaved(w)) return false
       if (cognatesOnly && !isCognate(w.word)) return false
       if (levelFilter !== 'all' && w.levels[levelFilter] === 0) return false
@@ -161,7 +242,7 @@ function Vocabulary() {
       }
       return true
     })
-  }, [data, search, levelFilter, catFilter, posFilter, savedOnly, cognatesOnly, savedSet])
+  }, [groupedWords, data, search, levelFilter, catFilter, posFilter, savedOnly, cognatesOnly, savedSet])
 
   const sorted = useMemo(() => {
     const arr = [...filtered]
@@ -173,9 +254,10 @@ function Vocabulary() {
 
   // Покрытие словаря пользователя
   const savedCount = useMemo(() => {
-    if (!data) return 0
-    return data.words.filter(isSaved).length
-  }, [data, savedSet])
+    return groupedWords.filter(isSaved).length
+  }, [groupedWords, savedSet])
+
+  const totalUnique = groupedWords.length
 
   if (loading) {
     return <div className="vocab-loading">Загружаю словарь…</div>
@@ -185,7 +267,7 @@ function Vocabulary() {
   }
 
   const visible = sorted.slice(0, pageSize)
-  const coveragePercent = data.totalUnique > 0 ? Math.round((savedCount / data.totalUnique) * 100) : 0
+  const coveragePercent = totalUnique > 0 ? Math.round((savedCount / totalUnique) * 100) : 0
 
   return (
     <div className="vocab">
@@ -197,7 +279,7 @@ function Vocabulary() {
 
       <div className="vocab-stats">
         <div className="vocab-stat">
-          <span className="vocab-stat-num">{data.totalUnique}</span>
+          <span className="vocab-stat-num">{totalUnique}</span>
           <span className="vocab-stat-label">уникальных слов</span>
         </div>
         <div className="vocab-stat">
@@ -209,7 +291,7 @@ function Vocabulary() {
           <span className="vocab-stat-label">текстов</span>
         </div>
         <div className="vocab-stat">
-          <span className="vocab-stat-num">{savedCount} <small>/ {data.totalUnique}</small></span>
+          <span className="vocab-stat-num">{savedCount} <small>/ {totalUnique}</small></span>
           <span className="vocab-stat-label">в твоём словаре · {coveragePercent}%</span>
           <div className="vocab-coverage">
             <div className="vocab-coverage-bar" style={{ width: `${coveragePercent}%` }} />
@@ -257,7 +339,7 @@ function Vocabulary() {
       </div>
 
       <p className="vocab-count">
-        Найдено: <strong>{sorted.length}</strong> {sorted.length !== data.totalUnique && `из ${data.totalUnique}`}
+        Найдено: <strong>{sorted.length}</strong> {sorted.length !== totalUnique && `из ${totalUnique}`}
       </p>
 
       <table className="vocab-table">
@@ -283,10 +365,11 @@ function Vocabulary() {
                   <td>
                     <span className="vocab-word">{w.word}</span>
                     {isCognate(w.word) && <span className="vocab-cognate" title="Похоже на русский">≈</span>}
+                    {w.isGrouped && <span className="vocab-group-badge" title="Несколько форм глагола">{w.groupedForms.length} форм</span>}
                   </td>
                   <td className="vocab-translation">{w.translation}</td>
                   {posFilter === 'all' && <td className="vocab-pos">{POS_LABELS_NO[w.pos] || ''}</td>}
-                  <td className="vocab-form">{getForm(w.word, w.pos)}</td>
+                  <td className="vocab-form">{w.isGrouped ? 'все времена' : getForm(w.word, w.pos)}</td>
                   <td className="vocab-count-cell">{w.count}</td>
                   <td>
                     {LEVELS.map((l) => (
@@ -311,6 +394,18 @@ function Vocabulary() {
                   <tr className="vocab-row-expanded">
                     <td colSpan={posFilter === 'all' ? 8 : 7}>
                       <div className="vocab-expanded">
+                        {w.isGrouped && (
+                          <div className="vocab-grouped-forms">
+                            <strong>Объединённые формы:</strong>
+                            <ul>
+                              {w.groupedForms.map((gf) => (
+                                <li key={gf.word}>
+                                  <code>{gf.word}</code> — {gf.translation} <span className="vocab-grouped-count">×{gf.count}</span>
+                                </li>
+                              ))}
+                            </ul>
+                          </div>
+                        )}
                         <div className="vocab-forms">
                           <strong>Формы в текстах:</strong>{' '}
                           {w.forms.map((f) => <code key={f}>{f}</code>)}

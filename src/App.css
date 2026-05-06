@@ -1559,6 +1559,40 @@ body.has-sidebar .app {
   cursor: help;
 }
 
+.vocab-group-badge {
+  display: inline-block;
+  margin-left: 8px;
+  font-size: 0.7rem;
+  font-weight: 500;
+  padding: 1px 6px;
+  border-radius: 8px;
+  background: rgba(67, 97, 166, 0.12);
+  color: var(--primary);
+  vertical-align: middle;
+}
+
+.vocab-grouped-forms ul {
+  list-style: none;
+  padding: 0;
+  margin: 6px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 4px;
+}
+
+.vocab-grouped-forms li {
+  background: var(--surface);
+  padding: 4px 10px;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  color: var(--text);
+}
+
+.vocab-grouped-count {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
 .vocab-translation {
   color: var(--text);
 }
