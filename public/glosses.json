@@ -3272,6 +3272,12 @@
     "transcription": "форстюррэ",
     "pos": "verb"
   },
+  "forstå": {
+    "translation": "понимать",
+    "transcription": "форсто",
+    "pos": "verb",
+    "dict": "понимать"
+  },
   "forståelse": {
     "translation": "понимание",
     "transcription": "форстоэльсе",

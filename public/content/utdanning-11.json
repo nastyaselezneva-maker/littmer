@@ -30,7 +30,7 @@
     {"type":"no","text":"rekrutteringen","translation":"набор кадров","dict":"набор кадров","transcription":"рэкрюттэрингэн","pos":"noun"},
     {"type":"ru","text":" в профессию. ","no":" til yrket. "},
     {"type":"no","text":"Ikke minst","translation":"Не в последнюю очередь","dict":"не в последнюю очередь","transcription":"иккэ минст","pos":"phrase"},
-    {"type":"ru","text":" немаловажно, что учителя всё чаще жалуются на высокую ","no":" er det viktig at lærere stadig oftere klager over høy "},
+    {"type":"ru","text":" учителя всё чаще жалуются на высокую ","no":" er det viktig at lærere stadig oftere klager over høy "},
     {"type":"no","text":"arbeidsbelastning","translation":"нагрузку на работе","dict":"рабочая нагрузка","transcription":"арбэйдсбэластнинг","pos":"noun"},
     {"type":"ru","text":". ","no":". "},
     {"type":"no","text":"I tillegg til","translation":"В дополнение к","dict":"в дополнение к","transcription":"и тиллэгг тиль","pos":"phrase"},
