@@ -31729,5 +31729,51 @@
     "transcription": "рэтт",
     "pos": "adv",
     "dict": "прямо"
+  },
+  "betales": {
+    "translation": "оплачивается",
+    "transcription": "бэталэс",
+    "pos": "verb",
+    "dict": "оплачиваться"
+  },
+  "forebygge": {
+    "translation": "предотвращать",
+    "transcription": "форэбюггэ",
+    "pos": "verb"
+  },
+  "forvalte": {
+    "translation": "управлять",
+    "transcription": "форвальтэ",
+    "pos": "verb"
+  },
+  "kjøpe": {
+    "translation": "покупать",
+    "transcription": "щёпэ",
+    "pos": "verb"
+  },
+  "kode": {
+    "translation": "код",
+    "transcription": "кудэ",
+    "pos": "noun"
+  },
+  "lete": {
+    "translation": "искать",
+    "transcription": "лэтэ",
+    "pos": "verb"
+  },
+  "sjekke": {
+    "translation": "проверять",
+    "transcription": "шеккэ",
+    "pos": "verb"
+  },
+  "spare": {
+    "translation": "экономить",
+    "transcription": "спарэ",
+    "pos": "verb"
+  },
+  "spørre": {
+    "translation": "спрашивать",
+    "transcription": "спёррэ",
+    "pos": "verb"
   }
 }
