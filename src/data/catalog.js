@@ -300,6 +300,26 @@ const catalog = [
     "description": "Споры о норвежской системе детских садов"
   },
   {
+    "id": "barnehage-4",
+    "title": "Место в детском саду",
+    "titleNo": "Barnehageplass — hvem har rett og hvordan søker man",
+    "level": "B1",
+    "category": "education",
+    "topic": "kindergarten",
+    "length": "medium",
+    "description": "Кому положено место в barnehage и как его получить"
+  },
+  {
+    "id": "barnehage-5",
+    "title": "Возраст поступления в barnehage",
+    "titleNo": "Alder for barnehagestart — debatten",
+    "level": "B2",
+    "category": "education",
+    "topic": "kindergarten",
+    "length": "long",
+    "description": "Дискуссия о раннем поступлении и роли barnehage в развитии ребёнка"
+  },
+  {
     "id": "bil-1",
     "title": "Части автомобиля",
     "titleNo": "Bildeler",
@@ -2650,6 +2670,66 @@ const catalog = [
     "description": "Как устроена школа в Норвегии"
   },
   {
+    "id": "utdanning-10",
+    "title": "Оценки в норвежской школе",
+    "titleNo": "Karaktersystemet i norsk skole",
+    "level": "B1",
+    "category": "education",
+    "topic": "school",
+    "length": "medium",
+    "description": "Как устроена система оценивания в норвежской школе"
+  },
+  {
+    "id": "utdanning-11",
+    "title": "Профессия учителя в Норвегии",
+    "titleNo": "Læreryrket i Norge",
+    "level": "B2",
+    "category": "education",
+    "topic": "school",
+    "length": "long",
+    "description": "Статус, квалификация и нехватка учителей в норвежской школе"
+  },
+  {
+    "id": "utdanning-12",
+    "title": "Студенческая жизнь в Норвегии",
+    "titleNo": "Studentlivet i Norge",
+    "level": "B1",
+    "category": "education",
+    "topic": "university",
+    "length": "medium",
+    "description": "Lånekassen, fadderuke и повседневная жизнь норвежских студентов"
+  },
+  {
+    "id": "utdanning-13",
+    "title": "Реформа высшего образования",
+    "titleNo": "Reformen av høyere utdanning",
+    "level": "B2",
+    "category": "education",
+    "topic": "university",
+    "length": "long",
+    "description": "Болонский процесс и система высшего образования в Норвегии"
+  },
+  {
+    "id": "utdanning-14",
+    "title": "Готовлюсь к Norskprøve A2",
+    "titleNo": "Jeg forbereder meg til Norskprøve A2",
+    "level": "A2",
+    "category": "education",
+    "topic": "norwegian_course",
+    "length": "short",
+    "description": "Первый языковой экзамен — Norskprøve A2"
+  },
+  {
+    "id": "utdanning-15",
+    "title": "Языковая интеграция мигрантов",
+    "titleNo": "Språklig integrering av innvandrere",
+    "level": "B2",
+    "category": "education",
+    "topic": "norwegian_course",
+    "length": "long",
+    "description": "Государственные программы языковой интеграции и их результаты"
+  },
+  {
     "id": "utdanning-2",
     "title": "Высшее образование",
     "titleNo": "Høyere utdanning",
@@ -2758,6 +2838,26 @@ const catalog = [
     "topic": "continuing_ed",
     "length": "long",
     "description": "Обучение через всю жизнь и государственная политика"
+  },
+  {
+    "id": "voksen-4",
+    "title": "Folkehøgskole — свободная школа",
+    "titleNo": "Folkehøgskolen — en norsk institusjon",
+    "level": "B1",
+    "category": "education",
+    "topic": "continuing_ed",
+    "length": "medium",
+    "description": "Норвежский феномен «народной высшей школы» — folkehøgskole"
+  },
+  {
+    "id": "voksen-5",
+    "title": "Переобучение в цифровую эпоху",
+    "titleNo": "Faglig omstilling i den digitale tidsalderen",
+    "level": "B2",
+    "category": "education",
+    "topic": "continuing_ed",
+    "length": "long",
+    "description": "Профессиональное переобучение взрослых в условиях цифровой трансформации"
   },
   {
     "id": "winter-1",

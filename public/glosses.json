@@ -31775,5 +31775,945 @@
     "translation": "спрашивать",
     "transcription": "спёррэ",
     "pos": "verb"
+  },
+  "administrasjon": {
+    "translation": "администрация",
+    "transcription": "администрашун",
+    "pos": "noun"
+  },
+  "aksepterer": {
+    "translation": "принимает",
+    "transcription": "аксептэрэр",
+    "pos": "verb",
+    "dict": "принимать"
+  },
+  "anerkjenner": {
+    "translation": "признаёт",
+    "transcription": "анэркьеннэр",
+    "pos": "verb",
+    "dict": "признавать"
+  },
+  "anerkjente": {
+    "translation": "признал",
+    "transcription": "анэркьентэ",
+    "pos": "verb",
+    "dict": "признавать"
+  },
+  "arenaer": {
+    "translation": "арены",
+    "transcription": "арэнаэр",
+    "pos": "noun",
+    "dict": "арена"
+  },
+  "argument": {
+    "translation": "аргумент",
+    "transcription": "аргумэнт",
+    "pos": "noun"
+  },
+  "argumenterer": {
+    "translation": "аргументирует",
+    "transcription": "аргумэнтэрэр",
+    "pos": "verb",
+    "dict": "аргументировать"
+  },
+  "atskillelse": {
+    "translation": "разделение",
+    "transcription": "атшиллэлсэ",
+    "pos": "noun"
+  },
+  "avlegger": {
+    "translation": "сдаёт",
+    "transcription": "авлэггэр",
+    "pos": "verb",
+    "dict": "сдавать (экзамен)"
+  },
+  "begivenhet": {
+    "translation": "событие",
+    "transcription": "бэйивэнхэт",
+    "pos": "noun"
+  },
+  "beholde": {
+    "translation": "сохранить",
+    "transcription": "бэхоллэ",
+    "pos": "verb"
+  },
+  "berørte": {
+    "translation": "затронутые",
+    "transcription": "бэрёртэ",
+    "pos": "adj",
+    "dict": "затронутый"
+  },
+  "bestått": {
+    "translation": "сдан",
+    "transcription": "бэстот",
+    "pos": "verb",
+    "dict": "сдать (экзамен)"
+  },
+  "betente": {
+    "translation": "воспалённые",
+    "transcription": "бэтэнтэ",
+    "pos": "adj",
+    "dict": "воспалённый"
+  },
+  "blander": {
+    "translation": "смешивает",
+    "transcription": "бландэр",
+    "pos": "verb",
+    "dict": "смешивать"
+  },
+  "bli-kjent-arrangementer": {
+    "translation": "мероприятия для знакомства",
+    "transcription": "бли-щент-аррангэмэнтэр",
+    "pos": "noun"
+  },
+  "bra": {
+    "translation": "хорошо",
+    "transcription": "бра",
+    "pos": "adv"
+  },
+  "bred": {
+    "translation": "широкий",
+    "transcription": "брэ",
+    "pos": "adj"
+  },
+  "deltakerland": {
+    "translation": "страны-участницы",
+    "transcription": "дэлтакэрлан",
+    "pos": "noun"
+  },
+  "dokumentasjon": {
+    "translation": "документация",
+    "transcription": "докумэнташун",
+    "pos": "noun"
+  },
+  "drives": {
+    "translation": "ведётся",
+    "transcription": "дривэс",
+    "pos": "verb",
+    "dict": "вести (пасс.)"
+  },
+  "dybden": {
+    "translation": "глубина",
+    "transcription": "дюбдэн",
+    "pos": "noun",
+    "dict": "глубина (опр.)"
+  },
+  "eksamenen": {
+    "translation": "экзамен",
+    "transcription": "эксамэнэн",
+    "pos": "noun",
+    "dict": "экзамен (опр.)"
+  },
+  "eksamenskarakteren": {
+    "translation": "оценка за экзамен",
+    "transcription": "эксамэнскарактэрэн",
+    "pos": "noun"
+  },
+  "eleven": {
+    "translation": "ученик",
+    "transcription": "элэвэн",
+    "pos": "noun",
+    "dict": "ученик (опр.)"
+  },
+  "endelige": {
+    "translation": "окончательные",
+    "transcription": "эндэлийэ",
+    "pos": "adj",
+    "dict": "окончательный"
+  },
+  "erklært": {
+    "translation": "объявлен",
+    "transcription": "эрклэрт",
+    "pos": "verb",
+    "dict": "объявлять"
+  },
+  "ettårsalderen": {
+    "translation": "возраст одного года",
+    "transcription": "этторсалдэрэн",
+    "pos": "noun"
+  },
+  "evaluerer": {
+    "translation": "оценивает",
+    "transcription": "эвалуэрэр",
+    "pos": "verb",
+    "dict": "оценивать"
+  },
+  "fagforbundet": {
+    "translation": "профсоюз",
+    "transcription": "фагфорбуннэ",
+    "pos": "noun",
+    "dict": "профсоюз (опр.)"
+  },
+  "familiepolitikk": {
+    "translation": "семейная политика",
+    "transcription": "фамилиэполитикк",
+    "pos": "noun"
+  },
+  "fattet": {
+    "translation": "принял",
+    "transcription": "фаттэт",
+    "pos": "verb",
+    "dict": "принимать (решение)"
+  },
+  "februar": {
+    "translation": "февраль",
+    "transcription": "фэбруар",
+    "pos": "noun"
+  },
+  "finansielle": {
+    "translation": "финансовые",
+    "transcription": "финансиэллэ",
+    "pos": "adj",
+    "dict": "финансовый"
+  },
+  "folkehøgskolen": {
+    "translation": "народная высшая школа",
+    "transcription": "фолкэхёгсколэн",
+    "pos": "noun"
+  },
+  "folkehøgskoleåret": {
+    "translation": "год народной высшей школы",
+    "transcription": "фолкэхёгсколэорэт",
+    "pos": "noun"
+  },
+  "forandret": {
+    "translation": "изменил",
+    "transcription": "форандрэт",
+    "pos": "verb",
+    "dict": "изменять"
+  },
+  "forbli": {
+    "translation": "оставаться",
+    "transcription": "форбли",
+    "pos": "verb"
+  },
+  "foreldremøter": {
+    "translation": "родительские собрания",
+    "transcription": "форэлдрэмётэр",
+    "pos": "noun"
+  },
+  "forenkling": {
+    "translation": "упрощение",
+    "transcription": "форэнклинг",
+    "pos": "noun"
+  },
+  "formalitet": {
+    "translation": "формальность",
+    "transcription": "формалитэт",
+    "pos": "noun"
+  },
+  "forskningskvalitet": {
+    "translation": "качество исследований",
+    "transcription": "форскнингсквалитэт",
+    "pos": "noun"
+  },
+  "forstand": {
+    "translation": "разум",
+    "transcription": "форстан",
+    "pos": "noun"
+  },
+  "fortelle": {
+    "translation": "рассказывать",
+    "transcription": "фортэллэ",
+    "pos": "verb"
+  },
+  "fortrinnsrett": {
+    "translation": "преимущественное право",
+    "transcription": "фортриннсрэтт",
+    "pos": "noun"
+  },
+  "forveien": {
+    "translation": "заранее",
+    "transcription": "форвэйэн",
+    "pos": "adv",
+    "dict": "i forveien — заранее"
+  },
+  "fragmenteringen": {
+    "translation": "фрагментация",
+    "transcription": "фрагмэнтэрингэн",
+    "pos": "noun",
+    "dict": "фрагментация (опр.)"
+  },
+  "fremfor": {
+    "translation": "вместо",
+    "transcription": "фрэмфор",
+    "pos": "prep"
+  },
+  "fremtiden": {
+    "translation": "будущее",
+    "transcription": "фрэмтидэн",
+    "pos": "noun",
+    "dict": "будущее (опр.)"
+  },
+  "fullstendig": {
+    "translation": "полностью",
+    "transcription": "фуллстэндий",
+    "pos": "adv"
+  },
+  "fullverdig": {
+    "translation": "полноценный",
+    "transcription": "фулльвэрдий",
+    "pos": "adj"
+  },
+  "føle": {
+    "translation": "чувствовать",
+    "transcription": "фёлэ",
+    "pos": "verb"
+  },
+  "førstesemesterstudentene": {
+    "translation": "студенты первого семестра",
+    "transcription": "фёрстэсэмэстэрстудэнтэнэ",
+    "pos": "noun"
+  },
+  "gjennomført": {
+    "translation": "проведён",
+    "transcription": "йеннумфёрт",
+    "pos": "verb",
+    "dict": "проводить (завершить)"
+  },
+  "gjennomgikk": {
+    "translation": "прошёл (через)",
+    "transcription": "йеннумйикк",
+    "pos": "verb",
+    "dict": "проходить через"
+  },
+  "grader": {
+    "translation": "градусы",
+    "transcription": "градэр",
+    "pos": "noun",
+    "dict": "градус / степень"
+  },
+  "handel": {
+    "translation": "торговля",
+    "transcription": "хандэл",
+    "pos": "noun"
+  },
+  "harmonisering": {
+    "translation": "гармонизация",
+    "transcription": "хармонисэринг",
+    "pos": "noun"
+  },
+  "havteknologi": {
+    "translation": "морские технологии",
+    "transcription": "хавтэкнолойи",
+    "pos": "noun"
+  },
+  "helsefag": {
+    "translation": "медицинские специальности",
+    "transcription": "хэльсэфаг",
+    "pos": "noun"
+  },
+  "hever": {
+    "translation": "поднимает",
+    "transcription": "хэвэр",
+    "pos": "verb",
+    "dict": "поднимать"
+  },
+  "hevet": {
+    "translation": "поднял",
+    "transcription": "хэвэт",
+    "pos": "verb",
+    "dict": "поднимать"
+  },
+  "hjemmepass": {
+    "translation": "домашний уход",
+    "transcription": "емэпасс",
+    "pos": "noun"
+  },
+  "høyskoler": {
+    "translation": "высшие школы",
+    "transcription": "хёйсколэр",
+    "pos": "noun",
+    "dict": "høyskole — высшая школа"
+  },
+  "innblikk": {
+    "translation": "представление",
+    "transcription": "иннбликк",
+    "pos": "noun",
+    "dict": "взгляд изнутри"
+  },
+  "innleveringer": {
+    "translation": "сдача работ",
+    "transcription": "иннлэвэрингэр",
+    "pos": "noun"
+  },
+  "innvandrerkategorier": {
+    "translation": "категории иммигрантов",
+    "transcription": "иннвандрэркатэгориэр",
+    "pos": "noun"
+  },
+  "innvandringspolitikk": {
+    "translation": "иммиграционная политика",
+    "transcription": "иннвандрингсполитикк",
+    "pos": "noun"
+  },
+  "integreringen": {
+    "translation": "интеграция",
+    "transcription": "интэгрэрингэн",
+    "pos": "noun",
+    "dict": "интеграция (опр.)"
+  },
+  "journalistikk": {
+    "translation": "журналистика",
+    "transcription": "шурналистикк",
+    "pos": "noun"
+  },
+  "kombinert": {
+    "translation": "комбинированный",
+    "transcription": "комбинэрт",
+    "pos": "adj"
+  },
+  "konkurransepress": {
+    "translation": "конкурентное давление",
+    "transcription": "конкуррансэпрэсс",
+    "pos": "noun"
+  },
+  "kostbart": {
+    "translation": "дорого",
+    "transcription": "костбарт",
+    "pos": "adj",
+    "dict": "дорогой"
+  },
+  "krisen": {
+    "translation": "кризис",
+    "transcription": "крисэн",
+    "pos": "noun",
+    "dict": "кризис (опр.)"
+  },
+  "kunngjøres": {
+    "translation": "объявляется",
+    "transcription": "куннйёрэс",
+    "pos": "verb",
+    "dict": "объявлять (пасс.)"
+  },
+  "kunnskapen": {
+    "translation": "знания",
+    "transcription": "куннскапэн",
+    "pos": "noun",
+    "dict": "знание (опр.)"
+  },
+  "kvalifikasjonskravene": {
+    "translation": "квалификационные требования",
+    "transcription": "квалификашунскравэнэ",
+    "pos": "noun"
+  },
+  "lede": {
+    "translation": "руководить",
+    "transcription": "лэдэ",
+    "pos": "verb"
+  },
+  "leilighetene": {
+    "translation": "квартиры",
+    "transcription": "лэйлихэтэнэ",
+    "pos": "noun",
+    "dict": "leilighet — квартира"
+  },
+  "leveårene": {
+    "translation": "годы жизни",
+    "transcription": "лэвэорэнэ",
+    "pos": "noun"
+  },
+  "lovfestet": {
+    "translation": "закреплённый законом",
+    "transcription": "ловфэстэт",
+    "pos": "adj"
+  },
+  "lærende": {
+    "translation": "обучающийся",
+    "transcription": "лэрэндэ",
+    "pos": "adj"
+  },
+  "lærerens": {
+    "translation": "учителя",
+    "transcription": "лэрэрэнс",
+    "pos": "noun",
+    "dict": "учитель (род.)"
+  },
+  "læreryrket": {
+    "translation": "профессия учителя",
+    "transcription": "лэрэрюркэт",
+    "pos": "noun"
+  },
+  "læringslysten": {
+    "translation": "желание учиться",
+    "transcription": "лэрингслюстэн",
+    "pos": "noun"
+  },
+  "mangle": {
+    "translation": "не хватать",
+    "transcription": "манглэ",
+    "pos": "verb"
+  },
+  "markedspris": {
+    "translation": "рыночная цена",
+    "transcription": "маркэдсприс",
+    "pos": "noun"
+  },
+  "middelaldrende": {
+    "translation": "среднего возраста",
+    "transcription": "миддэлалдрэндэ",
+    "pos": "adj"
+  },
+  "minimumskravene": {
+    "translation": "минимальные требования",
+    "transcription": "минимумскравэнэ",
+    "pos": "noun"
+  },
+  "misser": {
+    "translation": "пропускает",
+    "transcription": "миссэр",
+    "pos": "verb",
+    "dict": "пропускать"
+  },
+  "moduler": {
+    "translation": "модули",
+    "transcription": "модулэр",
+    "pos": "noun",
+    "dict": "модуль"
+  },
+  "motivasjon": {
+    "translation": "мотивация",
+    "transcription": "мотивашун",
+    "pos": "noun"
+  },
+  "muntlige": {
+    "translation": "устные",
+    "transcription": "мунтлийэ",
+    "pos": "adj",
+    "dict": "устный"
+  },
+  "navigere": {
+    "translation": "ориентироваться",
+    "transcription": "навигэрэ",
+    "pos": "verb"
+  },
+  "noensinne": {
+    "translation": "когда-либо",
+    "transcription": "нуэнсиннэ",
+    "pos": "adv"
+  },
+  "norsknivået": {
+    "translation": "уровень норвежского",
+    "transcription": "норскнивоэт",
+    "pos": "noun"
+  },
+  "nødt": {
+    "translation": "вынужден",
+    "transcription": "нётт",
+    "pos": "adj",
+    "dict": "være nødt til — быть вынужденным"
+  },
+  "nøkkelelementene": {
+    "translation": "ключевые элементы",
+    "transcription": "нёккэлелэмэнтэнэ",
+    "pos": "noun"
+  },
+  "oljearbeidere": {
+    "translation": "нефтяники",
+    "transcription": "ольеарбэйдэрэ",
+    "pos": "noun",
+    "dict": "нефтяник"
+  },
+  "oljestat": {
+    "translation": "нефтяное государство",
+    "transcription": "ольестат",
+    "pos": "noun"
+  },
+  "omsorgskvaliteten": {
+    "translation": "качество ухода",
+    "transcription": "омсоргсквалитэтэн",
+    "pos": "noun"
+  },
+  "oppgaver": {
+    "translation": "задания",
+    "transcription": "оппгавэр",
+    "pos": "noun",
+    "dict": "oppgave — задание"
+  },
+  "opptaksprøver": {
+    "translation": "вступительные испытания",
+    "transcription": "оппталксспрёвэр",
+    "pos": "noun"
+  },
+  "opptatt": {
+    "translation": "занят",
+    "transcription": "опптатт",
+    "pos": "adj"
+  },
+  "overbevisningen": {
+    "translation": "убеждение",
+    "transcription": "овэрбэвиснингэн",
+    "pos": "noun",
+    "dict": "убеждение (опр.)"
+  },
+  "overbevist": {
+    "translation": "убеждён",
+    "transcription": "овэрбэвист",
+    "pos": "adj"
+  },
+  "overføring": {
+    "translation": "передача",
+    "transcription": "овэрфёринг",
+    "pos": "noun"
+  },
+  "passive": {
+    "translation": "пассивные",
+    "transcription": "пассивэ",
+    "pos": "adj",
+    "dict": "пассивный"
+  },
+  "pedagogisk": {
+    "translation": "педагогический",
+    "transcription": "пэдагогиск",
+    "pos": "adj"
+  },
+  "pensum": {
+    "translation": "учебная программа",
+    "transcription": "пэнсум",
+    "pos": "noun"
+  },
+  "poengsystemet": {
+    "translation": "балльная система",
+    "transcription": "поэнгсюстэмэт",
+    "pos": "noun"
+  },
+  "praksisrettede": {
+    "translation": "практико-ориентированные",
+    "transcription": "праксисрэттэдэ",
+    "pos": "adj"
+  },
+  "praktiske": {
+    "translation": "практические",
+    "transcription": "практискэ",
+    "pos": "adj",
+    "dict": "практический"
+  },
+  "pugging": {
+    "translation": "зубрёжка",
+    "transcription": "пуггинг",
+    "pos": "noun"
+  },
+  "reiseliv": {
+    "translation": "туризм",
+    "transcription": "рэйсэлив",
+    "pos": "noun"
+  },
+  "ressurssvake": {
+    "translation": "ресурсно слабые",
+    "transcription": "рэссурссвакэ",
+    "pos": "adj"
+  },
+  "skalaen": {
+    "translation": "шкала",
+    "transcription": "скалаэн",
+    "pos": "noun",
+    "dict": "шкала (опр.)"
+  },
+  "skiftende": {
+    "translation": "меняющийся",
+    "transcription": "шифтэндэ",
+    "pos": "adj"
+  },
+  "skolemodenhet": {
+    "translation": "школьная зрелость",
+    "transcription": "сколэмодэнхэт",
+    "pos": "noun"
+  },
+  "skolens": {
+    "translation": "школьный",
+    "transcription": "сколэнс",
+    "pos": "noun",
+    "dict": "школа (род.)"
+  },
+  "skremte": {
+    "translation": "испугал",
+    "transcription": "скрэмтэ",
+    "pos": "verb",
+    "dict": "пугать"
+  },
+  "slitne": {
+    "translation": "уставшие",
+    "transcription": "слитнэ",
+    "pos": "adj",
+    "dict": "уставший"
+  },
+  "sport": {
+    "translation": "спорт",
+    "transcription": "спорт",
+    "pos": "noun"
+  },
+  "språkkurs": {
+    "translation": "языковые курсы",
+    "transcription": "спрокурс",
+    "pos": "noun"
+  },
+  "språklig": {
+    "translation": "языковой",
+    "transcription": "спроклий",
+    "pos": "adj"
+  },
+  "språkpraksis": {
+    "translation": "языковая практика",
+    "transcription": "спракпраксис",
+    "pos": "noun"
+  },
+  "språkvenner": {
+    "translation": "языковые друзья",
+    "transcription": "спраквэннэр",
+    "pos": "noun"
+  },
+  "stammer": {
+    "translation": "происходит",
+    "transcription": "стаммэр",
+    "pos": "verb",
+    "dict": "происходить (от)"
+  },
+  "stiller": {
+    "translation": "ставит",
+    "transcription": "стиллэр",
+    "pos": "verb",
+    "dict": "ставить / задавать"
+  },
+  "stilne": {
+    "translation": "стихать",
+    "transcription": "стилнэ",
+    "pos": "verb"
+  },
+  "stilner": {
+    "translation": "стихает",
+    "transcription": "стилнэр",
+    "pos": "verb",
+    "dict": "стихать"
+  },
+  "studenten": {
+    "translation": "студент",
+    "transcription": "студэнтэн",
+    "pos": "noun",
+    "dict": "студент (опр.)"
+  },
+  "studentlivet": {
+    "translation": "студенческая жизнь",
+    "transcription": "студэнтливэт",
+    "pos": "noun"
+  },
+  "studieformen": {
+    "translation": "форма обучения",
+    "transcription": "студиэформэн",
+    "pos": "noun"
+  },
+  "studiepoeng": {
+    "translation": "учебные баллы",
+    "transcription": "студиэпоэнг",
+    "pos": "noun"
+  },
+  "studieår": {
+    "translation": "учебный год",
+    "transcription": "студиэор",
+    "pos": "noun"
+  },
+  "stående": {
+    "translation": "стоящий",
+    "transcription": "стоэндэ",
+    "pos": "adj"
+  },
+  "størst": {
+    "translation": "крупнейший",
+    "transcription": "стёрст",
+    "pos": "adj"
+  },
+  "systematisk": {
+    "translation": "систематический",
+    "transcription": "сюстэматиск",
+    "pos": "adj"
+  },
+  "syvende": {
+    "translation": "седьмой",
+    "transcription": "сювэндэ",
+    "pos": "num"
+  },
+  "særegen": {
+    "translation": "своеобразный",
+    "transcription": "сэрэйэн",
+    "pos": "adj"
+  },
+  "særlige": {
+    "translation": "особые",
+    "transcription": "сэрлийэ",
+    "pos": "adj",
+    "dict": "особый"
+  },
+  "søkere": {
+    "translation": "соискатели",
+    "transcription": "сёкэрэ",
+    "pos": "noun",
+    "dict": "søker — соискатель"
+  },
+  "sørger": {
+    "translation": "заботится",
+    "transcription": "сёргэр",
+    "pos": "verb",
+    "dict": "sørge for — заботиться о"
+  },
+  "tekniske": {
+    "translation": "технические",
+    "transcription": "тэкнискэ",
+    "pos": "adj",
+    "dict": "технический"
+  },
+  "tenkeren": {
+    "translation": "мыслитель",
+    "transcription": "тэнкэрэн",
+    "pos": "noun",
+    "dict": "мыслитель (опр.)"
+  },
+  "tilbakebetales": {
+    "translation": "возвращается",
+    "transcription": "тильбакэбэталэс",
+    "pos": "verb",
+    "dict": "возвращать (пасс.)"
+  },
+  "tilbakemeldinger": {
+    "translation": "отзывы",
+    "transcription": "тильбакэмэллингэр",
+    "pos": "noun",
+    "dict": "tilbakemelding — отзыв"
+  },
+  "tilgrensende": {
+    "translation": "соседний",
+    "transcription": "тильгрэнсэндэ",
+    "pos": "adj"
+  },
+  "tilsvarer": {
+    "translation": "соответствует",
+    "transcription": "тильсварэр",
+    "pos": "verb",
+    "dict": "соответствовать"
+  },
+  "toårig": {
+    "translation": "двухлетний",
+    "transcription": "туорий",
+    "pos": "adj"
+  },
+  "transformasjon": {
+    "translation": "трансформация",
+    "transcription": "трансформашун",
+    "pos": "noun"
+  },
+  "transformasjonen": {
+    "translation": "трансформация",
+    "transcription": "трансформашунэн",
+    "pos": "noun",
+    "dict": "трансформация (опр.)"
+  },
+  "tregradssystemet": {
+    "translation": "трёхбалльная система",
+    "transcription": "трэградссюстэмэт",
+    "pos": "noun"
+  },
+  "treårig": {
+    "translation": "трёхлетний",
+    "transcription": "трэорий",
+    "pos": "adj"
+  },
+  "trodde": {
+    "translation": "думал",
+    "transcription": "троддэ",
+    "pos": "verb",
+    "dict": "tro — верить/думать"
+  },
+  "truer": {
+    "translation": "угрожает",
+    "transcription": "труэр",
+    "pos": "verb",
+    "dict": "угрожать"
+  },
+  "uforholdsmessig": {
+    "translation": "непропорциональный",
+    "transcription": "уфорхольсмэссий",
+    "pos": "adj"
+  },
+  "undergraver": {
+    "translation": "подрывает",
+    "transcription": "уннэргравэр",
+    "pos": "verb",
+    "dict": "подрывать"
+  },
+  "undervisningen": {
+    "translation": "обучение",
+    "transcription": "уннэрвиснингэн",
+    "pos": "noun",
+    "dict": "обучение (опр.)"
+  },
+  "undervisningsmetodene": {
+    "translation": "методы обучения",
+    "transcription": "уннэрвиснингсмэтодэнэ",
+    "pos": "noun"
+  },
+  "universitetene": {
+    "translation": "университеты",
+    "transcription": "унивэрситэтэнэ",
+    "pos": "noun",
+    "dict": "universitet — университет"
+  },
+  "universitetssamfunnet": {
+    "translation": "университетское сообщество",
+    "transcription": "унивэрситэтссамфуннэт",
+    "pos": "noun"
+  },
+  "universitetsutdanningen": {
+    "translation": "университетское образование",
+    "transcription": "унивэрситэтсутданнингэн",
+    "pos": "noun"
+  },
+  "utdanningsnivå": {
+    "translation": "уровень образования",
+    "transcription": "утданнингсниво",
+    "pos": "noun"
+  },
+  "utdanningsrom": {
+    "translation": "образовательное пространство",
+    "transcription": "утданнингсрум",
+    "pos": "noun"
+  },
+  "utsatte": {
+    "translation": "уязвимые",
+    "transcription": "утсаттэ",
+    "pos": "adj",
+    "dict": "уязвимый / отложенный"
+  },
+  "variant": {
+    "translation": "вариант",
+    "transcription": "вариант",
+    "pos": "noun"
+  },
+  "venter": {
+    "translation": "ждёт",
+    "transcription": "вэнтэр",
+    "pos": "verb",
+    "dict": "ждать"
+  },
+  "virkemiddelet": {
+    "translation": "средство",
+    "transcription": "виркэмиддэлэт",
+    "pos": "noun",
+    "dict": "средство (опр.)"
+  },
+  "virket": {
+    "translation": "казался",
+    "transcription": "виркэт",
+    "pos": "verb",
+    "dict": "virke — казаться/действовать"
+  },
+  "ytelse": {
+    "translation": "выплата",
+    "transcription": "ютэлсэ",
+    "pos": "noun",
+    "dict": "выплата / производительность"
+  },
+  "øver": {
+    "translation": "тренируется",
+    "transcription": "ёвэр",
+    "pos": "verb",
+    "dict": "øve — тренироваться"
   }
 }
