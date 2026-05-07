@@ -2,10 +2,29 @@ import { useState } from 'react'
 import { Link, useSearchParams } from 'react-router-dom'
 import catalog from '../data/catalog'
 import { categories, levels, lengths, levelDescriptions, getTopicLabel, getTopicLabelNo, iconPath } from '../data/topics'
+import CategoryIcon from '../components/CategoryIcon'
 import { plural, texts as textsForms } from '../utils/plural'
 import useProgress from '../hooks/useProgress'
 
 const categoryKeys = Object.keys(categories)
+
+const CAT_COLOR = {
+  economy: 'var(--cat-economy)',
+  society: 'var(--cat-society)',
+  science: 'var(--cat-science)',
+  work: 'var(--cat-work)',
+  education: 'var(--cat-edu)',
+  culture: 'var(--cat-culture)',
+  health: 'var(--cat-health)',
+  driving: 'var(--cat-driving)',
+}
+
+const LEVEL_ORDER_HOME = ['A2', 'B1', 'B2']
+
+function levelsForCategoryTexts(key) {
+  const set = new Set(catalog.filter((t) => t.category === key).map((t) => t.level))
+  return LEVEL_ORDER_HOME.filter((l) => set.has(l))
+}
 
 function Texts() {
   const [searchParams] = useSearchParams()
@@ -99,28 +118,39 @@ function Texts() {
 
       {/* Шаг 1: Выбор категории */}
       {step === 1 && (
-        <div className="step-grid">
-          {categoryKeys.map((key) => {
+        <div className="cat-grid">
+          {categoryKeys.map((key, idx) => {
             const count = catalog.filter((t) => t.category === key).length
             const readCount = catalog.filter((t) => t.category === key && isRead(t.id)).length
             const hasTexts = count > 0
+            const lvls = levelsForCategoryTexts(key)
             return (
               <button
                 key={key}
-                className={`step-card ${!hasTexts ? 'step-card-empty' : ''}`}
+                className={`cat-card ${!hasTexts ? 'cat-card-empty' : ''}`}
                 onClick={() => hasTexts && selectCategory(key)}
               >
-                <img src={iconPath(key)} alt="" className="step-card-icon" />
-                <span className="step-card-title">
-                  {categories[key].label}
-                  <span className="step-card-subtitle">{categories[key].labelNo}</span>
-                </span>
-                <span className="step-card-info">
-                  {hasTexts
-                    ? `${count} ${plural(count, textsForms)}${readCount > 0 ? ` · ${readCount} прочитано` : ''}`
-                    : 'Скоро'
-                  }
-                </span>
+                <div className="cat-pic" style={{ background: CAT_COLOR[key] }}>
+                  <span className="cat-corner">№ {String(idx + 1).padStart(2, '0')}</span>
+                  {lvls.length > 0 && (
+                    <span className="cat-lvls">
+                      {lvls.map((l) => <i key={l}>{l}</i>)}
+                    </span>
+                  )}
+                  <CategoryIcon category={key} className="cat-pic-svg" />
+                </div>
+                <div className="cat-meta">
+                  <h3 className="cat-ru">{categories[key].label}</h3>
+                  <span className="cat-no">{categories[key].labelNo}</span>
+                  <div className="cat-row">
+                    <span>
+                      {hasTexts
+                        ? (readCount > 0 ? `${readCount} из ${count} прочитано` : 'текстов в теме')
+                        : 'Скоро'}
+                    </span>
+                    {hasTexts && <b>{count}</b>}
+                  </div>
+                </div>
               </button>
             )
           })}
