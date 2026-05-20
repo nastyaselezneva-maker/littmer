@@ -25,7 +25,19 @@
       "Bash(node scripts/verify-capitalization.mjs)",
       "Bash(node scripts/fix-capitalization.mjs)",
       "Bash(rm -f scripts/glosses-batch-edu.json scripts/glosses-missing.json)",
-      "Bash(git checkout *)"
+      "Bash(git checkout *)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app status)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app log --oneline -5)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app add public/content/*.json)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app commit -m ' *)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app push)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app add src/App.css src/components/WordTooltip.jsx)",
+      "Bash(dir /s \"c:\\\\_JOB_\\\\APP\\\\norsk-app\\\\claude-code-handoff\")",
+      "Bash(npx --yes playwright@latest screenshot --browser chromium \"http://localhost:5174/texts?category=health\" \"c:/temp/texts-step1.png\" --wait-for-timeout 2000)",
+      "Bash(ls \"C:/Users/79267/AppData/Roaming/npm/node_modules/\" 2>/dev/null | head -20; ls \"C:/Users/79267/AppData/Local/npm-cache/\" 2>/dev/null | head -5)",
+      "Read(//c/Users/79267/AppData/Roaming/npm/**)",
+      "Read(//c/Users/79267/AppData/Local/npm-cache/**)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app add src/App.css src/pages/Texts.jsx)"
     ]
   }
 }

@@ -1,6 +1,6 @@
 {
-  "filesChecked": 279,
-  "totalViolations": 5,
+  "filesChecked": 290,
+  "totalViolations": 6,
   "byFile": [
     {
       "file": "insurance-4.json",
@@ -44,6 +44,17 @@
           "context": "esshistorier. Selskapet Kahoot! har blitt en av de mest populære læringsplattfor",
           "position": 180,
           "firstLetter": "h"
+        }
+      ]
+    },
+    {
+      "file": "utdanning-13.json",
+      "violations": [
+        {
+          "lang": "ru",
+          "context": "нтура. Старая степень cand.mag. на четыре года была заменена трёхлетним бакалавр",
+          "position": 440,
+          "firstLetter": "н"
         }
       ]
     }
