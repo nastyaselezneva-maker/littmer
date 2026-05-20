@@ -1,1 +1,262 @@
-{"id":"banks-6","title":"Интернет-банк и цифровые услуги","titleNo":"Nettbank og digitale tjenester","level":"B1","category":"economy","topic":"banks","length":"long","description":"Как норвежские банки стали полностью цифровыми","segments":[{"type":"ru","text":"Норвегия — одно из самых цифровизированных стран в мире, и банковский сектор отражает эту тенденцию. ","no":"Norge er et av verdens mest digitaliserte land, og banksektoren gjenspeiler denne trenden. "},{"type":"no","text":"For det meste","translation":"В основном","dict":"в основном","transcription":"фор дэ мэстэ","pos":"phrase"},{"type":"ru","text":" за последние двадцать лет ","no":" har de siste tjue årene "},{"type":"no","text":"bankfilialer","translation":"банковские отделения","dict":"банковское отделение","transcription":"банкфилиалер","pos":"noun"},{"type":"ru","text":" были закрыты. Почти все услуги теперь ","no":" blitt lagt ned. Nesten alle tjenester er nå "},{"type":"no","text":"tilgjengelige på nett","translation":"доступны онлайн","dict":"доступны онлайн","transcription":"тильенгэлигэ по нэтт","pos":"phrase"},{"type":"ru","text":". Интернет-банк позволяет ","no":". Nettbanken lar deg "},{"type":"no","text":"overføre penger","translation":"переводить деньги","dict":"переводить деньги","transcription":"уверфёре пэнгер","pos":"phrase"},{"type":"ru","text":", ","no":", "},{"type":"no","text":"betale regninger","translation":"оплачивать счета","dict":"оплачивать счёт","transcription":"бетале рэйнингер","pos":"phrase"},{"type":"ru","text":", открывать новые счета и даже подавать заявку на ","no":", opprette nye kontoer og til og med søke om "},{"type":"no","text":"boliglån","translation":"ипотечный кредит","dict":"ипотечный кредит","transcription":"булиглон","pos":"noun"},{"type":"ru","text":". Ключ ко всему — это ","no":". Nøkkelen til alt er "},{"type":"no","text":"BankID","translation":"BankID","transcription":"банкайди","pos":"noun"},{"type":"ru","text":", цифровая идентификация, которая используется ","no":", en digital identifikasjon, som brukes "},{"type":"no","text":"ikke bare","translation":"не только","dict":"не только","transcription":"икке баре","pos":"phrase"},{"type":"ru","text":" в банках, но и для ","no":" i banker, men også for "},{"type":"no","text":"offentlige tjenester","translation":"государственных услуг","dict":"государственная услуга","transcription":"офэнтлие тьенэстер","pos":"phrase"},{"type":"ru","text":". Для быстрых платежей норвежцы используют ","no":". For raske betalinger bruker nordmenn "},{"type":"no","text":"Vipps","translation":"Vipps","transcription":"випс","pos":"noun"},{"type":"ru","text":" — приложение, которое используется ","no":" — en app som brukes "},{"type":"no","text":"i praksis","translation":"на практике","dict":"на практике","transcription":"и праксис","pos":"phrase"},{"type":"ru","text":" почти всеми. С его помощью можно ","no":" av nesten alle. Med den kan man "},{"type":"no","text":"dele en regning","translation":"разделить счёт","dict":"разделить счёт","transcription":"дэле эн рэйнинг","pos":"phrase"},{"type":"ru","text":" за ужин в ресторане или быстро ","no":" på middag eller raskt "},{"type":"no","text":"sende penger","translation":"отправить деньги","dict":"отправить деньги","transcription":"сэнне пэнгер","pos":"phrase"},{"type":"ru","text":" другу. Многие банки также предлагают ","no":" til en venn. Mange banker tilbyr også "},{"type":"no","text":"mobilapper","translation":"мобильные приложения","dict":"мобильное приложение","transcription":"мубилаппер","pos":"noun"},{"type":"ru","text":" с удобным интерфейсом, где видно ","no":" med brukervennlig grensesnitt, hvor man ser "},{"type":"no","text":"saldo","translation":"баланс","dict":"баланс","transcription":"салду","pos":"noun"},{"type":"ru","text":" и движения по счёту ","no":" og kontobevegelser "},{"type":"no","text":"i sanntid","translation":"в реальном времени","dict":"в реальном времени","transcription":"и саннтид","pos":"phrase"},{"type":"ru","text":". ","no":". "},{"type":"no","text":"Når alt kommer til alt","translation":"В конце концов","dict":"в конце концов","transcription":"нор алт коммер тиль алт","pos":"phrase"},{"type":"ru","text":", цифровизация сделала банковские услуги более доступными, но также создала новые ","no":", har digitaliseringen gjort banktjenester mer tilgjengelige, men har også skapt nye "},{"type":"no","text":"utfordringer","translation":"вызовы","dict":"вызов","transcription":"ютфордрингер","pos":"noun"},{"type":"ru","text":" — особенно для пожилых людей и для борьбы с ","no":" — særlig for eldre mennesker og i kampen mot "},{"type":"no","text":"svindel","translation":"мошенничеством","dict":"мошенничество","transcription":"свиндель","pos":"noun"},{"type":"ru","text":".","no":"."}]}
+{
+  "id": "banks-6",
+  "title": "Интернет-банк и цифровые услуги",
+  "titleNo": "Nettbank og digitale tjenester",
+  "level": "B1",
+  "category": "economy",
+  "topic": "banks",
+  "length": "medium",
+  "description": "Как норвежские банки стали полностью цифровыми",
+  "segments": [
+    {
+      "type": "ru",
+      "text": "Норвегия — одно из самых цифровизированных стран в мире, и банковский сектор отражает эту тенденцию. ",
+      "no": "Norge er et av verdens mest digitaliserte land, og banksektoren gjenspeiler denne trenden. "
+    },
+    {
+      "type": "no",
+      "text": "For det meste",
+      "translation": "В основном",
+      "dict": "в основном",
+      "transcription": "фор дэ мэстэ",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " за последние двадцать лет ",
+      "no": " har de siste tjue årene "
+    },
+    {
+      "type": "no",
+      "text": "bankfilialer",
+      "translation": "банковские отделения",
+      "dict": "банковское отделение",
+      "transcription": "банкфилиалер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " были закрыты. Почти все услуги теперь ",
+      "no": " blitt lagt ned. Nesten alle tjenester er nå "
+    },
+    {
+      "type": "no",
+      "text": "tilgjengelige på nett",
+      "translation": "доступны онлайн",
+      "dict": "доступны онлайн",
+      "transcription": "тильенгэлигэ по нэтт",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". Интернет-банк позволяет ",
+      "no": ". Nettbanken lar deg "
+    },
+    {
+      "type": "no",
+      "text": "overføre penger",
+      "translation": "переводить деньги",
+      "dict": "переводить деньги",
+      "transcription": "уверфёре пэнгер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", ",
+      "no": ", "
+    },
+    {
+      "type": "no",
+      "text": "betale regninger",
+      "translation": "оплачивать счета",
+      "dict": "оплачивать счёт",
+      "transcription": "бетале рэйнингер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", открывать новые счета и даже подавать заявку на ",
+      "no": ", opprette nye kontoer og til og med søke om "
+    },
+    {
+      "type": "no",
+      "text": "boliglån",
+      "translation": "ипотечный кредит",
+      "dict": "ипотечный кредит",
+      "transcription": "булиглон",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". Ключ ко всему — это ",
+      "no": ". Nøkkelen til alt er "
+    },
+    {
+      "type": "no",
+      "text": "BankID",
+      "translation": "BankID",
+      "transcription": "банкайди",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", цифровая идентификация, которая используется ",
+      "no": ", en digital identifikasjon, som brukes "
+    },
+    {
+      "type": "no",
+      "text": "ikke bare",
+      "translation": "не только",
+      "dict": "не только",
+      "transcription": "икке баре",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " в банках, но и для ",
+      "no": " i banker, men også for "
+    },
+    {
+      "type": "no",
+      "text": "offentlige tjenester",
+      "translation": "государственных услуг",
+      "dict": "государственная услуга",
+      "transcription": "офэнтлие тьенэстер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". Для быстрых платежей норвежцы используют ",
+      "no": ". For raske betalinger bruker nordmenn "
+    },
+    {
+      "type": "no",
+      "text": "Vipps",
+      "translation": "Vipps",
+      "transcription": "випс",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " — приложение, которое используется ",
+      "no": " — en app som brukes "
+    },
+    {
+      "type": "no",
+      "text": "i praksis",
+      "translation": "на практике",
+      "dict": "на практике",
+      "transcription": "и праксис",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " почти всеми. С его помощью можно ",
+      "no": " av nesten alle. Med den kan man "
+    },
+    {
+      "type": "no",
+      "text": "dele en regning",
+      "translation": "разделить счёт",
+      "dict": "разделить счёт",
+      "transcription": "дэле эн рэйнинг",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " за ужин в ресторане или быстро ",
+      "no": " på middag eller raskt "
+    },
+    {
+      "type": "no",
+      "text": "sende penger",
+      "translation": "отправить деньги",
+      "dict": "отправить деньги",
+      "transcription": "сэнне пэнгер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " другу. Многие банки также предлагают ",
+      "no": " til en venn. Mange banker tilbyr også "
+    },
+    {
+      "type": "no",
+      "text": "mobilapper",
+      "translation": "мобильные приложения",
+      "dict": "мобильное приложение",
+      "transcription": "мубилаппер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " с удобным интерфейсом, где видно ",
+      "no": " med brukervennlig grensesnitt, hvor man ser "
+    },
+    {
+      "type": "no",
+      "text": "saldo",
+      "translation": "баланс",
+      "dict": "баланс",
+      "transcription": "салду",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " и движения по счёту ",
+      "no": " og kontobevegelser "
+    },
+    {
+      "type": "no",
+      "text": "i sanntid",
+      "translation": "в реальном времени",
+      "dict": "в реальном времени",
+      "transcription": "и саннтид",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". ",
+      "no": ". "
+    },
+    {
+      "type": "no",
+      "text": "Når alt kommer til alt",
+      "translation": "В конце концов",
+      "dict": "в конце концов",
+      "transcription": "нор алт коммер тиль алт",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", цифровизация сделала банковские услуги более доступными, но также создала новые ",
+      "no": ", har digitaliseringen gjort banktjenester mer tilgjengelige, men har også skapt nye "
+    },
+    {
+      "type": "no",
+      "text": "utfordringer",
+      "translation": "вызовы",
+      "dict": "вызов",
+      "transcription": "ютфордрингер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " — особенно для пожилых людей и для борьбы с ",
+      "no": " — særlig for eldre mennesker og i kampen mot "
+    },
+    {
+      "type": "no",
+      "text": "svindel",
+      "translation": "мошенничеством",
+      "dict": "мошенничество",
+      "transcription": "свиндель",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ".",
+      "no": "."
+    }
+  ]
+}

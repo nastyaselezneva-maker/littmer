@@ -1,1 +1,251 @@
-{"id":"boliglan-5","title":"Процесс покупки жилья","titleNo":"Boligkjøpsprosessen","level":"B1","category":"economy","topic":"mortgage","length":"medium","description":"Подробные шаги покупки недвижимости в Норвегии","segments":[{"type":"ru","text":"Процесс покупки жилья в Норвегии состоит из нескольких важных этапов. ","no":"Prosessen med å kjøpe bolig i Norge består av flere viktige trinn. "},{"type":"no","text":"Først og fremst","translation":"Прежде всего","dict":"прежде всего","transcription":"фёрст о фрэмст","pos":"phrase"},{"type":"ru","text":" необходимо ","no":" må man "},{"type":"no","text":"få tak i","translation":"раздобыть","dict":"раздобыть","transcription":"фо так и","pos":"phrase"},{"type":"ru","text":" ","no":" "},{"type":"no","text":"finansieringsbevis","translation":"подтверждение финансирования","dict":"подтверждение финансирования","transcription":"финансиерингсбевис","pos":"noun"},{"type":"ru","text":" — документ, который показывает, ","no":" — et dokument som viser "},{"type":"no","text":"hvor mye","translation":"сколько","dict":"сколько","transcription":"вур мюэ","pos":"phrase"},{"type":"ru","text":" вы можете занять. Без него нет смысла ходить на ","no":" du kan låne. Uten det er det ingen vits i å gå på "},{"type":"no","text":"visninger","translation":"просмотры","dict":"просмотр","transcription":"виснингер","pos":"noun"},{"type":"ru","text":". Когда вы нашли подходящую квартиру, нужно тщательно ","no":". Når du har funnet en passende leilighet, må du nøye "},{"type":"no","text":"studere","translation":"изучить","dict":"изучать","transcription":"стюдэре","pos":"verb"},{"type":"ru","text":" ","no":" "},{"type":"no","text":"tilstandsrapporten","translation":"отчёт о состоянии","dict":"отчёт о состоянии","transcription":"тильстандсраппортен","pos":"noun"},{"type":"ru","text":" — в нём описаны все ","no":" — den beskriver alle "},{"type":"no","text":"feil og mangler","translation":"дефекты и недостатки","dict":"дефекты и недостатки","transcription":"фэйль ог манглер","pos":"phrase"},{"type":"ru","text":". Затем начинается ","no":". Deretter begynner "},{"type":"no","text":"budrunden","translation":"торги","dict":"торг","transcription":"бюдрюнден","pos":"noun"},{"type":"ru","text":". Вы делаете ","no":". Du gir et "},{"type":"no","text":"bud","translation":"ставку","dict":"ставка","transcription":"бюд","pos":"noun"},{"type":"ru","text":" через ","no":" gjennom "},{"type":"no","text":"eiendomsmegleren","translation":"риэлтора","dict":"риэлтор","transcription":"эйендумсмэглерен","pos":"noun"},{"type":"ru","text":". Другие ","no":". Andre "},{"type":"no","text":"interessenter","translation":"заинтересованные лица","dict":"заинтересованное лицо","transcription":"интерэссэнтер","pos":"noun"},{"type":"ru","text":" тоже могут ","no":" kan også "},{"type":"no","text":"øke sine bud","translation":"повышать свои ставки","dict":"повышать ставку","transcription":"ёке сине бюд","pos":"phrase"},{"type":"ru","text":". ","no":". "},{"type":"no","text":"I praksis","translation":"На практике","dict":"на практике","transcription":"и праксис","pos":"phrase"},{"type":"ru","text":" важно заранее ","no":" er det viktig å på forhånd "},{"type":"no","text":"sette en grense","translation":"установить предел","dict":"установить предел","transcription":"сэтте эн грэнсе","pos":"phrase"},{"type":"ru","text":" и не превышать её. После принятия ставки вы подписываете ","no":" og ikke overskride den. Etter aksept av budet signerer du "},{"type":"no","text":"kjøpekontrakten","translation":"договор купли-продажи","dict":"договор купли-продажи","transcription":"шёпеконтрактен","pos":"noun"},{"type":"ru","text":". Передача ","no":". Overtakelse "},{"type":"no","text":"som regel","translation":"как правило","dict":"как правило","transcription":"сом рэгэль","pos":"phrase"},{"type":"ru","text":" происходит через несколько ","no":" skjer etter noen "},{"type":"no","text":"uker","translation":"недель","dict":"неделя","transcription":"юкер","pos":"noun"},{"type":"ru","text":".","no":"."}]}
+{
+  "id": "boliglan-5",
+  "title": "Процесс покупки жилья",
+  "titleNo": "Boligkjøpsprosessen",
+  "level": "B1",
+  "category": "economy",
+  "topic": "mortgage",
+  "length": "short",
+  "description": "Подробные шаги покупки недвижимости в Норвегии",
+  "segments": [
+    {
+      "type": "ru",
+      "text": "Процесс покупки жилья в Норвегии состоит из нескольких важных этапов. ",
+      "no": "Prosessen med å kjøpe bolig i Norge består av flere viktige trinn. "
+    },
+    {
+      "type": "no",
+      "text": "Først og fremst",
+      "translation": "Прежде всего",
+      "dict": "прежде всего",
+      "transcription": "фёрст о фрэмст",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " необходимо ",
+      "no": " må man "
+    },
+    {
+      "type": "no",
+      "text": "få tak i",
+      "translation": "раздобыть",
+      "dict": "раздобыть",
+      "transcription": "фо так и",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " ",
+      "no": " "
+    },
+    {
+      "type": "no",
+      "text": "finansieringsbevis",
+      "translation": "подтверждение финансирования",
+      "dict": "подтверждение финансирования",
+      "transcription": "финансиерингсбевис",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " — документ, который показывает, ",
+      "no": " — et dokument som viser "
+    },
+    {
+      "type": "no",
+      "text": "hvor mye",
+      "translation": "сколько",
+      "dict": "сколько",
+      "transcription": "вур мюэ",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " вы можете занять. Без него нет смысла ходить на ",
+      "no": " du kan låne. Uten det er det ingen vits i å gå på "
+    },
+    {
+      "type": "no",
+      "text": "visninger",
+      "translation": "просмотры",
+      "dict": "просмотр",
+      "transcription": "виснингер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". Когда вы нашли подходящую квартиру, нужно тщательно ",
+      "no": ". Når du har funnet en passende leilighet, må du nøye "
+    },
+    {
+      "type": "no",
+      "text": "studere",
+      "translation": "изучить",
+      "dict": "изучать",
+      "transcription": "стюдэре",
+      "pos": "verb"
+    },
+    {
+      "type": "ru",
+      "text": " ",
+      "no": " "
+    },
+    {
+      "type": "no",
+      "text": "tilstandsrapporten",
+      "translation": "отчёт о состоянии",
+      "dict": "отчёт о состоянии",
+      "transcription": "тильстандсраппортен",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " — в нём описаны все ",
+      "no": " — den beskriver alle "
+    },
+    {
+      "type": "no",
+      "text": "feil og mangler",
+      "translation": "дефекты и недостатки",
+      "dict": "дефекты и недостатки",
+      "transcription": "фэйль ог манглер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". Затем начинается ",
+      "no": ". Deretter begynner "
+    },
+    {
+      "type": "no",
+      "text": "budrunden",
+      "translation": "торги",
+      "dict": "торг",
+      "transcription": "бюдрюнден",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". Вы делаете ",
+      "no": ". Du gir et "
+    },
+    {
+      "type": "no",
+      "text": "bud",
+      "translation": "ставку",
+      "dict": "ставка",
+      "transcription": "бюд",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " через ",
+      "no": " gjennom "
+    },
+    {
+      "type": "no",
+      "text": "eiendomsmegleren",
+      "translation": "риэлтора",
+      "dict": "риэлтор",
+      "transcription": "эйендумсмэглерен",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". Другие ",
+      "no": ". Andre "
+    },
+    {
+      "type": "no",
+      "text": "interessenter",
+      "translation": "заинтересованные лица",
+      "dict": "заинтересованное лицо",
+      "transcription": "интерэссэнтер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " тоже могут ",
+      "no": " kan også "
+    },
+    {
+      "type": "no",
+      "text": "øke sine bud",
+      "translation": "повышать свои ставки",
+      "dict": "повышать ставку",
+      "transcription": "ёке сине бюд",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". ",
+      "no": ". "
+    },
+    {
+      "type": "no",
+      "text": "I praksis",
+      "translation": "На практике",
+      "dict": "на практике",
+      "transcription": "и праксис",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " важно заранее ",
+      "no": " er det viktig å på forhånd "
+    },
+    {
+      "type": "no",
+      "text": "sette en grense",
+      "translation": "установить предел",
+      "dict": "установить предел",
+      "transcription": "сэтте эн грэнсе",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " и не превышать её. После принятия ставки вы подписываете ",
+      "no": " og ikke overskride den. Etter aksept av budet signerer du "
+    },
+    {
+      "type": "no",
+      "text": "kjøpekontrakten",
+      "translation": "договор купли-продажи",
+      "dict": "договор купли-продажи",
+      "transcription": "шёпеконтрактен",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". Передача ",
+      "no": ". Overtakelse "
+    },
+    {
+      "type": "no",
+      "text": "som regel",
+      "translation": "как правило",
+      "dict": "как правило",
+      "transcription": "сом рэгэль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " происходит через несколько ",
+      "no": " skjer etter noen "
+    },
+    {
+      "type": "no",
+      "text": "uker",
+      "translation": "недель",
+      "dict": "неделя",
+      "transcription": "юкер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ".",
+      "no": "."
+    }
+  ]
+}

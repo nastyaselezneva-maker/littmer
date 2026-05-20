@@ -1,1 +1,237 @@
-{"id":"utdanning-2","title":"Высшее образование","titleNo":"Høyere utdanning","level":"B2","category":"education","topic":"university","length":"medium","description":"Университеты и студенческая жизнь в Норвегии","segments":[{"type":"ru","text":"После окончания школы многие молодые норвежцы ","no":"Etter endt skolegang "},{"type":"no","text":"sette pris på","translation":"ценят","dict":"ценить","transcription":"сэттэ прис по","pos":"phrase"},{"type":"ru","text":" ","no":" mange unge nordmenn "},{"type":"no","text":"høyere utdanning","translation":"высшее образование","dict":"высшее образование","transcription":"хёйере ютданнинг","pos":"phrase"},{"type":"ru","text":" и поступают в университет или ","no":" og begynner på universitetet eller "},{"type":"no","text":"høgskolen","translation":"высшую школу","dict":"высшая школа","transcription":"хёгскулен","pos":"noun"},{"type":"ru","text":". В стране ","no":". Det finnes "},{"type":"no","text":"åtte store universiteter","translation":"восемь крупных университетов","dict":"восемь крупных университетов","transcription":"отте сторе юнивэрситэтер","pos":"phrase"},{"type":"ru","text":", а также множество специализированных учебных заведений. ","no":", samt mange spesialiserte utdanningsinstitusjoner. "},{"type":"no","text":"Som regel","translation":"Как правило","dict":"как правило","transcription":"сом рэгэль","pos":"phrase"},{"type":"ru","text":" студенты имеют ","no":" har studenter "},{"type":"no","text":"rett til","translation":"право на","dict":"право на","transcription":"рэтт тиль","pos":"phrase"},{"type":"ru","text":" получение финансовой поддержки в виде ","no":" å få økonomisk støtte i form av "},{"type":"no","text":"stipend og lån","translation":"стипендии и займа","dict":"стипендия и заём","transcription":"стипэнд о лон","pos":"phrase"},{"type":"ru","text":" от государственной организации ","no":" fra den statlige organisasjonen "},{"type":"no","text":"Lånekassen","translation":"Lånekassen","transcription":"лонекассен","pos":"noun"},{"type":"ru","text":". Это делает возможным учиться даже тем, у кого нет собственных средств. ","no":". Dette gjør det mulig å studere selv for dem som ikke har egne midler. "},{"type":"no","text":"Først og fremst","translation":"Прежде всего","dict":"прежде всего","transcription":"фёрст о фрэмст","pos":"phrase"},{"type":"ru","text":" обучение в государственных университетах ","no":" er utdanning ved offentlige universiteter "},{"type":"no","text":"gratis","translation":"бесплатное","dict":"бесплатный","transcription":"гратис","pos":"adj"},{"type":"ru","text":", однако студенты ежегодно платят небольшой ","no":", men studentene betaler en liten årlig "},{"type":"no","text":"semesteravgift","translation":"семестровый взнос","dict":"семестровый взнос","transcription":"семэстеравгифт","pos":"noun"},{"type":"ru","text":", который даёт ","no":" som gir "},{"type":"no","text":"rett til reisekort","translation":"право на проездной","dict":"право на проездной","transcription":"рэтт тиль рэйсекорт","pos":"phrase"},{"type":"ru","text":" и ","no":" og "},{"type":"no","text":"tilgang til","translation":"доступ к","dict":"доступ к","transcription":"тильганг тиль","pos":"phrase"},{"type":"ru","text":" медицинским услугам. ","no":" helsetjenester. "},{"type":"no","text":"For det meste","translation":"В основном","dict":"в основном","transcription":"фор дэ мэстэ","pos":"phrase"},{"type":"ru","text":" многие студенты ","no":" "},{"type":"no","text":"kombinerer","translation":"совмещают","dict":"совмещать","transcription":"комбинэрер","pos":"verb"},{"type":"ru","text":" учёбу с подработкой в ","no":" mange studenter studier med deltidsjobb på "},{"type":"no","text":"kafeer","translation":"кафе","dict":"кафе","transcription":"кафэер","pos":"noun"},{"type":"ru","text":", в магазинах или работают ","no":", i butikker eller jobber "},{"type":"no","text":"hjemmefra","translation":"удалённо","dict":"удалённо","transcription":"йэммефра","pos":"adv"},{"type":"ru","text":".","no":"."}]}
+{
+  "id": "utdanning-2",
+  "title": "Высшее образование",
+  "titleNo": "Høyere utdanning",
+  "level": "B2",
+  "category": "education",
+  "topic": "university",
+  "length": "short",
+  "description": "Университеты и студенческая жизнь в Норвегии",
+  "segments": [
+    {
+      "type": "ru",
+      "text": "После окончания школы многие молодые норвежцы ",
+      "no": "Etter endt skolegang "
+    },
+    {
+      "type": "no",
+      "text": "sette pris på",
+      "translation": "ценят",
+      "dict": "ценить",
+      "transcription": "сэттэ прис по",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " ",
+      "no": " mange unge nordmenn "
+    },
+    {
+      "type": "no",
+      "text": "høyere utdanning",
+      "translation": "высшее образование",
+      "dict": "высшее образование",
+      "transcription": "хёйере ютданнинг",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " и поступают в университет или ",
+      "no": " og begynner på universitetet eller "
+    },
+    {
+      "type": "no",
+      "text": "høgskolen",
+      "translation": "высшую школу",
+      "dict": "высшая школа",
+      "transcription": "хёгскулен",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". В стране ",
+      "no": ". Det finnes "
+    },
+    {
+      "type": "no",
+      "text": "åtte store universiteter",
+      "translation": "восемь крупных университетов",
+      "dict": "восемь крупных университетов",
+      "transcription": "отте сторе юнивэрситэтер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", а также множество специализированных учебных заведений. ",
+      "no": ", samt mange spesialiserte utdanningsinstitusjoner. "
+    },
+    {
+      "type": "no",
+      "text": "Som regel",
+      "translation": "Как правило",
+      "dict": "как правило",
+      "transcription": "сом рэгэль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " студенты имеют ",
+      "no": " har studenter "
+    },
+    {
+      "type": "no",
+      "text": "rett til",
+      "translation": "право на",
+      "dict": "право на",
+      "transcription": "рэтт тиль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " получение финансовой поддержки в виде ",
+      "no": " å få økonomisk støtte i form av "
+    },
+    {
+      "type": "no",
+      "text": "stipend og lån",
+      "translation": "стипендии и займа",
+      "dict": "стипендия и заём",
+      "transcription": "стипэнд о лон",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " от государственной организации ",
+      "no": " fra den statlige organisasjonen "
+    },
+    {
+      "type": "no",
+      "text": "Lånekassen",
+      "translation": "Lånekassen",
+      "transcription": "лонекассен",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". Это делает возможным учиться даже тем, у кого нет собственных средств. ",
+      "no": ". Dette gjør det mulig å studere selv for dem som ikke har egne midler. "
+    },
+    {
+      "type": "no",
+      "text": "Først og fremst",
+      "translation": "Прежде всего",
+      "dict": "прежде всего",
+      "transcription": "фёрст о фрэмст",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " обучение в государственных университетах ",
+      "no": " er utdanning ved offentlige universiteter "
+    },
+    {
+      "type": "no",
+      "text": "gratis",
+      "translation": "бесплатное",
+      "dict": "бесплатный",
+      "transcription": "гратис",
+      "pos": "adj"
+    },
+    {
+      "type": "ru",
+      "text": ", однако студенты ежегодно платят небольшой ",
+      "no": ", men studentene betaler en liten årlig "
+    },
+    {
+      "type": "no",
+      "text": "semesteravgift",
+      "translation": "семестровый взнос",
+      "dict": "семестровый взнос",
+      "transcription": "семэстеравгифт",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", который даёт ",
+      "no": " som gir "
+    },
+    {
+      "type": "no",
+      "text": "rett til reisekort",
+      "translation": "право на проездной",
+      "dict": "право на проездной",
+      "transcription": "рэтт тиль рэйсекорт",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " и ",
+      "no": " og "
+    },
+    {
+      "type": "no",
+      "text": "tilgang til",
+      "translation": "доступ к",
+      "dict": "доступ к",
+      "transcription": "тильганг тиль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " медицинским услугам. ",
+      "no": " helsetjenester. "
+    },
+    {
+      "type": "no",
+      "text": "For det meste",
+      "translation": "В основном",
+      "dict": "в основном",
+      "transcription": "фор дэ мэстэ",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " многие студенты ",
+      "no": " "
+    },
+    {
+      "type": "no",
+      "text": "kombinerer",
+      "translation": "совмещают",
+      "dict": "совмещать",
+      "transcription": "комбинэрер",
+      "pos": "verb"
+    },
+    {
+      "type": "ru",
+      "text": " учёбу с подработкой в ",
+      "no": " mange studenter studier med deltidsjobb på "
+    },
+    {
+      "type": "no",
+      "text": "kafeer",
+      "translation": "кафе",
+      "dict": "кафе",
+      "transcription": "кафэер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", в магазинах или работают ",
+      "no": ", i butikker eller jobber "
+    },
+    {
+      "type": "no",
+      "text": "hjemmefra",
+      "translation": "удалённо",
+      "dict": "удалённо",
+      "transcription": "йэммефра",
+      "pos": "adv"
+    },
+    {
+      "type": "ru",
+      "text": ".",
+      "no": "."
+    }
+  ]
+}

@@ -1,1 +1,331 @@
-{"id":"allemannsretten-6","title":"Allemannsretten: свобода и ответственность","titleNo":"Allemannsretten: frihet og ansvar","level":"B1","category":"society","topic":"allemannsretten","length":"long","description":"Как работает закон о свободе природы в современной Норвегии","segments":[{"type":"no","text":"Allemannsretten","translation":"Право каждого","transcription":"аллеманнсрэттен","pos":"noun"},{"type":"ru","text":" — одна из самых интересных и важных норвежских традиций. Это ","no":" er en av de mest interessante og viktigste norske tradisjoner. Det er "},{"type":"no","text":"en gammel skikk","translation":"древний обычай","transcription":"эн гаммэль шикк","pos":"phrase"},{"type":"ru","text":", который ","no":" som "},{"type":"no","text":"først og fremst","translation":"прежде всего","dict":"прежде всего","transcription":"фёрст о фрэмст","pos":"phrase"},{"type":"ru","text":" был официально записан в законе только в 1957 году. ","no":" ble offisielt nedskrevet i loven først i 1957. "},{"type":"no","text":"Friluftsloven","translation":"Закон о свободе природы","transcription":"фрилюфтслувен","pos":"noun"},{"type":"ru","text":" даёт всем людям в Норвегии ","no":" gir alle mennesker i Norge "},{"type":"no","text":"rett til","translation":"право на","transcription":"рэтт тиль","pos":"phrase"},{"type":"ru","text":" свободно ","no":" "},{"type":"no","text":"å ferdes fritt","translation":"передвигаться свободно","transcription":"о фэрдэс фритт","pos":"phrase","dict":"передвигаться свободно"},{"type":"ru","text":" по природе, ","no":" i naturen, "},{"type":"no","text":"selv om","translation":"даже если","dict":"хотя; даже если","transcription":"сэль ом","pos":"phrase"},{"type":"ru","text":" территория ","no":" området "},{"type":"no","text":"eies av andre","translation":"принадлежит другим","transcription":"эйес ав андре","pos":"phrase"},{"type":"ru","text":". Этот закон ","no":". Denne loven "},{"type":"no","text":"gjelder","translation":"действует","dict":"действовать","transcription":"йельдер","pos":"verb"},{"type":"ru","text":" во всей стране: в ","no":" i hele landet: i "},{"type":"no","text":"fjellet","translation":"горах","dict":"гора","transcription":"фьэллет","pos":"noun"},{"type":"ru","text":", ","no":", "},{"type":"no","text":"skogen","translation":"лесу","dict":"лес","transcription":"скуген","pos":"noun"},{"type":"ru","text":", у ","no":", ved "},{"type":"no","text":"havet","translation":"моря","dict":"море","transcription":"хавет","pos":"noun"},{"type":"ru","text":" и озёр. Мы можем свободно ","no":" og innsjøer. Vi kan fritt "},{"type":"no","text":"plukke bær","translation":"собирать ягоды","dict":"собирать ягоды","transcription":"плюкке бэр","pos":"phrase"},{"type":"ru","text":", грибы и цветы, ","no":", sopp og blomster, "},{"type":"no","text":"bade","translation":"плавать","dict":"плавать","transcription":"баде","pos":"verb"},{"type":"ru","text":" в водоёмах и ","no":" i vann og "},{"type":"no","text":"gå på ski","translation":"кататься на лыжах","dict":"кататься на лыжах","transcription":"го по ши","pos":"phrase"},{"type":"ru","text":" зимой. Но есть важные ","no":" om vinteren. Men det finnes viktige "},{"type":"no","text":"plikter","translation":"обязанности","dict":"обязанность","transcription":"пликтер","pos":"noun"},{"type":"ru","text":", которые идут вместе с правом. Нельзя ","no":", som følger med rettigheten. Man kan ikke "},{"type":"no","text":"legge igjen søppel","translation":"оставлять мусор","transcription":"лэгге иен сёппель","pos":"phrase"},{"type":"ru","text":", шуметь или беспокоить ","no":", bråke eller forstyrre "},{"type":"no","text":"dyrelivet","translation":"животный мир","dict":"животный мир","transcription":"дюреливет","pos":"noun"},{"type":"ru","text":". Нужно всегда ","no":". Man skal alltid "},{"type":"no","text":"ta vare på","translation":"беречь","dict":"беречь","transcription":"та варэ по","pos":"phrase"},{"type":"ru","text":" природу и людей, живущих рядом. Если, ","no":" naturen og folk som bor der. Hvis man "},{"type":"no","text":"for eksempel","translation":"например","dict":"например","transcription":"фор эксэмпэль","pos":"phrase"},{"type":"ru","text":", идёте через ","no":", går gjennom et "},{"type":"no","text":"beiteområde","translation":"пастбище","dict":"пастбище","transcription":"бэйтеомродэ","pos":"noun"},{"type":"ru","text":" с овцами или коровами, нужно ","no":" med sauer eller kuer, må man "},{"type":"no","text":"lukke grinder","translation":"закрывать ворота","dict":"закрывать ворота","transcription":"люкке гриндер","pos":"phrase"},{"type":"ru","text":" за собой. Многие норвежцы ","no":" etter seg. Mange nordmenn "},{"type":"no","text":"sette pris på","translation":"ценят","dict":"ценить","transcription":"сэттэ прис по","pos":"phrase"},{"type":"ru","text":" allemannsretten как часть ","no":" allemannsretten som en del av "},{"type":"no","text":"nasjonal identitet","translation":"национальной идентичности","dict":"национальная идентичность","transcription":"насьуналь идэнтитет","pos":"phrase"},{"type":"ru","text":". Этот закон показывает уникальный норвежский взгляд на отношения между человеком и природой. Для иностранцев это часто удивительно, но для норвежцев — совершенно ","no":". Denne loven viser et unikt norsk syn på forholdet mellom menneske og natur. For utlendinger er det ofte overraskende, men for nordmenn er det helt "},{"type":"no","text":"naturlig","translation":"естественно","dict":"естественный","transcription":"натюрлиг","pos":"adj"},{"type":"ru","text":".","no":"."}]}
+{
+  "id": "allemannsretten-6",
+  "title": "Allemannsretten: свобода и ответственность",
+  "titleNo": "Allemannsretten: frihet og ansvar",
+  "level": "B1",
+  "category": "society",
+  "topic": "allemannsretten",
+  "length": "medium",
+  "description": "Как работает закон о свободе природы в современной Норвегии",
+  "segments": [
+    {
+      "type": "no",
+      "text": "Allemannsretten",
+      "translation": "Право каждого",
+      "transcription": "аллеманнсрэттен",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " — одна из самых интересных и важных норвежских традиций. Это ",
+      "no": " er en av de mest interessante og viktigste norske tradisjoner. Det er "
+    },
+    {
+      "type": "no",
+      "text": "en gammel skikk",
+      "translation": "древний обычай",
+      "transcription": "эн гаммэль шикк",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", который ",
+      "no": " som "
+    },
+    {
+      "type": "no",
+      "text": "først og fremst",
+      "translation": "прежде всего",
+      "dict": "прежде всего",
+      "transcription": "фёрст о фрэмст",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " был официально записан в законе только в 1957 году. ",
+      "no": " ble offisielt nedskrevet i loven først i 1957. "
+    },
+    {
+      "type": "no",
+      "text": "Friluftsloven",
+      "translation": "Закон о свободе природы",
+      "transcription": "фрилюфтслувен",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " даёт всем людям в Норвегии ",
+      "no": " gir alle mennesker i Norge "
+    },
+    {
+      "type": "no",
+      "text": "rett til",
+      "translation": "право на",
+      "transcription": "рэтт тиль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " свободно ",
+      "no": " "
+    },
+    {
+      "type": "no",
+      "text": "å ferdes fritt",
+      "translation": "передвигаться свободно",
+      "transcription": "о фэрдэс фритт",
+      "pos": "phrase",
+      "dict": "передвигаться свободно"
+    },
+    {
+      "type": "ru",
+      "text": " по природе, ",
+      "no": " i naturen, "
+    },
+    {
+      "type": "no",
+      "text": "selv om",
+      "translation": "даже если",
+      "dict": "хотя; даже если",
+      "transcription": "сэль ом",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " территория ",
+      "no": " området "
+    },
+    {
+      "type": "no",
+      "text": "eies av andre",
+      "translation": "принадлежит другим",
+      "transcription": "эйес ав андре",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". Этот закон ",
+      "no": ". Denne loven "
+    },
+    {
+      "type": "no",
+      "text": "gjelder",
+      "translation": "действует",
+      "dict": "действовать",
+      "transcription": "йельдер",
+      "pos": "verb"
+    },
+    {
+      "type": "ru",
+      "text": " во всей стране: в ",
+      "no": " i hele landet: i "
+    },
+    {
+      "type": "no",
+      "text": "fjellet",
+      "translation": "горах",
+      "dict": "гора",
+      "transcription": "фьэллет",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", ",
+      "no": ", "
+    },
+    {
+      "type": "no",
+      "text": "skogen",
+      "translation": "лесу",
+      "dict": "лес",
+      "transcription": "скуген",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", у ",
+      "no": ", ved "
+    },
+    {
+      "type": "no",
+      "text": "havet",
+      "translation": "моря",
+      "dict": "море",
+      "transcription": "хавет",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " и озёр. Мы можем свободно ",
+      "no": " og innsjøer. Vi kan fritt "
+    },
+    {
+      "type": "no",
+      "text": "plukke bær",
+      "translation": "собирать ягоды",
+      "dict": "собирать ягоды",
+      "transcription": "плюкке бэр",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", грибы и цветы, ",
+      "no": ", sopp og blomster, "
+    },
+    {
+      "type": "no",
+      "text": "bade",
+      "translation": "плавать",
+      "dict": "плавать",
+      "transcription": "баде",
+      "pos": "verb"
+    },
+    {
+      "type": "ru",
+      "text": " в водоёмах и ",
+      "no": " i vann og "
+    },
+    {
+      "type": "no",
+      "text": "gå på ski",
+      "translation": "кататься на лыжах",
+      "dict": "кататься на лыжах",
+      "transcription": "го по ши",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " зимой. Но есть важные ",
+      "no": " om vinteren. Men det finnes viktige "
+    },
+    {
+      "type": "no",
+      "text": "plikter",
+      "translation": "обязанности",
+      "dict": "обязанность",
+      "transcription": "пликтер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", которые идут вместе с правом. Нельзя ",
+      "no": ", som følger med rettigheten. Man kan ikke "
+    },
+    {
+      "type": "no",
+      "text": "legge igjen søppel",
+      "translation": "оставлять мусор",
+      "transcription": "лэгге иен сёппель",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", шуметь или беспокоить ",
+      "no": ", bråke eller forstyrre "
+    },
+    {
+      "type": "no",
+      "text": "dyrelivet",
+      "translation": "животный мир",
+      "dict": "животный мир",
+      "transcription": "дюреливет",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ". Нужно всегда ",
+      "no": ". Man skal alltid "
+    },
+    {
+      "type": "no",
+      "text": "ta vare på",
+      "translation": "беречь",
+      "dict": "беречь",
+      "transcription": "та варэ по",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " природу и людей, живущих рядом. Если, ",
+      "no": " naturen og folk som bor der. Hvis man "
+    },
+    {
+      "type": "no",
+      "text": "for eksempel",
+      "translation": "например",
+      "dict": "например",
+      "transcription": "фор эксэмпэль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", идёте через ",
+      "no": ", går gjennom et "
+    },
+    {
+      "type": "no",
+      "text": "beiteområde",
+      "translation": "пастбище",
+      "dict": "пастбище",
+      "transcription": "бэйтеомродэ",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " с овцами или коровами, нужно ",
+      "no": " med sauer eller kuer, må man "
+    },
+    {
+      "type": "no",
+      "text": "lukke grinder",
+      "translation": "закрывать ворота",
+      "dict": "закрывать ворота",
+      "transcription": "люкке гриндер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " за собой. Многие норвежцы ",
+      "no": " etter seg. Mange nordmenn "
+    },
+    {
+      "type": "no",
+      "text": "sette pris på",
+      "translation": "ценят",
+      "dict": "ценить",
+      "transcription": "сэттэ прис по",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " allemannsretten как часть ",
+      "no": " allemannsretten som en del av "
+    },
+    {
+      "type": "no",
+      "text": "nasjonal identitet",
+      "translation": "национальной идентичности",
+      "dict": "национальная идентичность",
+      "transcription": "насьуналь идэнтитет",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". Этот закон показывает уникальный норвежский взгляд на отношения между человеком и природой. Для иностранцев это часто удивительно, но для норвежцев — совершенно ",
+      "no": ". Denne loven viser et unikt norsk syn på forholdet mellom menneske og natur. For utlendinger er det ofte overraskende, men for nordmenn er det helt "
+    },
+    {
+      "type": "no",
+      "text": "naturlig",
+      "translation": "естественно",
+      "dict": "естественный",
+      "transcription": "натюрлиг",
+      "pos": "adj"
+    },
+    {
+      "type": "ru",
+      "text": ".",
+      "no": "."
+    }
+  ]
+}

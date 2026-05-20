@@ -1,1 +1,159 @@
-{"id":"literature-3","title":"Литература, язык и норвежская идентичность","titleNo":"Litteratur, språk og norsk identitet","level":"B2","category":"culture","topic":"literature","length":"long","description":"Языковой вопрос, переводы и место литературы в национальной культуре","segments":[{"type":"ru","text":"Норвежская литература тесно связана с языковым вопросом. В Норвегии существуют две официальные письменные нормы — ","no":"Norsk litteratur er tett knyttet til språkspørsmålet. I Norge finnes det to offisielle skriftnormer — "},{"type":"no","text":"bokmål og nynorsk","translation":"букмол и нюнорск","dict":"букмол и нюнорск","transcription":"букмол о нюнорск","pos":"phrase"},{"type":"ru","text":". ","no":". "},{"type":"no","text":"For det meste","translation":"В основном","dict":"в основном","transcription":"фор дэ мэстэ","pos":"phrase"},{"type":"ru","text":" это результат исторического развития: букмол развился из датского письменного языка, а нюнорск был сконструирован Иваром Осеном на основе сельских диалектов. Многие писатели ","no":" er det resultatet av historisk utvikling: bokmål utviklet seg fra dansk skriftspråk, mens nynorsk ble konstruert av Ivar Aasen på grunnlag av landsmåldialekter. Mange forfattere "},{"type":"no","text":"velge bevisst","translation":"сознательно выбирать","dict":"сознательно выбирать","transcription":"вельер бэвиссст","pos":"phrase"},{"type":"ru","text":", на каком языке писать. Выбор часто имеет ","no":" hvilket språk de skal skrive på. Valget har ofte "},{"type":"no","text":"politiske undertoner","translation":"политические оттенки","dict":"политический оттенок","transcription":"политиске юндэртунэр","pos":"phrase"},{"type":"ru","text":". Классический канон — Ibsen, Bjørnson, Hamsun — писал на букмоле (тогда riksmål), тогда как Tarjei Vesaas и Olav H. Hauge создавали шедевры литературы на нюнорске. ","no":". Den klassiske kanon — Ibsen, Bjørnson, Hamsun — skrev på bokmål (den gang riksmål), mens Tarjei Vesaas og Olav H. Hauge skapte mesterverk av nynorsk litteratur. "},{"type":"no","text":"Når det gjelder","translation":"Когда речь идёт о","dict":"когда речь идёт о","transcription":"нор дэ йельдер","pos":"phrase"},{"type":"ru","text":" саамской литературы, она также считается частью норвежского литературного ландшафта и активно ","no":" samisk litteratur, regnes den også som en del av det norske litterære landskapet og blir aktivt "},{"type":"no","text":"støttes av","translation":"поддерживается","dict":"поддерживаться","transcription":"стёттэс ав","pos":"phrase"},{"type":"ru","text":" государством. Для такого небольшого языка переводы абсолютно решающи. ","no":" staten. For et så lite språk er oversettelser helt avgjørende. "},{"type":"no","text":"Først og fremst","translation":"Прежде всего","dict":"прежде всего","transcription":"фёрст о фрэмст","pos":"phrase"},{"type":"ru","text":" NORLA — государственное агентство, которое финансирует перевод норвежских книг на другие языки. Благодаря этому Jon Fosse получил Нобелевскую премию в 2023 году — он пишет на нюнорске и известен своим ","no":" er NORLA et statlig byrå som finansierer oversettelse av norske bøker til andre språk. Takket være dette fikk Jon Fosse Nobelprisen i 2023 — han skriver på nynorsk og er kjent for sin "},{"type":"no","text":"minimalistiske stil","translation":"минималистичным стилем","dict":"минималистичный стиль","transcription":"минималистиске стиль","pos":"phrase"},{"type":"ru","text":". ","no":". "},{"type":"no","text":"Når alt kommer til alt","translation":"В конце концов","dict":"в конце концов","transcription":"нор алт коммер тиль алт","pos":"phrase"},{"type":"ru","text":" литература в Норвегии — ","no":" er litteratur i Norge "},{"type":"no","text":"ikke bare","translation":"не только","transcription":"икке барэ","pos":"phrase"},{"type":"ru","text":" искусство, но и инструмент построения идентичности. Через книги страна обсуждает свою историю, отношения с природой, отношения между городом и деревней и место Норвегии в мире. ","no":" kunst, men også et verktøy for identitetsbygging. Gjennom bøker diskuterer landet sin historie, sitt forhold til naturen, forholdet mellom by og bygd og Norges plass i verden. "},{"type":"no","text":"Litterær offentlighet","translation":"Литературная общественность","dict":"литературная общественность","transcription":"литэрэр офтентлихэт","pos":"phrase"},{"type":"ru","text":" остаётся важным форумом, где формируется национальное самосознание — даже в эпоху стриминга и социальных сетей.","no":" forblir et viktig forum der nasjonal selvforståelse dannes — selv i en tid med strømming og sosiale medier."}]}
+{
+  "id": "literature-3",
+  "title": "Литература, язык и норвежская идентичность",
+  "titleNo": "Litteratur, språk og norsk identitet",
+  "level": "B2",
+  "category": "culture",
+  "topic": "literature",
+  "length": "medium",
+  "description": "Языковой вопрос, переводы и место литературы в национальной культуре",
+  "segments": [
+    {
+      "type": "ru",
+      "text": "Норвежская литература тесно связана с языковым вопросом. В Норвегии существуют две официальные письменные нормы — ",
+      "no": "Norsk litteratur er tett knyttet til språkspørsmålet. I Norge finnes det to offisielle skriftnormer — "
+    },
+    {
+      "type": "no",
+      "text": "bokmål og nynorsk",
+      "translation": "букмол и нюнорск",
+      "dict": "букмол и нюнорск",
+      "transcription": "букмол о нюнорск",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". ",
+      "no": ". "
+    },
+    {
+      "type": "no",
+      "text": "For det meste",
+      "translation": "В основном",
+      "dict": "в основном",
+      "transcription": "фор дэ мэстэ",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " это результат исторического развития: букмол развился из датского письменного языка, а нюнорск был сконструирован Иваром Осеном на основе сельских диалектов. Многие писатели ",
+      "no": " er det resultatet av historisk utvikling: bokmål utviklet seg fra dansk skriftspråk, mens nynorsk ble konstruert av Ivar Aasen på grunnlag av landsmåldialekter. Mange forfattere "
+    },
+    {
+      "type": "no",
+      "text": "velge bevisst",
+      "translation": "сознательно выбирать",
+      "dict": "сознательно выбирать",
+      "transcription": "вельер бэвиссст",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ", на каком языке писать. Выбор часто имеет ",
+      "no": " hvilket språk de skal skrive på. Valget har ofte "
+    },
+    {
+      "type": "no",
+      "text": "politiske undertoner",
+      "translation": "политические оттенки",
+      "dict": "политический оттенок",
+      "transcription": "политиске юндэртунэр",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". Классический канон — Ibsen, Bjørnson, Hamsun — писал на букмоле (тогда riksmål), тогда как Tarjei Vesaas и Olav H. Hauge создавали шедевры литературы на нюнорске. ",
+      "no": ". Den klassiske kanon — Ibsen, Bjørnson, Hamsun — skrev på bokmål (den gang riksmål), mens Tarjei Vesaas og Olav H. Hauge skapte mesterverk av nynorsk litteratur. "
+    },
+    {
+      "type": "no",
+      "text": "Når det gjelder",
+      "translation": "Когда речь идёт о",
+      "dict": "когда речь идёт о",
+      "transcription": "нор дэ йельдер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " саамской литературы, она также считается частью норвежского литературного ландшафта и активно ",
+      "no": " samisk litteratur, regnes den også som en del av det norske litterære landskapet og blir aktivt "
+    },
+    {
+      "type": "no",
+      "text": "støttes av",
+      "translation": "поддерживается",
+      "dict": "поддерживаться",
+      "transcription": "стёттэс ав",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " государством. Для такого небольшого языка переводы абсолютно решающи. ",
+      "no": " staten. For et så lite språk er oversettelser helt avgjørende. "
+    },
+    {
+      "type": "no",
+      "text": "Først og fremst",
+      "translation": "Прежде всего",
+      "dict": "прежде всего",
+      "transcription": "фёрст о фрэмст",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " NORLA — государственное агентство, которое финансирует перевод норвежских книг на другие языки. Благодаря этому Jon Fosse получил Нобелевскую премию в 2023 году — он пишет на нюнорске и известен своим ",
+      "no": " er NORLA et statlig byrå som finansierer oversettelse av norske bøker til andre språk. Takket være dette fikk Jon Fosse Nobelprisen i 2023 — han skriver på nynorsk og er kjent for sin "
+    },
+    {
+      "type": "no",
+      "text": "minimalistiske stil",
+      "translation": "минималистичным стилем",
+      "dict": "минималистичный стиль",
+      "transcription": "минималистиске стиль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". ",
+      "no": ". "
+    },
+    {
+      "type": "no",
+      "text": "Når alt kommer til alt",
+      "translation": "В конце концов",
+      "dict": "в конце концов",
+      "transcription": "нор алт коммер тиль алт",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " литература в Норвегии — ",
+      "no": " er litteratur i Norge "
+    },
+    {
+      "type": "no",
+      "text": "ikke bare",
+      "translation": "не только",
+      "transcription": "икке барэ",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " искусство, но и инструмент построения идентичности. Через книги страна обсуждает свою историю, отношения с природой, отношения между городом и деревней и место Норвегии в мире. ",
+      "no": " kunst, men også et verktøy for identitetsbygging. Gjennom bøker diskuterer landet sin historie, sitt forhold til naturen, forholdet mellom by og bygd og Norges plass i verden. "
+    },
+    {
+      "type": "no",
+      "text": "Litterær offentlighet",
+      "translation": "Литературная общественность",
+      "dict": "литературная общественность",
+      "transcription": "литэрэр офтентлихэт",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " остаётся важным форумом, где формируется национальное самосознание — даже в эпоху стриминга и социальных сетей.",
+      "no": " forblir et viktig forum der nasjonal selvforståelse dannes — selv i en tid med strømming og sosiale medier."
+    }
+  ]
+}

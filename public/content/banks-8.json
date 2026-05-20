@@ -1,1 +1,168 @@
-{"id":"banks-8","title":"Цифровая трансформация и финтех","titleNo":"Digital transformasjon og fintech","level":"B2","category":"economy","topic":"banks","length":"medium","description":"Как финансовые технологии меняют норвежский банковский сектор","segments":[{"type":"no","text":"Finansteknologi","translation":"Финансовые технологии","dict":"финансовые технологии","transcription":"финансэкнологи","pos":"noun"},{"type":"ru","text":", или финтех, ","no":", eller fintech, har "},{"type":"no","text":"radikalt endret","translation":"радикально изменил","dict":"радикально изменить","transcription":"радикальт эндрэт","pos":"phrase"},{"type":"ru","text":" ландшафт в норвежском банковском секторе. Традиционные банки, такие как DNB и Nordea, ","no":" landskapet i den norske banksektoren. Tradisjonelle banker, som DNB og Nordea, "},{"type":"no","text":"bli nødt til","translation":"быть вынужденным","dict":"быть вынужденным","transcription":"бли нёдт тиль","pos":"phrase"},{"type":"ru","text":" конкурировать с молодыми стартапами, которые предлагают более ","no":" å konkurrere med unge oppstartsselskaper som tilbyr mer "},{"type":"no","text":"brukervennlige tjenester","translation":"удобные для пользователя услуги","dict":"удобная услуга","transcription":"брюкервэннлие тьенэстер","pos":"phrase"},{"type":"ru","text":". Введение европейской директивы PSD2 заставило банки открыть свои API для третьих сторон. ","no":". Innføringen av det europeiske direktivet PSD2 har tvunget bankene til å åpne sine API-er for tredjeparter. "},{"type":"no","text":"Som regel","translation":"Как правило","dict":"как правило","transcription":"сом рэгэль","pos":"phrase"},{"type":"ru","text":" это привело к появлению ","no":" har dette ført til fremveksten av "},{"type":"no","text":"aggregatortjenester","translation":"агрегационных сервисов","dict":"агрегационный сервис","transcription":"агрегатортьенэстер","pos":"noun"},{"type":"ru","text":", которые собирают данные со всех счетов клиента в одном приложении. Параллельно развиваются ","no":" som samler data fra alle kundens kontoer i én app. Parallelt utvikles "},{"type":"no","text":"robotrådgivere","translation":"роботы-консультанты","dict":"робот-консультант","transcription":"рубутродгивере","pos":"noun"},{"type":"ru","text":" для управления инвестициями. Они используют ","no":" for å forvalte investeringer. De bruker "},{"type":"no","text":"algoritmer","translation":"алгоритмы","dict":"алгоритм","transcription":"алгуритмер","pos":"noun"},{"type":"ru","text":" для создания портфелей с ","no":" for å lage porteføljer med "},{"type":"no","text":"lave gebyrer","translation":"низкими комиссиями","dict":"низкая комиссия","transcription":"лавэ гебюрер","pos":"phrase"},{"type":"ru","text":". ","no":". "},{"type":"no","text":"Ikke minst","translation":"Не в последнюю очередь","dict":"не в последнюю очередь","transcription":"икке минст","pos":"phrase"},{"type":"ru","text":" цифровизация также создаёт риски: ","no":" skaper digitalisering også risikoer: "},{"type":"no","text":"cybersikkerhet","translation":"кибербезопасность","dict":"кибербезопасность","transcription":"сюберсиккерхет","pos":"noun"},{"type":"ru","text":" становится одной из главных задач для всей ","no":" blir en av de viktigste utfordringene for hele "},{"type":"no","text":"bransjen","translation":"отрасли","dict":"отрасль","transcription":"бранщэн","pos":"noun"},{"type":"ru","text":".","no":"."}]}
+{
+  "id": "banks-8",
+  "title": "Цифровая трансформация и финтех",
+  "titleNo": "Digital transformasjon og fintech",
+  "level": "B2",
+  "category": "economy",
+  "topic": "banks",
+  "length": "short",
+  "description": "Как финансовые технологии меняют норвежский банковский сектор",
+  "segments": [
+    {
+      "type": "no",
+      "text": "Finansteknologi",
+      "translation": "Финансовые технологии",
+      "dict": "финансовые технологии",
+      "transcription": "финансэкнологи",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", или финтех, ",
+      "no": ", eller fintech, har "
+    },
+    {
+      "type": "no",
+      "text": "radikalt endret",
+      "translation": "радикально изменил",
+      "dict": "радикально изменить",
+      "transcription": "радикальт эндрэт",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " ландшафт в норвежском банковском секторе. Традиционные банки, такие как DNB и Nordea, ",
+      "no": " landskapet i den norske banksektoren. Tradisjonelle banker, som DNB og Nordea, "
+    },
+    {
+      "type": "no",
+      "text": "bli nødt til",
+      "translation": "быть вынужденным",
+      "dict": "быть вынужденным",
+      "transcription": "бли нёдт тиль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " конкурировать с молодыми стартапами, которые предлагают более ",
+      "no": " å konkurrere med unge oppstartsselskaper som tilbyr mer "
+    },
+    {
+      "type": "no",
+      "text": "brukervennlige tjenester",
+      "translation": "удобные для пользователя услуги",
+      "dict": "удобная услуга",
+      "transcription": "брюкервэннлие тьенэстер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". Введение европейской директивы PSD2 заставило банки открыть свои API для третьих сторон. ",
+      "no": ". Innføringen av det europeiske direktivet PSD2 har tvunget bankene til å åpne sine API-er for tredjeparter. "
+    },
+    {
+      "type": "no",
+      "text": "Som regel",
+      "translation": "Как правило",
+      "dict": "как правило",
+      "transcription": "сом рэгэль",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " это привело к появлению ",
+      "no": " har dette ført til fremveksten av "
+    },
+    {
+      "type": "no",
+      "text": "aggregatortjenester",
+      "translation": "агрегационных сервисов",
+      "dict": "агрегационный сервис",
+      "transcription": "агрегатортьенэстер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ", которые собирают данные со всех счетов клиента в одном приложении. Параллельно развиваются ",
+      "no": " som samler data fra alle kundens kontoer i én app. Parallelt utvikles "
+    },
+    {
+      "type": "no",
+      "text": "robotrådgivere",
+      "translation": "роботы-консультанты",
+      "dict": "робот-консультант",
+      "transcription": "рубутродгивере",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " для управления инвестициями. Они используют ",
+      "no": " for å forvalte investeringer. De bruker "
+    },
+    {
+      "type": "no",
+      "text": "algoritmer",
+      "translation": "алгоритмы",
+      "dict": "алгоритм",
+      "transcription": "алгуритмер",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " для создания портфелей с ",
+      "no": " for å lage porteføljer med "
+    },
+    {
+      "type": "no",
+      "text": "lave gebyrer",
+      "translation": "низкими комиссиями",
+      "dict": "низкая комиссия",
+      "transcription": "лавэ гебюрер",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": ". ",
+      "no": ". "
+    },
+    {
+      "type": "no",
+      "text": "Ikke minst",
+      "translation": "Не в последнюю очередь",
+      "dict": "не в последнюю очередь",
+      "transcription": "икке минст",
+      "pos": "phrase"
+    },
+    {
+      "type": "ru",
+      "text": " цифровизация также создаёт риски: ",
+      "no": " skaper digitalisering også risikoer: "
+    },
+    {
+      "type": "no",
+      "text": "cybersikkerhet",
+      "translation": "кибербезопасность",
+      "dict": "кибербезопасность",
+      "transcription": "сюберсиккерхет",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": " становится одной из главных задач для всей ",
+      "no": " blir en av de viktigste utfordringene for hele "
+    },
+    {
+      "type": "no",
+      "text": "bransjen",
+      "translation": "отрасли",
+      "dict": "отрасль",
+      "transcription": "бранщэн",
+      "pos": "noun"
+    },
+    {
+      "type": "ru",
+      "text": ".",
+      "no": "."
+    }
+  ]
+}
