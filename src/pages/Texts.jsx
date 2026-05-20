@@ -226,14 +226,13 @@ function Texts() {
               <Link to={`/texts/${text.id}`} key={text.id} className={`text-card ${isRead(text.id) ? 'text-card-read' : ''}`}>
                 <div className="text-card-header">
                   <span className="text-level" data-level={text.level}>{text.level}</span>
+                  {text.length && <span className="text-length">{lengths[text.length]}</span>}
                   {isRead(text.id) && <span className="text-read-badge">Прочитано</span>}
                 </div>
-                <h2 className="text-title">
-                  {text.title}
-                  <span className="text-title-length">· {lengths[text.length]}</span>
-                </h2>
+                <h2 className="text-title">{text.title}</h2>
                 {text.titleNo && <p className="text-title-no">{text.titleNo}</p>}
                 <p className="text-description">{text.description}</p>
+                <span className="text-card-btn">Читать →</span>
               </Link>
             ))
           )}
