@@ -930,6 +930,16 @@ const catalog = [
     "description": "История знаменитого норвежского учёного и путешественника"
   },
   {
+    "id": "discoveries-10",
+    "title": "Norsk Polarinstitutt и полярные исследования",
+    "titleNo": "Norsk Polarinstitutt og polarforskning",
+    "level": "B2",
+    "category": "science",
+    "topic": "discoveries",
+    "length": "long",
+    "description": "Как устроены норвежские полярные исследования и климатический мониторинг"
+  },
+  {
     "id": "discoveries-2",
     "title": "Норвежская скрепка",
     "titleNo": "Den norske binders",
