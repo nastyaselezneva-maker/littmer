@@ -1256,6 +1256,73 @@ body.has-sidebar .app {
   color: var(--color-ink);
 }
 
+.reader-text-grid-with-glosses {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  gap: 0;
+  background: var(--color-paper-card);
+  border: var(--border-width) solid var(--color-ink);
+  border-radius: var(--radius-xl);
+  box-shadow: var(--shadow-lg);
+  overflow: hidden;
+}
+
+.reader-text-grid-with-glosses > .reader-text {
+  background: transparent;
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.reader-glosses {
+  background: var(--color-paper-warm);
+  border-left: var(--border-width) dashed var(--color-ink);
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.reader-glosses-pin {
+  font-family: var(--font-hand);
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: var(--color-accent);
+  transform: rotate(-2deg);
+  display: inline-block;
+  margin-bottom: 4px;
+}
+
+.gloss-card {
+  background: var(--color-paper-card);
+  border: var(--border-width-thin) solid var(--color-ink);
+  border-radius: 14px;
+  padding: 12px 14px;
+  box-shadow: 2px 2px 0 var(--color-ink);
+}
+
+.gloss-no {
+  font-family: var(--font-display);
+  font-weight: var(--fw-semibold);
+  font-style: italic;
+  font-size: 1.05rem;
+  color: var(--color-accent-blue);
+  line-height: 1.2;
+}
+
+.gloss-ru {
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+  margin-top: 4px;
+}
+
+.gloss-hint {
+  font-size: 0.8rem;
+  color: var(--color-ink-soft);
+  margin-top: 6px;
+  font-style: italic;
+}
+
 .no-word-wrapper {
   position: relative;
   display: inline;
@@ -2597,6 +2664,15 @@ body.has-sidebar .app {
   .reader-text {
     font-size: 1rem;
     line-height: 1.7;
+  }
+
+  .reader-text-grid-with-glosses {
+    grid-template-columns: 1fr;
+  }
+
+  .reader-glosses {
+    border-left: none;
+    border-top: var(--border-width) dashed var(--color-ink);
   }
 
   .reader-header {

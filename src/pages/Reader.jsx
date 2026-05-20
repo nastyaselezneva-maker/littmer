@@ -171,6 +171,22 @@ function Reader() {
     return seededShuffle(text.segments.length, hashId(text.id))
   }, [text])
 
+  // Собираем уникальные ключевые термины (существительные и идиомы) для сайдбара «на полях»
+  const keyTerms = useMemo(() => {
+    if (!text) return []
+    const seen = new Set()
+    const out = []
+    for (const s of text.segments) {
+      if (s.type !== 'no') continue
+      if (s.pos !== 'noun' && s.pos !== 'phrase') continue
+      const key = (s.text || '').toLowerCase().trim()
+      if (!key || seen.has(key)) continue
+      seen.add(key)
+      out.push(s)
+    }
+    return out
+  }, [text])
+
   // Подсчитываем количество слов в норвежском варианте каждого сегмента.
   const segmentNoWords = useMemo(() => {
     if (!text) return []
@@ -303,6 +319,7 @@ function Reader() {
         )}
       </div>
 
+      <div className={`reader-text-grid ${keyTerms.length > 0 ? 'reader-text-grid-with-glosses' : ''}`}>
       <div className="reader-text">
         {text.segments.map((segment, index) => {
           const showAsNorwegian = visibleSet.has(index)
@@ -338,6 +355,21 @@ function Reader() {
             />
           )
         })}
+      </div>
+      {keyTerms.length > 0 && (
+        <aside className="reader-glosses">
+          <span className="reader-glosses-pin">на полях</span>
+          {keyTerms.map((term, i) => (
+            <div key={i} className="gloss-card">
+              <div className="gloss-no">{term.text}</div>
+              <div className="gloss-ru">{term.translation}</div>
+              {term.dict && term.dict !== term.translation && (
+                <div className="gloss-hint">{term.dict}</div>
+              )}
+            </div>
+          ))}
+        </aside>
+      )}
       </div>
 
       <div className="reader-footer">
