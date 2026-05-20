@@ -53,7 +53,6 @@ function WordTooltip({ text, translation, dict, transcription, pos, onAdd, isSav
             )}
             {pos && <span className="tooltip-pos">{posLabels[pos]}</span>}
           </span>
-          <span className="tooltip-transcription">[{transcription}]</span>
           <span className="tooltip-translation">{translation}</span>
           {dict && dict !== translation && (
             <span className="tooltip-dict">{dict}</span>

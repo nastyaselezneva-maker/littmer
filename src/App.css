@@ -1357,29 +1357,34 @@ body.has-sidebar .app {
 }
 
 .tooltip-word {
-  font-weight: 700;
-  font-size: 1rem;
+  font-family: var(--font-display);
+  font-weight: var(--fw-bold);
+  font-size: 1.05rem;
+  color: var(--color-ink);
 }
 
 .tooltip-pos {
-  font-size: 0.7rem;
-  color: #9ca3af;
+  font-size: 0.72rem;
+  color: var(--color-ink-soft);
   font-style: italic;
 }
 
 .tooltip-transcription {
-  color: #9ca3af;
-  font-size: 0.8rem;
+  color: var(--color-ink-soft);
+  font-size: 0.85rem;
+  font-family: monospace;
 }
 
 .tooltip-translation {
-  color: #e5e7eb;
+  color: #000;
+  font-weight: var(--fw-semibold);
+  font-size: 0.95rem;
   margin-bottom: 4px;
 }
 
 .tooltip-dict {
-  color: #9ca3af;
-  font-size: 0.75rem;
+  color: var(--color-ink-soft);
+  font-size: 0.78rem;
   font-style: italic;
 }
 
@@ -2306,12 +2311,26 @@ body.has-sidebar .app {
 /* ============ Адаптив: планшет ============ */
 @media (max-width: 900px) {
   .main {
-    padding: 24px 16px;
+    padding: 36px 20px 24px;
   }
 
-  .step-grid {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 12px;
+  .nav {
+    padding: 0 12px;
+  }
+
+  .step-grid,
+  .cat-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 14px;
+  }
+
+  .home-hero h1,
+  .home-brand {
+    font-size: 2.6rem;
+  }
+
+  .cat-pic {
+    height: 130px;
   }
 
   .reader-footer {
@@ -2345,21 +2364,36 @@ body.has-sidebar .app {
 
   .nav {
     flex-direction: column;
-    gap: 8px;
+    gap: 10px;
     height: auto;
-    padding: 10px 0;
+    padding: 12px 0;
   }
 
   .logo {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+  }
+
+  .logo-icon {
+    width: 36px;
+    height: 27px;
   }
 
   .nav-links {
     width: 100%;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 8px 14px;
+    gap: 6px 16px;
     font-size: 0.95rem;
+    flex: none;
+  }
+
+  .nav-links a {
+    padding-bottom: 4px;
+  }
+
+  .nav-links .nav-login-link,
+  .nav-links .nav-user-inline {
+    margin-left: 0;
   }
 
   .nav-user-inline {
@@ -2368,11 +2402,16 @@ body.has-sidebar .app {
   }
 
   .main {
-    padding: 20px 12px;
+    padding: 28px 14px 20px;
+  }
+
+  .home-hero h1,
+  .home-brand {
+    font-size: 2rem;
   }
 
   h1 {
-    font-size: 1.5rem;
+    font-size: 1.6rem;
   }
 
   .read-counter {
@@ -2381,7 +2420,56 @@ body.has-sidebar .app {
     margin-top: 4px;
   }
 
-  /* Сетка категорий/подтем: 2 в ряд */
+  /* Сетка категорий: 2 в ряд (новый дизайн) */
+  .cat-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 12px;
+  }
+
+  .cat-pic {
+    height: 110px;
+  }
+
+  .cat-meta {
+    padding: 14px 16px 16px;
+  }
+
+  .cat-ru {
+    font-size: 1.15rem;
+  }
+
+  .cat-no {
+    font-size: 1.05rem;
+    margin: 2px 0 10px;
+  }
+
+  .cat-row {
+    font-size: 0.78rem;
+    padding-top: 8px;
+  }
+
+  .cat-row b {
+    font-size: 1rem;
+  }
+
+  .cat-corner {
+    font-size: 1rem;
+    padding: 0 8px;
+    top: 8px;
+    left: 8px;
+  }
+
+  .cat-lvls {
+    top: 8px;
+    right: 8px;
+  }
+
+  .cat-lvls i {
+    font-size: 10px;
+    padding: 2px 5px;
+  }
+
+  /* Сетка подтем (step-card-text) — старая */
   .step-grid {
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
@@ -2523,6 +2611,14 @@ body.has-sidebar .app {
 
 /* ============ Очень узкие экраны ============ */
 @media (max-width: 380px) {
+  .cat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cat-pic {
+    height: 140px;
+  }
+
   .step-grid {
     grid-template-columns: 1fr;
   }
