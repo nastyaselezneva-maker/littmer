@@ -1323,6 +1323,38 @@ body.has-sidebar .app {
   font-style: italic;
 }
 
+.overview-section {
+  margin-bottom: 4px;
+}
+
+.overview-title {
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+  font-size: 0.78rem;
+  letter-spacing: var(--tracking-caps);
+  text-transform: uppercase;
+  color: var(--color-ink-soft);
+  margin: 0 0 8px;
+}
+
+.overview-list {
+  margin: 0;
+  font-size: 0.95rem;
+  line-height: 1.5;
+  color: var(--color-ink);
+}
+
+.overview-no {
+  font-family: var(--font-display);
+  font-style: italic;
+  font-weight: var(--fw-semibold);
+  color: var(--color-accent-blue);
+}
+
+.overview-ru {
+  color: var(--color-ink);
+}
+
 .no-word-wrapper {
   position: relative;
   display: inline;

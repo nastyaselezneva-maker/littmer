@@ -319,7 +319,7 @@ function Reader() {
         )}
       </div>
 
-      <div className={`reader-text-grid ${keyTerms.length > 0 ? 'reader-text-grid-with-glosses' : ''}`}>
+      <div className={`reader-text-grid ${(text.keyTerms?.length > 0 || text.plot?.length > 0 || keyTerms.length > 0) ? 'reader-text-grid-with-glosses' : ''}`}>
       <div className="reader-text">
         {text.segments.map((segment, index) => {
           const showAsNorwegian = visibleSet.has(index)
@@ -356,10 +356,36 @@ function Reader() {
           )
         })}
       </div>
-      {keyTerms.length > 0 && (
+      {(text.keyTerms?.length > 0 || text.plot?.length > 0 || keyTerms.length > 0) && (
         <aside className="reader-glosses">
-          <span className="reader-glosses-pin">на полях</span>
-          {keyTerms.map((term, i) => (
+          <span className="reader-glosses-pin">обзор</span>
+          {text.keyTerms?.length > 0 && (
+            <div className="overview-section">
+              <h4 className="overview-title">Ключевые термины</h4>
+              <p className="overview-list">
+                {text.keyTerms.map((term, i) => (
+                  <span key={i}>
+                    {i > 0 && ', '}
+                    <span className={/[а-яё]/i.test(term) ? 'overview-ru' : 'overview-no'}>{term}</span>
+                  </span>
+                ))}
+              </p>
+            </div>
+          )}
+          {text.plot?.length > 0 && (
+            <div className="overview-section">
+              <h4 className="overview-title">Сюжет</h4>
+              <p className="overview-list">
+                {text.plot.map((term, i) => (
+                  <span key={i}>
+                    {i > 0 && ', '}
+                    <span className={/[а-яё]/i.test(term) ? 'overview-ru' : 'overview-no'}>{term}</span>
+                  </span>
+                ))}
+              </p>
+            </div>
+          )}
+          {!text.keyTerms?.length && !text.plot?.length && keyTerms.map((term, i) => (
             <div key={i} className="gloss-card">
               <div className="gloss-no">{term.text}</div>
               <div className="gloss-ru">{term.translation}</div>
