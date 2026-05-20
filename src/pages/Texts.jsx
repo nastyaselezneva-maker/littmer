@@ -195,7 +195,7 @@ function Texts() {
             return (
               <button key={level} className="level-btn" data-level={level} onClick={() => selectLevel(level)}>
                 <span className="level-btn-label">{level}</span>
-                <span className="level-btn-info">{count} текстов</span>
+                <span className="level-btn-info">{count} {plural(count, textsForms)}</span>
               </button>
             )
           })}

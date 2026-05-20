@@ -4,7 +4,28 @@
       "Bash(node add-pos.cjs)",
       "Bash(node -e ' *)",
       "Bash(npm install *)",
-      "Bash(node --check c:/_JOB_/APP/norsk-app/src/data/texts.js)"
+      "Bash(node --check c:/_JOB_/APP/norsk-app/src/data/texts.js)",
+      "Bash(git -C c:/_JOB_/APP/norsk-app remote -v)",
+      "Bash(npm run *)",
+      "Bash(git add *)",
+      "Bash(git commit *)",
+      "Bash(git remote *)",
+      "Bash(git push *)",
+      "Bash(node scripts/split-texts.mjs)",
+      "Bash(node scripts/build-vocabulary.mjs)",
+      "Bash(git check-ignore *)",
+      "Bash(node --input-type=module -e ' *)",
+      "Bash(node scripts/rebuild-catalog.mjs)",
+      "Bash(git revert *)",
+      "Bash(rm -f scripts/glosses-batch-*.json scripts/glosses-missing-*.json scripts/glosses-missing.json)",
+      "Bash(grep -E \"nderen|ntreffwonder|\\\\\\\\bnne\\\\\\\\b\" public/content/digital-6.json public/content/janteloven-9.json public/content/music-4.json)",
+      "Bash(rm -f scripts/glosses-missing.json)",
+      "Bash(grep -oE '\"text\":\"[^\"]*\",\"translation\":\"[^\"]*\",\"[^}]*\"prøve å\"[^}]*' public/content/trafikkregler-3.json)",
+      "Bash(node scripts/verify-phrases.mjs)",
+      "Bash(node scripts/verify-capitalization.mjs)",
+      "Bash(node scripts/fix-capitalization.mjs)",
+      "Bash(rm -f scripts/glosses-batch-edu.json scripts/glosses-missing.json)",
+      "Bash(git checkout *)"
     ]
   }
 }

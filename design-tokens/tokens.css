@@ -1,0 +1,131 @@
+/* ============================================================
+   LittMer — Design Tokens (CSS Custom Properties)
+   Children's-book editorial aesthetic
+   ============================================================ */
+
+:root {
+  /* ---------- Colors: paper & ink ---------- */
+  --color-paper:           #f6ecd6;   /* main background */
+  --color-paper-deep:      #efe1c2;   /* secondary surface */
+  --color-paper-warm:      #f3e3c1;   /* alt section bg */
+  --color-paper-card:      #fff8e8;   /* card surface */
+  --color-paper-soft:      #fce8d6;   /* warm tint */
+
+  --color-ink:             #2a2418;   /* primary text, borders */
+  --color-ink-soft:        #5a4f3a;   /* secondary text */
+  --color-ink-muted:       #a89668;   /* tertiary text on dark */
+
+  /* ---------- Colors: accents ---------- */
+  --color-accent:          #c5462e;   /* primary action / brand red */
+  --color-accent-hover:    #a83923;
+  --color-accent-blue:     #1f4d8f;   /* deep Norwegian blue */
+  --color-accent-mustard:  #e0a84a;   /* highlight / underline */
+  --color-accent-moss:     #5a8a5a;   /* nature, success */
+  --color-accent-purple:   #7a4ab8;
+  --color-accent-flag:     #ba0c2f;   /* Norwegian flag red, sparingly */
+
+  /* ---------- Colors: category swatches ---------- */
+  --cat-economy:    #fce8d6;
+  --cat-society:    #a8c4d8;
+  --cat-science:    #9ec8b8;
+  --cat-work:       #e8d4a8;
+  --cat-edu:        #d4c4e0;
+  --cat-culture:    #f0c8d0;
+  --cat-health:     #fcd9c8;
+  --cat-transport:  #c8d8b8;
+  --cat-nature:     #b4d4b4;
+  --cat-home:       #f4d8a4;
+  --cat-food:       #fce0c0;
+  --cat-family:     #f0d4dc;
+  --cat-bureau:     #d4d8e8;
+  --cat-sport:      #bcd4d8;
+
+  /* ---------- Typography: families ---------- */
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body:    'Nunito', system-ui, -apple-system, sans-serif;
+  --font-hand:    'Caveat', 'Comic Sans MS', cursive;
+
+  /* ---------- Typography: sizes ---------- */
+  --fs-display-xl:  84px;   /* hero h1 */
+  --fs-display-lg:  54px;   /* section h2 */
+  --fs-display-md:  38px;   /* quote */
+  --fs-display-sm:  28px;   /* card / step h3 */
+  --fs-display-xs:  24px;   /* small headings */
+
+  --fs-body-xl:     19px;   /* lede */
+  --fs-body-lg:     17px;   /* default body */
+  --fs-body-md:     15px;   /* nav, buttons */
+  --fs-body-sm:     13.5px; /* meta */
+  --fs-body-xs:     12px;   /* eyebrow, caps */
+
+  --fs-hand-lg:     32px;   /* hero subtitle */
+  --fs-hand-md:     22px;   /* notes */
+  --fs-hand-sm:     20px;
+
+  /* ---------- Typography: weights ---------- */
+  --fw-regular:  400;
+  --fw-medium:   500;
+  --fw-semibold: 600;
+  --fw-bold:     700;
+  --fw-black:    800;
+
+  /* ---------- Typography: line-height & tracking ---------- */
+  --lh-display:   0.96;
+  --lh-heading:   1.1;
+  --lh-body:      1.55;
+  --lh-relaxed:   1.7;
+
+  --tracking-tight:  -0.025em;
+  --tracking-snug:   -0.02em;
+  --tracking-wide:   0.06em;
+  --tracking-caps:   0.14em;
+
+  /* ---------- Spacing scale (4px base) ---------- */
+  --space-1:   4px;
+  --space-2:   8px;
+  --space-3:   12px;
+  --space-4:   16px;
+  --space-5:   20px;
+  --space-6:   24px;
+  --space-8:   32px;
+  --space-10:  40px;
+  --space-12:  48px;
+  --space-16:  64px;
+  --space-20:  80px;
+
+  /* ---------- Layout ---------- */
+  --container-max: 1240px;
+  --container-pad: 36px;
+
+  /* ---------- Radii (generous, hand-drawn feel) ---------- */
+  --radius-sm:   8px;
+  --radius-md:   14px;
+  --radius-lg:   18px;
+  --radius-xl:   22px;
+  --radius-pill: 999px;
+
+  /* ---------- Borders ---------- */
+  --border-width:       2px;        /* card / button */
+  --border-width-thin:  1.5px;      /* dividers */
+  --border-width-thick: 2.5px;      /* hero illustrations */
+  --border-color:       var(--color-ink);
+  --border-style-dash:  dashed;
+
+  /* ---------- Shadows: hard offset, never soft ---------- */
+  --shadow-sm:    2px 2px 0 var(--color-ink);
+  --shadow-md:    3px 3px 0 var(--color-ink);
+  --shadow-lg:    4px 4px 0 var(--color-ink);
+  --shadow-xl:    6px 6px 0 var(--color-ink);
+  --shadow-hover-md: 4px 4px 0 var(--color-ink);
+  --shadow-hover-lg: 6px 6px 0 var(--color-ink);
+
+  /* ---------- Motion ---------- */
+  --transition-fast:  150ms ease;
+  --transition-base:  200ms ease;
+  --hover-lift:       translate(-1px, -1px);
+  --hover-lift-lg:    translate(-2px, -2px);
+
+  /* ---------- Z-index ---------- */
+  --z-header: 50;
+  --z-overlay: 100;
+}
