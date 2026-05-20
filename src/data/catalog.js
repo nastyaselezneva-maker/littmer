@@ -16,7 +16,7 @@ const catalog = [
     "level": "A2",
     "category": "society",
     "topic": "allemannsretten",
-    "length": "medium",
+    "length": "short",
     "description": "Наш семейный поход в лес"
   },
   {
@@ -26,7 +26,7 @@ const catalog = [
     "level": "A2",
     "category": "society",
     "topic": "allemannsretten",
-    "length": "long",
+    "length": "medium",
     "description": "Целые выходные на природе по правилу Allemannsretten"
   },
   {
@@ -46,7 +46,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "allemannsretten",
-    "length": "medium",
+    "length": "short",
     "description": "Правила установки палатки и ночёвки в норвежской природе"
   },
   {
@@ -56,7 +56,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "allemannsretten",
-    "length": "long",
+    "length": "medium",
     "description": "Как работает закон о свободе природы в современной Норвегии"
   },
   {
@@ -76,7 +76,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "allemannsretten",
-    "length": "medium",
+    "length": "short",
     "description": "Конфликты между туризмом, землевладельцами и природой"
   },
   {
@@ -86,7 +86,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "allemannsretten",
-    "length": "long",
+    "length": "medium",
     "description": "Сравнительный анализ норвежского права с другими странами"
   },
   {
@@ -116,7 +116,7 @@ const catalog = [
     "level": "B2",
     "category": "culture",
     "topic": "art",
-    "length": "long",
+    "length": "medium",
     "description": "Музеи, финансирование и место искусства в норвежском обществе"
   },
   {
@@ -196,7 +196,7 @@ const catalog = [
     "level": "A2",
     "category": "economy",
     "topic": "banks",
-    "length": "medium",
+    "length": "short",
     "description": "Как пользоваться банковской картой и приложениями"
   },
   {
@@ -206,7 +206,7 @@ const catalog = [
     "level": "A2",
     "category": "economy",
     "topic": "banks",
-    "length": "long",
+    "length": "short",
     "description": "Как получать зарплату и оплачивать счета"
   },
   {
@@ -226,7 +226,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "banks",
-    "length": "medium",
+    "length": "short",
     "description": "Как устроены потребительские кредиты в норвежских банках"
   },
   {
@@ -236,7 +236,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "banks",
-    "length": "long",
+    "length": "medium",
     "description": "Как норвежские банки стали полностью цифровыми"
   },
   {
@@ -256,7 +256,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "banks",
-    "length": "medium",
+    "length": "short",
     "description": "Как финансовые технологии меняют норвежский банковский сектор"
   },
   {
@@ -266,7 +266,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "banks",
-    "length": "long",
+    "length": "medium",
     "description": "Роль банков в норвежской экономике и уроки кризисов"
   },
   {
@@ -336,7 +336,7 @@ const catalog = [
     "level": "B1",
     "category": "driving",
     "topic": "car",
-    "length": "medium",
+    "length": "short",
     "description": "Техобслуживание и уход за машиной"
   },
   {
@@ -346,7 +346,7 @@ const catalog = [
     "level": "B2",
     "category": "driving",
     "topic": "car",
-    "length": "long",
+    "length": "medium",
     "description": "Почему Норвегия — мировой лидер по электромобилям"
   },
   {
@@ -426,7 +426,7 @@ const catalog = [
     "level": "A2",
     "category": "economy",
     "topic": "mortgage",
-    "length": "medium",
+    "length": "short",
     "description": "Первый визит в банк по поводу ипотеки"
   },
   {
@@ -436,7 +436,7 @@ const catalog = [
     "level": "A2",
     "category": "economy",
     "topic": "mortgage",
-    "length": "long",
+    "length": "medium",
     "description": "Полная история покупки квартиры — от мечты до ключей"
   },
   {
@@ -456,7 +456,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "mortgage",
-    "length": "medium",
+    "length": "short",
     "description": "Подробные шаги покупки недвижимости в Норвегии"
   },
   {
@@ -466,7 +466,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "mortgage",
-    "length": "long",
+    "length": "medium",
     "description": "Экономические факторы, влияющие на ипотеку и стоимость жилья"
   },
   {
@@ -486,7 +486,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "mortgage",
-    "length": "medium",
+    "length": "short",
     "description": "Когда и как стоит менять банк для снижения платежей"
   },
   {
@@ -496,7 +496,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "mortgage",
-    "length": "long",
+    "length": "medium",
     "description": "Анализ влияния политики Центробанка на ипотечный рынок"
   },
   {
@@ -516,7 +516,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "budget",
-    "length": "medium",
+    "length": "short",
     "description": "Практичные способы сэкономить в дорогой стране"
   },
   {
@@ -526,7 +526,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "budget",
-    "length": "long",
+    "length": "medium",
     "description": "Как норвежцы планируют свои финансы на десятилетия"
   },
   {
@@ -536,7 +536,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "budget",
-    "length": "medium",
+    "length": "short",
     "description": "Как норвежцы экономят через подержанные вещи и Finn.no"
   },
   {
@@ -546,7 +546,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "budget",
-    "length": "medium",
+    "length": "short",
     "description": "Как Trumf и Coop помогают экономить семейный бюджет"
   },
   {
@@ -556,7 +556,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "budget",
-    "length": "medium",
+    "length": "short",
     "description": "Как живут студенты на стипендию от Lånekassen"
   },
   {
@@ -566,7 +566,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "budget",
-    "length": "long",
+    "length": "medium",
     "description": "Почему мы тратим больше, чем нужно, и как это изменить"
   },
   {
@@ -576,7 +576,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "budget",
-    "length": "long",
+    "length": "medium",
     "description": "Как налоговые вычеты помогают семьям экономить"
   },
   {
@@ -586,7 +586,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "budget",
-    "length": "long",
+    "length": "medium",
     "description": "Как изменения процентной ставки Norges Bank меняют жизнь семей"
   },
   {
@@ -606,7 +606,7 @@ const catalog = [
     "level": "A2",
     "category": "society",
     "topic": "bureaucracy",
-    "length": "medium",
+    "length": "short",
     "description": "Что такое skattekort и как её получить"
   },
   {
@@ -616,7 +616,7 @@ const catalog = [
     "level": "A2",
     "category": "society",
     "topic": "bureaucracy",
-    "length": "long",
+    "length": "short",
     "description": "Все важные учреждения, с которыми познакомился иммигрант"
   },
   {
@@ -636,7 +636,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "bureaucracy",
-    "length": "medium",
+    "length": "short",
     "description": "Как подать ежегодную налоговую декларацию онлайн"
   },
   {
@@ -646,7 +646,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "bureaucracy",
-    "length": "long",
+    "length": "short",
     "description": "Как устроена цифровая система государственных услуг"
   },
   {
@@ -666,7 +666,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "bureaucracy",
-    "length": "medium",
+    "length": "short",
     "description": "Как работает и критикуется норвежская система социальной защиты"
   },
   {
@@ -676,7 +676,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "bureaucracy",
-    "length": "long",
+    "length": "medium",
     "description": "Анализ эффективности и проблем государственной системы"
   },
   {
@@ -736,7 +736,7 @@ const catalog = [
     "level": "B2",
     "category": "culture",
     "topic": "cinema",
-    "length": "long",
+    "length": "medium",
     "description": "Как Norsk filminstitutt формирует киноиндустрию"
   },
   {
@@ -746,7 +746,7 @@ const catalog = [
     "level": "B1",
     "category": "culture",
     "topic": "cinema",
-    "length": "medium",
+    "length": "long",
     "description": "Самый успешный современный норвежский режиссёр и его киноязык"
   },
   {
@@ -756,7 +756,7 @@ const catalog = [
     "level": "B1",
     "category": "culture",
     "topic": "cinema",
-    "length": "medium",
+    "length": "long",
     "description": "Olsenbanden, Flåklypa Grand Prix и норвежская традиция семейного кино"
   },
   {
@@ -766,7 +766,7 @@ const catalog = [
     "level": "B1",
     "category": "culture",
     "topic": "cinema",
-    "length": "medium",
+    "length": "long",
     "description": "От SKAM до Nordisk noir — успехи норвежского сериального производства"
   },
   {
@@ -846,7 +846,7 @@ const catalog = [
     "level": "A2",
     "category": "society",
     "topic": "digital_services",
-    "length": "medium",
+    "length": "short",
     "description": "Как норвежцы платят друг другу через мобильное приложение"
   },
   {
@@ -856,7 +856,7 @@ const catalog = [
     "level": "A2",
     "category": "society",
     "topic": "digital_services",
-    "length": "long",
+    "length": "short",
     "description": "Полезные норвежские приложения на каждый день"
   },
   {
@@ -876,7 +876,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "digital_services",
-    "length": "medium",
+    "length": "short",
     "description": "Как Altinn, Skatteetaten и Helsenorge упрощают жизнь"
   },
   {
@@ -886,7 +886,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "digital_services",
-    "length": "long",
+    "length": "short",
     "description": "Онлайн-безопасность и распространённые виды мошенничества"
   },
   {
@@ -906,7 +906,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "digital_services",
-    "length": "medium",
+    "length": "short",
     "description": "GDPR, Datatilsynet и право на приватность в цифровую эпоху"
   },
   {
@@ -916,7 +916,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "digital_services",
-    "length": "long",
+    "length": "medium",
     "description": "Как Норвегия строит цифровое государство и какие вызовы её ждут"
   },
   {
@@ -936,7 +936,7 @@ const catalog = [
     "level": "A2",
     "category": "science",
     "topic": "discoveries",
-    "length": "medium",
+    "length": "short",
     "description": "Маленькое изобретение с большой историей"
   },
   {
@@ -946,7 +946,7 @@ const catalog = [
     "level": "A2",
     "category": "science",
     "topic": "discoveries",
-    "length": "long",
+    "length": "short",
     "description": "История первого человека, достигшего Южного полюса"
   },
   {
@@ -966,7 +966,7 @@ const catalog = [
     "level": "B1",
     "category": "science",
     "topic": "discoveries",
-    "length": "medium",
+    "length": "short",
     "description": "Короткая, но блестящая жизнь норвежского математика"
   },
   {
@@ -976,7 +976,7 @@ const catalog = [
     "level": "B1",
     "category": "science",
     "topic": "discoveries",
-    "length": "long",
+    "length": "short",
     "description": "Невероятное путешествие через Тихий океан на плоту"
   },
   {
@@ -996,7 +996,7 @@ const catalog = [
     "level": "B2",
     "category": "science",
     "topic": "discoveries",
-    "length": "medium",
+    "length": "short",
     "description": "Как норвежские учёные формируют глобальное понимание климата"
   },
   {
@@ -1006,7 +1006,7 @@ const catalog = [
     "level": "B2",
     "category": "science",
     "topic": "discoveries",
-    "length": "long",
+    "length": "medium",
     "description": "Роль Норвегии в мировом научном и политическом диалоге"
   },
   {
@@ -1036,7 +1036,7 @@ const catalog = [
     "level": "B2",
     "category": "health",
     "topic": "fastlege",
-    "length": "long",
+    "length": "medium",
     "description": "Кризис первичного звена и поиск путей реформы"
   },
   {
@@ -1156,7 +1156,7 @@ const catalog = [
     "level": "B2",
     "category": "health",
     "topic": "hospital",
-    "length": "long",
+    "length": "medium",
     "description": "Как устроена и финансируется больничная сеть Норвегии"
   },
   {
@@ -1236,7 +1236,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "insurance",
-    "length": "medium",
+    "length": "short",
     "description": "Обзор основных страховых продуктов"
   },
   {
@@ -1246,7 +1246,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "insurance",
-    "length": "long",
+    "length": "medium",
     "description": "Структура и регулирование страховой отрасли"
   },
   {
@@ -1256,7 +1256,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "insurance",
-    "length": "medium",
+    "length": "short",
     "description": "Зачем нужна страховка для зарубежных поездок"
   },
   {
@@ -1266,7 +1266,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "insurance",
-    "length": "medium",
+    "length": "short",
     "description": "Виды страхования автомобиля в Норвегии"
   },
   {
@@ -1276,7 +1276,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "insurance",
-    "length": "medium",
+    "length": "short",
     "description": "Защита здоровья и будущего детей"
   },
   {
@@ -1286,7 +1286,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "insurance",
-    "length": "long",
+    "length": "medium",
     "description": "Что происходит, когда наступает страховой случай"
   },
   {
@@ -1296,7 +1296,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "insurance",
-    "length": "long",
+    "length": "medium",
     "description": "Как государство контролирует страховые компании"
   },
   {
@@ -1306,7 +1306,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "insurance",
-    "length": "long",
+    "length": "medium",
     "description": "Как изменение климата меняет страховую отрасль"
   },
   {
@@ -1326,7 +1326,7 @@ const catalog = [
     "level": "B1",
     "category": "work",
     "topic": "interview",
-    "length": "medium",
+    "length": "short",
     "description": "Как подготовиться к собеседованию в норвежской компании"
   },
   {
@@ -1336,7 +1336,7 @@ const catalog = [
     "level": "B2",
     "category": "work",
     "topic": "interview",
-    "length": "long",
+    "length": "medium",
     "description": "Культурные нюансы и неочевидные ожидания работодателей"
   },
   {
@@ -1396,7 +1396,7 @@ const catalog = [
     "level": "B2",
     "category": "work",
     "topic": "interview",
-    "length": "long",
+    "length": "medium",
     "description": "Закон о равноправии и защита кандидатов"
   },
   {
@@ -1416,7 +1416,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "janteloven",
-    "length": "medium",
+    "length": "short",
     "description": "Содержание и смысл закона"
   },
   {
@@ -1426,7 +1426,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "janteloven",
-    "length": "long",
+    "length": "medium",
     "description": "Как неписаный закон влияет на общество сегодня"
   },
   {
@@ -1466,7 +1466,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "janteloven",
-    "length": "long",
+    "length": "medium",
     "description": "Литературные корни Янте в романе Акселя Сандемусе 1933 года"
   },
   {
@@ -1476,7 +1476,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "janteloven",
-    "length": "long",
+    "length": "medium",
     "description": "Связь между культурой Янте и норвежской социальной моделью"
   },
   {
@@ -1486,7 +1486,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "janteloven",
-    "length": "long",
+    "length": "medium",
     "description": "Дебаты о позитивной и негативной роли закона Янте"
   },
   {
@@ -1506,7 +1506,7 @@ const catalog = [
     "level": "B1",
     "category": "work",
     "topic": "job_search",
-    "length": "medium",
+    "length": "short",
     "description": "Как правильно написать норвежское резюме"
   },
   {
@@ -1516,7 +1516,7 @@ const catalog = [
     "level": "B2",
     "category": "work",
     "topic": "job_search",
-    "length": "long",
+    "length": "medium",
     "description": "Структура и особенности норвежского рынка труда"
   },
   {
@@ -1556,7 +1556,7 @@ const catalog = [
     "level": "B2",
     "category": "work",
     "topic": "job_search",
-    "length": "long",
+    "length": "medium",
     "description": "Как работает рекрутинг руководителей в Норвегии"
   },
   {
@@ -1566,7 +1566,7 @@ const catalog = [
     "level": "B2",
     "category": "work",
     "topic": "job_search",
-    "length": "long",
+    "length": "medium",
     "description": "Как меняется норвежский рынок труда"
   },
   {
@@ -1596,7 +1596,7 @@ const catalog = [
     "level": "B1",
     "category": "society",
     "topic": "judicial",
-    "length": "medium",
+    "length": "short",
     "description": "Как расследуются преступления в Норвегии"
   },
   {
@@ -1606,7 +1606,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "judicial",
-    "length": "long",
+    "length": "medium",
     "description": "Почему норвежская система уникальна и часто критикуется"
   },
   {
@@ -1656,7 +1656,7 @@ const catalog = [
     "level": "B2",
     "category": "society",
     "topic": "judicial",
-    "length": "long",
+    "length": "medium",
     "description": "Высший судебный орган Норвегии и его функции"
   },
   {
@@ -1696,7 +1696,7 @@ const catalog = [
     "level": "B2",
     "category": "culture",
     "topic": "literature",
-    "length": "long",
+    "length": "medium",
     "description": "Языковой вопрос, переводы и место литературы в национальной культуре"
   },
   {
@@ -1776,7 +1776,7 @@ const catalog = [
     "level": "B2",
     "category": "driving",
     "topic": "motorcycle",
-    "length": "medium",
+    "length": "short",
     "description": "Правила и особенности вождения мотоцикла"
   },
   {
@@ -1786,7 +1786,7 @@ const catalog = [
     "level": "B1",
     "category": "driving",
     "topic": "motorcycle",
-    "length": "long",
+    "length": "medium",
     "description": "Подготовка мотоцикла к сезону и лучшие маршруты"
   },
   {
@@ -1896,7 +1896,7 @@ const catalog = [
     "level": "B1",
     "category": "health",
     "topic": "mental_health",
-    "length": "medium",
+    "length": "long",
     "description": "Депрессия и SAD в норвежских условиях"
   },
   {
@@ -1906,7 +1906,7 @@ const catalog = [
     "level": "B1",
     "category": "health",
     "topic": "mental_health",
-    "length": "medium",
+    "length": "long",
     "description": "Различия и подходы в психотерапии"
   },
   {
@@ -1966,7 +1966,7 @@ const catalog = [
     "level": "B2",
     "category": "culture",
     "topic": "music",
-    "length": "long",
+    "length": "medium",
     "description": "Классическое наследие и современная музыкальная индустрия"
   },
   {
@@ -2046,7 +2046,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "oil_fund",
-    "length": "medium",
+    "length": "short",
     "description": "Как Норвегия построила самый большой фонд мира"
   },
   {
@@ -2056,7 +2056,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "oil_fund",
-    "length": "long",
+    "length": "medium",
     "description": "Как нефтяные доходы влияют на экономику и политику страны"
   },
   {
@@ -2066,7 +2066,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "oil_fund",
-    "length": "medium",
+    "length": "short",
     "description": "Куда и зачем фонд вкладывает свои деньги"
   },
   {
@@ -2076,7 +2076,7 @@ const catalog = [
     "level": "B1",
     "category": "economy",
     "topic": "oil_fund",
-    "length": "medium",
+    "length": "short",
     "description": "Какие компании фонд исключает по этическим причинам"
   },
   {
@@ -2096,7 +2096,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "oil_fund",
-    "length": "long",
+    "length": "medium",
     "description": "Как Norges Bank Investment Management управляет крупнейшим фондом мира"
   },
   {
@@ -2106,7 +2106,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "oil_fund",
-    "length": "long",
+    "length": "medium",
     "description": "Зачем Норвегия ограничивает использование нефтяных доходов"
   },
   {
@@ -2116,7 +2116,7 @@ const catalog = [
     "level": "B2",
     "category": "economy",
     "topic": "oil_fund",
-    "length": "long",
+    "length": "medium",
     "description": "Что ждёт фонд, когда нефть закончится"
   },
   {
@@ -2176,7 +2176,7 @@ const catalog = [
     "level": "B2",
     "category": "health",
     "topic": "pharmacy",
-    "length": "long",
+    "length": "medium",
     "description": "Регулирование лекарственного сектора в Норвегии"
   },
   {
@@ -2206,7 +2206,7 @@ const catalog = [
     "level": "B1",
     "category": "health",
     "topic": "pharmacy",
-    "length": "medium",
+    "length": "long",
     "description": "Различия между основными аптечными сетями Норвегии"
   },
   {
@@ -2316,7 +2316,7 @@ const catalog = [
     "level": "B1",
     "category": "work",
     "topic": "rights",
-    "length": "medium",
+    "length": "short",
     "description": "Что должно быть в норвежском трудовом договоре"
   },
   {
@@ -2326,7 +2326,7 @@ const catalog = [
     "level": "B2",
     "category": "work",
     "topic": "rights",
-    "length": "long",
+    "length": "medium",
     "description": "Роль профсоюзов в формировании условий труда"
   },
   {
@@ -2406,7 +2406,7 @@ const catalog = [
     "level": "B1",
     "category": "work",
     "topic": "self_employed",
-    "length": "medium",
+    "length": "short",
     "description": "Как зарегистрировать своё дело в Норвегии"
   },
   {
@@ -2416,7 +2416,7 @@ const catalog = [
     "level": "B2",
     "category": "work",
     "topic": "self_employed",
-    "length": "long",
+    "length": "medium",
     "description": "Сравнение ИП и AS: налоги, пенсия, страховка, развитие фриланс-сегмента"
   },
   {
@@ -2466,7 +2466,7 @@ const catalog = [
     "level": "A2",
     "category": "science",
     "topic": "technology",
-    "length": "medium",
+    "length": "short",
     "description": "Как цифровые технологии используются в норвежских школах"
   },
   {
@@ -2476,7 +2476,7 @@ const catalog = [
     "level": "A2",
     "category": "science",
     "topic": "technology",
-    "length": "long",
+    "length": "short",
     "description": "Как технологии окружают норвежца целый день"
   },
   {
@@ -2496,7 +2496,7 @@ const catalog = [
     "level": "B1",
     "category": "science",
     "topic": "technology",
-    "length": "medium",
+    "length": "short",
     "description": "Как Норвегия производит чистую энергию"
   },
   {
@@ -2506,7 +2506,7 @@ const catalog = [
     "level": "B1",
     "category": "science",
     "topic": "technology",
-    "length": "long",
+    "length": "short",
     "description": "Как Норвегия строит сети нового поколения"
   },
   {
@@ -2526,7 +2526,7 @@ const catalog = [
     "level": "B2",
     "category": "science",
     "topic": "technology",
-    "length": "medium",
+    "length": "short",
     "description": "Как Норвегия готовится к будущему без углеводородов"
   },
   {
@@ -2536,7 +2536,7 @@ const catalog = [
     "level": "B2",
     "category": "science",
     "topic": "technology",
-    "length": "long",
+    "length": "medium",
     "description": "Анализ технологического сектора страны и его будущего"
   },
   {
@@ -2556,7 +2556,7 @@ const catalog = [
     "level": "B1",
     "category": "driving",
     "topic": "traffic_signs",
-    "length": "medium",
+    "length": "short",
     "description": "Дорожные знаки и правила проезда перекрёстков"
   },
   {
@@ -2566,7 +2566,7 @@ const catalog = [
     "level": "B2",
     "category": "driving",
     "topic": "traffic_signs",
-    "length": "long",
+    "length": "medium",
     "description": "Особенности вождения в зимних условиях"
   },
   {
@@ -2616,7 +2616,7 @@ const catalog = [
     "level": "B2",
     "category": "driving",
     "topic": "traffic_signs",
-    "length": "long",
+    "length": "medium",
     "description": "Парковка, bompenger и kollektivfelt — что осталось от льгот"
   },
   {
@@ -2716,7 +2716,7 @@ const catalog = [
     "level": "A2",
     "category": "education",
     "topic": "norwegian_course",
-    "length": "short",
+    "length": "medium",
     "description": "Первый языковой экзамен — Norskprøve A2"
   },
   {
@@ -2736,7 +2736,7 @@ const catalog = [
     "level": "B2",
     "category": "education",
     "topic": "university",
-    "length": "medium",
+    "length": "short",
     "description": "Университеты и студенческая жизнь в Норвегии"
   },
   {
@@ -2746,7 +2746,7 @@ const catalog = [
     "level": "B1",
     "category": "education",
     "topic": "norwegian_course",
-    "length": "long",
+    "length": "medium",
     "description": "Как иностранцы изучают норвежский язык"
   },
   {
@@ -2766,7 +2766,7 @@ const catalog = [
     "level": "B2",
     "category": "education",
     "topic": "school",
-    "length": "long",
+    "length": "medium",
     "description": "Дискуссии о норвежском школьном образовании"
   },
   {
@@ -2836,7 +2836,7 @@ const catalog = [
     "level": "B2",
     "category": "education",
     "topic": "continuing_ed",
-    "length": "long",
+    "length": "medium",
     "description": "Обучение через всю жизнь и государственная политика"
   },
   {
