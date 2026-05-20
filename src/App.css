@@ -645,7 +645,7 @@
   font-weight: var(--fw-bold);
   font-size: 0.9rem;
   color: var(--color-ink);
-  background: transparent;
+  background: var(--color-accent-mustard);
   box-shadow: 2px 2px 0 var(--color-ink);
   transition: transform var(--transition-fast), box-shadow var(--transition-fast);
 }
