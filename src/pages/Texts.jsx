@@ -169,6 +169,7 @@ function Texts() {
                   <span className="step-card-subtitle">{getTopicLabelNo(key)}</span>
                 </span>
                 <span className="step-card-info">{count} {plural(count, textsForms)}</span>
+                <span className="step-card-btn">Открыть →</span>
               </button>
             )
           })}
@@ -181,6 +182,7 @@ function Texts() {
                   <span className="step-card-subtitle">{categories[activeCategory].topics[key].labelNo}</span>
                 </span>
                 <span className="step-card-info">Скоро</span>
+                <span className="step-card-btn">Открыть →</span>
               </button>
             ))
           }

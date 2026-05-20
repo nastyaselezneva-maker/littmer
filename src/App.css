@@ -589,45 +589,74 @@
   transform: none;
 }
 
-/* Карточки подтем без картинок: пастельный paper верх + ink-обводка */
+/* Карточки подтем в стиле plan-card */
 .step-card-text {
-  justify-content: flex-end;
-  padding: 0;
-  background: var(--cat-economy);
+  justify-content: flex-start;
+  padding: 28px 28px 24px;
+  background: var(--color-paper-card);
+  aspect-ratio: auto;
+  min-height: 240px;
 }
 
-.step-card-text:nth-child(7n+1) { background: var(--cat-economy); }
-.step-card-text:nth-child(7n+2) { background: var(--cat-society); }
-.step-card-text:nth-child(7n+3) { background: var(--cat-science); }
-.step-card-text:nth-child(7n+4) { background: var(--cat-work); }
-.step-card-text:nth-child(7n+5) { background: var(--cat-edu); }
-.step-card-text:nth-child(7n+6) { background: var(--cat-culture); }
-.step-card-text:nth-child(7n+7) { background: var(--cat-health); }
+.step-card-text:nth-child(7n+1),
+.step-card-text:nth-child(7n+2),
+.step-card-text:nth-child(7n+3),
+.step-card-text:nth-child(7n+4),
+.step-card-text:nth-child(7n+5),
+.step-card-text:nth-child(7n+6),
+.step-card-text:nth-child(7n+7) { background: var(--color-paper-card); }
 
 .step-card-text.step-card-empty {
-  background: var(--color-paper-deep);
+  background: var(--color-paper-card);
 }
 
 .step-card-text .step-card-title {
-  margin-top: auto;
-  margin-bottom: 4px;
-  padding: 14px 16px 0;
-  background: var(--color-paper-card);
-  border-top: var(--border-width) solid var(--color-ink);
+  margin: 0 0 4px;
+  padding: 0;
+  background: transparent;
+  border-top: none;
   text-align: left;
-  font-size: 1.2rem;
+  font-size: 1.35rem;
   color: var(--color-ink);
   text-shadow: none;
 }
 
 .step-card-text .step-card-info {
-  padding: 0 16px 14px;
-  background: var(--color-paper-card);
+  padding: 0;
+  background: transparent;
   text-align: left;
-  font-size: 0.85rem;
-  color: var(--color-ink-soft);
+  font-size: 0.9rem;
+  color: var(--text-light);
   opacity: 1;
   text-shadow: none;
+  margin-top: 16px;
+  margin-bottom: 18px;
+  flex: 1;
+  font-weight: 400;
+}
+
+.step-card-btn {
+  display: block;
+  text-align: center;
+  border: var(--border-width-thin) solid var(--color-ink);
+  border-radius: var(--radius-md);
+  padding: 10px 16px;
+  font-family: var(--font-body);
+  font-weight: var(--fw-bold);
+  font-size: 0.9rem;
+  color: var(--color-ink);
+  background: transparent;
+  box-shadow: 2px 2px 0 var(--color-ink);
+  transition: transform var(--transition-fast), box-shadow var(--transition-fast);
+}
+
+.step-card-text:hover .step-card-btn {
+  transform: translate(-1px, -1px);
+  box-shadow: 3px 3px 0 var(--color-ink);
+}
+
+.step-card-text.step-card-empty .step-card-btn {
+  opacity: 0.6;
 }
 
 .step-card-text .step-card-subtitle {
