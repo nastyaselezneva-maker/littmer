@@ -93,11 +93,37 @@ function loadLookup() {
   return lookupPromise
 }
 
+// Кеш vocabulary.json — словарь форма→count для ранжирования по частотности
+let freqCache = null
+let freqPromise = null
+function loadFreq() {
+  if (freqCache) return Promise.resolve(freqCache)
+  if (freqPromise) return freqPromise
+  freqPromise = fetch('/vocabulary.json')
+    .then((r) => (r.ok ? r.json() : { words: [] }))
+    .then((d) => {
+      const map = {}
+      for (const w of (d.words || [])) {
+        const c = w.count || 0
+        const forms = w.forms && w.forms.length ? w.forms : [w.word]
+        for (const f of forms) {
+          const key = String(f).toLowerCase()
+          if (!(key in map) || map[key] < c) map[key] = c
+        }
+      }
+      freqCache = map
+      return map
+    })
+    .catch(() => ({}))
+  return freqPromise
+}
+
 function Reader() {
   const { id } = useParams()
   const [text, setText] = useState(null)
   const [loading, setLoading] = useState(true)
   const [lookup, setLookup] = useState(lookupCache || {})
+  const [freqMap, setFreqMap] = useState(freqCache || {})
   const { addWord, hasWord, words } = useDictionary()
   const hasWords = words.length > 0
   const { markAsRead, isRead } = useProgress()
@@ -148,6 +174,13 @@ function Reader() {
     loadLookup().then(setLookup)
   }, [])
 
+  // Подгружаем карту частотности (vocabulary.json) — используется только для reveal:"frequency"
+  useEffect(() => {
+    if (text?.reveal === 'frequency') {
+      loadFreq().then(setFreqMap)
+    }
+  }, [text])
+
   // Голоса в некоторых браузерах загружаются асинхронно
   useEffect(() => {
     if (!('speechSynthesis' in window)) return
@@ -164,12 +197,23 @@ function Reader() {
     setSelectedVoice(name)
   }
 
-  // Стабильный случайный порядок ВСЕХ сегментов — двигая ползунок выше,
-  // мы только добавляем сегменты в норвежский режим, не меняем уже видимые.
+  // Порядок появления сегментов. По умолчанию — стабильный псевдослучайный.
+  // При reveal:"frequency" — упорядочены по сумме частотности норвежских слов
+  // (самые употребительные раскрываются первыми, редкие — последними).
   const shuffleOrder = useMemo(() => {
     if (!text) return []
+    if (text.reveal === 'frequency' && Object.keys(freqMap).length > 0) {
+      const scored = text.segments.map((seg, idx) => {
+        const noText = seg.type === 'no' ? (seg.text || '') : (seg.no || '')
+        const words = noText.toLowerCase().match(/[a-zæøåäö]+/g) || []
+        const score = words.reduce((sum, w) => sum + (freqMap[w] || 0), 0)
+        return { idx, score }
+      })
+      scored.sort((a, b) => b.score - a.score)
+      return scored.map((s) => s.idx)
+    }
     return seededShuffle(text.segments.length, hashId(text.id))
-  }, [text])
+  }, [text, freqMap])
 
   // Собираем уникальные ключевые термины (существительные и идиомы) для сайдбара «на полях»
   const keyTerms = useMemo(() => {
