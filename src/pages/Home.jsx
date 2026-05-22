@@ -39,6 +39,66 @@ function Home() {
         </p>
       </div>
 
+      <section className="home-method">
+        <div className="sec-head">
+          <div className="sec-num">¶ метод</div>
+          <div>
+            <h2 className="sec-title">Как работает <em>гибрид</em>.</h2>
+            <p className="sec-sub">Три простых шага. Никакой грамматической муштры — только чтение и контекст.</p>
+          </div>
+        </div>
+
+        <div className="method-steps">
+          <div className="method-step">
+            <div className="method-step-ill">
+              <svg viewBox="0 0 160 120">
+                <rect x="20" y="20" width="120" height="80" rx="6" fill="#fff8e8" stroke="#2a2418" strokeWidth="2"/>
+                <line x1="30" y1="36" x2="120" y2="36" stroke="#2a2418" strokeWidth="1.5"/>
+                <line x1="30" y1="48" x2="100" y2="48" stroke="#5a4f3a" strokeWidth="1"/>
+                <rect x="55" y="58" width="26" height="10" rx="2" fill="#e0a84a" stroke="#2a2418" strokeWidth="1"/>
+                <line x1="30" y1="74" x2="120" y2="74" stroke="#5a4f3a" strokeWidth="1"/>
+                <line x1="30" y1="86" x2="80" y2="86" stroke="#5a4f3a" strokeWidth="1"/>
+              </svg>
+            </div>
+            <div className="method-step-num">1</div>
+            <h3>Читаешь по-русски</h3>
+            <p>Сюжет полностью понятен с первой строки. В тексте подсвечены норвежские слова и фразы — те, что важно запомнить.</p>
+          </div>
+
+          <div className="method-step">
+            <div className="method-step-ill">
+              <svg viewBox="0 0 160 120">
+                <circle cx="80" cy="60" r="36" fill="#a8c4d8" stroke="#2a2418" strokeWidth="2"/>
+                <text x="80" y="68" textAnchor="middle" fontFamily="Fraunces, serif" fontStyle="italic" fontWeight="600" fill="#1f4d8f" fontSize="20">fastlege</text>
+                <path d="M50 100 L50 80 L40 80" stroke="#2a2418" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                <path d="M50 80 L60 70" stroke="#2a2418" strokeWidth="2" fill="none" strokeLinecap="round"/>
+                <text x="120" y="40" fontFamily="Caveat, cursive" fontSize="22" fill="#c5462e">врач!</text>
+              </svg>
+            </div>
+            <div className="method-step-num">2</div>
+            <h3>Тапаешь — видишь перевод</h3>
+            <p>Всплывает короткое объяснение, не вырывая из чтения. Слово запоминается прямо в контексте, а не отдельной карточкой.</p>
+          </div>
+
+          <div className="method-step">
+            <div className="method-step-ill">
+              <svg viewBox="0 0 160 120">
+                <path d="M30 90 L30 50 L60 30 L90 50 L120 30 L130 50 L130 90 Z" fill="#5a8a5a" stroke="#2a2418" strokeWidth="2"/>
+                <polyline points="40,75 60,55 80,65 100,40 120,55" fill="none" stroke="#fff8e8" strokeWidth="2.5" strokeLinecap="round"/>
+                <circle cx="40" cy="75" r="3" fill="#fff8e8"/>
+                <circle cx="60" cy="55" r="3" fill="#fff8e8"/>
+                <circle cx="80" cy="65" r="3" fill="#fff8e8"/>
+                <circle cx="100" cy="40" r="3" fill="#e0a84a"/>
+                <circle cx="120" cy="55" r="3" fill="#fff8e8"/>
+              </svg>
+            </div>
+            <div className="method-step-num">3</div>
+            <h3>Уровень растёт сам</h3>
+            <p>Чем больше читаешь — тем больше норвежского в текстах. К B1 русский «исчезает» из абзацев и остаётся только на полях.</p>
+          </div>
+        </div>
+      </section>
+
       <div className="cat-grid">
         {categoryKeys.map((key, idx) => {
           const count = catalog.filter((t) => t.category === key).length

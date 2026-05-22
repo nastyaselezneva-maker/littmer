@@ -1758,6 +1758,101 @@ body.has-sidebar .app {
   line-height: 1.7;
 }
 
+/* «Как работает гибрид» — секция метода */
+.home-method {
+  background: var(--color-paper-warm);
+  border-top: var(--border-width) solid var(--color-ink);
+  border-bottom: var(--border-width) solid var(--color-ink);
+  margin: 60px -32px 60px;
+  padding: 56px 32px;
+}
+
+.sec-head {
+  display: flex;
+  align-items: flex-start;
+  gap: 28px;
+  margin-bottom: 16px;
+}
+
+.sec-num {
+  font-family: var(--font-hand);
+  font-weight: 600;
+  font-size: 2.5rem;
+  color: var(--color-accent);
+  transform: rotate(-3deg);
+  white-space: nowrap;
+  margin-top: 12px;
+  flex-shrink: 0;
+}
+
+.sec-title {
+  font-family: var(--font-display);
+  font-weight: var(--fw-semibold);
+  font-size: 3rem;
+  margin: 0 0 8px;
+  line-height: 1.1;
+  color: var(--color-ink);
+}
+
+.sec-title em {
+  font-style: italic;
+  color: var(--color-accent-blue);
+}
+
+.sec-sub {
+  font-size: 1.05rem;
+  color: var(--color-ink-soft);
+  margin: 0;
+  line-height: 1.55;
+  max-width: 720px;
+}
+
+.method-steps {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 36px;
+  margin-top: 36px;
+}
+
+.method-step {
+  position: relative;
+}
+
+.method-step-ill {
+  height: 120px;
+  margin-bottom: 8px;
+}
+
+.method-step-ill svg {
+  height: 100%;
+  display: block;
+}
+
+.method-step-num {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 6rem;
+  line-height: 0.85;
+  color: var(--color-accent);
+  font-style: italic;
+  letter-spacing: -0.04em;
+}
+
+.method-step h3 {
+  font-family: var(--font-display);
+  font-weight: var(--fw-semibold);
+  font-size: 1.6rem;
+  margin: 8px 0 10px;
+  line-height: 1.1;
+}
+
+.method-step p {
+  color: var(--color-ink-soft);
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.55;
+}
+
 .home-btn {
   display: inline-block;
   background: var(--primary);
@@ -2483,6 +2578,40 @@ body.has-sidebar .app {
 
   .cat-pic {
     height: 130px;
+  }
+
+  .home-method {
+    margin: 40px -16px;
+    padding: 40px 20px;
+  }
+
+  .sec-head {
+    flex-direction: column;
+    gap: 4px;
+    margin-bottom: 12px;
+  }
+
+  .sec-num {
+    margin-top: 0;
+    font-size: 2rem;
+  }
+
+  .sec-title {
+    font-size: 2rem;
+  }
+
+  .method-steps {
+    grid-template-columns: 1fr;
+    gap: 28px;
+    margin-top: 24px;
+  }
+
+  .method-step-num {
+    font-size: 4.5rem;
+  }
+
+  .method-step h3 {
+    font-size: 1.3rem;
   }
 
   .reader-footer {
