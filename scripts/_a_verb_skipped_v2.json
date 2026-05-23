@@ -1,0 +1,417 @@
+[
+  {
+    "file": "art-7.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " — bare én versjon vises av gangen for å beskytte mot lys. ",
+    "verb": "beskytte",
+    "v2_reason": "ru_split_failed",
+    "ru": " — только одна версия выставлена одновременно для защиты от света. "
+  },
+  {
+    "file": "banks-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " for å forvalte investeringer. De bruker ",
+    "verb": "forvalte",
+    "v2_reason": "ru_split_failed",
+    "ru": " для управления инвестициями. Они используют "
+  },
+  {
+    "file": "banks-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " for å lage porteføljer med ",
+    "verb": "lage",
+    "v2_reason": "ru_split_failed",
+    "ru": " для создания портфелей с "
+  },
+  {
+    "file": "barnehage-4.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ". Fristen for å søke er vanligvis i februar. De som misser ",
+    "verb": "søke",
+    "v2_reason": "ru_split_failed",
+    "ru": ". Срок подачи заявки — как правило, февраль. Тех, кто пропустил "
+  },
+  {
+    "file": "bil-7.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " lader de fleste eierne bilen hjemme, ved å bruke ",
+    "verb": "bruke",
+    "v2_reason": "ru_split_failed",
+    "ru": " большинство владельцев заряжают машину дома, используя "
+  },
+  {
+    "file": "bil-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " i Europa. Staten bruker avgiftspolitikken som et verktøy for å påvirke ",
+    "verb": "påvirke",
+    "v2_reason": "ru_split_failed",
+    "ru": " в Европе. Государство использует налоговую политику как инструмент влияния на "
+  },
+  {
+    "file": "boliglan-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": "Prosessen med å kjøpe bolig i Norge består av flere viktige trinn. ",
+    "verb": "kjøpe",
+    "v2_reason": "ru_split_failed",
+    "ru": "Процесс покупки жилья в Норвегии состоит из нескольких важных этапов. "
+  },
+  {
+    "file": "boliglan-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " fra én bank til en annen for å få bedre betingelser. ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " из одного банка в другой с целью получения более выгодных условий. "
+  },
+  {
+    "file": "budget-7.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er det å kjøpe én kvalitetsjakke til 4000 kroner mer lønnsomt enn tre billige til 1500 hver. Metoden ",
+    "verb": "kjøpe",
+    "v2_reason": "ru_split_failed",
+    "ru": " покупка одной качественной куртки за 4000 крон выгоднее, чем три дешёвые за 1500 каждая. Метод "
+  },
+  {
+    "file": "budget-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " mellom seg for å optimalisere skatten. ",
+    "verb": "optimalisere",
+    "v2_reason": "ru_split_failed",
+    "ru": " между собой для оптимизации налогов. "
+  },
+  {
+    "file": "budget-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " reagerer på dette ved å heve ",
+    "verb": "heve",
+    "v2_reason": "ru_split_failed",
+    "ru": " реагирует на это поднятием "
+  },
+  {
+    "file": "budget-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " med banken — bankene er ofte villige til å forhandle. ",
+    "verb": "forhandle",
+    "v2_reason": "ru_split_failed",
+    "ru": " с банком — банки часто идут навстречу. Также "
+  },
+  {
+    "file": "bureaucracy-6.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " uten å besøke et kontor. Nøkkelen til hele systemet er ",
+    "verb": "besøke",
+    "v2_reason": "ru_split_failed",
+    "ru": " без визита в офис. Ключ ко всей системе — "
+  },
+  {
+    "file": "bureaucracy-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " for å ha mottatt ytelser i utlandet.",
+    "verb": "ha",
+    "v2_reason": "ru_split_failed",
+    "ru": " за получение пособий за рубежом."
+  },
+  {
+    "file": "digital-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " jeg rett i appen. For å betale i ",
+    "verb": "betale",
+    "v2_reason": "ru_split_failed",
+    "ru": " прямо в приложении. Для оплаты в "
+  },
+  {
+    "file": "digital-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " for å spore ",
+    "verb": "spore",
+    "v2_reason": "ru_split_failed",
+    "ru": " для отслеживания "
+  },
+  {
+    "file": "digital-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " for å bestille ",
+    "verb": "bestille",
+    "v2_reason": "ru_split_failed",
+    "ru": " для заказа "
+  },
+  {
+    "file": "digital-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " har investert mye ressurser i å bygge opp ",
+    "verb": "bygge",
+    "v2_reason": "ru_split_failed",
+    "ru": " вложило много ресурсов в создание "
+  },
+  {
+    "file": "digital-6.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å være fra banken eller ",
+    "verb": "være",
+    "v2_reason": "ru_split_failed",
+    "ru": " сообщения от банка или "
+  },
+  {
+    "file": "discoveries-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " Vilhelm Bjerknes moderne meteorologi, ved å utvikle ",
+    "verb": "utvikle",
+    "v2_reason": "ru_split_failed",
+    "ru": " современную метеорологию, разработав "
+  },
+  {
+    "file": "discoveries-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " havforskning og energiforskning, ved å kombinere ",
+    "verb": "kombinere",
+    "v2_reason": "ru_split_failed",
+    "ru": " океанографию и энергетические исследования, сочетая "
+  },
+  {
+    "file": "hospital-7.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er RHF-systemet et kompromiss mellom sentralisert styring og lokal nærhet, og å finne den riktige balansen er en stadig oppgave.",
+    "verb": "finne",
+    "v2_reason": "ru_split_failed",
+    "ru": " система RHF — это компромисс между централизованным контролем и местной близостью, и поиск правильного баланса остаётся постоянной задачей."
+  },
+  {
+    "file": "interview-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " og fortell hva du gjør for å utvikle deg. ",
+    "verb": "utvikle",
+    "v2_reason": "ru_split_failed",
+    "ru": " и расскажите, что делаете для развития. "
+  },
+  {
+    "file": "interview-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " må kunne dokumentere at han hadde legitime grunner til å ikke ansette. ",
+    "verb": "ikke",
+    "v2_reason": "not_a_verb"
+  },
+  {
+    "file": "judicial-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ". Det er en spesiell domstol for å behandle forbrytelser begått av statsråder, stortingsrepresentanter eller høyesterettsdommere i embetet. ",
+    "verb": "behandle",
+    "v2_reason": "ru_split_failed",
+    "ru": ". Это специальный суд для рассмотрения преступлений министров, депутатов или членов Высшего суда при исполнении служебных обязанностей. "
+  },
+  {
+    "file": "literature-4.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ", og forfatteren ble kritisert for å bruke virkelige navn. ",
+    "verb": "bruke",
+    "v2_reason": "ru_split_failed",
+    "ru": ", и автора критиковали за то, что он использует реальные имена. "
+  },
+  {
+    "file": "mc-1.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " som styrer farten. For å bremse brukes front- og bak-",
+    "verb": "bremse",
+    "v2_reason": "ru_split_failed",
+    "ru": ", которая управляет скоростью. Для торможения используются передний и задний "
+  },
+  {
+    "file": "mc-2.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er prosessen med å få førerkortet ganske lang og krever seriøs forberedelse. ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " процесс получения прав довольно длительный и требует серьёзной подготовки. "
+  },
+  {
+    "file": "mc-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " må man at noen tenker: «det er umulig å kjøre motorsykkel om vinteren». I virkeligheten er det mulig, men det krever erfaring, utstyr og et avslappet forhold til lave hastigheter. ",
+    "verb": "kjøre",
+    "v2_reason": "ru_split_failed",
+    "ru": " нужно, что некоторые думают: «зимой на мотоцикле невозможно». На самом деле это возможно, но требует опыта, оборудования и спокойного отношения к низким скоростям. "
+  },
+  {
+    "file": "mental-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " hvis du eller noen nær deg har tanker om å ta livet sitt, søk hjelp umiddelbart. ",
+    "verb": "ta",
+    "v2_reason": "ru_split_failed",
+    "ru": " если у вас или у близкого мысли о самоубийстве, обращайтесь немедленно. "
+  },
+  {
+    "file": "mental-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " med å utvikle strategi, men også med å iverksette den. De følger med på hva kommunene faktisk gjør. ",
+    "verb": "utvikle",
+    "v2_reason": "ru_split_failed",
+    "ru": " с разработкой стратегии, но и с её внедрением. Они отслеживают, что коммуны делают на самом деле. "
+  },
+  {
+    "file": "music-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ", ved å hente inspirasjon fra folkemusikk og landskap. ",
+    "verb": "hente",
+    "v2_reason": "ru_split_failed",
+    "ru": ", черпая вдохновение из народных мелодий и пейзажей. "
+  },
+  {
+    "file": "music-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å søke om støtte, mens store navn lett får penger. Andre mener at Music Norway favoriserer for sterkt kommersielle sjangre — pop og elektronisk musikk — på bekostning av mer eksperimentelle retninger. ",
+    "verb": "søke",
+    "v2_reason": "ru_split_failed",
+    "ru": " подачей заявок на поддержку, в то время как большие имена легко получают деньги. Другие думают, что Music Norway слишком поддерживает коммерческие жанры — поп и электронную музыку — за счёт более экспериментальных направлений. "
+  },
+  {
+    "file": "oilfund-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å konkurrere om arbeidskraft. Dette kalles ",
+    "verb": "konkurrere",
+    "v2_reason": "ru_split_failed",
+    "ru": " конкуренцией за работников. Это называется "
+  },
+  {
+    "file": "oilfund-6.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " fikk fondet mandat til å investere i fornybar energi-infrastruktur i 2019. ",
+    "verb": "investere",
+    "v2_reason": "ru_split_failed",
+    "ru": " фонд получил мандат на инвестиции в инфраструктуру возобновляемой энергии в 2019 году. "
+  },
+  {
+    "file": "parking-1.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å parkere. Da leter jeg etter et annet sted.",
+    "verb": "parkere",
+    "v2_reason": "ru_split_failed",
+    "ru": ". Тогда я ищу другое место."
+  },
+  {
+    "file": "parking-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " har en godt skrevet klage med bilder av skilt, kvittering og parkeringssted en reell sjanse til å vinne fram. ",
+    "verb": "vinne",
+    "v2_reason": "ru_split_failed",
+    "ru": " хорошо составленная жалоба с фотографиями знаков, чека и места парковки имеет реальный шанс на успех. "
+  },
+  {
+    "file": "pharmacy-7.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ", at Legemiddelverket også har en rolle i å bekjempe ",
+    "verb": "bekjempe",
+    "v2_reason": "ru_split_failed",
+    "ru": ", что Legemiddelverket также имеет роль в борьбе с "
+  },
+  {
+    "file": "pharmacy-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " har Legemiddelverket utviklet et system for å håndtere situasjonen. Det brukes ",
+    "verb": "håndtere",
+    "v2_reason": "ru_split_failed",
+    "ru": " Legemiddelverket разработал систему для управления ситуацией. Используется "
+  },
+  {
+    "file": "tech-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ": hydrogen krever mye energi for produksjon og er vanskelig å transportere.",
+    "verb": "transportere",
+    "v2_reason": "ru_split_failed",
+    "ru": ": водород требует много энергии для производства и сложен в транспортировке."
+  },
+  {
+    "file": "utdanning-11.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " mastergraden innført som obligatorisk krav for å bli lærer. Det hevet det akademiske nivået på yrket, men skremte samtidig bort en del søkere. ",
+    "verb": "bli",
+    "v2_reason": "ru_split_failed",
+    "ru": " как обязательное условие для работы учителем. Это повысило академический уровень профессии, но одновременно отпугнуло часть абитуриентов. "
+  },
+  {
+    "file": "utdanning-13.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " — den europeiske initiativet for å skape et felles utdanningsrom. I 2003 ble ",
+    "verb": "skape",
+    "v2_reason": "ru_split_failed",
+    "ru": " — общеевропейской инициативе по созданию единого образовательного пространства. В 2003 году в Норвегии была проведена "
+  },
+  {
+    "file": "utdanning-14.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ". Jeg øver også på å snakke med ",
+    "verb": "snakke",
+    "v2_reason": "ru_split_failed",
+    "ru": ". Я также практикую разговор с "
+  },
+  {
+    "file": "utdanning-15.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er ett av kravene for å få permanent oppholdstillatelse. ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " является одним из условий получения постоянного вида на жительство. "
+  },
+  {
+    "file": "utdanning-2.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å få økonomisk støtte i form av ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " получение финансовой поддержки в виде "
+  },
+  {
+    "file": "utdanning-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " som kommer til Norge for å bo permanent, har ",
+    "verb": "bo",
+    "v2_reason": "ru_split_failed",
+    "ru": ", которые приезжают в Норвегию на постоянное проживание, имеют "
+  },
+  {
+    "file": "utdanning-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " resultatet, er det svært viktig fordi det påvirker muligheten til å få ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " результате, он очень важен, потому что влияет на получение "
+  },
+  {
+    "file": "utdanning-4.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " viktigere enn å pugge fakta. ",
+    "verb": "pugge",
+    "v2_reason": "ru_split_failed",
+    "ru": " важнее запоминания фактов. "
+  },
+  {
+    "file": "utdanning-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er det også obligatorisk å ta ",
+    "verb": "ta",
+    "v2_reason": "ru_split_failed",
+    "ru": " обязательной является "
+  },
+  {
+    "file": "voksen-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " — særlig etter å ha ",
+    "verb": "ha",
+    "v2_reason": "ru_split_failed",
+    "ru": " — особенно после того, как "
+  },
+  {
+    "file": "voksen-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " uten å forlate jobben. En del av disse kursene finansieres i fellesskap av arbeidsgiver og stat. ",
+    "verb": "forlate",
+    "v2_reason": "ru_split_failed",
+    "ru": " без отрыва от работы. Часть этих курсов финансируется совместно работодателем и государством. "
+  },
+  {
+    "file": "winter-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å bli stengt. ",
+    "verb": "bli",
+    "v2_reason": "ru_split_failed",
+    "ru": " закрытия. "
+  }
+]
