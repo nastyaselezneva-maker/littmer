@@ -1,0 +1,247 @@
+{
+  "stats": {
+    "files_total": 45,
+    "changed_files": 39,
+    "unchanged_files": 6,
+    "rollback_files": 0,
+    "total_splits": 134,
+    "per_file_splits": {
+      "banks-3.json": 1,
+      "banks-4.json": 1,
+      "banks-5.json": 3,
+      "banks-6.json": 4,
+      "banks-7.json": 2,
+      "banks-8.json": 4,
+      "banks-9.json": 4,
+      "boliglan-2.json": 3,
+      "boliglan-3.json": 4,
+      "boliglan-5.json": 2,
+      "boliglan-6.json": 5,
+      "boliglan-8.json": 2,
+      "boliglan-9.json": 3,
+      "budget-1.json": 2,
+      "budget-2.json": 2,
+      "budget-3.json": 4,
+      "budget-4.json": 2,
+      "budget-5.json": 2,
+      "budget-6.json": 1,
+      "budget-7.json": 3,
+      "budget-8.json": 4,
+      "budget-9.json": 4,
+      "insurance-2.json": 2,
+      "insurance-3.json": 5,
+      "insurance-4.json": 4,
+      "insurance-5.json": 5,
+      "insurance-6.json": 2,
+      "insurance-7.json": 2,
+      "insurance-8.json": 1,
+      "insurance-9.json": 5,
+      "oilfund-1.json": 3,
+      "oilfund-2.json": 7,
+      "oilfund-3.json": 6,
+      "oilfund-4.json": 5,
+      "oilfund-5.json": 4,
+      "oilfund-6.json": 4,
+      "oilfund-7.json": 4,
+      "oilfund-8.json": 6,
+      "oilfund-9.json": 7
+    },
+    "before_counts": {
+      "banks-3.json": 65,
+      "banks-4.json": 27,
+      "banks-5.json": 34,
+      "banks-6.json": 39,
+      "banks-7.json": 26,
+      "banks-8.json": 28,
+      "banks-9.json": 35,
+      "boliglan-2.json": 48,
+      "boliglan-3.json": 85,
+      "boliglan-5.json": 39,
+      "boliglan-6.json": 46,
+      "boliglan-8.json": 28,
+      "boliglan-9.json": 44,
+      "budget-1.json": 25,
+      "budget-2.json": 37,
+      "budget-3.json": 42,
+      "budget-4.json": 37,
+      "budget-5.json": 35,
+      "budget-6.json": 33,
+      "budget-7.json": 40,
+      "budget-8.json": 40,
+      "budget-9.json": 40,
+      "insurance-2.json": 33,
+      "insurance-3.json": 44,
+      "insurance-4.json": 30,
+      "insurance-5.json": 27,
+      "insurance-6.json": 26,
+      "insurance-7.json": 42,
+      "insurance-8.json": 38,
+      "insurance-9.json": 40,
+      "oilfund-1.json": 19,
+      "oilfund-2.json": 24,
+      "oilfund-3.json": 40,
+      "oilfund-4.json": 24,
+      "oilfund-5.json": 32,
+      "oilfund-6.json": 23,
+      "oilfund-7.json": 32,
+      "oilfund-8.json": 28,
+      "oilfund-9.json": 39
+    },
+    "after_counts": {
+      "banks-3.json": 66,
+      "banks-4.json": 28,
+      "banks-5.json": 37,
+      "banks-6.json": 43,
+      "banks-7.json": 28,
+      "banks-8.json": 32,
+      "banks-9.json": 39,
+      "boliglan-2.json": 51,
+      "boliglan-3.json": 89,
+      "boliglan-5.json": 41,
+      "boliglan-6.json": 51,
+      "boliglan-8.json": 30,
+      "boliglan-9.json": 47,
+      "budget-1.json": 27,
+      "budget-2.json": 39,
+      "budget-3.json": 46,
+      "budget-4.json": 39,
+      "budget-5.json": 37,
+      "budget-6.json": 34,
+      "budget-7.json": 43,
+      "budget-8.json": 44,
+      "budget-9.json": 44,
+      "insurance-2.json": 35,
+      "insurance-3.json": 49,
+      "insurance-4.json": 34,
+      "insurance-5.json": 32,
+      "insurance-6.json": 28,
+      "insurance-7.json": 44,
+      "insurance-8.json": 39,
+      "insurance-9.json": 45,
+      "oilfund-1.json": 22,
+      "oilfund-2.json": 31,
+      "oilfund-3.json": 46,
+      "oilfund-4.json": 29,
+      "oilfund-5.json": 36,
+      "oilfund-6.json": 27,
+      "oilfund-7.json": 36,
+      "oilfund-8.json": 34,
+      "oilfund-9.json": 46
+    }
+  },
+  "examples": [
+    {
+      "file": "banks-3.json",
+      "before_word_count": 5,
+      "before_text": ". Из зарплаты я сразу должна ",
+      "after_chunks": [
+        ". ",
+        " ",
+        ". ",
+        "Из зарплаты я сразу должна ",
+        " "
+      ]
+    },
+    {
+      "file": "banks-4.json",
+      "before_word_count": 13,
+      "before_text": " студенческие счета бесплатные, а комиссия за карту не взимается. Многие банки также предлагают ",
+      "after_chunks": [
+        ". ",
+        " студенческие счета бесплатные, а комиссия за карту не взимается. ",
+        "Многие банки также предлагают ",
+        ". "
+      ]
+    },
+    {
+      "file": "banks-5.json",
+      "before_word_count": 15,
+      "before_text": ", которые не требуют залога в виде жилья или машины. Поэтому процентная ставка по таким займам ",
+      "after_chunks": [
+        ", которые не требуют залога в виде жилья или машины. ",
+        "Поэтому процентная ставка по таким займам ",
+        " ",
+        "."
+      ]
+    },
+    {
+      "file": "banks-6.json",
+      "before_word_count": 14,
+      "before_text": "Норвегия — одно из самых цифровизированных стран в мире, и банковский сектор отражает эту тенденцию. ",
+      "after_chunks": [
+        "Норвегия — одно из самых цифровизированных стран в мире, и банковский сектор отражает эту тенденцию.",
+        ", ",
+        ". ",
+        ". ",
+        "."
+      ]
+    },
+    {
+      "file": "banks-7.json",
+      "before_word_count": 14,
+      "before_text": " это создаёт доверие к банковской системе и предотвращает массовые панические изъятия в кризисные периоды.",
+      "after_chunks": [
+        " ",
+        " это создаёт доверие к банковской системе и предотвращает массовые панические изъятия в кризисные пе"
+      ]
+    },
+    {
+      "file": "banks-8.json",
+      "before_word_count": 12,
+      "before_text": ", которые собирают данные со всех счетов клиента в одном приложении. Параллельно развиваются ",
+      "after_chunks": [
+        " ",
+        ". ",
+        ", которые собирают данные со всех счетов клиента в одном приложении. ",
+        "Параллельно развиваются ",
+        ". "
+      ]
+    },
+    {
+      "file": "banks-9.json",
+      "before_word_count": 20,
+      "before_text": " в реализации монетарной политики. Изменения в ключевой ставке, устанавливаемой Норгес Банком, быстро передаются через банковскую систему к заёмщикам и вкладчикам. ",
+      "after_chunks": [
+        ". ",
+        " в реализации монетарной политики. ",
+        "Изменения в ключевой ставке, устанавливаемой Норгес Банком, быстро передаются через банковскую систе"
+      ]
+    },
+    {
+      "file": "boliglan-2.json",
+      "before_word_count": 7,
+      "before_text": ". Банк должен быть уверен, что мы можем ",
+      "after_chunks": [
+        " ",
+        ", ",
+        ". ",
+        "Банк должен быть уверен, что мы можем ",
+        " "
+      ]
+    },
+    {
+      "file": "boliglan-3.json",
+      "before_word_count": 6,
+      "before_text": ". В Норвегии банк просит, чтобы у ",
+      "after_chunks": [
+        ". ",
+        "В Норвегии банк просит, чтобы у ",
+        ". ",
+        " банк ",
+        ", "
+      ]
+    },
+    {
+      "file": "boliglan-5.json",
+      "before_word_count": 10,
+      "before_text": "Процесс покупки жилья в Норвегии состоит из нескольких важных этапов. ",
+      "after_chunks": [
+        "Процесс покупки жилья в Норвегии состоит из нескольких важных этапов. ",
+        " ",
+        ". ",
+        " ",
+        ". "
+      ]
+    }
+  ]
+}

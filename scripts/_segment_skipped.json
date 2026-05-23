@@ -1,0 +1,34 @@
+[
+  {
+    "reason": "break_count_mismatch",
+    "ru_breaks": 1,
+    "no_breaks": 0,
+    "ru_text": ". Без него нет смысла ходить на ",
+    "no_text": " på ",
+    "file": "boliglan-5.json"
+  },
+  {
+    "reason": "break_count_mismatch",
+    "ru_breaks": 1,
+    "no_breaks": 0,
+    "ru_text": " даже ценой более высокой начальной ставки. Для смягчения системных рисков Финансовый надзор ввёл правила, ограничивающие размер кредита до ",
+    "no_text": " systemiske risikoer har Finanstilsynet innført regler som begrenser lånebeløp til ",
+    "file": "boliglan-9.json"
+  },
+  {
+    "reason": "break_count_mismatch",
+    "ru_breaks": 1,
+    "no_breaks": 0,
+    "ru_text": " — начало положил отказ от вложений в угольные компании в 2015 году. В 2019 году — решение не ",
+    "no_text": " — det begynte med ",
+    "file": "oilfund-3.json"
+  },
+  {
+    "reason": "break_count_mismatch",
+    "ru_breaks": 1,
+    "no_breaks": 2,
+    "ru_text": " в разведку и добычу нефти. ",
+    "no_text": " seg ut av kullselskaper i 2015. I 2019 — beslutning om ikke å investere i oljeutvinning. ",
+    "file": "oilfund-3.json"
+  }
+]
