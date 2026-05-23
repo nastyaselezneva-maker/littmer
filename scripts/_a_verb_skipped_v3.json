@@ -1,0 +1,32 @@
+[
+  {
+    "file": "judicial-5.json",
+    "idx": 21,
+    "reason": "reads fine: обвиняемый не обязан говорить",
+    "action": "none"
+  },
+  {
+    "file": "mc-2.json",
+    "idx": 21,
+    "reason": "reads acceptably: все мотоциклисты обязаны законом использовать защитную экипировку",
+    "action": "none"
+  },
+  {
+    "file": "mc-9.json",
+    "idx": 26,
+    "reason": "reads fine: Власти и организации вынуждены развивать комплексные стратегии",
+    "action": "none"
+  },
+  {
+    "file": "trafikkregler-3.json",
+    "idx": 28,
+    "reason": "reads fine: водители обязаны иметь цепи противоскольжения",
+    "action": "none"
+  },
+  {
+    "file": "rights-5.json",
+    "idx": 21,
+    "reason": "phantom tooltip — Norwegian text had no bli nødt til; merged segments removed it",
+    "action": "merged out"
+  }
+]
