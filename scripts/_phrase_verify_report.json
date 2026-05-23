@@ -1,39 +1,9 @@
 {
-  "filesChecked": 289,
+  "filesChecked": 290,
   "missingPhrases": [
-    {
-      "file": "barnehage-5.json",
-      "phrase": "advarer om",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "bil-8.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "fastlege-3.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "festival-2.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
     {
       "file": "interview-5.json",
       "phrase": "selv om",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "judicial-6.json",
-      "phrase": "i løpet av",
       "occurrences": 1,
       "tagged": 0
     },
@@ -44,56 +14,8 @@
       "tagged": 0
     },
     {
-      "file": "mental-3.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "oilfund-9.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
       "file": "trafikkregler-1.json",
       "phrase": "selv om",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "trafikkregler-4.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "utdanning-11.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "utdanning-14.json",
-      "phrase": "snakke om",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "voksen-4.json",
-      "phrase": "finne ut",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "voksen-5.json",
-      "phrase": "i løpet av",
-      "occurrences": 1,
-      "tagged": 0
-    },
-    {
-      "file": "voksen-5.json",
-      "phrase": "på nett",
       "occurrences": 1,
       "tagged": 0
     }
@@ -105,6 +27,13 @@
       "text": "gå på tur",
       "translation": "пойти в поход",
       "transcription": "го по тюр"
+    },
+    {
+      "file": "allemannsretten-1.json",
+      "segIndex": 19,
+      "text": "å huske på",
+      "translation": "помнить о",
+      "transcription": "о хюскэ по"
     },
     {
       "file": "allemannsretten-4.json",
@@ -255,7 +184,7 @@
     },
     {
       "file": "allemannsretten-7.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "å ta vare på",
       "translation": "беречь",
       "transcription": "о та варэ по"
@@ -871,6 +800,13 @@
     },
     {
       "file": "banks-7.json",
+      "segIndex": 8,
+      "text": "holder øye med",
+      "translation": "следит за",
+      "transcription": "хольдер ёйе мэд"
+    },
+    {
+      "file": "banks-7.json",
       "segIndex": 14,
       "text": "å tåle økonomiske sjokk",
       "translation": "выдерживать экономические шоки",
@@ -900,7 +836,7 @@
     {
       "file": "banks-9.json",
       "segIndex": 1,
-      "text": "spille en avgjørende rolle",
+      "text": "spiller en avgjørende rolle",
       "translation": "играет решающую роль",
       "transcription": "спиллер эн авйёренде руллэ"
     },
@@ -927,21 +863,21 @@
     },
     {
       "file": "barnehage-2.json",
-      "segIndex": 17,
+      "segIndex": 19,
       "text": "Det viktigste",
       "translation": "Самое важное",
       "transcription": "дэ виктигсте"
     },
     {
       "file": "barnehage-2.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "det finnes ikke dårlig vær",
       "translation": "плохой погоды не бывает",
       "transcription": "дэ финнэс иккэ дорли вэр"
     },
     {
       "file": "barnehage-2.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "trygghet og lek",
       "translation": "безопасность и игра",
       "transcription": "трюггхет о лэк"
@@ -956,9 +892,9 @@
     {
       "file": "barnehage-3.json",
       "segIndex": 17,
-      "text": "slå alarm",
-      "translation": "бить тревогу",
-      "transcription": "сло аларм"
+      "text": "slått alarm",
+      "translation": "бьют тревогу",
+      "transcription": "слотт аларм"
     },
     {
       "file": "barnehage-3.json",
@@ -966,6 +902,13 @@
       "text": "Et annet hett tema",
       "translation": "Другая горячая тема",
       "transcription": "эт аннэт хэтт тэма"
+    },
+    {
+      "file": "barnehage-3.json",
+      "segIndex": 31,
+      "text": "legger vekt på",
+      "translation": "подчёркивают",
+      "transcription": "легге вэкт по"
     },
     {
       "file": "barnehage-3.json",
@@ -1011,7 +954,7 @@
     },
     {
       "file": "barnehage-5.json",
-      "segIndex": 17,
+      "segIndex": 19,
       "text": "trygg tilknytning",
       "translation": "надёжной привязанности",
       "transcription": "трюгг тилькнютнинг"
@@ -1158,7 +1101,7 @@
     },
     {
       "file": "boliglan-2.json",
-      "segIndex": 36,
+      "segIndex": 38,
       "text": "månedlig betaling",
       "translation": "ежемесячный платёж",
       "transcription": "монэдлиг бетайлинг"
@@ -1256,10 +1199,17 @@
     },
     {
       "file": "boliglan-6.json",
+      "segIndex": 16,
+      "text": "spiller en rolle",
+      "translation": "играет роль",
+      "transcription": "спиллер эн ролле"
+    },
+    {
+      "file": "boliglan-6.json",
       "segIndex": 18,
-      "text": "forstå risikoen",
-      "translation": "понимать риски",
-      "transcription": "форсто рисикуэн"
+      "text": "å forstå risikoen",
+      "translation": "понимать риски (инф.)",
+      "transcription": "о форсто рисикуэн"
     },
     {
       "file": "boliglan-6.json",
@@ -1323,6 +1273,13 @@
       "text": "går glipp av",
       "translation": "упускают",
       "transcription": "гор глипп ав"
+    },
+    {
+      "file": "boliglan-9.json",
+      "segIndex": 2,
+      "text": "spiller en rolle",
+      "translation": "играет роль",
+      "transcription": "спиллер эн ролле"
     },
     {
       "file": "boliglan-9.json",
@@ -1417,28 +1374,28 @@
     },
     {
       "file": "budget-4.json",
-      "segIndex": 13,
+      "segIndex": 15,
       "text": "betydelig lavere",
       "translation": "значительно ниже",
       "transcription": "бетюдэлиг лавэрэ"
     },
     {
       "file": "budget-4.json",
-      "segIndex": 23,
+      "segIndex": 27,
       "text": "finne kupp",
       "translation": "найти выгодную покупку",
       "transcription": "финне купп"
     },
     {
       "file": "budget-4.json",
-      "segIndex": 29,
+      "segIndex": 33,
       "text": "sjekke tilstanden",
       "translation": "проверить состояние",
       "transcription": "шэккэ тильстаннэн"
     },
     {
       "file": "budget-4.json",
-      "segIndex": 31,
+      "segIndex": 35,
       "text": "prute litt",
       "translation": "немного поторговаться",
       "transcription": "прютэ литт"
@@ -1466,7 +1423,7 @@
     },
     {
       "file": "budget-6.json",
-      "segIndex": 29,
+      "segIndex": 31,
       "text": "å føre regnskap",
       "translation": "вести учёт",
       "transcription": "о фёре рэйнскап"
@@ -1487,6 +1444,13 @@
     },
     {
       "file": "budget-7.json",
+      "segIndex": 14,
+      "text": "tar hensyn til",
+      "translation": "принимают во внимание",
+      "transcription": "тар хэнсюн тиль"
+    },
+    {
+      "file": "budget-7.json",
       "segIndex": 20,
       "text": "30-dagers regelen",
       "translation": "правило 30 дней",
@@ -1495,9 +1459,9 @@
     {
       "file": "budget-7.json",
       "segIndex": 24,
-      "text": "peke på",
+      "text": "peker på",
       "translation": "указывают на",
-      "transcription": "пэкэ по"
+      "transcription": "пэкер по"
     },
     {
       "file": "budget-7.json",
@@ -1537,9 +1501,9 @@
     {
       "file": "budget-8.json",
       "segIndex": 20,
-      "text": "trekke fra",
+      "text": "trekker fra",
       "translation": "вычитают",
-      "transcription": "трэккэ фра"
+      "transcription": "трэккэр фра"
     },
     {
       "file": "budget-8.json",
@@ -1554,6 +1518,13 @@
       "text": "forhandle om renten",
       "translation": "договариваться о ставке",
       "transcription": "форхандле ом рэнтэн"
+    },
+    {
+      "file": "bureaucracy-1.json",
+      "segIndex": 1,
+      "text": "kom til",
+      "translation": "приехала",
+      "transcription": "ком тил"
     },
     {
       "file": "bureaucracy-2.json",
@@ -1585,21 +1556,21 @@
     },
     {
       "file": "bureaucracy-3.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "registrerte meg",
       "translation": "зарегистрировалась",
       "transcription": "рэгистрэртэ мэй"
     },
     {
       "file": "bureaucracy-3.json",
-      "segIndex": 42,
+      "segIndex": 44,
       "text": "statlig organisasjon",
       "translation": "государственная организация",
       "transcription": "статлиг организасьон"
     },
     {
       "file": "bureaucracy-3.json",
-      "segIndex": 60,
+      "segIndex": 62,
       "text": "offentlige tjenester",
       "translation": "государственные услуги",
       "transcription": "офэнтлие тьенэстэр"
@@ -1816,7 +1787,7 @@
     },
     {
       "file": "cinema-1.json",
-      "segIndex": 17,
+      "segIndex": 19,
       "text": "på kino",
       "translation": "в кинотеатре",
       "transcription": "по кину"
@@ -1862,6 +1833,13 @@
       "text": "funnet sitt publikum",
       "translation": "нашли свою публику",
       "transcription": "фюннэт ситт пюбликюм"
+    },
+    {
+      "file": "cinema-2.json",
+      "segIndex": 21,
+      "text": "spiller en rolle",
+      "translation": "играет роль",
+      "transcription": "спиллер эн ролле"
     },
     {
       "file": "cinema-3.json",
@@ -2335,9 +2313,9 @@
     {
       "file": "digital-6.json",
       "segIndex": 13,
-      "text": "oppgi passord",
-      "translation": "сообщить пароль",
-      "transcription": "оппги пассорд"
+      "text": "å oppgi passord",
+      "translation": "сообщить пароль (инф.)",
+      "transcription": "о оппги пассорд"
     },
     {
       "file": "digital-6.json",
@@ -2418,21 +2396,28 @@
     },
     {
       "file": "digital-8.json",
-      "segIndex": 16,
+      "segIndex": 10,
+      "text": "holder øye med",
+      "translation": "следит за",
+      "transcription": "хольдер ёйе мэд"
+    },
+    {
+      "file": "digital-8.json",
+      "segIndex": 18,
       "text": "retten til å bli glemt",
       "translation": "право быть забытым",
       "transcription": "рэттэн тиль о бли глемт"
     },
     {
       "file": "digital-8.json",
-      "segIndex": 22,
+      "segIndex": 24,
       "text": "72 timer",
       "translation": "72 часов",
       "transcription": "сюттиту тимэр"
     },
     {
       "file": "digital-8.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "alvorlige bøter",
       "translation": "серьёзные штрафы",
       "transcription": "алворлие бётэр"
@@ -2471,6 +2456,20 @@
       "text": "Nobels fredspris",
       "translation": "Нобелевскую премию мира",
       "transcription": "нубэльс фрэдсприс"
+    },
+    {
+      "file": "discoveries-10.json",
+      "segIndex": 0,
+      "text": "Norsk Polarinstitutt",
+      "translation": "Норвежский полярный институт",
+      "transcription": "норск пуларинститютт"
+    },
+    {
+      "file": "discoveries-10.json",
+      "segIndex": 10,
+      "text": "spilt en sentral rolle",
+      "translation": "сыграл центральную роль",
+      "transcription": "спильт эн сэнтрал ролле"
     },
     {
       "file": "discoveries-2.json",
@@ -2712,28 +2711,28 @@
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 10,
+      "segIndex": 12,
       "text": "sto uten",
       "translation": "остались без",
       "transcription": "сту ютэн"
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 16,
+      "segIndex": 18,
       "text": "administrativt tyngre",
       "translation": "административно тяжелее",
       "transcription": "администратиффт тюнгре"
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 20,
+      "segIndex": 22,
       "text": "selvstendig næringsdrivende",
       "translation": "индивидуальный предприниматель",
       "transcription": "сэльвстэндиг нэрингсдривэнне"
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 30,
+      "segIndex": 32,
       "text": "digital helsehjelp",
       "translation": "цифровая медицинская помощь",
       "transcription": "дигиталь хэльсэйельп"
@@ -2915,28 +2914,28 @@
     },
     {
       "file": "festival-2.json",
-      "segIndex": 19,
+      "segIndex": 21,
       "text": "is og pølser",
       "translation": "мороженое и сосиски",
       "transcription": "ис о пёльсэр"
     },
     {
       "file": "festival-2.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "organiserer leker",
       "translation": "организуют игры",
       "transcription": "организэрэр лэкэр"
     },
     {
       "file": "festival-2.json",
-      "segIndex": 25,
+      "segIndex": 27,
       "text": "helt unik",
       "translation": "совершенно уникальна",
       "transcription": "хэльт юник"
     },
     {
       "file": "festival-2.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "tar seg fri",
       "translation": "берут выходной",
       "transcription": "тар сэй фри"
@@ -3195,10 +3194,24 @@
     },
     {
       "file": "insurance-3.json",
+      "segIndex": 10,
+      "text": "holder øye med",
+      "translation": "следит за",
+      "transcription": "хольдер ёйе мэд"
+    },
+    {
+      "file": "insurance-3.json",
       "segIndex": 16,
       "text": "beregner premien",
       "translation": "рассчитывают взнос",
       "transcription": "бэрэгнер прэмиэн"
+    },
+    {
+      "file": "insurance-3.json",
+      "segIndex": 26,
+      "text": "tar hensyn til",
+      "translation": "учитывает",
+      "transcription": "тар хэнсюн тиль"
     },
     {
       "file": "insurance-3.json",
@@ -3279,10 +3292,24 @@
     },
     {
       "file": "insurance-8.json",
+      "segIndex": 6,
+      "text": "holder øye med",
+      "translation": "следит за",
+      "transcription": "хольдер ёйе мэд"
+    },
+    {
+      "file": "insurance-8.json",
       "segIndex": 14,
       "text": "å dekke krav",
       "translation": "покрывать требования",
       "transcription": "о дэккэ крав"
+    },
+    {
+      "file": "insurance-9.json",
+      "segIndex": 10,
+      "text": "tar hensyn til",
+      "translation": "принимают во внимание",
+      "transcription": "тар хэнсюн тиль"
     },
     {
       "file": "insurance-9.json",
@@ -3335,6 +3362,13 @@
     },
     {
       "file": "interview-2.json",
+      "segIndex": 18,
+      "text": "spiller en rolle",
+      "translation": "играет роль",
+      "transcription": "спиллер эн ролле"
+    },
+    {
+      "file": "interview-2.json",
       "segIndex": 32,
       "text": "å komme 5–10 minutter før",
       "translation": "прийти за 5–10 минут до начала",
@@ -3360,6 +3394,13 @@
       "text": "lønn og vilkår",
       "translation": "зарплата и условия",
       "transcription": "лённ о вилькор"
+    },
+    {
+      "file": "interview-4.json",
+      "segIndex": 1,
+      "text": "spiller en rolle",
+      "translation": "играет роль",
+      "transcription": "спиллер эн ролле"
     },
     {
       "file": "interview-4.json",
@@ -3678,6 +3719,13 @@
     },
     {
       "file": "janteloven-6.json",
+      "segIndex": 19,
+      "text": "tar hensyn til",
+      "translation": "принимает во внимание",
+      "transcription": "тар хэнсюн тиль"
+    },
+    {
+      "file": "janteloven-6.json",
       "segIndex": 21,
       "text": "''dobbeltliv''",
       "translation": "«двойная жизнь»",
@@ -3867,6 +3915,13 @@
     },
     {
       "file": "jobsearch-3.json",
+      "segIndex": 10,
+      "text": "spiller en rolle",
+      "translation": "играют роль",
+      "transcription": "спиллер эн ролле"
+    },
+    {
+      "file": "jobsearch-3.json",
       "segIndex": 16,
       "text": "ikke",
       "translation": "не",
@@ -3920,6 +3975,13 @@
       "text": "det skjulte arbeidsmarkedet",
       "translation": "скрытый рынок труда",
       "transcription": "дэ шюльтэ арбэйдсмаркедэ"
+    },
+    {
+      "file": "jobsearch-5.json",
+      "segIndex": 5,
+      "text": "spiller en rolle",
+      "translation": "играют роль",
+      "transcription": "спиллер эн ролле"
     },
     {
       "file": "jobsearch-5.json",
@@ -4260,9 +4322,9 @@
     {
       "file": "judicial-6.json",
       "segIndex": 17,
-      "text": "oppnå forlik",
-      "translation": "достичь примирения",
-      "transcription": "опно форлик"
+      "text": "å oppnå forlik",
+      "translation": "достичь примирения (инф.)",
+      "transcription": "о опно форлик"
     },
     {
       "file": "judicial-6.json",
@@ -4280,21 +4342,21 @@
     },
     {
       "file": "judicial-6.json",
-      "segIndex": 23,
+      "segIndex": 25,
       "text": "noen uker",
       "translation": "нескольких недель",
       "transcription": "нуэн укэр"
     },
     {
       "file": "judicial-6.json",
-      "segIndex": 27,
+      "segIndex": 29,
       "text": "behandles ikke",
       "translation": "не рассматриваются",
       "transcription": "бэхандлэс икке"
     },
     {
       "file": "judicial-6.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "løser konflikter",
       "translation": "решают конфликты",
       "transcription": "лёсэр конфликтэр"
@@ -4930,6 +4992,13 @@
       "transcription": "оппварме клэр"
     },
     {
+      "file": "mc-5.json",
+      "segIndex": 23,
+      "text": "hensyn til",
+      "translation": "внимания на",
+      "transcription": "хэнсюн тиль"
+    },
+    {
       "file": "mc-7.json",
       "segIndex": 3,
       "text": "Norsk Motorcykkel Union",
@@ -5022,21 +5091,21 @@
     },
     {
       "file": "mental-3.json",
-      "segIndex": 10,
+      "segIndex": 12,
       "text": "stigmaet avtar",
       "translation": "стигма уменьшается",
       "transcription": "стигмаэ автар"
     },
     {
       "file": "mental-3.json",
-      "segIndex": 16,
+      "segIndex": 18,
       "text": "en opptrappingsplan",
       "translation": "план наращивания",
       "transcription": "эн оптраппингсплан"
     },
     {
       "file": "mental-3.json",
-      "segIndex": 18,
+      "segIndex": 20,
       "text": "relasjonell behandling",
       "translation": "отношенческое лечение",
       "transcription": "рэласьунэль бэхандлинг"
@@ -5575,6 +5644,13 @@
     },
     {
       "file": "oilfund-5.json",
+      "segIndex": 18,
+      "text": "tar hensyn til",
+      "translation": "учитывает",
+      "transcription": "тар хэнсюн тиль"
+    },
+    {
+      "file": "oilfund-5.json",
       "segIndex": 26,
       "text": "ansvarlig investering",
       "translation": "ответственного инвестирования",
@@ -5597,9 +5673,9 @@
     {
       "file": "oilfund-6.json",
       "segIndex": 19,
-      "text": "peke på",
+      "text": "peker på",
       "translation": "указывают на",
-      "transcription": "пэкэ по"
+      "transcription": "пэкер по"
     },
     {
       "file": "oilfund-7.json",
@@ -5645,14 +5721,14 @@
     },
     {
       "file": "oilfund-9.json",
-      "segIndex": 15,
+      "segIndex": 17,
       "text": "Det andre",
       "translation": "Второй",
       "transcription": "дэ аннрэ"
     },
     {
       "file": "oilfund-9.json",
-      "segIndex": 25,
+      "segIndex": 27,
       "text": "strandede aktiva",
       "translation": "замороженные активы",
       "transcription": "страннэдэ активэр"
@@ -5708,14 +5784,14 @@
     },
     {
       "file": "parking-2.json",
-      "segIndex": 29,
+      "segIndex": 31,
       "text": "man bør",
       "translation": "стоит",
       "transcription": "ман бёр"
     },
     {
       "file": "parking-2.json",
-      "segIndex": 33,
+      "segIndex": 35,
       "text": "gratis ladeplasser",
       "translation": "бесплатные места для зарядки",
       "transcription": "гратис ладэплассер"
@@ -5789,6 +5865,13 @@
       "text": "er strengt regulert",
       "translation": "строго регулируется",
       "transcription": "эр стрэнгт рэгюлэрт"
+    },
+    {
+      "file": "pharmacy-3.json",
+      "segIndex": 9,
+      "text": "holder øye med",
+      "translation": "следит за",
+      "transcription": "хольдер ёйе мэд"
     },
     {
       "file": "pharmacy-3.json",
@@ -6430,9 +6513,9 @@
     {
       "file": "trafikkregler-2.json",
       "segIndex": 3,
-      "text": "forstå betydningen",
-      "translation": "понимать значение",
-      "transcription": "форсто бэтюднинген"
+      "text": "å forstå betydningen",
+      "translation": "понимать значение (инф.)",
+      "transcription": "о форсто бэтюднинген"
     },
     {
       "file": "trafikkregler-2.json",
@@ -6620,7 +6703,7 @@
       "file": "utdanning-10.json",
       "segIndex": 25,
       "text": "to dager i forveien",
-      "translation": "за два дня до",
+      "translation": "за два дня",
       "transcription": "ту дагер и форвэйен"
     },
     {
@@ -6688,7 +6771,7 @@
     },
     {
       "file": "utdanning-14.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "er godt forberedt",
       "translation": "хорошо подготовлен",
       "transcription": "эр гот форбэрэт"
@@ -6842,6 +6925,13 @@
     },
     {
       "file": "utdanning-5.json",
+      "segIndex": 9,
+      "text": "legger vekt på",
+      "translation": "подчёркивают",
+      "transcription": "легге вэкт по"
+    },
+    {
+      "file": "utdanning-5.json",
       "segIndex": 13,
       "text": "leksefri skole",
       "translation": "школу без домашек",
@@ -6962,23 +7052,23 @@
     {
       "file": "voksen-3.json",
       "segIndex": 21,
-      "text": "henge etter",
-      "translation": "отставать",
-      "transcription": "хэнгэ эттер"
+      "text": "henger etter",
+      "translation": "отстают",
+      "transcription": "хэнгер эттер"
     },
     {
       "file": "voksen-3.json",
-      "segIndex": 35,
-      "text": "slite med",
-      "translation": "мучиться с",
-      "transcription": "слитэ мэд"
+      "segIndex": 29,
+      "text": "legger vekt på",
+      "translation": "подчёркивают",
+      "transcription": "легге вэкт по"
     },
     {
       "file": "voksen-3.json",
       "segIndex": 39,
-      "text": "la mye å ønske",
-      "translation": "оставлять желать лучшего",
-      "transcription": "ла мюэ о ёнске"
+      "text": "later mye å ønske",
+      "translation": "оставляют желать лучшего",
+      "transcription": "латер мюэ о ёнске"
     },
     {
       "file": "voksen-4.json",
@@ -7010,35 +7100,35 @@
     },
     {
       "file": "voksen-5.json",
-      "segIndex": 7,
+      "segIndex": 9,
       "text": "tradisjonell industri",
       "translation": "традиционной промышленности",
       "transcription": "традишонэль индюстри"
     },
     {
       "file": "voksen-5.json",
-      "segIndex": 13,
+      "segIndex": 15,
       "text": "ta kortere kurs",
       "translation": "проходить короткие курсы",
       "transcription": "та кортэрэ курс"
     },
     {
       "file": "voksen-5.json",
-      "segIndex": 25,
+      "segIndex": 27,
       "text": "å starte på nytt",
       "translation": "начать заново",
       "transcription": "о старте по ню"
     },
     {
       "file": "voksen-5.json",
-      "segIndex": 31,
+      "segIndex": 33,
       "text": "digital kompetanse",
       "translation": "цифровые компетенции",
       "transcription": "дигиталь компэтансэ"
     },
     {
       "file": "voksen-5.json",
-      "segIndex": 35,
+      "segIndex": 39,
       "text": "å omstille seg til",
       "translation": "перейти к",
       "transcription": "о омстиллэ сэй тиль"
@@ -7268,7 +7358,7 @@
     },
     {
       "file": "barnehage-2.json",
-      "segIndex": 21,
+      "segIndex": 23,
       "text": "det finnes ikke dårlig vær",
       "translation": "плохой погоды не бывает",
       "wordCount": 5,
@@ -7436,7 +7526,7 @@
     },
     {
       "file": "digital-8.json",
-      "segIndex": 16,
+      "segIndex": 18,
       "text": "retten til å bli glemt",
       "translation": "право быть забытым",
       "wordCount": 5,
@@ -7460,7 +7550,7 @@
     },
     {
       "file": "fastlege-3.json",
-      "segIndex": 34,
+      "segIndex": 36,
       "text": "Når alt kommer til alt",
       "translation": "В конце концов",
       "wordCount": 5,
@@ -7796,7 +7886,7 @@
     },
     {
       "file": "mental-3.json",
-      "segIndex": 24,
+      "segIndex": 26,
       "text": "Når alt kommer til alt",
       "translation": "В конце концов",
       "wordCount": 5,
@@ -7980,7 +8070,7 @@
     },
     {
       "file": "oilfund-9.json",
-      "segIndex": 29,
+      "segIndex": 31,
       "text": "Når alt kommer til alt",
       "translation": "В конце концов",
       "wordCount": 5,

@@ -1,11 +1,5 @@
 [
   {
-    "file": "allemannsretten-1.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": ". Men det er viktig å huske på ",
-    "verb": "huske"
-  },
-  {
     "file": "allemannsretten-2.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": ". Der bestemte vi oss for å lage ",
@@ -34,12 +28,6 @@
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " å tenne bål i skogen fra ",
     "verb": "tenne"
-  },
-  {
-    "file": "allemannsretten-7.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " er det viktig å vite at i ",
-    "verb": "vite"
   },
   {
     "file": "art-2.json",
@@ -96,12 +84,6 @@
     "verb": "redusere"
   },
   {
-    "file": "banks-4.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " er det viktig å vite at ",
-    "verb": "vite"
-  },
-  {
     "file": "banks-7.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " å opprettholde et tilstrekkelig nivå av ",
@@ -138,10 +120,22 @@
     "verb": "gjennomføre"
   },
   {
-    "file": "barnehage-2.json",
+    "file": "barnehage-4.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": ". For å få plass søker foreldrene gjennom ",
-    "verb": "få"
+    "no": ". Fristen for å søke er vanligvis i februar. De som misser ",
+    "verb": "søke"
+  },
+  {
+    "file": "barnehage-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": "Spørsmålet om hvilken alder det er best for et barn å begynne i ",
+    "verb": "begynne"
+  },
+  {
+    "file": "barnehage-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " — en ytelse for familier som velger å beholde barnet hjemme. Kritikerne peker imidlertid på at ",
+    "verb": "beholde"
   },
   {
     "file": "bil-2.json",
@@ -206,7 +200,7 @@
   {
     "file": "bil-8.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " kjøperne å følge med på endringene, fordi prisforskjellen i løpet av ett år kan være titalls tusen kroner. ",
+    "no": " kjøperne å følge med på endringene, fordi prisforskjellen ",
     "verb": "følge"
   },
   {
@@ -214,12 +208,6 @@
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " samfunnet å tenke også på de sosiale konsekvensene. Hvis autonome drosjer blir vanlige, mister mange sjåfører jobben. ",
     "verb": "tenke"
-  },
-  {
-    "file": "boliglan-2.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": ". Vi ønsker å få ",
-    "verb": "få"
   },
   {
     "file": "boliglan-4.json",
@@ -288,28 +276,10 @@
     "verb": "investere"
   },
   {
-    "file": "budget-4.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": "Nordmenn liker å kjøpe ting ",
-    "verb": "kjøpe"
-  },
-  {
-    "file": "budget-4.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " å kjøpe barneklær ",
-    "verb": "kjøpe"
-  },
-  {
     "file": "budget-5.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " å planlegge handlingen ",
     "verb": "planlegge"
-  },
-  {
-    "file": "budget-6.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " å jobbe ",
-    "verb": "jobbe"
   },
   {
     "file": "budget-7.json",
@@ -366,18 +336,6 @@
     "verb": "ta"
   },
   {
-    "file": "bureaucracy-2.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " på mine vegne. For å få ",
-    "verb": "få"
-  },
-  {
-    "file": "bureaucracy-3.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " for å få ",
-    "verb": "få"
-  },
-  {
     "file": "bureaucracy-5.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " å etterbetale differansen.",
@@ -420,12 +378,6 @@
     "verb": "rette"
   },
   {
-    "file": "career-1.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": ". Jeg er klar til å jobbe hardt.",
-    "verb": "jobbe"
-  },
-  {
     "file": "career-3.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": ". Den første er klassisk vekst oppover i hierarkiet: spesialist, seniorspesialist, teamleder, manager, direktør. Den andre er utvidelse av kompetanse uten å bytte stilling. ",
@@ -442,12 +394,6 @@
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " — altså vilje til å lære hele livet. Mange bedrifter betaler for kurs og gir studiepermisjon. ",
     "verb": "lære"
-  },
-  {
-    "file": "cinema-1.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": ". Nordmenn liker å se film ",
-    "verb": "se"
   },
   {
     "file": "cinema-3.json",
@@ -492,12 +438,6 @@
     "verb": "fylle"
   },
   {
-    "file": "digital-2.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " tilbake. Man trenger bare å vite ",
-    "verb": "vite"
-  },
-  {
     "file": "digital-3.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " jeg rett i appen. For å betale i ",
@@ -530,8 +470,8 @@
   {
     "file": "digital-8.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " å vite hvilke opplysninger som er samlet, og å få innsyn i dem. ",
-    "verb": "vite"
+    "no": " hvilke opplysninger som er samlet, og å få innsyn i dem. ",
+    "verb": "få"
   },
   {
     "file": "digital-8.json",
@@ -1058,7 +998,7 @@
   {
     "file": "mc-5.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " hensyn til andre trafikanter, som ikke forventer å se en motorsykkel. ",
+    "no": " andre trafikanter, som ikke forventer å se en motorsykkel. ",
     "verb": "se"
   },
   {
@@ -1294,12 +1234,6 @@
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " å parkere. Da leter jeg etter et annet sted.",
     "verb": "parkere"
-  },
-  {
-    "file": "parking-2.json",
-    "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " er det viktig å vite at noen gater er gratis etter klokken sytten og på søndager, men ",
-    "verb": "vite"
   },
   {
     "file": "parking-2.json",
@@ -1692,6 +1626,66 @@
     "verb": "løse"
   },
   {
+    "file": "utdanning-10.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er målet med denne tilnærmingen å støtte læringslysten, ikke skape konkurransepress. Karakterer på skalaen fra 1 til 6 ",
+    "verb": "støtte"
+  },
+  {
+    "file": "utdanning-11.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " mastergraden innført som obligatorisk krav for å bli lærer. Det hevet det akademiske nivået på yrket, men skremte samtidig bort en del søkere. ",
+    "verb": "bli"
+  },
+  {
+    "file": "utdanning-11.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er mange skoler nødt til å ansette folk uten formell pedagogisk utdanning for å fylle stillingene. Dette fenomenet kalles ",
+    "verb": "ansette"
+  },
+  {
+    "file": "utdanning-12.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " hjelper denne uken nye studenter med å føle seg som en del av universitetssamfunnet. Mange sier at det er nettopp i ",
+    "verb": "føle"
+  },
+  {
+    "file": "utdanning-12.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " studiene jobber mange studenter deltid for å dekke utgifter til mat og transport. Studentlivet i Norge er en balanse mellom frihet og ansvar.",
+    "verb": "dekke"
+  },
+  {
+    "file": "utdanning-13.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " — den europeiske initiativet for å skape et felles utdanningsrom. I 2003 ble ",
+    "verb": "skape"
+  },
+  {
+    "file": "utdanning-13.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er det viktigste spørsmålet i hvilken grad norske universiteter klarer å opprettholde høy forskningskvalitet kombinert med bred tilgang til utdanning. Organer ",
+    "verb": "opprettholde"
+  },
+  {
+    "file": "utdanning-14.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ". Jeg øver også på å snakke med ",
+    "verb": "snakke"
+  },
+  {
+    "file": "utdanning-15.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er ett av kravene for å få permanent oppholdstillatelse. ",
+    "verb": "få"
+  },
+  {
+    "file": "utdanning-15.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er det viktig å merke seg at språklig integrering er kostbart. Staten bruker betydelige midler hvert år på disse programmene, og debatten om hvor effektive de er, stilner ikke. ",
+    "verb": "merke"
+  },
+  {
     "file": "utdanning-2.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
     "no": " å få økonomisk støtte i form av ",
@@ -1818,10 +1812,40 @@
     "verb": "ha"
   },
   {
-    "file": "voksen-3.json",
+    "file": "voksen-4.json",
     "reason": "å+verb embedded in ru.no field — manual review needed",
-    "no": " resultatene mye å ønske. ",
-    "verb": "ønske"
+    "no": "I Norge finnes det en spesiell type skole som er vanskelig å finne i andre land. Den kalles ",
+    "verb": "finne"
+  },
+  {
+    "file": "voksen-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " — «Lære hele livet», lansert i 2020. Målet er å skape et system der arbeidstakere kan ",
+    "verb": "skape"
+  },
+  {
+    "file": "voksen-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " uten å forlate jobben. En del av disse kursene finansieres i fellesskap av arbeidsgiver og stat. ",
+    "verb": "forlate"
+  },
+  {
+    "file": "voksen-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ". Arbeidsgivere er heller ikke alltid villige til å investere i opplæring av dem over femti. ",
+    "verb": "investere"
+  },
+  {
+    "file": "voksen-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " i bred forstand: evnen til å vurdere informasjon kritisk, jobbe i team ",
+    "verb": "vurdere"
+  },
+  {
+    "file": "voksen-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " en grønn økonomi, og det betyr omskolering av tusenvis av oljearbeidere og ingeniører til å jobbe innen fornybar energi og havteknologi. Spørsmålet er ikke om denne transformasjonen vil skje — men i hvilken grad Norge er klar til å lede den.",
+    "verb": "jobbe"
   },
   {
     "file": "winter-1.json",
