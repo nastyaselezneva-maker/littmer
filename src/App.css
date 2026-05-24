@@ -471,7 +471,7 @@
 .cat-no {
   font-family: var(--font-hand);
   font-weight: var(--fw-bold);
-  font-size: 1.35rem;
+  font-size: 1.7rem;
   color: var(--color-accent-blue);
   margin: 2px 0 14px;
   transform: rotate(-1deg);
@@ -560,7 +560,7 @@
 .step-card-subtitle {
   display: block;
   font-family: var(--font-hand);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-weight: var(--fw-semibold);
   font-style: normal;
   letter-spacing: 0;
@@ -2440,7 +2440,7 @@ body.has-sidebar .app {
 .text-title-no {
   margin: 4px 0 14px;
   font-family: var(--font-hand);
-  font-size: 1.4rem;
+  font-size: 1.7rem;
   font-style: normal;
   font-weight: 600;
   color: var(--color-accent-blue);

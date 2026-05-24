@@ -46,7 +46,7 @@ function seededShuffle(n, seed) {
 function tokenizeWithTooltips(text, lookup, addWord, hasWord) {
   if (!text) return null
   const parts = []
-  const wordRegex = /[a-zæøåäöA-ZÆØÅÄÖ]+(?:-[a-zæøåäöA-ZÆØÅÄÖ]+)*/g
+  const wordRegex = /[a-zæøåäöéèàóüA-ZÆØÅÄÖÉÈÀÓÜ]+(?:-[a-zæøåäöéèàóüA-ZÆØÅÄÖÉÈÀÓÜ]+)*/g
   let lastIndex = 0
   let match
   let k = 0

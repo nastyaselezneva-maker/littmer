@@ -14,6 +14,18 @@
     "transcription": "а-хас",
     "pos": ""
   },
+  "a1-nivå": {
+    "translation": "уровень A1",
+    "transcription": "a-ин нивo",
+    "pos": "phrase",
+    "dict": "уровень A1"
+  },
+  "a2-nivå": {
+    "translation": "уровень A2",
+    "transcription": "a-то нивo",
+    "pos": "phrase",
+    "dict": "уровень A2"
+  },
   "aasen": {
     "translation": "Осен (фамилия)",
     "transcription": "осэн",
@@ -1583,6 +1595,18 @@
     "translation": "б",
     "transcription": "бэ",
     "pos": ""
+  },
+  "b1-nivå": {
+    "translation": "уровень B1",
+    "transcription": "бэ-ин нивo",
+    "pos": "phrase",
+    "dict": "уровень B1"
+  },
+  "b2-nivå": {
+    "translation": "уровень B2",
+    "transcription": "бэ-то нивo",
+    "pos": "phrase",
+    "dict": "уровень B2"
   },
   "babyen": {
     "translation": "ребёнок",
@@ -3841,6 +3865,12 @@
     "transcription": "сэ",
     "pos": ""
   },
+  "c1-nivå": {
+    "translation": "уровень C1",
+    "transcription": "сэ-ин нивo",
+    "pos": "phrase",
+    "dict": "уровень C1"
+  },
   "cannes": {
     "translation": "Канны (город)",
     "transcription": "канн",
@@ -4918,6 +4948,12 @@
     "transcription": "ду",
     "pos": "pronoun"
   },
+  "dukke opp": {
+    "translation": "появляться",
+    "transcription": "дюккэ опп",
+    "pos": "phrase",
+    "dict": "появляться"
+  },
   "dukkehjem": {
     "translation": "кукольный дом",
     "transcription": "дуккэйем",
@@ -4927,6 +4963,12 @@
     "translation": "появляется",
     "transcription": "дуккэр",
     "pos": "verb",
+    "dict": "появляться"
+  },
+  "dukker opp": {
+    "translation": "появляется",
+    "transcription": "дюккэр опп",
+    "pos": "phrase",
     "dict": "появляться"
   },
   "dukket": {
@@ -15560,6 +15602,12 @@
     "transcription": "лат",
     "pos": "adj",
     "dict": "lat"
+  },
+  "lat som": {
+    "translation": "делать вид",
+    "transcription": "лат сом",
+    "pos": "phrase",
+    "dict": "делать вид"
   },
   "lav": {
     "translation": "низкий",
@@ -32737,6 +32785,12 @@
     "translation": "один",
     "transcription": "эн",
     "pos": "num"
+  },
+  "én til": {
+    "translation": "один до",
+    "transcription": "эн тиль",
+    "pos": "phrase",
+    "dict": "один до"
   },
   "éntreffwonder": {
     "translation": "однохитовик",
