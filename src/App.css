@@ -1302,12 +1302,11 @@ body.has-sidebar .app {
 }
 
 .gloss-no {
-  font-family: var(--font-display);
-  font-weight: var(--fw-semibold);
-  font-style: italic;
-  font-size: 1.05rem;
+  font-family: var(--font-hand);
+  font-weight: 600;
+  font-size: 1.35rem;
   color: var(--color-accent-blue);
-  line-height: 1.2;
+  line-height: 1.15;
 }
 
 .gloss-ru {
@@ -1345,10 +1344,11 @@ body.has-sidebar .app {
 }
 
 .overview-no {
-  font-family: var(--font-display);
-  font-style: italic;
-  font-weight: var(--fw-semibold);
+  font-family: var(--font-hand);
+  font-weight: 600;
+  font-size: 1.3rem;
   color: var(--color-accent-blue);
+  line-height: 1.1;
 }
 
 .overview-ru {
