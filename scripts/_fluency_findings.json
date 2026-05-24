@@ -1,0 +1,265 @@
+[
+  {
+    "file": "dentistry-1.json",
+    "type": "падеж/acc-after-verb",
+    "confidence": "high",
+    "context": "врач делает [пломба]",
+    "note": "после \"делает\" нужен винительный падеж",
+    "segIdx": 9,
+    "word": "fylling",
+    "translation_current": "пломба",
+    "translation_suggested": "пломбу"
+  },
+  {
+    "file": "dentistry-1.json",
+    "type": "падеж/acc-after-verb",
+    "confidence": "high",
+    "context": "Я получаю [анестезия]",
+    "note": "после \"получаю\" нужен винительный",
+    "segIdx": 11,
+    "word": "bedøvelse",
+    "translation_current": "анестезия",
+    "translation_suggested": "анестезию"
+  },
+  {
+    "file": "dentistry-2.json",
+    "type": "падеж/после-prep-acc",
+    "confidence": "high",
+    "context": "можно идти в [дежурная стоматология]",
+    "note": "после \"в\" с направлением нужен вин. падеж",
+    "segIdx": 22,
+    "word": "tannlegevakt",
+    "translation_current": "дежурная стоматология",
+    "translation_suggested": "дежурную стоматологию"
+  },
+  {
+    "file": "dentistry-3.json",
+    "type": "падеж/после-prep-о",
+    "confidence": "high",
+    "context": "политическая дискуссия о [реформа зубной помощи] набрала обороты",
+    "note": "после \"о\" нужен предложный",
+    "segIdx": 27,
+    "word": "tannhelsereform",
+    "translation_current": "реформа зубной помощи",
+    "translation_suggested": "реформе зубной помощи"
+  },
+  {
+    "file": "fastlege-8.json",
+    "type": "падеж/после-prep-gen",
+    "confidence": "high",
+    "context": "частично из [базовая субсидия]",
+    "note": "после \"из\" нужен родительный",
+    "segIdx": 13,
+    "word": "basistilskudd",
+    "translation_current": "базовая субсидия",
+    "translation_suggested": "базовой субсидии"
+  },
+  {
+    "file": "hospital-4.json",
+    "type": "падеж/после-prep-dat",
+    "confidence": "high",
+    "context": "можно записаться к [замещающий врач]",
+    "note": "после \"к\" нужен дательный",
+    "segIdx": 26,
+    "word": "vikarlege",
+    "translation_current": "замещающий врач",
+    "translation_suggested": "замещающему врачу"
+  },
+  {
+    "file": "pharmacy-8.json",
+    "type": "падеж/acc-after-verb",
+    "confidence": "high",
+    "context": "Норвегия использует [ступенчатая цена] для дженериков",
+    "note": "после \"использует\" нужен винительный",
+    "segIdx": 34,
+    "word": "trinnpris",
+    "translation_current": "ступенчатая цена",
+    "translation_suggested": "ступенчатую цену"
+  },
+  {
+    "file": "pregnancy-3.json",
+    "type": "падеж/после-prep-prep",
+    "confidence": "high",
+    "context": "Большинство родов происходит на [родильное отделение]",
+    "note": "после \"на\" с местом нужен предложный; также имеется в виду мн.ч.",
+    "segIdx": 7,
+    "word": "fødeavdeling",
+    "translation_current": "родильное отделение",
+    "translation_suggested": "родильных отделениях"
+  },
+  {
+    "file": "utdanning-4.json",
+    "type": "инфинитив-после-сущ-å-verb-leftover",
+    "confidence": "high",
+    "context": "умение [мочь] samarbeide важнее запоминания",
+    "note": "Пережиток разделения \"å kunne samarbeide\". Tooltip \"мочь\" висит отдельно от \"samarbeide\". Поглотить следующий \"samarbeide\" в этот же tooltip или переписать ru как \"умение [сотрудничать]\"",
+    "segIdx": 28,
+    "word": "å kunne",
+    "translation_current": "мочь",
+    "translation_suggested": "сотрудничать (с поглощением следующего segment \"samarbeide\")"
+  },
+  {
+    "file": "trafikkregler-9.json",
+    "type": "phrase-стык-калька",
+    "confidence": "high",
+    "context": "...через свой сайт и приложение. [Spille en rolle/Играть роль] в современной системе играет и автоматизация",
+    "note": "Перевод \"Играть роль\" приводит к двойному глаголу: \"Играть роль в современной системе играет и автоматизация\". Лучше перевод \"Свою роль играет\" или переписать ru без tooltip",
+    "segIdx": 38,
+    "word": "Spille en rolle"
+  },
+  {
+    "file": "mc-2.json",
+    "type": "калька",
+    "confidence": "high",
+    "context": "...обязаны законом...",
+    "note": "Калька с норв \"lovpålagt\". По-русски — \"обязаны по закону\""
+  },
+  {
+    "file": "utdanning-12.json",
+    "type": "стиль-marginal",
+    "confidence": "medium",
+    "context": "Это очень важная мотивация [завершить учёбу] в срок",
+    "note": "OK по-русски, но \"мотивация завершить\" слегка газетный. Альтернатива: \"стимул\".",
+    "segIdx": 17
+  },
+  {
+    "file": "utdanning-9.json",
+    "type": "стык-marginal",
+    "confidence": "medium",
+    "context": "сертификация — это не цель, а инструмент: способ [открывать] двери",
+    "note": "OK по-русски (\"способ открывать двери\"). Можно оставить."
+  },
+  {
+    "file": "music-6.json",
+    "type": "стык-marginal",
+    "confidence": "medium",
+    "context": "способ [петь]",
+    "note": "OK; \"способ петь\" — норм."
+  },
+  {
+    "file": "utdanning-6.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "люблю [учиться]",
+    "note": "OK: инфинитив после \"любить\" корректно"
+  },
+  {
+    "file": "rights-1.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "продолжает [выплачиваться]",
+    "note": "OK: инф после \"продолжать\" корректно"
+  },
+  {
+    "file": "allemannsretten-5.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "возможность [ставить палатку]",
+    "note": "OK"
+  },
+  {
+    "file": "bureaucracy-7.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "право [жаловаться]",
+    "note": "OK"
+  },
+  {
+    "file": "cinema-9.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "возможность [пробовать себя]",
+    "note": "OK"
+  },
+  {
+    "file": "digital-8.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "возможность [требовать]",
+    "note": "OK"
+  },
+  {
+    "file": "fastlege-4.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "желание [сменить семейного врача]",
+    "note": "OK"
+  },
+  {
+    "file": "fastlege-4.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "желание [пробовать]",
+    "note": "OK"
+  },
+  {
+    "file": "insurance-8.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "обязанность [сообщать]",
+    "note": "OK"
+  },
+  {
+    "file": "jobsearch-8.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "возможность [обновлять]",
+    "note": "OK"
+  },
+  {
+    "file": "judicial-7.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "возможность [рассматривать сложные дела]",
+    "note": "OK"
+  },
+  {
+    "file": "judicial-8.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "право [пробовать]",
+    "note": "OK"
+  },
+  {
+    "file": "mc-9.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "риск [умереть]",
+    "note": "OK"
+  },
+  {
+    "file": "trafikkregler-8.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "право [ехать]",
+    "note": "OK"
+  },
+  {
+    "file": "utdanning-13.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "возможность [учиться за рубежом]",
+    "note": "OK"
+  },
+  {
+    "file": "voksen-4.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "возможность [попробовать что-то новое]",
+    "note": "OK"
+  },
+  {
+    "file": "cinema-2.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "...играет роль в многих фильмах",
+    "note": "стиль: \"во многих\" фонетически предпочтительнее"
+  },
+  {
+    "file": "pharmacy-8.json",
+    "type": "инф-после-сущ / стиль",
+    "confidence": "low",
+    "context": "å komme på [список возмещения]",
+    "note": "OK: \"список\" м.р. неодуш., acc=nom"
+  }
+]
