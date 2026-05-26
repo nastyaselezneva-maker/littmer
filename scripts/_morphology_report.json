@@ -1,0 +1,184 @@
+{
+  "gloss_stats": {
+    "enriched_adj": 941,
+    "adj_regular_adj": 908,
+    "enriched_verb": 994,
+    "verb_weak_2": 545,
+    "enriched_noun": 3670,
+    "noun_regular_m": 3253,
+    "noun_regular_n": 386,
+    "adv_no_degrees": 185,
+    "verb_weak_1": 238,
+    "verb_irregular_prefixed": 70,
+    "noun_irregular": 31,
+    "verb_irregular": 121,
+    "verb_weak_4": 20,
+    "adj_irregular": 33,
+    "enriched_adv": 9,
+    "adv_irregular": 9,
+    "skipped_short": 3
+  },
+  "segment_stats": {
+    "form_set_noun": 1582,
+    "forms_set_noun": 1582,
+    "form_set_verb": 490,
+    "forms_set_verb": 492,
+    "form_set_adj": 103,
+    "forms_set_adj": 104,
+    "form_set_adv": 2,
+    "forms_set_adv": 2
+  },
+  "files_changed": 286,
+  "sample_enriched": [
+    [
+      "absolutt",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "absolutte",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "absorberte",
+      "verb",
+      "weak_2"
+    ],
+    [
+      "absurd",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "adaptiv",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "adaptive",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "administrasjon",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "administrative",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "advarer",
+      "verb",
+      "weak_2"
+    ],
+    [
+      "advarsler",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "advokat",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "agenturet",
+      "noun",
+      "regular_n"
+    ],
+    [
+      "aggressiv",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "aggressive",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "aggressivitet",
+      "noun",
+      "regular_n"
+    ],
+    [
+      "akademisk",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "akademiske",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "akse",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "aksept",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "akseptabelt",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "aksepterer",
+      "verb",
+      "weak_2"
+    ],
+    [
+      "aksjefond",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "aksjekapitalen",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "aksjene",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "aksjonærer",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "aktiv",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "aktive",
+      "adj",
+      "regular_adj"
+    ],
+    [
+      "aktivisme",
+      "noun",
+      "regular_m"
+    ],
+    [
+      "aktivitet",
+      "noun",
+      "regular_n"
+    ],
+    [
+      "aktivitetsbasert",
+      "adj",
+      "regular_adj"
+    ]
+  ]
+}

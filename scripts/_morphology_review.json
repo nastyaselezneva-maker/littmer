@@ -1,0 +1,650 @@
+[
+  {
+    "key": "avbryte",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å avbryte",
+      "present": "avbryter",
+      "preterite": "avbrytte",
+      "perfect": "har avbrytt",
+      "imperative": "avbryt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "bestått",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å bestått",
+      "present": "beståtter",
+      "preterite": "beståttte",
+      "perfect": "har beståttt",
+      "imperative": "bestått"
+    },
+    "issue": "looks-like-non-infinitive-base"
+  },
+  {
+    "key": "bryte",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å bryte",
+      "present": "bryter",
+      "preterite": "brytte",
+      "perfect": "har brytt",
+      "imperative": "bryt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "bryter",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å bryte",
+      "present": "bryter",
+      "preterite": "brytte",
+      "perfect": "har brytt",
+      "imperative": "bryt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "bøtelagt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å bøtelagt",
+      "present": "bøtelagter",
+      "preterite": "bøtelagtte",
+      "perfect": "har bøtelagtt",
+      "imperative": "bøtelagt"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "diktert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å diktert",
+      "present": "dikterter",
+      "preterite": "diktertte",
+      "perfect": "har diktertt",
+      "imperative": "diktert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "drifter",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å forvalte",
+      "present": "forvalter",
+      "preterite": "forvaltte",
+      "perfect": "har forvaltt",
+      "imperative": "forvalt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "driver",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å forvalte",
+      "present": "forvalter",
+      "preterite": "forvaltte",
+      "perfect": "har forvaltt",
+      "imperative": "forvalt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "erklært",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å erklært",
+      "present": "erklærter",
+      "preterite": "erklærtte",
+      "perfect": "har erklærtt",
+      "imperative": "erklært"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "finansiert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å finansiert",
+      "present": "finansierter",
+      "preterite": "finansiertte",
+      "perfect": "har finansiertt",
+      "imperative": "finansiert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "forlate",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å forlate",
+      "present": "forlater",
+      "preterite": "forlatte",
+      "perfect": "har forlatt",
+      "imperative": "forlat"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "forlater",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å forlate",
+      "present": "forlater",
+      "preterite": "forlatte",
+      "perfect": "har forlatt",
+      "imperative": "forlat"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "forvalte",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å forvalte",
+      "present": "forvalter",
+      "preterite": "forvaltte",
+      "perfect": "har forvaltt",
+      "imperative": "forvalt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "forventer",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å forvente",
+      "present": "forventer",
+      "preterite": "forventte",
+      "perfect": "har forventt",
+      "imperative": "forvent"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "gjennomført",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å gjennomført",
+      "present": "gjennomførter",
+      "preterite": "gjennomførtte",
+      "perfect": "har gjennomførtt",
+      "imperative": "gjennomført"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "gjennomgått",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å gjennomgått",
+      "present": "gjennomgåtter",
+      "preterite": "gjennomgåttte",
+      "perfect": "har gjennomgåttt",
+      "imperative": "gjennomgått"
+    },
+    "issue": "looks-like-non-infinitive-base"
+  },
+  {
+    "key": "hente",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å hente",
+      "present": "henter",
+      "preterite": "hentte",
+      "perfect": "har hentt",
+      "imperative": "hent"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "henter",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å hente",
+      "present": "henter",
+      "preterite": "hentte",
+      "perfect": "har hentt",
+      "imperative": "hent"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "hentet",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å hente",
+      "present": "henter",
+      "preterite": "hentte",
+      "perfect": "har hentt",
+      "imperative": "hent"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "innlagt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å innlagt",
+      "present": "innlagter",
+      "preterite": "innlagtte",
+      "perfect": "har innlagtt",
+      "imperative": "innlagt"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "konstruert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å konstruert",
+      "present": "konstruerter",
+      "preterite": "konstruertte",
+      "perfect": "har konstruertt",
+      "imperative": "konstruert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "lansert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å lansert",
+      "present": "lanserter",
+      "preterite": "lansertte",
+      "perfect": "har lansertt",
+      "imperative": "lansert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "lete",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å lete",
+      "present": "leter",
+      "preterite": "lette",
+      "perfect": "har lett",
+      "imperative": "let"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "leter",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å lete",
+      "present": "leter",
+      "preterite": "lette",
+      "perfect": "har lett",
+      "imperative": "let"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "lytt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å lytt",
+      "present": "lytter",
+      "preterite": "lyttte",
+      "perfect": "har lyttt",
+      "imperative": "lytt"
+    },
+    "issue": "looks-like-non-infinitive-base"
+  },
+  {
+    "key": "løst",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å løst",
+      "present": "løster",
+      "preterite": "løstte",
+      "perfect": "har løstt",
+      "imperative": "løst"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "ment",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å ment",
+      "present": "menter",
+      "preterite": "mentte",
+      "perfect": "har mentt",
+      "imperative": "ment"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "møte",
+    "pos": "noun/verb",
+    "forms": {
+      "infinitive": "å møte",
+      "present": "møter",
+      "preterite": "møtte",
+      "perfect": "har møtt",
+      "imperative": "møt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "møter",
+    "pos": "noun/verb",
+    "forms": {
+      "infinitive": "å møte",
+      "present": "møter",
+      "preterite": "møtte",
+      "perfect": "har møtt",
+      "imperative": "møt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "møtt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å møtt",
+      "present": "møtter",
+      "preterite": "møttte",
+      "perfect": "har møttt",
+      "imperative": "møtt"
+    },
+    "issue": "looks-like-non-infinitive-base"
+  },
+  {
+    "key": "møtte",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å møte",
+      "present": "møter",
+      "preterite": "møtte",
+      "perfect": "har møtt",
+      "imperative": "møt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "nominert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å nominert",
+      "present": "nominerter",
+      "preterite": "nominertte",
+      "perfect": "har nominertt",
+      "imperative": "nominert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "omgjort",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å omgjort",
+      "present": "omgjorter",
+      "preterite": "omgjortte",
+      "perfect": "har omgjortt",
+      "imperative": "omgjort"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "overlevert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å overlevert",
+      "present": "overleverter",
+      "preterite": "overlevertte",
+      "perfect": "har overlevertt",
+      "imperative": "overlevert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "overlot",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å overlot",
+      "present": "overloter",
+      "preterite": "overlotte",
+      "perfect": "har overlott",
+      "imperative": "overlot"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "oversatt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å oversatt",
+      "present": "oversatter",
+      "preterite": "oversattte",
+      "perfect": "har oversattt",
+      "imperative": "oversatt"
+    },
+    "issue": "looks-like-non-infinitive-base"
+  },
+  {
+    "key": "oversatte",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å oversate",
+      "present": "oversater",
+      "preterite": "oversatte",
+      "perfect": "har oversatt",
+      "imperative": "oversat"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "passert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å passert",
+      "present": "passerter",
+      "preterite": "passertte",
+      "perfect": "har passertt",
+      "imperative": "passert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "plassert",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å plassert",
+      "present": "plasserter",
+      "preterite": "plassertte",
+      "perfect": "har plassertt",
+      "imperative": "plassert"
+    },
+    "issue": "infinitive-looks-like-participle"
+  },
+  {
+    "key": "pyntet",
+    "pos": "глаг.",
+    "forms": {
+      "infinitive": "å pynte",
+      "present": "pynter",
+      "preterite": "pyntte",
+      "perfect": "har pyntt",
+      "imperative": "pynt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "skryter",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å skryte",
+      "present": "skryter",
+      "preterite": "skrytte",
+      "perfect": "har skrytt",
+      "imperative": "skryt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "slett",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å slett",
+      "present": "sletter",
+      "preterite": "slettte",
+      "perfect": "har slettt",
+      "imperative": "slett"
+    },
+    "issue": "looks-like-non-infinitive-base"
+  },
+  {
+    "key": "sliter",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å slite",
+      "present": "sliter",
+      "preterite": "slitte",
+      "perfect": "har slitt",
+      "imperative": "slit"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "spilt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å spilt",
+      "present": "spilter",
+      "preterite": "spiltte",
+      "perfect": "har spiltt",
+      "imperative": "spilt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "starte",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å starte",
+      "present": "starter",
+      "preterite": "startte",
+      "perfect": "har startt",
+      "imperative": "start"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "sultende",
+    "pos": "прич.",
+    "forms": {
+      "infinitive": "å sulte",
+      "present": "sulter",
+      "preterite": "sultte",
+      "perfect": "har sultt",
+      "imperative": "sult"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "svart",
+    "pos": "прил./глаг.",
+    "forms": {
+      "infinitive": "å svart",
+      "present": "svarter",
+      "preterite": "svartte",
+      "perfect": "har svartt",
+      "imperative": "svart"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "talt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å talt",
+      "present": "talter",
+      "preterite": "taltte",
+      "perfect": "har taltt",
+      "imperative": "talt"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "tillater",
+    "pos": "глаг.",
+    "forms": {
+      "infinitive": "å tillate",
+      "present": "tillater",
+      "preterite": "tillatte",
+      "perfect": "har tillatt",
+      "imperative": "tillat"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "utelates",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å utelate",
+      "present": "utelater",
+      "preterite": "utelatte",
+      "perfect": "har utelatt",
+      "imperative": "utelat"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "utvidede",
+    "pos": "прич.",
+    "forms": {
+      "infinitive": "å utvidet",
+      "present": "utvideter",
+      "preterite": "utvidette",
+      "perfect": "har utvidett",
+      "imperative": "utvidet"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "vente",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å vente",
+      "present": "venter",
+      "preterite": "ventte",
+      "perfect": "har ventt",
+      "imperative": "vent"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "venter",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å vente",
+      "present": "venter",
+      "preterite": "ventte",
+      "perfect": "har ventt",
+      "imperative": "vent"
+    },
+    "issue": "tte-cluster-suspected-strong-verb"
+  },
+  {
+    "key": "ytt",
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å ytt",
+      "present": "ytter",
+      "preterite": "yttte",
+      "perfect": "har yttt",
+      "imperative": "ytt"
+    },
+    "issue": "looks-like-non-infinitive-base"
+  }
+]
