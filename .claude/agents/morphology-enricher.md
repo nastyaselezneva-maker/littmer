@@ -34,14 +34,23 @@ tools: Read, Edit, Glob, Grep, Bash
   "dict": "играть",
   "verb_class": "weak_1",
   "forms": {
-    "infinitive": "spille",
+    "infinitive": "å spille",
     "present": "spiller",
     "preterite": "spilte",
-    "perfect": "spilt",
+    "perfect": "har spilt",
     "imperative": "spill"
   }
 }
 ```
+
+**Важно для глагольных форм:**
+- `infinitive` всегда с частицей `å` (`å spille`, `å gå`, `å være`)
+- `perfect` всегда с вспомогательным `har` (`har spilt`, `har gått`, `har vært`)
+- `present` без подлежащего (`spiller`, `går`, `er`)
+- `preterite` без подлежащего (`spilte`, `gikk`, `var`)
+- `imperative` без знака восклицания (`spill`, `gå`, `vær`)
+
+Это даёт пользователю готовые к употреблению формы, как в учебниках. Причастие «spilt» отдельно избыточно — оно всегда употребляется с `har`/`hadde`/`er`.
 
 **noun** (склонение):
 ```json
