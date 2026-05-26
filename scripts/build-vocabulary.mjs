@@ -200,6 +200,19 @@ const missing = [] // слова без перевода (не стоп-слов
 let totalOccurrences = 0
 let properNounCount = 0
 
+// Reverse-index парадигм: form-value (lowercase, без 'å '/'har ') → { forms, formKey }
+const paradigmIndex = {}
+for (const [gKey, gEntry] of Object.entries(existingGlosses)) {
+  if (!gEntry.forms) continue
+  for (const [formKey, formValue] of Object.entries(gEntry.forms)) {
+    const normalized = String(formValue).toLowerCase().replace(/^(?:å |har |hadde )/, '').trim()
+    if (!normalized) continue
+    if (!paradigmIndex[normalized]) {
+      paradigmIndex[normalized] = { forms: gEntry.forms, formKey }
+    }
+  }
+}
+
 for (const [key, entry] of vocab.entries()) {
   // Имя собственное: видели заглавную (мид-сентенс или в no-сегменте) и НИ РАЗУ не видели строчной формы
   entry.isProperNoun = !entry.seenLowercase &&
@@ -226,12 +239,19 @@ for (const [key, entry] of vocab.entries()) {
 
   // В lookup: только не стоп-слова с переводом — для тултипов
   if (!entry.isStopWord && entry.translation) {
-    lookup[key] = {
+    const lookupEntry = {
       tr: entry.translation,
       pos: entry.pos || '',
       ts: entry.transcription || '',
       dict: entry.dict || '',
     }
+    // Парадигма: O(1) reverse-lookup по предварительно построенному индексу
+    const idx = paradigmIndex[key]
+    if (idx) {
+      lookupEntry.forms = idx.forms
+      lookupEntry.form = idx.formKey
+    }
+    lookup[key] = lookupEntry
   }
 
   // Missing: не стоп-слово, нет перевода, есть ru-derived источник

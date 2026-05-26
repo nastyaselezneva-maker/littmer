@@ -1616,14 +1616,7 @@
     "translation": "считается",
     "transcription": "ансэс",
     "pos": "verb",
-    "dict": "anse",
-    "forms": {
-      "infinitive": "å anse",
-      "present": "anser",
-      "preterite": "anså",
-      "perfect": "har ansett",
-      "imperative": "anse"
-    }
+    "dict": "anse"
   },
   "ansett": {
     "translation": "уважаемый",
@@ -4458,14 +4451,7 @@
     "translation": "ограничивает",
     "transcription": "бэгрэнсэр",
     "pos": "verb",
-    "dict": "begrense",
-    "forms": {
-      "infinitive": "å begrense",
-      "present": "begrenser",
-      "preterite": "begrenså",
-      "perfect": "har begrensett",
-      "imperative": "begrense"
-    }
+    "dict": "begrense"
   },
   "begrenset": {
     "translation": "ограниченный",
@@ -5965,14 +5951,7 @@
   "bevise": {
     "translation": "доказывать",
     "transcription": "бэвисэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å bevise",
-      "present": "beviser",
-      "preterite": "beviså",
-      "perfect": "har bevisett",
-      "imperative": "bevise"
-    }
+    "pos": "verb"
   },
   "beviser": {
     "translation": "доказательства",
@@ -7363,14 +7342,7 @@
   "bremse": {
     "translation": "тормозить",
     "transcription": "брэмсэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å bremse",
-      "present": "bremser",
-      "preterite": "bremså",
-      "perfect": "har bremsett",
-      "imperative": "bremse"
-    }
+    "pos": "verb"
   },
   "brensler": {
     "translation": "топливо (мн.ч.)",
@@ -8791,14 +8763,7 @@
     "translation": "танцует",
     "transcription": "дансэр",
     "pos": "verb",
-    "dict": "танцевать",
-    "forms": {
-      "infinitive": "å danse",
-      "present": "danser",
-      "preterite": "danså",
-      "perfect": "har dansett",
-      "imperative": "danse"
-    }
+    "dict": "танцевать"
   },
   "dansere": {
     "translation": "танцоры",
@@ -15903,14 +15868,7 @@
   "fokuser": {
     "translation": "сосредоточься, фокусы",
     "transcription": "фокусэр",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å fokuse",
-      "present": "fokuser",
-      "preterite": "fokuså",
-      "perfect": "har fokusett",
-      "imperative": "fokuse"
-    }
+    "pos": "verb"
   },
   "fokuserer": {
     "translation": "сосредотачивается",
@@ -18434,14 +18392,7 @@
     "translation": "предсказывает",
     "transcription": "форутсэр",
     "pos": "verb",
-    "dict": "предсказывать",
-    "forms": {
-      "infinitive": "å forutse",
-      "present": "forutser",
-      "preterite": "forutså",
-      "perfect": "har forutsett",
-      "imperative": "forutse"
-    }
+    "dict": "предсказывать"
   },
   "forutsigbar": {
     "translation": "предсказуемый",
@@ -19534,14 +19485,7 @@
     "translation": "мёрзнет",
     "transcription": "фрюсэр",
     "pos": "verb",
-    "dict": "мёрзнуть",
-    "forms": {
-      "infinitive": "å fryse",
-      "present": "fryser",
-      "preterite": "fryså",
-      "perfect": "har frysett",
-      "imperative": "fryse"
-    }
+    "dict": "мёрзнуть"
   },
   "fuktighet": {
     "translation": "влажность",
@@ -23535,27 +23479,13 @@
     "translation": "направлять, ссылаться",
     "transcription": "хэнвисэ",
     "pos": "verb",
-    "dict": "henvise",
-    "forms": {
-      "infinitive": "å henvise",
-      "present": "henviser",
-      "preterite": "henviså",
-      "perfect": "har henvisett",
-      "imperative": "henvise"
-    }
+    "dict": "henvise"
   },
   "henviser": {
     "translation": "ссылается",
     "transcription": "хенвисэр",
     "pos": "verb",
-    "dict": "ссылаться",
-    "forms": {
-      "infinitive": "å henvise",
-      "present": "henviser",
-      "preterite": "henviså",
-      "perfect": "har henvisett",
-      "imperative": "henvise"
-    }
+    "dict": "ссылаться"
   },
   "her": {
     "translation": "здесь",
@@ -31578,26 +31508,12 @@
   "koordinerer": {
     "translation": "координирует",
     "transcription": "коордынэрэр",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å koordinere",
-      "present": "koordinerer",
-      "preterite": "koordinerte",
-      "perfect": "har koordinert",
-      "imperative": "koordiner"
-    }
+    "pos": "verb"
   },
   "koordineres": {
     "translation": "координируется",
     "transcription": "коордынэрэс",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å koordineres",
-      "present": "koordinereser",
-      "preterite": "koordinereste",
-      "perfect": "har koordinerest",
-      "imperative": "koordineres"
-    }
+    "pos": "verb"
   },
   "koronapandemien": {
     "translation": "пандемия коронавируса (опр.)",
@@ -32502,14 +32418,7 @@
     "translation": "пересекает",
     "transcription": "крюссер",
     "pos": "verb",
-    "dict": "пересекать",
-    "forms": {
-      "infinitive": "å krysse",
-      "present": "krysser",
-      "preterite": "krysså",
-      "perfect": "har kryssett",
-      "imperative": "krysse"
-    }
+    "dict": "пересекать"
   },
   "kubikkcentimeter": {
     "translation": "кубический сантиметр",
@@ -35258,14 +35167,7 @@
     "translation": "лежит",
     "transcription": "лиггер",
     "pos": "verb",
-    "dict": "лежать",
-    "forms": {
-      "infinitive": "å ligge",
-      "present": "ligger",
-      "preterite": "lå",
-      "perfect": "har ligget",
-      "imperative": "ligg"
-    }
+    "dict": "лежать"
   },
   "lignende": {
     "translation": "похожий",
@@ -36420,14 +36322,7 @@
   "lå": {
     "translation": "лежал",
     "transcription": "ло",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å ligge",
-      "present": "ligger",
-      "preterite": "lå",
-      "perfect": "har ligget",
-      "imperative": "ligg"
-    }
+    "pos": "verb"
   },
   "låne": {
     "translation": "брать в долг",
@@ -36880,26 +36775,12 @@
   "løse": {
     "translation": "решать",
     "transcription": "лёсэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å løse",
-      "present": "løser",
-      "preterite": "løså",
-      "perfect": "har løsett",
-      "imperative": "løse"
-    }
+    "pos": "verb"
   },
   "løser": {
     "translation": "решает",
     "transcription": "лёсер",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å løse",
-      "present": "løser",
-      "preterite": "løså",
-      "perfect": "har løsett",
-      "imperative": "løse"
-    }
+    "pos": "verb"
   },
   "løses": {
     "translation": "решается",
@@ -36967,14 +36848,7 @@
   "løste": {
     "translation": "решил",
     "transcription": "лёстэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å løse",
-      "present": "løser",
-      "preterite": "løså",
-      "perfect": "har løsett",
-      "imperative": "løse"
-    }
+    "pos": "verb"
   },
   "m": {
     "translation": "м (метр)",
@@ -39127,14 +39001,7 @@
     "translation": "пропускает",
     "transcription": "миссэр",
     "pos": "verb",
-    "dict": "пропускать",
-    "forms": {
-      "infinitive": "å misse",
-      "present": "misser",
-      "preterite": "misså",
-      "perfect": "har missett",
-      "imperative": "misse"
-    }
+    "dict": "пропускать"
   },
   "mistanke": {
     "translation": "подозрение",
@@ -43995,14 +43862,7 @@
   "opplyse": {
     "translation": "сообщать",
     "transcription": "опплюсэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å opplyse",
-      "present": "opplyser",
-      "preterite": "opplyså",
-      "perfect": "har opplysett",
-      "imperative": "opplyse"
-    }
+    "pos": "verb"
   },
   "opplysning": {
     "translation": "сведение",
@@ -49039,14 +48899,7 @@
   "pusser": {
     "translation": "чистит",
     "transcription": "пуссэр",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å pusse",
-      "present": "pusser",
-      "preterite": "pusså",
-      "perfect": "har pussett",
-      "imperative": "pusse"
-    }
+    "pos": "verb"
   },
   "pusteteknikker": {
     "translation": "техники дыхания",
@@ -50373,14 +50226,7 @@
     "translation": "путешествует",
     "transcription": "рэйсэр",
     "pos": "verb",
-    "dict": "путешествовать",
-    "forms": {
-      "infinitive": "å reise",
-      "present": "reiser",
-      "preterite": "reiså",
-      "perfect": "har reisett",
-      "imperative": "reise"
-    }
+    "dict": "путешествовать"
   },
   "reises": {
     "translation": "поднимается",
@@ -50399,14 +50245,7 @@
     "translation": "путешествовал",
     "transcription": "рэйстэ",
     "pos": "verb",
-    "dict": "путешествовать",
-    "forms": {
-      "infinitive": "å reise",
-      "present": "reiser",
-      "preterite": "reiså",
-      "perfect": "har reisett",
-      "imperative": "reise"
-    }
+    "dict": "путешествовать"
   },
   "rekke": {
     "translation": "ряд / успевать",
@@ -50647,14 +50486,7 @@
   "rense": {
     "translation": "очищать",
     "transcription": "рэнсэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å rense",
-      "present": "renser",
-      "preterite": "renså",
-      "perfect": "har rensett",
-      "imperative": "rense"
-    }
+    "pos": "verb"
   },
   "rent": {
     "translation": "чисто",
@@ -53485,14 +53317,7 @@
     "translation": "сделал ставку",
     "transcription": "сатсэт",
     "pos": "verb",
-    "dict": "делать ставку",
-    "forms": {
-      "infinitive": "å satse",
-      "present": "satser",
-      "preterite": "satså",
-      "perfect": "har satsett",
-      "imperative": "satse"
-    }
+    "dict": "делать ставку"
   },
   "satt": {
     "translation": "сидел / поставленный",
@@ -54276,14 +54101,7 @@
     "translation": "видит",
     "transcription": "сэр",
     "pos": "verb",
-    "dict": "видеть",
-    "forms": {
-      "infinitive": "å se",
-      "present": "ser",
-      "preterite": "så",
-      "perfect": "har sett",
-      "imperative": "se"
-    }
+    "dict": "видеть"
   },
   "seremonien": {
     "translation": "церемония",
@@ -54495,14 +54313,7 @@
     "translation": "увиденный",
     "transcription": "сэтт",
     "pos": "verb",
-    "dict": "видеть",
-    "forms": {
-      "infinitive": "å se",
-      "present": "ser",
-      "preterite": "så",
-      "perfect": "har sett",
-      "imperative": "se"
-    }
+    "dict": "видеть"
   },
   "sette": {
     "translation": "ставить",
@@ -57821,14 +57632,7 @@
   "spiser": {
     "translation": "ест",
     "transcription": "списэр",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å spise",
-      "present": "spiser",
-      "preterite": "spiså",
-      "perfect": "har spisett",
-      "imperative": "spise"
-    }
+    "pos": "verb"
   },
   "spisskompetanse": {
     "translation": "узкая специализация, экспертиза",
@@ -57846,14 +57650,7 @@
     "translation": "ел",
     "transcription": "спистэ",
     "pos": "verb",
-    "dict": "есть",
-    "forms": {
-      "infinitive": "å spise",
-      "present": "spiser",
-      "preterite": "spiså",
-      "perfect": "har spisett",
-      "imperative": "spise"
-    }
+    "dict": "есть"
   },
   "splittet": {
     "translation": "расколотый, разделённый",
@@ -58311,27 +58108,13 @@
   "stanse": {
     "translation": "останавливать(ся)",
     "transcription": "стансэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å stanse",
-      "present": "stanser",
-      "preterite": "stanså",
-      "perfect": "har stansett",
-      "imperative": "stanse"
-    }
+    "pos": "verb"
   },
   "stanses": {
     "translation": "останавливается (пасс.)",
     "transcription": "стансес",
     "pos": "verb",
-    "dict": "stanse",
-    "forms": {
-      "infinitive": "å stanse",
-      "present": "stanser",
-      "preterite": "stanså",
-      "perfect": "har stansett",
-      "imperative": "stanse"
-    }
+    "dict": "stanse"
   },
   "star-metoden": {
     "translation": "метод STAR",
@@ -63814,14 +63597,7 @@
     "translation": "опровергнут",
     "transcription": "тильбакэвист",
     "pos": "verb",
-    "dict": "tilbakevise",
-    "forms": {
-      "infinitive": "å tilbakevise",
-      "present": "tilbakeviser",
-      "preterite": "tilbakeviså",
-      "perfect": "har tilbakevisett",
-      "imperative": "tilbakevise"
-    }
+    "dict": "tilbakevise"
   },
   "tilbrakte": {
     "translation": "провёл",
@@ -71426,27 +71202,13 @@
   "vise": {
     "translation": "показывать",
     "transcription": "висэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å vise",
-      "present": "viser",
-      "preterite": "viså",
-      "perfect": "har visett",
-      "imperative": "vise"
-    }
+    "pos": "verb"
   },
   "viser": {
     "translation": "показывает",
     "transcription": "висэр",
     "pos": "verb",
-    "dict": "показывать",
-    "forms": {
-      "infinitive": "å vise",
-      "present": "viser",
-      "preterite": "viså",
-      "perfect": "har visett",
-      "imperative": "vise"
-    }
+    "dict": "показывать"
   },
   "vises": {
     "translation": "показывается",
@@ -71511,14 +71273,7 @@
     "translation": "показал",
     "transcription": "вистэ",
     "pos": "verb",
-    "dict": "показывать",
-    "forms": {
-      "infinitive": "å vise",
-      "present": "viser",
-      "preterite": "viså",
-      "perfect": "har visett",
-      "imperative": "vise"
-    }
+    "dict": "показывать"
   },
   "vitaminer": {
     "translation": "витамины",

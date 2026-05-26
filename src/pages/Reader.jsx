@@ -73,6 +73,8 @@ function tokenizeWithTooltips(text, lookup, addWord, hasWord) {
         dict={entry.dict}
         transcription={entry.ts}
         pos={entry.pos}
+        form={entry.form}
+        forms={entry.forms}
         onAdd={addWord}
         isSaved={hasWord(p.text)}
       />
