@@ -394,6 +394,8 @@ function Reader() {
               dict={segment.dict}
               transcription={segment.transcription}
               pos={segment.pos}
+              form={segment.form}
+              forms={segment.forms}
               onAdd={addWord}
               isSaved={hasWord(segment.text)}
             />

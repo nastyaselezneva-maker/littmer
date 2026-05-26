@@ -1536,6 +1536,47 @@ body.has-sidebar .app {
   font-style: italic;
 }
 
+.tooltip-form {
+  color: var(--color-ink-soft);
+  font-size: 0.72rem;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.tooltip-paradigm {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 2px 10px;
+  margin-top: 6px;
+  padding-top: 6px;
+  border-top: 1px dashed var(--color-ink-soft);
+  font-size: 0.72rem;
+  white-space: normal;
+  max-width: 240px;
+}
+
+.tooltip-paradigm-row {
+  display: contents;
+}
+
+.tooltip-paradigm-label {
+  color: var(--color-ink-soft);
+  font-style: italic;
+}
+
+.tooltip-paradigm-value {
+  font-family: var(--font-display);
+  color: var(--color-ink);
+  font-weight: var(--fw-semibold);
+}
+
+.tooltip-paradigm-current .tooltip-paradigm-value {
+  color: var(--color-accent);
+  background: rgba(224, 168, 74, 0.25);
+  padding: 0 3px;
+  border-radius: 3px;
+}
+
 .tooltip-btn {
   background: var(--primary);
   color: white;

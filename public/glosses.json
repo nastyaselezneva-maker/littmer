@@ -9109,7 +9109,15 @@
   "fått": {
     "translation": "получил",
     "transcription": "фотт",
-    "pos": "verb"
+    "pos": "verb",
+    "forms": {
+      "infinitive": "å få",
+      "present": "får",
+      "preterite": "fikk",
+      "perfect": "har fått",
+      "imperative": "få"
+    },
+    "verb_class": "strong"
   },
   "færre": {
     "translation": "меньше (по числу)",
