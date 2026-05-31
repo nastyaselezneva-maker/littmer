@@ -781,6 +781,17 @@
     "transcription": "аллэ",
     "pos": "pronoun"
   },
+  "allemannsrett": {
+    "translation": "",
+    "transcription": "",
+    "pos": "noun",
+    "dict": "",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "allemannsrett",
+      "sg_def": "allemannsretten"
+    }
+  },
   "allerede": {
     "translation": "уже",
     "transcription": "аллерэдэ",
@@ -1460,11 +1471,9 @@
     "pos": "adj",
     "forms": {
       "indef_m_f": "annen",
-      "indef_n": "annent",
-      "indef_pl": "annne",
-      "definite": "annne",
-      "comparative": "annnere",
-      "superlative": "annnest"
+      "indef_n": "annet",
+      "indef_pl": "andre",
+      "definite": "andre"
     }
   },
   "annerledes": {
@@ -1854,11 +1863,11 @@
     "pos": "noun",
     "forms": {
       "sg_indef": "apotek",
-      "sg_def": "apoteken",
-      "pl_indef": "apoteker",
+      "sg_def": "apoteket",
+      "pl_indef": "apotek",
       "pl_def": "apotekene"
     },
-    "gender": "m"
+    "gender": "n"
   },
   "apotekene": {
     "translation": "аптеки",
@@ -2114,6 +2123,19 @@
     },
     "gender": "m"
   },
+  "arbeidsgiver": {
+    "translation": "работодатели",
+    "transcription": "арбэйдсгиверэ",
+    "pos": "noun",
+    "dict": "arbeidsgiver",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "arbeidsgiver",
+      "sg_def": "arbeidsgiveren",
+      "pl_indef": "arbeidsgivere",
+      "pl_def": "arbeidsgiverne"
+    }
+  },
   "arbeidsgivere": {
     "translation": "работодатели",
     "transcription": "арбэйдсгиверэ",
@@ -2251,6 +2273,19 @@
       "pl_def": "arbeidslivsrelasjonene"
     },
     "gender": "m"
+  },
+  "arbeidsmarked": {
+    "translation": "",
+    "transcription": "",
+    "pos": "noun",
+    "dict": "",
+    "gender": "n",
+    "forms": {
+      "sg_indef": "arbeidsmarked",
+      "sg_def": "arbeidsmarkedet",
+      "pl_indef": "arbeidsmarkeder",
+      "pl_def": "arbeidsmarkedene"
+    }
   },
   "arbeidsplassen": {
     "translation": "рабочее место",
@@ -7500,7 +7535,8 @@
       "preterite": "brukte",
       "perfect": "har brukt",
       "imperative": "bruk"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "bruken": {
     "translation": "использование",
@@ -15362,6 +15398,20 @@
       "imperative": "finn"
     }
   },
+  "finne": {
+    "translation": "находит",
+    "transcription": "финнэр",
+    "pos": "verb",
+    "dict": "находить",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å finne",
+      "present": "finner",
+      "preterite": "fant",
+      "perfect": "har funnet",
+      "imperative": "finn"
+    }
+  },
   "finner": {
     "translation": "находит",
     "transcription": "финнэр",
@@ -19942,6 +19992,20 @@
       "superlative": "færrest"
     }
   },
+  "føde": {
+    "translation": "",
+    "transcription": "",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å føde",
+      "present": "føder",
+      "preterite": "fødte",
+      "perfect": "har født",
+      "imperative": "fød"
+    }
+  },
   "fødeavdelinger": {
     "translation": "родильные отделения",
     "transcription": "фёдеавдэлингер",
@@ -20256,6 +20320,18 @@
     "translation": "сначала",
     "transcription": "фёрст",
     "pos": "adv"
+  },
+  "første": {
+    "translation": "",
+    "transcription": "",
+    "pos": "adj",
+    "dict": "",
+    "forms": {
+      "indef_m_f": "første",
+      "indef_n": "første",
+      "indef_pl": "første",
+      "definite": "første"
+    }
   },
   "førstesemesterstudentene": {
     "translation": "студенты первого семестра",
@@ -21372,6 +21448,20 @@
       "imperative": "lag"
     }
   },
+  "gjøre": {
+    "translation": "делает",
+    "transcription": "йёр",
+    "pos": "verb",
+    "dict": "делать",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å gjøre",
+      "present": "gjør",
+      "preterite": "gjorde",
+      "perfect": "har gjort",
+      "imperative": "gjør"
+    }
+  },
   "gjøres": {
     "translation": "делается",
     "transcription": "ёрэс",
@@ -21729,6 +21819,18 @@
       "pl_def": "granskningene"
     },
     "gender": "m"
+  },
+  "gratis": {
+    "translation": "",
+    "transcription": "",
+    "pos": "adj",
+    "dict": "",
+    "forms": {
+      "indef_m_f": "gratis",
+      "indef_n": "gratis",
+      "indef_pl": "gratis",
+      "definite": "gratis"
+    }
   },
   "gravide": {
     "translation": "беременные",
@@ -22411,7 +22513,8 @@
       "preterite": "hadde",
       "perfect": "har hatt",
       "imperative": "ha"
-    }
+    },
+    "verb_class": "strong"
   },
   "hadde": {
     "translation": "имел",
@@ -23497,6 +23600,19 @@
     "pos": "verb",
     "dict": "ссылаться"
   },
+  "henvisning": {
+    "translation": "",
+    "transcription": "",
+    "pos": "noun",
+    "dict": "",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "henvisning",
+      "sg_def": "henvisningen",
+      "pl_indef": "henvisninger",
+      "pl_def": "henvisningene"
+    }
+  },
   "her": {
     "translation": "здесь",
     "transcription": "хэр",
@@ -23551,6 +23667,20 @@
       "preterite": "het",
       "perfect": "har hett",
       "imperative": "het"
+    }
+  },
+  "hevde": {
+    "translation": "",
+    "transcription": "",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_1",
+    "forms": {
+      "infinitive": "å hevde",
+      "present": "hevder",
+      "preterite": "hevdet",
+      "perfect": "har hevdet",
+      "imperative": "hevd"
     }
   },
   "heve": {
@@ -26718,6 +26848,19 @@
     },
     "gender": "n"
   },
+  "innvandrer": {
+    "translation": "",
+    "transcription": "",
+    "pos": "noun",
+    "dict": "",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "innvandrer",
+      "sg_def": "innvandreren",
+      "pl_indef": "innvandrere",
+      "pl_def": "innvandrerne"
+    }
+  },
   "innvandrerkategorier": {
     "translation": "категории иммигрантов",
     "transcription": "иннвандрэркатэгориэр",
@@ -27944,6 +28087,33 @@
     },
     "gender": "m"
   },
+  "jobb": {
+    "translation": "работает",
+    "transcription": "йоббэр",
+    "pos": "noun",
+    "dict": "работать",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "jobb",
+      "sg_def": "jobben",
+      "pl_indef": "jobber",
+      "pl_def": "jobbene"
+    }
+  },
+  "jobbe": {
+    "translation": "работает",
+    "transcription": "йоббэр",
+    "pos": "verb",
+    "dict": "работать",
+    "verb_class": "weak_1",
+    "forms": {
+      "infinitive": "å jobbe",
+      "present": "jobber",
+      "preterite": "jobbet",
+      "perfect": "har jobbet",
+      "imperative": "jobb"
+    }
+  },
   "jobber": {
     "translation": "работает",
     "transcription": "йоббэр",
@@ -28331,6 +28501,20 @@
       "pl_def": "kalenderårene"
     },
     "gender": "n"
+  },
+  "kalle": {
+    "translation": "называет",
+    "transcription": "каллер",
+    "pos": "verb",
+    "dict": "называть",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å kalle",
+      "present": "kaller",
+      "preterite": "kalte",
+      "perfect": "har kalt",
+      "imperative": "kall"
+    }
   },
   "kaller": {
     "translation": "называет",
@@ -29396,7 +29580,8 @@
       "preterite": "kjørte",
       "perfect": "har kjørt",
       "imperative": "kjør"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "kjøreforbud": {
     "translation": "запрет на вождение",
@@ -33616,10 +33801,11 @@
     "forms": {
       "infinitive": "å lage",
       "present": "lager",
-      "preterite": "lagte",
-      "perfect": "har lagt",
+      "preterite": "laget",
+      "perfect": "har laget",
       "imperative": "lag"
-    }
+    },
+    "verb_class": "weak_1"
   },
   "lager": {
     "translation": "склад / делает",
@@ -34359,6 +34545,19 @@
       "definite": "ledige",
       "comparative": "ledigere",
       "superlative": "ledigest"
+    }
+  },
+  "lege": {
+    "translation": "врачи",
+    "transcription": "легэр",
+    "pos": "noun",
+    "dict": "врач",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "lege",
+      "sg_def": "legen",
+      "pl_indef": "leger",
+      "pl_def": "legene"
     }
   },
   "legeattest": {
@@ -35175,6 +35374,20 @@
       "imperative": "lid"
     }
   },
+  "ligge": {
+    "translation": "лежит",
+    "transcription": "лиггер",
+    "pos": "verb",
+    "dict": "лежать",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å ligge",
+      "present": "ligger",
+      "preterite": "lå",
+      "perfect": "har ligget",
+      "imperative": "ligg"
+    }
+  },
   "liggende": {
     "translation": "лежащий",
     "transcription": "лиггэндэ",
@@ -35575,11 +35788,11 @@
     "pos": "noun",
     "forms": {
       "sg_indef": "liv",
-      "sg_def": "liven",
-      "pl_indef": "liver",
+      "sg_def": "livet",
+      "pl_indef": "liv",
       "pl_def": "livene"
     },
-    "gender": "m"
+    "gender": "n"
   },
   "livets": {
     "translation": "жизни",
@@ -41653,6 +41866,19 @@
       "superlative": "nordligest"
     }
   },
+  "nordmann": {
+    "translation": "",
+    "transcription": "",
+    "pos": "noun",
+    "dict": "",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "nordmann",
+      "sg_def": "nordmannen",
+      "pl_indef": "nordmenn",
+      "pl_def": "nordmennene"
+    }
+  },
   "norge": {
     "translation": "Норвегия",
     "transcription": "норгэ",
@@ -42820,6 +43046,19 @@
     "translation": "Олава (родит.)",
     "transcription": "олавс",
     "pos": "name"
+  },
+  "olje": {
+    "translation": "",
+    "transcription": "",
+    "pos": "noun",
+    "dict": "",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "olje",
+      "sg_def": "oljen",
+      "pl_indef": "oljer",
+      "pl_def": "oljene"
+    }
   },
   "oljearbeidere": {
     "translation": "нефтяники",
@@ -46019,6 +46258,19 @@
     },
     "gender": "m"
   },
+  "penger": {
+    "translation": "",
+    "transcription": "",
+    "pos": "noun",
+    "dict": "",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "penger",
+      "sg_def": "pengene",
+      "pl_indef": "penger",
+      "pl_def": "pengene"
+    }
+  },
   "pengesummer": {
     "translation": "денежные суммы",
     "transcription": "пенгэсюммер",
@@ -47257,6 +47509,20 @@
       "pl_def": "populismene"
     },
     "gender": "m"
+  },
+  "populær": {
+    "translation": "",
+    "transcription": "",
+    "pos": "adj",
+    "dict": "",
+    "forms": {
+      "indef_m_f": "populær",
+      "indef_n": "populært",
+      "indef_pl": "populære",
+      "definite": "populære",
+      "comparative": "mer populær",
+      "superlative": "mest populær"
+    }
   },
   "portal": {
     "translation": "портал",
@@ -53461,6 +53727,20 @@
     },
     "gender": "m"
   },
+  "se": {
+    "translation": "видит",
+    "transcription": "сэр",
+    "pos": "verb",
+    "dict": "видеть",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å se",
+      "present": "ser",
+      "preterite": "så",
+      "perfect": "har sett",
+      "imperative": "se"
+    }
+  },
   "sedvanerettslige": {
     "translation": "обычно-правовые",
     "transcription": "сэдванэрэтслигэ",
@@ -54418,7 +54698,8 @@
       "preterite": "sa",
       "perfect": "har sagt",
       "imperative": "si"
-    }
+    },
+    "verb_class": "strong"
   },
   "side": {
     "translation": "сторона",
@@ -64397,6 +64678,19 @@
       "imperative": "tiltrekk"
     }
   },
+  "time": {
+    "translation": "час",
+    "transcription": "тимэн",
+    "pos": "noun",
+    "dict": "час",
+    "gender": "m",
+    "forms": {
+      "sg_indef": "time",
+      "sg_def": "timen",
+      "pl_indef": "timer",
+      "pl_def": "timene"
+    }
+  },
   "timen": {
     "translation": "час",
     "transcription": "тимэн",
@@ -65287,6 +65581,20 @@
       "pl_def": "trendene"
     },
     "gender": "m"
+  },
+  "trenge": {
+    "translation": "",
+    "transcription": "",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å trenge",
+      "present": "trenger",
+      "preterite": "trengte",
+      "perfect": "har trengt",
+      "imperative": "treng"
+    }
   },
   "trengs": {
     "translation": "требуется",
@@ -71773,7 +72081,8 @@
       "preterite": "var",
       "perfect": "har vært",
       "imperative": "vær"
-    }
+    },
+    "verb_class": "strong"
   },
   "værende": {
     "translation": "находящийся",
