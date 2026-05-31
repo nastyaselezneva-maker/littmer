@@ -2967,11 +2967,12 @@
     "translation": "прервать",
     "transcription": "авбрютэ",
     "pos": "verb",
+    "verb_class": "strong",
     "forms": {
       "infinitive": "å avbryte",
       "present": "avbryter",
-      "preterite": "avbrytte",
-      "perfect": "har avbrytt",
+      "preterite": "avbrøt",
+      "perfect": "har avbrutt",
       "imperative": "avbryt"
     }
   },
@@ -5505,7 +5506,8 @@
       "preterite": "besto",
       "perfect": "har bestått",
       "imperative": "bestå"
-    }
+    },
+    "verb_class": "strong"
   },
   "består": {
     "translation": "состоит",
@@ -5524,14 +5526,7 @@
     "translation": "сдан",
     "transcription": "бэстот",
     "pos": "verb",
-    "dict": "сдать (экзамен)",
-    "forms": {
-      "infinitive": "å bestått",
-      "present": "beståtter",
-      "preterite": "beståttte",
-      "perfect": "har beståttt",
-      "imperative": "bestått"
-    }
+    "dict": "сдать (экзамен)"
   },
   "besøk": {
     "translation": "посещение",
@@ -7693,11 +7688,12 @@
     "transcription": "брютэ",
     "pos": "verb",
     "dict": "ломать",
+    "verb_class": "strong",
     "forms": {
       "infinitive": "å bryte",
       "present": "bryter",
-      "preterite": "brytte",
-      "perfect": "har brytt",
+      "preterite": "brøt",
+      "perfect": "har brutt",
       "imperative": "bryt"
     }
   },
@@ -7705,14 +7701,7 @@
     "translation": "ломает, нарушает",
     "transcription": "брютэр",
     "pos": "verb",
-    "dict": "bryte",
-    "forms": {
-      "infinitive": "å bryte",
-      "present": "bryter",
-      "preterite": "brytte",
-      "perfect": "har brytt",
-      "imperative": "bryt"
-    }
+    "dict": "bryte"
   },
   "brytes": {
     "translation": "ломается",
@@ -8449,13 +8438,20 @@
     "translation": "оштрафован",
     "transcription": "бётэлагт",
     "pos": "verb",
+    "dict": "штрафовать"
+  },
+  "bøtelegge": {
+    "translation": "оштрафован",
+    "transcription": "бётэлагт",
+    "pos": "verb",
     "dict": "штрафовать",
+    "verb_class": "strong",
     "forms": {
-      "infinitive": "å bøtelagt",
-      "present": "bøtelagter",
-      "preterite": "bøtelagtte",
-      "perfect": "har bøtelagtt",
-      "imperative": "bøtelagt"
+      "infinitive": "å bøtelegge",
+      "present": "bøtelegger",
+      "preterite": "bøtela",
+      "perfect": "har bøtelagt",
+      "imperative": "bøtelegg"
     }
   },
   "bøtene": {
@@ -9692,15 +9688,17 @@
   "diktere": {
     "translation": "поэты",
     "transcription": "диктэрэ",
-    "pos": "noun",
+    "pos": "verb",
     "dict": "поэт",
     "forms": {
-      "sg_indef": "diktere",
-      "sg_def": "dikteren",
-      "pl_indef": "dikterer",
-      "pl_def": "dikterene"
+      "infinitive": "å diktere",
+      "present": "dikterer",
+      "preterite": "dikterte",
+      "perfect": "har diktert",
+      "imperative": "dikter"
     },
-    "gender": "m"
+    "gender": "m",
+    "verb_class": "weak_2"
   },
   "dikterstemmer": {
     "translation": "поэтические голоса",
@@ -9718,14 +9716,7 @@
     "translation": "продиктованный",
     "transcription": "диктэрт",
     "pos": "verb",
-    "dict": "диктовать",
-    "forms": {
-      "infinitive": "å diktert",
-      "present": "dikterter",
-      "preterite": "diktertte",
-      "perfect": "har diktertt",
-      "imperative": "diktert"
-    }
+    "dict": "диктовать"
   },
   "diktet": {
     "translation": "стихотворение",
@@ -10510,6 +10501,20 @@
     "transcription": "дээргэ",
     "pos": ""
   },
+  "drifte": {
+    "translation": "управляет",
+    "transcription": "дрифтэр",
+    "pos": "verb",
+    "dict": "управлять",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å drifte",
+      "present": "drifter",
+      "preterite": "driftet",
+      "perfect": "har driftet",
+      "imperative": "drift"
+    }
+  },
   "driften": {
     "translation": "эксплуатация",
     "transcription": "дрифтэн",
@@ -10527,14 +10532,7 @@
     "translation": "управляет",
     "transcription": "дрифтэр",
     "pos": "verb",
-    "dict": "управлять",
-    "forms": {
-      "infinitive": "å forvalte",
-      "present": "forvalter",
-      "preterite": "forvaltte",
-      "perfect": "har forvaltt",
-      "imperative": "forvalt"
-    }
+    "dict": "управлять"
   },
   "driftsansvar": {
     "translation": "ответственность за эксплуатацию",
@@ -10599,18 +10597,25 @@
       "superlative": "dristigest"
     }
   },
-  "driver": {
+  "drive": {
     "translation": "управляет",
     "transcription": "дривэр",
     "pos": "verb",
     "dict": "управлять",
+    "verb_class": "strong",
     "forms": {
-      "infinitive": "å forvalte",
-      "present": "forvalter",
-      "preterite": "forvaltte",
-      "perfect": "har forvaltt",
-      "imperative": "forvalt"
+      "infinitive": "å drive",
+      "present": "driver",
+      "preterite": "drev",
+      "perfect": "har drevet",
+      "imperative": "driv"
     }
+  },
+  "driver": {
+    "translation": "управляет",
+    "transcription": "дривэр",
+    "pos": "verb",
+    "dict": "управлять"
   },
   "drives": {
     "translation": "ведётся",
@@ -12870,6 +12875,20 @@
       "imperative": "erkjenn"
     }
   },
+  "erklære": {
+    "translation": "объявляет",
+    "transcription": "эрклэрэр",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å erklære",
+      "present": "erklærer",
+      "preterite": "erklærte",
+      "perfect": "har erklært",
+      "imperative": "erklær"
+    }
+  },
   "erklærer": {
     "translation": "объявляет",
     "transcription": "эрклэрэр",
@@ -12886,14 +12905,7 @@
     "translation": "объявлен",
     "transcription": "эрклэрт",
     "pos": "verb",
-    "dict": "объявлять",
-    "forms": {
-      "infinitive": "å erklært",
-      "present": "erklærter",
-      "preterite": "erklærtte",
-      "perfect": "har erklærtt",
-      "imperative": "erklært"
-    }
+    "dict": "объявлять"
   },
   "erna": {
     "translation": "Эрна (имя)",
@@ -15229,7 +15241,8 @@
       "preterite": "finansierte",
       "perfect": "har finansiert",
       "imperative": "finansier"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "finansierer": {
     "translation": "финансирует",
@@ -15284,14 +15297,7 @@
   "finansiert": {
     "translation": "профинансированный",
     "transcription": "финансиэрт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å finansiert",
-      "present": "finansierter",
-      "preterite": "finansiertte",
-      "perfect": "har finansiertt",
-      "imperative": "finansiert"
-    }
+    "pos": "verb"
   },
   "finanspolitikk": {
     "translation": "финансовая политика",
@@ -17190,10 +17196,11 @@
     "transcription": "форлатэ",
     "pos": "verb",
     "dict": "forlate",
+    "verb_class": "strong",
     "forms": {
       "infinitive": "å forlate",
       "present": "forlater",
-      "preterite": "forlatte",
+      "preterite": "forlot",
       "perfect": "har forlatt",
       "imperative": "forlat"
     }
@@ -17201,14 +17208,7 @@
   "forlater": {
     "translation": "покидает",
     "transcription": "форлатэр",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å forlate",
-      "present": "forlater",
-      "preterite": "forlatte",
-      "perfect": "har forlatt",
-      "imperative": "forlat"
-    }
+    "pos": "verb"
   },
   "forlenge": {
     "translation": "продлевать",
@@ -18416,11 +18416,12 @@
     "translation": "управлять",
     "transcription": "форвальтэ",
     "pos": "verb",
+    "verb_class": "weak_2",
     "forms": {
       "infinitive": "å forvalte",
       "present": "forvalter",
-      "preterite": "forvaltte",
-      "perfect": "har forvaltt",
+      "preterite": "forvaltet",
+      "perfect": "har forvaltet",
       "imperative": "forvalt"
     }
   },
@@ -18503,17 +18504,24 @@
       "imperative": "forveksl"
     }
   },
-  "forventer": {
+  "forvente": {
     "translation": "ожидает",
     "transcription": "форвэнтэр",
     "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
     "forms": {
       "infinitive": "å forvente",
       "present": "forventer",
-      "preterite": "forventte",
-      "perfect": "har forventt",
+      "preterite": "forventet",
+      "perfect": "har forventet",
       "imperative": "forvent"
     }
+  },
+  "forventer": {
+    "translation": "ожидает",
+    "transcription": "форвэнтэр",
+    "pos": "verb"
   },
   "forventet": {
     "translation": "ожидаемый",
@@ -20975,7 +20983,8 @@
       "preterite": "gjennomførte",
       "perfect": "har gjennomført",
       "imperative": "gjennomfør"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "gjennomfører": {
     "translation": "осуществляет",
@@ -21019,14 +21028,7 @@
     "translation": "проведён",
     "transcription": "йеннумфёрт",
     "pos": "verb",
-    "dict": "проводить (завершить)",
-    "forms": {
-      "infinitive": "å gjennomført",
-      "present": "gjennomførter",
-      "preterite": "gjennomførtte",
-      "perfect": "har gjennomførtt",
-      "imperative": "gjennomført"
-    }
+    "dict": "проводить (завершить)"
   },
   "gjennomførte": {
     "translation": "осуществил",
@@ -21053,6 +21055,20 @@
       "imperative": "gjennomgikk"
     }
   },
+  "gjennomgå": {
+    "translation": "проходит через",
+    "transcription": "йенномгор",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å gjennomgå",
+      "present": "gjennomgår",
+      "preterite": "gjennomgikk",
+      "perfect": "har gjennomgått",
+      "imperative": "gjennomgå"
+    }
+  },
   "gjennomgår": {
     "translation": "проходит через",
     "transcription": "йенномгор",
@@ -21068,14 +21084,7 @@
   "gjennomgått": {
     "translation": "пройденный",
     "transcription": "йенномготт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å gjennomgått",
-      "present": "gjennomgåtter",
-      "preterite": "gjennomgåttte",
-      "perfect": "har gjennomgåttt",
-      "imperative": "gjennomgått"
-    }
+    "pos": "verb"
   },
   "gjennomsiktige": {
     "translation": "прозрачные",
@@ -21857,6 +21866,20 @@
       "definite": "grille",
       "comparative": "grillere",
       "superlative": "grillest"
+    }
+  },
+  "gripe": {
+    "translation": "хват",
+    "transcription": "грэп",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å gripe",
+      "present": "griper",
+      "preterite": "grep",
+      "perfect": "har grepet",
+      "imperative": "grip"
     }
   },
   "grisgrendte": {
@@ -23403,11 +23426,12 @@
     "translation": "забирать",
     "transcription": "хентэ",
     "pos": "verb",
+    "verb_class": "weak_1",
     "forms": {
       "infinitive": "å hente",
       "present": "henter",
-      "preterite": "hentte",
-      "perfect": "har hentt",
+      "preterite": "hentet",
+      "perfect": "har hentet",
       "imperative": "hent"
     }
   },
@@ -23415,27 +23439,13 @@
     "translation": "забирает",
     "transcription": "хэнтэр",
     "pos": "verb",
-    "dict": "забирать",
-    "forms": {
-      "infinitive": "å hente",
-      "present": "henter",
-      "preterite": "hentte",
-      "perfect": "har hentt",
-      "imperative": "hent"
-    }
+    "dict": "забирать"
   },
   "hentet": {
     "translation": "забрал",
     "transcription": "хентэт",
     "pos": "verb",
-    "dict": "забирать",
-    "forms": {
-      "infinitive": "å hente",
-      "present": "henter",
-      "preterite": "hentte",
-      "perfect": "har hentt",
-      "imperative": "hent"
-    }
+    "dict": "забирать"
   },
   "henvende": {
     "translation": "обращаться",
@@ -26403,14 +26413,7 @@
     "translation": "госпитализирован",
     "transcription": "иннлагт",
     "pos": "verb",
-    "dict": "госпитализировать",
-    "forms": {
-      "infinitive": "å innlagt",
-      "present": "innlagter",
-      "preterite": "innlagtte",
-      "perfect": "har innlagtt",
-      "imperative": "innlagt"
-    }
+    "dict": "госпитализировать"
   },
   "innlegg": {
     "translation": "пост, выступление",
@@ -26424,6 +26427,20 @@
       "pl_def": "innleggene"
     },
     "gender": "n"
+  },
+  "innlegge": {
+    "translation": "госпитализирован",
+    "transcription": "иннлагт",
+    "pos": "verb",
+    "dict": "госпитализировать",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å innlegge",
+      "present": "innlegger",
+      "preterite": "innla",
+      "perfect": "har innlagt",
+      "imperative": "innlegg"
+    }
   },
   "innleggelse": {
     "translation": "госпитализация",
@@ -31174,18 +31191,25 @@
       "definite": "konstitusjonelle"
     }
   },
-  "konstruert": {
+  "konstruere": {
     "translation": "сконструированный",
     "transcription": "конструэрт",
     "pos": "verb",
     "dict": "конструировать",
+    "verb_class": "weak_2",
     "forms": {
-      "infinitive": "å konstruert",
-      "present": "konstruerter",
-      "preterite": "konstruertte",
-      "perfect": "har konstruertt",
-      "imperative": "konstruert"
+      "infinitive": "å konstruere",
+      "present": "konstruerer",
+      "preterite": "konstruerte",
+      "perfect": "har konstruert",
+      "imperative": "konstruer"
     }
+  },
+  "konstruert": {
+    "translation": "сконструированный",
+    "transcription": "конструэрт",
+    "pos": "verb",
+    "dict": "конструировать"
   },
   "konsulentvirksomhet": {
     "translation": "консалтинговая деятельность",
@@ -34009,6 +34033,20 @@
       "superlative": "langvarigest"
     }
   },
+  "lansere": {
+    "translation": "запущен",
+    "transcription": "лансэрт",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å lansere",
+      "present": "lanserer",
+      "preterite": "lanserte",
+      "perfect": "har lansert",
+      "imperative": "lanser"
+    }
+  },
   "lanseres": {
     "translation": "запускается",
     "transcription": "лансэрэс",
@@ -34025,14 +34063,7 @@
   "lansert": {
     "translation": "запущен",
     "transcription": "лансэрт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å lansert",
-      "present": "lanserter",
-      "preterite": "lansertte",
-      "perfect": "har lansertt",
-      "imperative": "lansert"
-    }
+    "pos": "verb"
   },
   "lar": {
     "translation": "позволяет",
@@ -34859,6 +34890,7 @@
     "translation": "искать",
     "transcription": "лэтэ",
     "pos": "verb",
+    "verb_class": "weak_2",
     "forms": {
       "infinitive": "å lete",
       "present": "leter",
@@ -34870,14 +34902,7 @@
   "leter": {
     "translation": "ищет",
     "transcription": "лэтэр",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å lete",
-      "present": "leter",
-      "preterite": "lette",
-      "perfect": "har lett",
-      "imperative": "let"
-    }
+    "pos": "verb"
   },
   "lett": {
     "translation": "лёгкий",
@@ -36262,14 +36287,7 @@
   "lytt": {
     "translation": "слушай",
     "transcription": "лютт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å lytt",
-      "present": "lytter",
-      "preterite": "lyttte",
-      "perfect": "har lyttt",
-      "imperative": "lytt"
-    }
+    "pos": "verb"
   },
   "lytte": {
     "translation": "слушать",
@@ -36281,7 +36299,8 @@
       "preterite": "lyttet",
       "perfect": "har lyttet",
       "imperative": "lytt"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "lytter": {
     "translation": "слушает",
@@ -36775,7 +36794,15 @@
   "løse": {
     "translation": "решать",
     "transcription": "лёсэ",
-    "pos": "verb"
+    "pos": "verb",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å løse",
+      "present": "løser",
+      "preterite": "løste",
+      "perfect": "har løst",
+      "imperative": "løs"
+    }
   },
   "løser": {
     "translation": "решает",
@@ -36836,14 +36863,7 @@
   "løst": {
     "translation": "решено",
     "transcription": "лёст",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å løst",
-      "present": "løster",
-      "preterite": "løstte",
-      "perfect": "har løstt",
-      "imperative": "løst"
-    }
+    "pos": "verb"
   },
   "løste": {
     "translation": "решил",
@@ -37975,6 +37995,20 @@
       "superlative": "mellomstorest"
     }
   },
+  "mene": {
+    "translation": "считает",
+    "transcription": "менэр",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å mene",
+      "present": "mener",
+      "preterite": "mente",
+      "perfect": "har ment",
+      "imperative": "men"
+    }
+  },
   "mener": {
     "translation": "считает",
     "transcription": "менэр",
@@ -38137,14 +38171,7 @@
   "ment": {
     "translation": "имелось в виду",
     "transcription": "мент",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å ment",
-      "present": "menter",
-      "preterite": "mentte",
-      "perfect": "har mentt",
-      "imperative": "ment"
-    }
+    "pos": "verb"
   },
   "mental": {
     "translation": "ментальный",
@@ -40533,7 +40560,8 @@
   "møte": {
     "translation": "встреча, встречать",
     "transcription": "мётэ",
-    "pos": "noun/verb",
+    "pos": "verb",
+    "verb_class": "weak_2",
     "forms": {
       "infinitive": "å møte",
       "present": "møter",
@@ -40545,14 +40573,7 @@
   "møter": {
     "translation": "встречи / встречает",
     "transcription": "мётер",
-    "pos": "noun/verb",
-    "forms": {
-      "infinitive": "å møte",
-      "present": "møter",
-      "preterite": "møtte",
-      "perfect": "har møtt",
-      "imperative": "møt"
-    }
+    "pos": "noun/verb"
   },
   "møtes": {
     "translation": "встречаться",
@@ -40570,26 +40591,12 @@
     "translation": "встреченный",
     "transcription": "мётт",
     "pos": "verb",
-    "dict": "встречать",
-    "forms": {
-      "infinitive": "å møtt",
-      "present": "møtter",
-      "preterite": "møttte",
-      "perfect": "har møttt",
-      "imperative": "møtt"
-    }
+    "dict": "встречать"
   },
   "møtte": {
     "translation": "встретил",
     "transcription": "мёттэ",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å møte",
-      "present": "møter",
-      "preterite": "møtte",
-      "perfect": "har møtt",
-      "imperative": "møt"
-    }
+    "pos": "verb"
   },
   "møttes": {
     "translation": "встретились",
@@ -41540,18 +41547,25 @@
     },
     "gender": "m"
   },
-  "nominert": {
+  "nominere": {
     "translation": "номинированный",
     "transcription": "номинерт",
     "pos": "verb",
     "dict": "номинировать",
+    "verb_class": "weak_2",
     "forms": {
-      "infinitive": "å nominert",
-      "present": "nominerter",
-      "preterite": "nominertte",
-      "perfect": "har nominertt",
-      "imperative": "nominert"
+      "infinitive": "å nominere",
+      "present": "nominerer",
+      "preterite": "nominerte",
+      "perfect": "har nominert",
+      "imperative": "nominer"
     }
+  },
+  "nominert": {
+    "translation": "номинированный",
+    "transcription": "номинерт",
+    "pos": "verb",
+    "dict": "номинировать"
   },
   "nord": {
     "translation": "север",
@@ -42056,6 +42070,20 @@
       "definite": "nynorske",
       "comparative": "nynorskere",
       "superlative": "nynorskest"
+    }
+  },
+  "nyte": {
+    "translation": "наслаждается",
+    "transcription": "нютер",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å nyte",
+      "present": "nyter",
+      "preterite": "nøt",
+      "perfect": "har nytt",
+      "imperative": "nyt"
     }
   },
   "nyter": {
@@ -43085,14 +43113,7 @@
   "omgjort": {
     "translation": "переделанный",
     "transcription": "омъюрт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å omgjort",
-      "present": "omgjorter",
-      "preterite": "omgjortte",
-      "perfect": "har omgjortt",
-      "imperative": "omgjort"
-    }
+    "pos": "verb"
   },
   "omgjøre": {
     "translation": "переделать",
@@ -43100,11 +43121,12 @@
     "pos": "verb",
     "forms": {
       "infinitive": "å omgjøre",
-      "present": "omgjører",
-      "preterite": "omgjørte",
-      "perfect": "har omgjørt",
+      "present": "omgjør",
+      "preterite": "omgjorde",
+      "perfect": "har omgjort",
       "imperative": "omgjør"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "omorganisering": {
     "translation": "реорганизация",
@@ -44983,29 +45005,29 @@
       "imperative": "overlev"
     }
   },
-  "overlevert": {
+  "overlevere": {
     "translation": "переданный",
     "transcription": "оверлеверт",
     "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
     "forms": {
-      "infinitive": "å overlevert",
-      "present": "overleverter",
-      "preterite": "overlevertte",
-      "perfect": "har overlevertt",
-      "imperative": "overlevert"
+      "infinitive": "å overlevere",
+      "present": "overleverer",
+      "preterite": "overleverte",
+      "perfect": "har overlevert",
+      "imperative": "overlever"
     }
+  },
+  "overlevert": {
+    "translation": "переданный",
+    "transcription": "оверлеверт",
+    "pos": "verb"
   },
   "overlot": {
     "translation": "передал",
     "transcription": "оверлут",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å overlot",
-      "present": "overloter",
-      "preterite": "overlotte",
-      "perfect": "har overlott",
-      "imperative": "overlot"
-    }
+    "pos": "verb"
   },
   "overnaturlige": {
     "translation": "сверхъестественные",
@@ -45048,25 +45070,25 @@
   "oversatt": {
     "translation": "переведённый",
     "transcription": "оверсатт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å oversatt",
-      "present": "oversatter",
-      "preterite": "oversattte",
-      "perfect": "har oversattt",
-      "imperative": "oversatt"
-    }
+    "pos": "verb"
   },
   "oversatte": {
     "translation": "переведённые",
     "transcription": "оверсаттэ",
+    "pos": "verb"
+  },
+  "oversette": {
+    "translation": "переведённые",
+    "transcription": "оверсаттэ",
     "pos": "verb",
+    "dict": "",
+    "verb_class": "strong",
     "forms": {
-      "infinitive": "å oversate",
-      "present": "oversater",
+      "infinitive": "å oversette",
+      "present": "oversetter",
       "preterite": "oversatte",
       "perfect": "har oversatt",
-      "imperative": "oversat"
+      "imperative": "oversett"
     }
   },
   "oversettelse": {
@@ -45828,6 +45850,20 @@
       "imperative": "egn"
     }
   },
+  "passere": {
+    "translation": "проехавший",
+    "transcription": "пассерт",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å passere",
+      "present": "passerer",
+      "preterite": "passerte",
+      "perfect": "har passert",
+      "imperative": "passer"
+    }
+  },
   "passering": {
     "translation": "проезд",
     "transcription": "пассеринг",
@@ -45843,14 +45879,7 @@
   "passert": {
     "translation": "проехавший",
     "transcription": "пассерт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å passert",
-      "present": "passerter",
-      "preterite": "passertte",
-      "perfect": "har passertt",
-      "imperative": "passert"
-    }
+    "pos": "verb"
   },
   "passing": {
     "translation": "уход, забота",
@@ -46637,6 +46666,20 @@
     },
     "gender": "m"
   },
+  "plassere": {
+    "translation": "размещённый",
+    "transcription": "плассерт",
+    "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å plassere",
+      "present": "plasserer",
+      "preterite": "plasserte",
+      "perfect": "har plassert",
+      "imperative": "plasser"
+    }
+  },
   "plasseringer": {
     "translation": "размещения",
     "transcription": "плассерингер",
@@ -46652,14 +46695,7 @@
   "plassert": {
     "translation": "размещённый",
     "transcription": "плассерт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å plassert",
-      "present": "plasserter",
-      "preterite": "plassertte",
-      "perfect": "har plassertt",
-      "imperative": "plassert"
-    }
+    "pos": "verb"
   },
   "plate": {
     "translation": "пластинка, плита",
@@ -48914,18 +48950,25 @@
     },
     "gender": "m"
   },
+  "pynte": {
+    "translation": "украшенный",
+    "transcription": "пюнтет",
+    "pos": "verb",
+    "dict": "å pynte",
+    "verb_class": "weak_1",
+    "forms": {
+      "infinitive": "å pynte",
+      "present": "pynter",
+      "preterite": "pyntet",
+      "perfect": "har pyntet",
+      "imperative": "pynt"
+    }
+  },
   "pyntet": {
     "translation": "украшенный",
     "transcription": "пюнтет",
     "pos": "глаг.",
-    "dict": "å pynte",
-    "forms": {
-      "infinitive": "å pynte",
-      "present": "pynter",
-      "preterite": "pyntte",
-      "perfect": "har pyntt",
-      "imperative": "pynt"
-    }
+    "dict": "å pynte"
   },
   "pågikk": {
     "translation": "продолжалось",
@@ -56174,24 +56217,18 @@
     "transcription": "скрютэ",
     "pos": "verb",
     "forms": {
-      "infinitive": "å skrye",
-      "present": "skryer",
-      "preterite": "skryte",
-      "perfect": "har skryt",
-      "imperative": "skry"
-    }
+      "infinitive": "å skryte",
+      "present": "skryter",
+      "preterite": "skrøt",
+      "perfect": "har skrytt",
+      "imperative": "skryt"
+    },
+    "verb_class": "strong"
   },
   "skryter": {
     "translation": "хвастается",
     "transcription": "скрютэр",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å skryte",
-      "present": "skryter",
-      "preterite": "skrytte",
-      "perfect": "har skrytt",
-      "imperative": "skryt"
-    }
+    "pos": "verb"
   },
   "skuespillene": {
     "translation": "пьесы (определённые)",
@@ -56403,12 +56440,19 @@
   "slett": {
     "translation": "удали, вовсе",
     "transcription": "слэтт",
+    "pos": "verb"
+  },
+  "slette": {
+    "translation": "удали, вовсе",
+    "transcription": "слэтт",
     "pos": "verb",
+    "dict": "",
+    "verb_class": "weak_2",
     "forms": {
-      "infinitive": "å slett",
+      "infinitive": "å slette",
       "present": "sletter",
-      "preterite": "slettte",
-      "perfect": "har slettt",
+      "preterite": "slettet",
+      "perfect": "har slettet",
       "imperative": "slett"
     }
   },
@@ -56477,17 +56521,24 @@
       "imperative": "slipp"
     }
   },
-  "sliter": {
+  "slite": {
     "translation": "мучается, испытывает трудности",
     "transcription": "слитэр",
     "pos": "verb",
+    "dict": "",
+    "verb_class": "strong",
     "forms": {
       "infinitive": "å slite",
       "present": "sliter",
-      "preterite": "slitte",
+      "preterite": "slet",
       "perfect": "har slitt",
       "imperative": "slit"
     }
+  },
+  "sliter": {
+    "translation": "мучается, испытывает трудности",
+    "transcription": "слитэр",
+    "pos": "verb"
   },
   "slitne": {
     "translation": "уставшие",
@@ -57595,14 +57646,7 @@
   "spilt": {
     "translation": "сыгранный",
     "transcription": "спильт",
-    "pos": "verb",
-    "forms": {
-      "infinitive": "å spilt",
-      "present": "spilter",
-      "preterite": "spiltte",
-      "perfect": "har spiltt",
-      "imperative": "spilt"
-    }
+    "pos": "verb"
   },
   "spilte": {
     "translation": "играл",
@@ -57615,6 +57659,20 @@
       "preterite": "spilte",
       "perfect": "har spilt",
       "imperative": "spill"
+    }
+  },
+  "spise": {
+    "translation": "есть",
+    "transcription": "списэ",
+    "pos": "verb",
+    "dict": "есть",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å spise",
+      "present": "spiser",
+      "preterite": "spiste",
+      "perfect": "har spist",
+      "imperative": "spis"
     }
   },
   "spiseforstyrrelser": {
@@ -58156,11 +58214,12 @@
     "translation": "начинать",
     "transcription": "стартэ",
     "pos": "verb",
+    "verb_class": "weak_1",
     "forms": {
       "infinitive": "å starte",
       "present": "starter",
-      "preterite": "startte",
-      "perfect": "har startt",
+      "preterite": "startet",
+      "perfect": "har startet",
       "imperative": "start"
     }
   },
@@ -60511,14 +60570,7 @@
     "translation": "голодающие",
     "transcription": "сЮльтэндэ",
     "pos": "прич.",
-    "dict": "sulte",
-    "forms": {
-      "infinitive": "å sulte",
-      "present": "sulter",
-      "preterite": "sultte",
-      "perfect": "har sultt",
-      "imperative": "sult"
-    }
+    "dict": "sulte"
   },
   "sum": {
     "translation": "сумма",
@@ -60697,7 +60749,7 @@
   "svare": {
     "translation": "отвечать",
     "transcription": "свАрэ",
-    "pos": "глаг.",
+    "pos": "verb",
     "dict": "svare",
     "forms": {
       "infinitive": "å svare",
@@ -60705,7 +60757,8 @@
       "preterite": "svarte",
       "perfect": "har svart",
       "imperative": "svar"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "svarene": {
     "translation": "ответы",
@@ -60750,14 +60803,7 @@
     "translation": "чёрный; ответил",
     "transcription": "сварт",
     "pos": "прил./глаг.",
-    "dict": "svart/svare",
-    "forms": {
-      "infinitive": "å svart",
-      "present": "svarter",
-      "preterite": "svartte",
-      "perfect": "har svartt",
-      "imperative": "svart"
-    }
+    "dict": "svart/svare"
   },
   "svekke": {
     "translation": "ослаблять",
@@ -62026,7 +62072,7 @@
   "tale": {
     "translation": "речь; говорить",
     "transcription": "тАлэ",
-    "pos": "сущ./глаг.",
+    "pos": "verb",
     "dict": "tale",
     "forms": {
       "infinitive": "å tale",
@@ -62034,7 +62080,8 @@
       "preterite": "talte",
       "perfect": "har talt",
       "imperative": "tal"
-    }
+    },
+    "verb_class": "weak_2"
   },
   "talent": {
     "translation": "талант",
@@ -62146,14 +62193,7 @@
     "translation": "сказанный / посчитанный",
     "transcription": "тальт",
     "pos": "verb",
-    "dict": "tale/telle",
-    "forms": {
-      "infinitive": "å talt",
-      "present": "talter",
-      "preterite": "taltte",
-      "perfect": "har taltt",
-      "imperative": "talt"
-    }
+    "dict": "tale/telle"
   },
   "tanken": {
     "translation": "мысль / бак (опр.)",
@@ -63947,18 +63987,25 @@
       "superlative": "tilkobledest"
     }
   },
+  "tillate": {
+    "translation": "позволяет",
+    "transcription": "тИллатэр",
+    "pos": "verb",
+    "dict": "tillate",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å tillate",
+      "present": "tillater",
+      "preterite": "tillot",
+      "perfect": "har tillatt",
+      "imperative": "tillat"
+    }
+  },
   "tillater": {
     "translation": "позволяет",
     "transcription": "тИллатэр",
     "pos": "глаг.",
-    "dict": "tillate",
-    "forms": {
-      "infinitive": "å tillate",
-      "present": "tillater",
-      "preterite": "tillatte",
-      "perfect": "har tillatt",
-      "imperative": "tillat"
-    }
+    "dict": "tillate"
   },
   "tillatt": {
     "translation": "разрешено",
@@ -68015,14 +68062,7 @@
     "translation": "опускается / исключается",
     "transcription": "утелатес",
     "pos": "verb",
-    "dict": "utelate",
-    "forms": {
-      "infinitive": "å utelate",
-      "present": "utelater",
-      "preterite": "utelatte",
-      "perfect": "har utelatt",
-      "imperative": "utelat"
-    }
+    "dict": "utelate"
   },
   "utelukke": {
     "translation": "исключать",
@@ -68577,18 +68617,25 @@
     },
     "gender": "m"
   },
+  "utvide": {
+    "translation": "расширенный",
+    "transcription": "утвидэ",
+    "pos": "verb",
+    "dict": "utvide",
+    "verb_class": "weak_2",
+    "forms": {
+      "infinitive": "å utvide",
+      "present": "utvider",
+      "preterite": "utvidet",
+      "perfect": "har utvidet",
+      "imperative": "utvid"
+    }
+  },
   "utvidede": {
     "translation": "расширенные",
     "transcription": "Утвидэдэ",
     "pos": "прич.",
-    "dict": "utvidet",
-    "forms": {
-      "infinitive": "å utvidet",
-      "present": "utvideter",
-      "preterite": "utvidette",
-      "perfect": "har utvidett",
-      "imperative": "utvidet"
-    }
+    "dict": "utvidet"
   },
   "utvidelse": {
     "translation": "расширение",
@@ -69958,11 +70005,12 @@
     "translation": "ждать",
     "transcription": "вэнтэ",
     "pos": "verb",
+    "verb_class": "weak_1",
     "forms": {
       "infinitive": "å vente",
       "present": "venter",
-      "preterite": "ventte",
-      "perfect": "har ventt",
+      "preterite": "ventet",
+      "perfect": "har ventet",
       "imperative": "vent"
     }
   },
@@ -69970,14 +70018,7 @@
     "translation": "ждёт",
     "transcription": "вэнтэр",
     "pos": "verb",
-    "dict": "ждать",
-    "forms": {
-      "infinitive": "å vente",
-      "present": "venter",
-      "preterite": "ventte",
-      "perfect": "har ventt",
-      "imperative": "vent"
-    }
+    "dict": "ждать"
   },
   "ventetiden": {
     "translation": "время ожидания",
@@ -71908,6 +71949,20 @@
     },
     "gender": "m"
   },
+  "yte": {
+    "translation": "оказан",
+    "transcription": "ютт",
+    "pos": "verb",
+    "dict": "оказывать",
+    "verb_class": "strong",
+    "forms": {
+      "infinitive": "å yte",
+      "present": "yter",
+      "preterite": "ytte",
+      "perfect": "har ytt",
+      "imperative": "yt"
+    }
+  },
   "ytelse": {
     "translation": "выплата",
     "transcription": "ютэлсэ",
@@ -71964,14 +72019,7 @@
     "translation": "оказан",
     "transcription": "ютт",
     "pos": "verb",
-    "dict": "оказывать",
-    "forms": {
-      "infinitive": "å ytt",
-      "present": "ytter",
-      "preterite": "yttte",
-      "perfect": "har yttt",
-      "imperative": "ytt"
-    }
+    "dict": "оказывать"
   },
   "ytterligere": {
     "translation": "дальнейший",
