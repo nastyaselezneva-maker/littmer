@@ -1,32 +1,217 @@
 [
   {
-    "file": "judicial-5.json",
-    "idx": 21,
-    "reason": "reads fine: обвиняемый не обязан говорить",
-    "action": "none"
+    "file": "barnehage-4.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ". Fristen for å søke er vanligvis i februar. De som misser ",
+    "verb": "søke",
+    "v2_reason": "ru_split_failed",
+    "ru": ". Срок подачи заявки — как правило, февраль. Тех, кто пропустил ",
+    "v3_reason": "natural Russian set phrase «срок подачи заявки»"
+  },
+  {
+    "file": "bil-7.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " lader de fleste eierne bilen hjemme, ved å bruke ",
+    "verb": "bruke",
+    "v2_reason": "ru_split_failed",
+    "ru": " большинство владельцев заряжают машину дома, используя ",
+    "v3_reason": "gerund «используя» idiomatic for «ved å bruke»"
+  },
+  {
+    "file": "boliglan-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": "Prosessen med å kjøpe bolig i Norge består av flere viktige trinn. ",
+    "verb": "kjøpe",
+    "v2_reason": "ru_split_failed",
+    "ru": "Процесс покупки жилья в Норвегии состоит из нескольких важных этапов. ",
+    "v3_reason": "«процесс покупки жилья» natural Russian collocation"
+  },
+  {
+    "file": "budget-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " reagerer på dette ved å heve ",
+    "verb": "heve",
+    "v2_reason": "ru_split_failed",
+    "ru": " реагирует на это поднятием ",
+    "v3_reason": "«ved å heve» best rendered as instrumental noun «поднятием»"
+  },
+  {
+    "file": "bureaucracy-6.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " uten å besøke et kontor. Nøkkelen til hele systemet er ",
+    "verb": "besøke",
+    "v2_reason": "ru_split_failed",
+    "ru": " без визита в офис. Ключ ко всей системе — ",
+    "v3_reason": "«без визита в офис» gen.case bound to «без»"
+  },
+  {
+    "file": "bureaucracy-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " for å ha mottatt ytelser i utlandet.",
+    "verb": "ha",
+    "v2_reason": "ru_split_failed",
+    "ru": " за получение пособий за рубежом.",
+    "v3_reason": "«å ha mottatt» perfect infinitive; Russian uses noun"
+  },
+  {
+    "file": "digital-6.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å være fra banken eller ",
+    "verb": "være",
+    "v2_reason": "ru_split_failed",
+    "ru": " сообщения от банка или ",
+    "v3_reason": "«сообщения от банка» — Russian uses noun; no clean inf slot"
+  },
+  {
+    "file": "discoveries-8.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " Vilhelm Bjerknes moderne meteorologi, ved å utvikle ",
+    "verb": "utvikle",
+    "v2_reason": "ru_split_failed",
+    "ru": " современную метеорологию, разработав ",
+    "v3_reason": "gerund «разработав» natural for «ved å utvikle»"
+  },
+  {
+    "file": "discoveries-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " havforskning og energiforskning, ved å kombinere ",
+    "verb": "kombinere",
+    "v2_reason": "ru_split_failed",
+    "ru": " океанографию и энергетические исследования, сочетая ",
+    "v3_reason": "gerund «сочетая» natural for «ved å kombinere»"
+  },
+  {
+    "file": "interview-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " må kunne dokumentere at han hadde legitime grunner til å ikke ansette. ",
+    "verb": "ikke",
+    "v2_reason": "not_a_verb",
+    "v3_reason": "not a verb"
+  },
+  {
+    "file": "literature-4.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ", og forfatteren ble kritisert for å bruke virkelige navn. ",
+    "verb": "bruke",
+    "v2_reason": "ru_split_failed",
+    "ru": ", и автора критиковали за то, что он использует реальные имена. ",
+    "v3_reason": "Russian uses finite verb «использует» — natural"
   },
   {
     "file": "mc-2.json",
-    "idx": 21,
-    "reason": "reads acceptably: все мотоциклисты обязаны законом использовать защитную экипировку",
-    "action": "none"
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " er prosessen med å få førerkortet ganske lang og krever seriøs forberedelse. ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " процесс получения прав довольно длительный и требует серьёзной подготовки. ",
+    "v3_reason": "«процесс получения прав» fixed natural collocation"
   },
   {
-    "file": "mc-9.json",
-    "idx": 26,
-    "reason": "reads fine: Власти и организации вынуждены развивать комплексные стратегии",
-    "action": "none"
+    "file": "mc-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " må man at noen tenker: «det er umulig å kjøre motorsykkel om vinteren». I virkeligheten er det mulig, men det krever erfaring, utstyr og et avslappet forhold til lave hastigheter. ",
+    "verb": "kjøre",
+    "v2_reason": "ru_split_failed",
+    "ru": " нужно, что некоторые думают: «зимой на мотоцикле невозможно». На самом деле это возможно, но требует опыта, оборудования и спокойного отношения к низким скоростям. ",
+    "v3_reason": "quoted clause drops the verb; rewrite breaks quoted speech"
   },
   {
-    "file": "trafikkregler-3.json",
-    "idx": 28,
-    "reason": "reads fine: водители обязаны иметь цепи противоскольжения",
-    "action": "none"
+    "file": "mental-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " hvis du eller noen nær deg har tanker om å ta livet sitt, søk hjelp umiddelbart. ",
+    "verb": "ta",
+    "v2_reason": "ru_split_failed",
+    "ru": " если у вас или у близкого мысли о самоубийстве, обращайтесь немедленно. ",
+    "v3_reason": "«мысли о самоубийстве» sensitive set phrase"
   },
   {
-    "file": "rights-5.json",
-    "idx": 21,
-    "reason": "phantom tooltip — Norwegian text had no bli nødt til; merged segments removed it",
-    "action": "merged out"
+    "file": "mental-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " med å utvikle strategi, men også med å iverksette den. De følger med på hva kommunene faktisk gjør. ",
+    "verb": "utvikle",
+    "v2_reason": "ru_split_failed",
+    "ru": " с разработкой стратегии, но и с её внедрением. Они отслеживают, что коммуны делают на самом деле. ",
+    "v3_reason": "parallel «с разработкой ... с её внедрением» symmetry"
+  },
+  {
+    "file": "music-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": ", ved å hente inspirasjon fra folkemusikk og landskap. ",
+    "verb": "hente",
+    "v2_reason": "ru_split_failed",
+    "ru": ", черпая вдохновение из народных мелодий и пейзажей. ",
+    "v3_reason": "gerund «черпая» idiomatic for «ved å hente»"
+  },
+  {
+    "file": "music-9.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å søke om støtte, mens store navn lett får penger. Andre mener at Music Norway favoriserer for sterkt kommersielle sjangre — pop og elektronisk musikk — på bekostning av mer eksperimentelle retninger. ",
+    "verb": "søke",
+    "v2_reason": "ru_split_failed",
+    "ru": " подачей заявок на поддержку, в то время как большие имена легко получают деньги. Другие думают, что Music Norway слишком поддерживает коммерческие жанры — поп и электронную музыку — за счёт более экспериментальных направлений. ",
+    "v3_reason": "preceding «sliter med» tooltip governs instrumental case"
+  },
+  {
+    "file": "oilfund-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å konkurrere om arbeidskraft. Dette kalles ",
+    "verb": "konkurrere",
+    "v2_reason": "ru_split_failed",
+    "ru": " конкуренцией за работников. Это называется ",
+    "v3_reason": "preceding «sliter med» tooltip governs instrumental case"
+  },
+  {
+    "file": "parking-1.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å parkere. Da leter jeg etter et annet sted.",
+    "verb": "parkere",
+    "v2_reason": "ru_split_failed",
+    "ru": ". Тогда я ищу другое место.",
+    "v3_reason": "ru segment lacks the parkere slot — belongs to previous segment"
+  },
+  {
+    "file": "utdanning-2.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å få økonomisk støtte i form av ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " получение финансовой поддержки в виде ",
+    "v3_reason": "preceding «rett til» tooltip injects «право на» — «право на получить» ungrammatical"
+  },
+  {
+    "file": "utdanning-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " resultatet, er det svært viktig fordi det påvirker muligheten til å få ",
+    "verb": "få",
+    "v2_reason": "ru_split_failed",
+    "ru": " результате, он очень важен, потому что влияет на получение ",
+    "v3_reason": "«влияет на получение» — verb «влияет на» needs acc noun"
+  },
+  {
+    "file": "voksen-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " — særlig etter å ha ",
+    "verb": "ha",
+    "v2_reason": "ru_split_failed",
+    "ru": " — особенно после того, как ",
+    "v3_reason": "«etter å ha» perfect infinitive; Russian uses subordinate clause"
+  },
+  {
+    "file": "voksen-5.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " uten å forlate jobben. En del av disse kursene finansieres i fellesskap av arbeidsgiver og stat. ",
+    "verb": "forlate",
+    "v2_reason": "ru_split_failed",
+    "ru": " без отрыва от работы. Часть этих курсов финансируется совместно работодателем и государством. ",
+    "v3_reason": "«без отрыва от работы» fixed Russian idiom"
+  },
+  {
+    "file": "winter-3.json",
+    "reason": "å+verb embedded in ru.no field — manual review needed",
+    "no": " å bli stengt. ",
+    "verb": "bli",
+    "v2_reason": "ru_split_failed",
+    "ru": " закрытия. ",
+    "v3_reason": "«под угрозой закрытия» governed by gen. noun"
   }
 ]
