@@ -1,11 +1,13 @@
-import { useState } from 'react'
+import { useState, useMemo } from 'react'
 import { useSearchParams } from 'react-router-dom'
 import useDictionary from '../hooks/useDictionary'
+import useSrs from '../hooks/useSrs'
 import { speak, SHOW_AUDIO } from '../utils/speak'
 import { plural, words as wordsForms } from '../utils/plural'
 
 function Dictionary() {
   const { words, removeWord, clearAll } = useDictionary()
+  const { recordReview, orderQueue, stats } = useSrs()
   const [searchParams] = useSearchParams()
   const initialMode = searchParams.get('mode') === 'cards' ? 'cards' : 'list'
   const [mode, setMode] = useState(initialMode)
@@ -32,24 +34,22 @@ function Dictionary() {
       )
     : words
 
+  // SRS-очередь: просроченные → новые → будущие
+  const queue = useMemo(() => orderQueue(words), [words, orderQueue])
+  const safeIndex = queue.length > 0 ? cardIndex % queue.length : 0
+  const currentEntry = queue[safeIndex]
+  const currentWord = currentEntry?.word
+
   function nextCard() {
     setFlipped(false)
-    setCardIndex((i) => (i + 1) % words.length)
+    setCardIndex((i) => (i + 1) % queue.length)
   }
 
-  function prevCard() {
-    setFlipped(false)
-    setCardIndex((i) => (i - 1 + words.length) % words.length)
+  function handleReview(quality) {
+    if (!currentWord) return
+    recordReview(currentWord.text, quality)
+    nextCard()
   }
-
-  function shuffleCards() {
-    setFlipped(false)
-    setCardIndex(Math.floor(Math.random() * words.length))
-  }
-
-  // Если текущий индекс стал невалидным (удалили слово)
-  const safeIndex = words.length > 0 ? cardIndex % words.length : 0
-  const currentWord = words[safeIndex]
 
   return (
     <div>
@@ -128,7 +128,11 @@ function Dictionary() {
         </>
       ) : (
         <div className="flashcard-area">
-          <p className="flashcard-counter">{safeIndex + 1} из {words.length}</p>
+          <div className="srs-stats">
+            <span className="srs-stat srs-stat-due"><b>{stats.due}</b> к повторению</span>
+            <span className="srs-stat srs-stat-learning"><b>{stats.learning}</b> в процессе</span>
+            <span className="srs-stat srs-stat-learned"><b>{stats.learned}</b> выучено</span>
+          </div>
 
           <div
             className={`flashcard ${flipped ? 'flashcard-flipped' : ''}`}
@@ -164,9 +168,23 @@ function Dictionary() {
           </div>
 
           <div className="flashcard-controls">
-            <button className="flashcard-btn" onClick={prevCard}>Назад</button>
-            <button className="flashcard-btn" onClick={shuffleCards}>Случайное</button>
-            <button className="flashcard-btn flashcard-btn-next" onClick={nextCard}>Далее</button>
+            {flipped ? (
+              <>
+                <button className="flashcard-btn flashcard-btn-again" onClick={() => handleReview(0)}>
+                  Снова
+                </button>
+                <button className="flashcard-btn flashcard-btn-good" onClick={() => handleReview(1)}>
+                  Помню
+                </button>
+                <button className="flashcard-btn flashcard-btn-easy" onClick={() => handleReview(2)}>
+                  Легко
+                </button>
+              </>
+            ) : (
+              <button className="flashcard-btn flashcard-btn-show" onClick={() => setFlipped(true)}>
+                Показать ответ
+              </button>
+            )}
           </div>
         </div>
       )}

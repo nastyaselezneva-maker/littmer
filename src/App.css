@@ -2633,6 +2633,55 @@ body.has-sidebar .app {
   color: white;
 }
 
+/* SRS-кнопки оценки */
+.flashcard-btn-show {
+  background: var(--color-ink);
+  color: var(--color-paper-card);
+  padding: 12px 32px;
+  font-size: 1rem;
+}
+
+.flashcard-btn-again {
+  background: #d96f5c;
+  color: var(--color-paper-card);
+  border: var(--border-width-thin) solid var(--color-ink);
+}
+.flashcard-btn-again:hover { background: #c5462e; }
+
+.flashcard-btn-good {
+  background: var(--color-accent-mustard);
+  color: var(--color-ink);
+  border: var(--border-width-thin) solid var(--color-ink);
+}
+.flashcard-btn-good:hover { background: #d49a3e; }
+
+.flashcard-btn-easy {
+  background: var(--color-accent-moss, #5a8a5a);
+  color: var(--color-paper-card);
+  border: var(--border-width-thin) solid var(--color-ink);
+}
+.flashcard-btn-easy:hover { background: #4a7a4a; }
+
+.srs-stats {
+  display: flex;
+  justify-content: center;
+  gap: 22px;
+  margin-bottom: 18px;
+  font-size: 0.9rem;
+  color: var(--color-ink-soft);
+}
+
+.srs-stat b {
+  color: var(--color-ink);
+  font-family: var(--font-display);
+  font-weight: var(--fw-bold);
+  font-size: 1.1rem;
+  margin-right: 4px;
+}
+
+.srs-stat-due b { color: var(--color-accent); }
+.srs-stat-learned b { color: var(--color-accent-moss, #5a8a5a); }
+
 /* ============ Адаптив: планшет ============ */
 @media (max-width: 900px) {
   .main {
