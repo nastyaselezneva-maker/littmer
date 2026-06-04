@@ -117,7 +117,7 @@ function WordTooltip({ text, translation, dict, transcription, pos, form, forms,
       <span
         ref={wordRef}
         className="no-word"
-        onClick={(e) => { e.stopPropagation(); setIsOpen((v) => !v) }}
+        onClick={() => setIsOpen((v) => !v)}
       >
         {text}
       </span>
